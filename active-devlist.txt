@@ -1,12 +1,28 @@
 DEVELOPER LIST
 
+
 LEADS
 Kaleb Nekumanesh 	Design Lead
 					Tech Lead
 					Art Lead
+					Audio Lead
 
 DESIGN
 
 TECH
 
 ART
+
+
+UNASSIGNED
+Nick Price
+Melyssa Smith
+Ro Langrock
+Andrew Talcott
+Austin King
+Devang Patel
+Micah Rust
+Sanchit Garg
+Tom Fopiano
+Tucker Bane
+Patrick Stuart
