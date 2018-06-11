@@ -13,7 +13,7 @@ Art Lead		Tom Fopiano
 
 DESIGN
 Kaleb Nekumanesh	kaleb.nekumanesh@gmail.com
-Melyssa Smith		learnermyssa@gmail.com
+Melyssa Smith		willowrosesmith@gmail.com
 Ro Langrock			northro@zoho.com
 
 TECH
