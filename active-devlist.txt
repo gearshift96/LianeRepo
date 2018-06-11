@@ -1,28 +1,32 @@
 DEVELOPER LIST
+Last Updated June 10, 2018 7:55PM by Kaleb Nekumanesh
 
 
 LEADS
-Kaleb Nekumanesh 	Design Lead
-					Tech Lead
-					Art Lead
-					Audio Lead
+Director		Kaleb Nekumanesh
+Design Lead		Ro Langrock
+				Melyssa Smith
+Tech Lead		Devang Patel
+Art Lead		Tom Fopiano
+				Andrew Talcott
+				
 
 DESIGN
+Kaleb Nekumanesh	kaleb.nekumanesh@gmail.com
+Melyssa Smith		learnermyssa@gmail.com
+Ro Langrock			northro@zoho.com
 
 TECH
+Devang Patel		devangpatel@live.com
+Nick Price			prin2096@hotmail.com
+Sanchit Garg		
 
 ART
+Andrew Talcott		andrew.t.talcott@gmail.com
+Tom Fopiano			tfopiano1@gmail.com
+Patrick Stuart		jackzengen@yahoo.com
 
 
 UNASSIGNED
-Nick Price
-Melyssa Smith
-Ro Langrock
-Andrew Talcott
-Austin King
-Devang Patel
 Micah Rust
-Sanchit Garg
-Tom Fopiano
 Tucker Bane
-Patrick Stuart
