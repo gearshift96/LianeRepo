@@ -7,8 +7,7 @@ Director		Kaleb Nekumanesh
 Design Lead		Ro Langrock
 				Melyssa Smith
 Tech Lead		Devang Patel
-Art Lead		Tom Fopiano
-				Andrew Talcott
+Art Lead		Andrew Talcott
 				
 
 DESIGN
@@ -23,7 +22,6 @@ Sanchit Garg
 
 ART
 Andrew Talcott		andrew.t.talcott@gmail.com
-Tom Fopiano			tfopiano1@gmail.com
 Patrick Stuart		jackzengen@yahoo.com
 
 
