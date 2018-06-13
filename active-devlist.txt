@@ -4,8 +4,7 @@ Last Updated June 12, 2018 12:51PM by Kaleb Nekumanesh
 
 LEADS
 Director		Kaleb Nekumanesh
-Design Lead		Ro Langrock
-				Melyssa Smith
+Design Lead		Melyssa Smith
 Tech Lead		Devang Patel
 Art Lead		Andrew Talcott
 				
@@ -13,7 +12,6 @@ Art Lead		Andrew Talcott
 DESIGN
 Kaleb Nekumanesh	kaleb.nekumanesh@gmail.com
 Melyssa Smith		willowrosesmith@gmail.com
-Ro Langrock			northro@zoho.com
 
 TECH
 Devang Patel		devangpatel@live.com
@@ -28,3 +26,4 @@ Patrick Stuart		jackzengen@yahoo.com
 UNASSIGNED
 Micah Rust
 Tucker Bane
+Ro Langrock
