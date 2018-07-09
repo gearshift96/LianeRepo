@@ -1,0 +1,311 @@
+﻿Log file open, 01/02/18 11:29:56
+LogInit:Display: Running engine for game: projectliane
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1699253719) SRandInit(-1699253719).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.125605
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.02-19.29.58:209][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.02-19.29.58:209][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.02-19.29.58:223][  0]LogInit: Computer: DESKTOP-8G4JGVF
+[2018.01.02-19.29.58:223][  0]LogInit: User: KalebNekumanesh
+[2018.01.02-19.29.58:223][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.02-19.29.58:223][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2018.01.02-19.29.58:224][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.01.02-19.29.58:224][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.02-19.29.58:224][  0]LogMemory: Process Physical Memory: 274.12 MB used, 274.12 MB peak
+[2018.01.02-19.29.58:224][  0]LogMemory: Process Virtual Memory: 260.80 MB used, 260.80 MB peak
+[2018.01.02-19.29.58:224][  0]LogMemory: Physical Memory: 6623.92 MB used,  1428.98 MB free, 8052.91 MB total
+[2018.01.02-19.29.58:224][  0]LogMemory: Virtual Memory: 671.54 MB used,  1428.98 MB free, 134217728.00 MB total
+[2018.01.02-19.29.58:549][  0]LogInit: Using OS detected language (en-US).
+[2018.01.02-19.29.58:549][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.02-19.29.58:560][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.02-19.29.59:943][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.02-19.29.59:995][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.01.02-19.29.59:995][  0]LogD3D11RHI:       4065/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.02-19.30.00:006][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.01.02-19.30.00:006][  0]LogD3D11RHI:       128/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.02-19.30.00:010][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.02-19.30.00:010][  0]LogD3D11RHI:       0/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.02-19.30.00:010][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.02-19.30.00:120][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.02-19.30.00:120][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.01.02-19.30.00:120][  0]LogWindows: EnumDisplayDevices:
+[2018.01.02-19.30.00:121][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.01.02-19.30.00:121][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.01.02-19.30.00:121][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.01.02-19.30.00:121][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.02-19.30.00:121][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.01.02-19.30.00:121][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.02-19.30.00:121][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.02-19.30.00:121][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.02-19.30.00:152][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.02-19.30.00:167][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.02-19.30.00:168][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Kaleb Nekumanesh/Documents/GitHub/projectliane/projectliane/Intermediate/Shaders/WorkingDirectory/263728/).
+[2018.01.02-19.30.00:168][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kaleb Nekumanesh/AppData/Local/Temp/UnrealShaderWorkingDir/9868724C43AF8CF0C8B8CD980A55B79A/'.
+[2018.01.02-19.30.00:168][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.02-19.30.01:665][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.02-19.30.01:864][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.02-19.30.02:060][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.02-19.30.02:247][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.02-19.30.02:427][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.02-19.30.02:609][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.02-19.30.02:788][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.02-19.30.02:970][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.02-19.30.03:145][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.02-19.30.03:324][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.02-19.30.03:499][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.02-19.30.03:676][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.02-19.30.03:851][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.02-19.30.04:035][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.02-19.30.04:207][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.02-19.30.04:572][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.02-19.30.04:572][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.02-19.30.04:739][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.02-19.30.05:041][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.02-19.30.05:148][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.02-19.30.05:326][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.02-19.30.05:499][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.02-19.30.05:676][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.02-19.30.05:851][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.02-19.30.05:851][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.02-19.30.07:909][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.02-19.30.08:023][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/Kaleb Nekumanesh/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.02-19.30.08:023][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kaleb Nekumanesh/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.02-19.30.08:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kaleb Nekumanesh/Documents/GitHub/projectliane/projectliane/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.02-19.30.08:024][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.02-19.30.08:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kaleb Nekumanesh/Documents/GitHub/projectliane/projectliane/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.02-19.30.08:024][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.02-19.30.08:041][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.02-19.30.08:053][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kaleb Nekumanesh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.02-19.30.08:064][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.02-19.30.08:064][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.02-19.30.08:065][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.02-19.30.08:065][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.02-19.30.08:522][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.02-19.30.08:631][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.02-19.30.09:016][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.02-19.30.09:199][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.02-19.30.09:376][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.02-19.30.09:376][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.02-19.30.09:376][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.02-19.30.10:711][  0]LogNetVersion: projectliane , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3551988686)
+[2018.01.02-19.30.10:855][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2018.01.02-19.30.11:032][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.058327 seconds
+[2018.01.02-19.30.11:040][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.02-19.30.11:040][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.01.02-19.30.11:040][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.02-19.30.11:362][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.02-19.30.18:244][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.02-19.30.18:366][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.02-19.30.20:120][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.02-19.30.21:488][  0]SourceControl: Info Source control is disabled
+[2018.01.02-19.30.21:491][  0]SourceControl: Info Source control is disabled
+[2018.01.02-19.30.21:702][  0]SourceControl: Info Source control is disabled
+[2018.01.02-19.30.21:922][  0]SourceControl: Info Source control is disabled
+[2018.01.02-19.30.24:513][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.02-19.30.26:689][  0]LogEngine: Initializing Engine...
+[2018.01.02-19.30.26:690][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.02-19.30.26:957][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.02-19.30.26:957][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.02-19.30.27:489][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.02-19.30.27:500][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.02-19.30.27:524][  0]LogInit: FAudioDevice initialized.
+[2018.01.02-19.30.27:598][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/Kaleb Nekumanesh/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.02-19.30.27:623][  0]LogInit: Texture streaming: Enabled
+[2018.01.02-19.30.28:050][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.02-19.30.28:979][  0]LogInit: Transaction tracking system initialized
+[2018.01.02-19.30.30:281][  0]BlueprintLog: New page: Editor Load
+[2018.01.02-19.30.34:247][  0]LocalizationService: Info Localization service is disabled
+[2018.01.02-19.30.36:970][  0]LogConsoleResponse:Display: 
+[2018.01.02-19.30.37:266][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.02-19.30.37:267][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.02-19.30.37:865][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaleb Nekumanesh/Documents/GitHub/projectliane/projectliane/Content/' took 0.03s
+[2018.01.02-19.30.41:362][  0]SourceControl: Info Source control is disabled
+[2018.01.02-19.30.41:363][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kaleb Nekumanesh/Documents/GitHub/projectliane/projectliane/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.02-19.30.41:363][  0]LightingResults: New page: Lighting Build
+[2018.01.02-19.30.41:533][  0]MapCheck: New page: Map Check
+[2018.01.02-19.30.41:533][  0]LightingResults: New page: Lighting Build
+[2018.01.02-19.30.42:383][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning InputAction Event references unknown Action 'ToggleFocusForAdjustmentsWidget' for  InputAction ToggleFocusForAdjustmentsWidget
+[2018.01.02-19.30.42:384][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning InputAction Event references unknown Action 'ToggleAdjustmentsWidget' for  InputAction ToggleAdjustmentsWidget
+[2018.01.02-19.30.42:386][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp
+[2018.01.02-19.30.42:392][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning [0048.12] Compile of BP_PhotoPawn successful, but with 3 Warning(s) [in 16 ms] (/Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn)
+[2018.01.02-19.30.42:397][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning [0048.12] Compile of BP_PhotoPawn successful, but with 4 Warning(s) [in 4 ms] (/Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn)
+[2018.01.02-19.30.42:397][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning [0048.12] Compile of BP_PhotoPawn successful, but with 5 Warning(s) [in 0 ms] (/Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn)
+[2018.01.02-19.30.43:094][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning InputAction Event references unknown Action 'ToggleFocusForAdjustmentsWidget' for  InputAction ToggleFocusForAdjustmentsWidget
+[2018.01.02-19.30.43:095][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning InputAction Event references unknown Action 'ToggleAdjustmentsWidget' for  InputAction ToggleAdjustmentsWidget
+[2018.01.02-19.30.43:095][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp
+[2018.01.02-19.30.43:101][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning [0048.83] Compile of BP_PhotoPawn successful, but with 3 Warning(s) [in 13 ms] (/Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn)
+[2018.01.02-19.30.43:101][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning [0048.83] Compile of BP_PhotoPawn successful, but with 4 Warning(s) [in 0 ms] (/Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn)
+[2018.01.02-19.30.43:104][  0]LogBlueprint:Warning: [Compiler BP_PhotoPawn] Warning [0048.83] Compile of BP_PhotoPawn successful, but with 5 Warning(s) [in 2 ms] (/Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn)
+[2018.01.02-19.30.46:525][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.02-19.30.46:598][  0]LogMaterial:Warning: Material /Game/Props/Spotlights/Spot_base.Spot_base needed to have new flag set bUsedWithStaticLighting !
+[2018.01.02-19.30.46:604][  0]LogMaterial: Missing cached shader map for material Spot_base, compiling. 
+[2018.01.02-19.30.46:663][  0]MapCheck:Warning: Warning Spot_base Material /Game/Props/Spotlights/Spot_base.Spot_base was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.01.02-19.30.46:805][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.01.02-19.30.46:888][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.02-19.30.47:212][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 322.955ms to complete.
+[2018.01.02-19.30.47:248][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.885
+[2018.01.02-19.30.47:841][  0]LogCollectionManager: Loaded 0 collections in 0.005068 seconds
+[2018.01.02-19.30.48:239][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaleb Nekumanesh/Documents/GitHub/projectliane/projectliane/Saved/Collections/' took 0.01s
+[2018.01.02-19.30.48:239][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaleb Nekumanesh/Documents/GitHub/projectliane/projectliane/Content/Developers/KalebNekumanesh/Collections/' took 0.01s
+[2018.01.02-19.30.48:239][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kaleb Nekumanesh/Documents/GitHub/projectliane/projectliane/Content/Collections/' took 0.01s
+[2018.01.02-19.30.48:239][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.01.02-19.30.48:282][  0]LogContentBrowser: Native class hierarchy populated in 0.0400 seconds. Added 2329 classes and 491 folders.
+[2018.01.02-19.30.48:717][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.01.02-19.30.48:937][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.01.02-19.30.49:264][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.01.02-19.30.49:543][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.02-19.30.49:569][  0]LogSlate: Took 0.001605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.02-19.30.49:579][  0]LogSlate: Took 0.002559 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.02-19.30.49:601][  0]LogSlate: Took 0.004307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.02-19.30.49:826][  0]LogRenderer: Reallocating scene render targets to support 1140x580 NumSamples 1 (Frame:1).
+[2018.01.02-19.30.49:987][  0]LogSlate: Took 0.001838 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.02-19.30.50:116][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.02-19.30.50:399][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.01.02-19.30.50:399][  0]LogLoad: (Engine Initialization) Total time: 56.12 seconds
+[2018.01.02-19.30.50:399][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.03 seconds
+[2018.01.02-19.30.50:399][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.02-19.30.50:420][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.02-19.30.50:421][  0]LogOcInput: OculusInput pre-init called
+[2018.01.02-19.30.50:422][  0]LogHMD: Starting GearVRController plugin
+[2018.01.02-19.30.50:494][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.02-19.30.50:582][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Kaleb Nekumanesh/Documents/GitHub/projectliane/projectliane/Content/' took 0.14s
+[2018.01.02-19.30.50:930][  2]LogAssetRegistry: Asset discovery search completed in 40.0975 seconds
+[2018.01.02-19.30.50:933][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.02-19.30.50:933][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2018.01.02-19.30.51:493][ 23]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.02-19.31.14:548][ 39]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.02-19.31.14:728][ 39]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.02-19.31.14:730][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.02-19.31.14:737][ 39]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 2, 2018, 3:31:14 AM)
+[2018.01.02-19.31.14:738][ 39]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.01.02-19.31.14:821][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082971s)
+[2018.01.02-19.31.14:821][ 39]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.02-19.31.14:822][ 39]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2018.01.02-19.31.14:823][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.085807s)
+[2018.01.02-19.31.14:844][ 39]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.02-19.31.14:864][ 39]LogInit: FAudioDevice initialized.
+[2018.01.02-19.31.14:941][ 39]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.02-19.31.14:969][ 39]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.01.02-11.31.14
+[2018.01.02-19.31.14:992][ 39]LogWorld: Bringing up level for play took: 0.038680
+[2018.01.02-19.31.15:218][ 39]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.01.02-19.31.15:238][ 39]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.068
+[2018.01.02-19.31.15:240][ 39]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.02-19.31.15:254][ 39]LogScript:Warning: Accessed None trying to read property CallFunc_GetGrabbedComponent_ReturnValue
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1769
+[2018.01.02-19.31.15:254][ 39]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetGrabbedComponent_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Set Enable Gravity in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_GetGrabbedComponent_ReturnValue
+[2018.01.02-19.31.15:332][ 39]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2018.01.02-19.31.15:423][ 40]LogScript:Warning: Accessed None trying to read property CallFunc_GetGrabbedComponent_ReturnValue
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1769
+[2018.01.02-19.31.15:424][ 40]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetGrabbedComponent_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Set Enable Gravity in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_GetGrabbedComponent_ReturnValue
+[2018.01.02-19.31.15:884][ 40]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.419 s
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: === Handled ensure: ===
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: 
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 870]
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: Nans found on Bounds for Primitive CharacterMesh0: Origin X=-nan(ind) Y=-nan(ind) Z=-nan(ind), BoxExtent X=0.000 Y=0.000 Z=0.000, SphereRadius 0.000000
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: Stack: 
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000594BE2B6
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005926B8C2
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000059281E86
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000043C24A27
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022D6981C
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022C747D9
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000231493E7
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000002317D83D
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000002318EE4C
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000043C70889
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000022F7899F
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000238AAE1E
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000577A41E3
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000057FC8D86
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor.exe!0x000000001504E2B2
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor.exe!0x000000001503F0B0
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor.exe!0x000000001503F12A
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor.exe!0x0000000015050CF9
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: UE4Editor.exe!0x00000000150525F7
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: KERNEL32.DLL!0x0000000092541FE4
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: ntdll.dll!0x00000000927CEF91
+[2018.01.02-19.31.15:884][ 40]LogOutputDevice:Error: 
+[2018.01.02-19.31.15:886][ 40]LogStats:                SubmitErrorReport -  0.000 s
+[2018.01.02-19.31.16:935][ 40]LogStats:                    SendNewReport -  1.049 s
+[2018.01.02-19.31.16:935][ 40]LogStats:             FDebug::EnsureFailed -  1.469 s
+[2018.01.02-19.31.16:969][ 41]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.004 s
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: === Handled ensure: ===
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: 
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: Ensure condition failed: OriginalBounds.ContainsNaN() == false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Renderer\Private\ShadowSetup.cpp] [Line: 1459]
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: OriginalBound contains NaN : Origin=X=-nan(ind) Y=-nan(ind) Z=-nan(ind), BoxExtent=(X=0.000 Y=0.000 Z=0.000), SphereRadius=(0.000000)
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: Stack: 
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000594BE2B6
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005926B8C2
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000059281E86
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000043CEAE82
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000043D1AB86
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000043CFE6B8
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000043C939CE
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000043C92E6E
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000043780154
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000043CAABE5
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000043C869C6
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000059134D8C
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000591351AD
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x0000000064FD1607
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x0000000064FD26F6
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000594CE6A8
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000594C8ED9
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: KERNEL32.DLL!0x0000000092541FE4
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: ntdll.dll!0x00000000927CEF91
+[2018.01.02-19.31.16:969][ 41]LogOutputDevice:Error: 
+[2018.01.02-19.31.16:969][ 41]LogStats:                SubmitErrorReport -  0.000 s
+[2018.01.02-19.31.17:011][ 41]LogActor:Warning: Allison_Propper_2 is outside the world bounds!
+[2018.01.02-19.31.17:014][ 41]LogScript:Warning: Accessed None trying to read property CallFunc_GetGrabbedComponent_ReturnValue
+	ThirdPersonCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter:1769
+[2018.01.02-19.31.17:014][ 41]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetGrabbedComponent_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonCharacter' from node: Set Enable Gravity in graph: EventGraph in object: ThirdPersonCharacter with description: Accessed None trying to read property CallFunc_GetGrabbedComponent_ReturnValue
