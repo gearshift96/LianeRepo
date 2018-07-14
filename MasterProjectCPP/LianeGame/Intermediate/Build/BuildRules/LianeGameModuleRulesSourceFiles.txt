@@ -1,3 +1,3 @@
-G:\Users\Nicholaus\Documents\LianeRepo\MasterProjectCPP\LianeGame\Source\LianeGame\LianeGame.Build.cs
-G:\Users\Nicholaus\Documents\LianeRepo\MasterProjectCPP\LianeGame\Source\LianeGame.Target.cs
-G:\Users\Nicholaus\Documents\LianeRepo\MasterProjectCPP\LianeGame\Source\LianeGameEditor.Target.cs
+E:\LianeRepo\MasterProjectCPP\LianeGame\Source\LianeGame\LianeGame.Build.cs
+E:\LianeRepo\MasterProjectCPP\LianeGame\Source\LianeGame.Target.cs
+E:\LianeRepo\MasterProjectCPP\LianeGame\Source\LianeGameEditor.Target.cs
