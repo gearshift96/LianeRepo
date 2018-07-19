@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeLianeGame_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/LianeGame",
 				PKG_CompiledIn | 0x00000000,
-				0x3EC99073,
-				0x578F99B9,
+				0xB9D5C714,
+				0xC09945FE,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

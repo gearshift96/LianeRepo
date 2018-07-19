@@ -22,9 +22,10 @@ ALianeGameCharacter::ALianeGameCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	//set our telekinesis variables
-	TK_Reach = 750.0f;
-	PullDirection = 10500000.0f;
-	ThrowStrength = 25000000.0f;
+	TK_Reach = 350.f;
+	PullDirection = 105000.0f;
+	ThrowStrength = 250000.0f;
+	//bIsInTK = false;
 
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -110,7 +111,6 @@ void ALianeGameCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 	PlayerInputComponent->BindAction("Grab", IE_Released, this, &ALianeGameCharacter::Release);
 
 	PlayerInputComponent->BindAction("Throw", IE_Pressed, this, &ALianeGameCharacter::Throw);
-
 }
 
 void ALianeGameCharacter::Tick(float DeltaTime)
@@ -131,6 +131,7 @@ void ALianeGameCharacter::Grab()
 	/// If we hit something then attach a physics handle
 	if (ActorHit)
 	{
+	
 		if (!PhysicsHandle) { return; }
 		PhysicsHandle->GrabComponent(
 			ComponentToGrab,
@@ -139,7 +140,9 @@ void ALianeGameCharacter::Grab()
 			true // allow rotation
 		);
 		ComponentToGrab->SetEnableGravity(false);
+		TK_Height = ComponentToGrab->GetComponentLocation().Z; //Set the height to the current grabbed TK object's height
 		GetCharacterMovement()->MaxWalkSpeed = 0.f;
+		//bIsInTK = true;
 	}
 }
 
@@ -155,7 +158,10 @@ void ALianeGameCharacter::Release()
 	{
 		PhysicsHandle->ReleaseComponent();
 		ComponentGrabbed->SetEnableGravity(true);
+		TK_Height = 0.f;	 //Reset the telekinesis height
 		GetCharacterMovement()->MaxWalkSpeed = 600.f;
+		//GetCapsuleComponent()->SetWorldRotation();
+		//bIsInTK = false;
 	}
 }
 
@@ -183,15 +189,12 @@ void ALianeGameCharacter::FaceTKObject()
 	{
 		auto PlayerLoc = this->GetActorLocation();
 		auto GrabbedComponentLoc = GrabbedComponent->GetComponentLocation();
-		auto GrabbedComponentRot = UKismetMathLibrary::FindLookAtRotation(FVector(0, 0, PlayerLoc.Z), FVector(0, 0, GrabbedComponentLoc.Z));
-		//GetCapsuleComponent()->SetWorldRotation(GrabbedComponentRot);
+		auto Direction = PlayerLoc - GrabbedComponentLoc;
+		auto GrabbedComponentRot = FRotationMatrix::MakeFromX(-Direction).Rotator();
+		GetCapsuleComponent()->SetWorldRotation(GrabbedComponentRot);
 	}
 }
 
-void ALianeGameCharacter::MoveActor()
-{
-	
-}
 
 void ALianeGameCharacter::TurnAtRate(float Rate)
 {

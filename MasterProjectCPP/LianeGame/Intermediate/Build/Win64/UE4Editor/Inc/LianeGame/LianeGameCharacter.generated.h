@@ -13,28 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define LIANEGAME_LianeGameCharacter_generated_h
 
-#define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execMoveActor) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->MoveActor(); \
-		P_NATIVE_END; \
-	}
-
-
-#define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execMoveActor) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->MoveActor(); \
-		P_NATIVE_END; \
-	}
-
-
+#define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_RPC_WRAPPERS
+#define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS
 #define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALianeGameCharacter(); \
@@ -83,9 +63,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALianeGameCharacter); \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ALianeGameCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ALianeGameCharacter, FollowCamera); } \
 	FORCEINLINE static uint32 __PPO__TKCamera() { return STRUCT_OFFSET(ALianeGameCharacter, TKCamera); } \
-	FORCEINLINE static uint32 __PPO__TK_Reach() { return STRUCT_OFFSET(ALianeGameCharacter, TK_Reach); } \
-	FORCEINLINE static uint32 __PPO__PullDirection() { return STRUCT_OFFSET(ALianeGameCharacter, PullDirection); } \
-	FORCEINLINE static uint32 __PPO__ThrowStrength() { return STRUCT_OFFSET(ALianeGameCharacter, ThrowStrength); } \
 	FORCEINLINE static uint32 __PPO__PhysicsHandle() { return STRUCT_OFFSET(ALianeGameCharacter, PhysicsHandle); }
 
 

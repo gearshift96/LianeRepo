@@ -45,6 +45,26 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	//The direction which the grabbed object is pulled
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
+	float PullDirection;
+
+	// How far ahead of the player can we reach in cm
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
+	float TK_Reach;
+
+	// The height of the grabbed object from the ground in cm
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
+	float TK_Height;
+
+	//The strength of the telekinesis throw
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
+	float ThrowStrength;
+
+	//The strength of the telekinesis throw
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
+	bool bIsInTK;
+
 protected:
 
 	/** Called for forwards/backward input */
@@ -71,18 +91,6 @@ protected:
 
 private:
 
-	// How far ahead of the player can we reach in cm
-	UPROPERTY(EditAnywhere, Category = "Telekinesis")
-	float TK_Reach;
-
-	//The direction which the grabbed object is pulled
-	UPROPERTY(EditAnywhere, Category = "Telekinesis")
-	float PullDirection;
-
-	//The strength of the telekinesis throw
-	UPROPERTY(EditAnywhere, Category = "Telekinesis")
-	float ThrowStrength;
-
 	FRotator ControlRotation;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
@@ -99,10 +107,6 @@ private:
 
 	//Make player face the telekinesis object they are grabbing
 	void FaceTKObject();
-
-	//Called to move a grabbed object back/forward
-	UFUNCTION()
-	void MoveActor();
 
 	// Set (assumed) phyics handle location
 	void SetPhysicsHandleLocation();
