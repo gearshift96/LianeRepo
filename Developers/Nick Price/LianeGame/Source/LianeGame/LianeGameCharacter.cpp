@@ -1,5 +1,3 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
-
 #include "LianeGameCharacter.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
@@ -12,20 +10,20 @@
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "Animation/AnimInstance.h"
+#include "HealthComponent.h"
+#include "Net/UnrealNetwork.h"
 
 #define OUT
 //////////////////////////////////////////////////////////////////////////
 // ALianeGameCharacter
-
 ALianeGameCharacter::ALianeGameCharacter()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
 	//set our telekinesis variables
-	TK_Reach = 350.f;
-	PullDirection = 105000.0f;
-	ThrowStrength = 250000.0f;
-	//bIsInTK = false;
+	//PullDirection = 105000.0f;
+	//ThrowStrength = 250000.0f;
 
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -42,13 +40,11 @@ ALianeGameCharacter::ALianeGameCharacter()
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
-	GetCharacterMovement()->JumpZVelocity = 600.f;
-	GetCharacterMovement()->AirControl = 0.2f;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 300.0f; // The camera follows at this distance behind the character	
+	CameraBoom->TargetArmLength = 100.0f; // The camera follows at this distance behind the character	
 	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 
 	// Create a follow camera
@@ -57,31 +53,57 @@ ALianeGameCharacter::ALianeGameCharacter()
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arms
 
 	PhysicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
+
+	ZoomedFOV = 60.0f;
+	ZoomInterpSpeed = 20;
+
+	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComp"));
+
+
+	//WeaponAttachSocketName = "WeaponSocket";
 }
 
 void ALianeGameCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-
+	//TK_Reach = 300.f;
+	//StoredRot = FRotator(0, 0, 0);
+	DefaultFOV = FollowCamera->FieldOfView;
+	HealthComp->OnHealthChanged.AddDynamic(this, &ALianeGameCharacter::OnHealthChanged);
 }
 
-void ALianeGameCharacter::SetPhysicsHandleLocation()
+void ALianeGameCharacter::Tick(float DeltaTime)
 {
-	auto FCLoc = FollowCamera->GetComponentLocation();
-	auto FCFVec = FollowCamera->GetForwardVector() * TK_Reach;
-	auto FCTarLoc = FCLoc + FCFVec;
+	Super::Tick(DeltaTime);
 
-	if (!PhysicsHandle) { return; }
-	// if the physics handle is attached
-	if (PhysicsHandle->GrabbedComponent)
+	//SetPhysicsHandleLocation();
+	//FaceTKObject();
+
+	float TargetFOV = bWantsToZoom ? ZoomedFOV : DefaultFOV;
+	float NewFOV = FMath::FInterpTo(FollowCamera->FieldOfView, TargetFOV, DeltaTime, ZoomInterpSpeed);
+
+	FollowCamera->SetFieldOfView(NewFOV);
+}
+
+void ALianeGameCharacter::MoveForward(float v)
+{
+	if (v != 0.0f)
 	{
-		// move the object that we're holding
-		PhysicsHandle->SetTargetLocation(FCTarLoc);
+		// Find out which way is "forward" and record that the player wants to move that way.
+		FRotator Rotation = Controller->GetControlRotation();
+		const FVector Direction = FRotationMatrix(Rotation).GetScaledAxis(EAxis::X);
+		AddMovementInput(Direction, v);
 	}
+}
 
-	if (PhysicsHandle == nullptr)
+void ALianeGameCharacter::MoveLeftRight(float h)
+{
+	if (h != 0.0f)
 	{
-		UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *GetOwner()->GetName())
+		// Find out which way is "right" and record that the player wants to move that way.
+		FRotator Rotation = Controller->GetControlRotation();
+		const FVector Direction = FRotationMatrix(Rotation).GetScaledAxis(EAxis::Y);
+		AddMovementInput(Direction, h);
 	}
 }
 
@@ -92,35 +114,66 @@ void ALianeGameCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+
+	PlayerInputComponent->BindAction("ZoomAim", IE_Pressed, this, &ALianeGameCharacter::BeginZoom);
+	PlayerInputComponent->BindAction("ZoomAim", IE_Released, this, &ALianeGameCharacter::EndZoom);
+
+
+	//Axis bindings
+	PlayerInputComponent->BindAxis("LookUp", this, &ALianeGameCharacter::AddControllerPitchInput);
+	PlayerInputComponent->BindAxis("Turn", this, &ALianeGameCharacter::AddControllerYawInput);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ALianeGameCharacter::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &ALianeGameCharacter::MoveRight);
-
-	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
-	// "turn" handles devices that provide an absolute delta, such as a mouse.
-	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("TurnRate", this, &ALianeGameCharacter::TurnAtRate);
-	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-	PlayerInputComponent->BindAxis("LookUpRate", this, &ALianeGameCharacter::LookUpAtRate);
+	PlayerInputComponent->BindAxis("MoveLeftRight", this, &ALianeGameCharacter::MoveLeftRight);
 
 	//Telekinesis key bindings
-	PlayerInputComponent->BindAction("Grab", IE_Pressed, this, &ALianeGameCharacter::Grab);
-	PlayerInputComponent->BindAction("Grab", IE_Released, this, &ALianeGameCharacter::Release);
-
-	PlayerInputComponent->BindAction("Throw", IE_Pressed, this, &ALianeGameCharacter::Throw);
 }
 
-void ALianeGameCharacter::Tick(float DeltaTime)
+void ALianeGameCharacter::TurnAtRate(float Rate)
 {
-	Super::Tick(DeltaTime);
-
-	SetPhysicsHandleLocation();
-	FaceTKObject();
+	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
 
+void ALianeGameCharacter::LookUpAtRate(float Rate)
+{
+	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+void ALianeGameCharacter::BeginZoom()
+{
+	bWantsToZoom = true;
+}
+
+void ALianeGameCharacter::EndZoom()
+{
+	bWantsToZoom = false;
+}
+void ALianeGameCharacter::OnHealthChanged(UHealthComponent * OwningHealthComp, float Health, float HealthDelta, const UDamageType * DamageType, AController * InstigatedBy, AActor * DamageCauser)
+{
+	if (Health <= 0.0f && !bDied)
+	{
+		// Die!
+		bDied = true;
+
+		GetMovementComponent()->StopMovementImmediately();
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+		DetachFromControllerPendingDestroy();
+
+		SetLifeSpan(10.0f);
+	}
+}
+
+void ALianeGameCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	//DOREPLIFETIME(ASCharacter, CurrentWeapon);
+	DOREPLIFETIME(ALianeGameCharacter, bDied);
+}
+
+/*
 void ALianeGameCharacter::Grab()
 {
 	/// LINE TRACE and see if we reach any actors with physics body collision channel set
@@ -140,9 +193,7 @@ void ALianeGameCharacter::Grab()
 			true // allow rotation
 		);
 		ComponentToGrab->SetEnableGravity(false);
-		TK_Height = ComponentToGrab->GetComponentLocation().Z; //Set the height to the current grabbed TK object's height
 		GetCharacterMovement()->MaxWalkSpeed = 0.f;
-		//bIsInTK = true;
 	}
 }
 
@@ -154,18 +205,17 @@ void ALianeGameCharacter::Release()
 	auto ActorHit = HitResult.GetActor();
 
 	/// If we hit something then attach a physics handle
-	if (ActorHit)
-	{
-		PhysicsHandle->ReleaseComponent();
-		ComponentGrabbed->SetEnableGravity(true);
-		TK_Height = 0.f;	 //Reset the telekinesis height
-		GetCharacterMovement()->MaxWalkSpeed = 600.f;
-		//GetCapsuleComponent()->SetWorldRotation();
-		//bIsInTK = false;
-	}
+		if (ActorHit)
+		{
+			PhysicsHandle->ReleaseComponent();
+			ComponentGrabbed->SetEnableGravity(true);
+			TK_Reach = 300.f;	 //Reset the telekinesis reach
+			GetCharacterMovement()->MaxWalkSpeed = 600.f;
+			GetCapsuleComponent()->SetWorldRotation(StoredRot);
+		}
 }
 
-void ALianeGameCharacter::Throw()
+void ALianeGameCharacter::TKThrow()
 {
 	if (!PhysicsHandle) { return; }
 	if (PhysicsHandle->GetGrabbedComponent() != nullptr)
@@ -185,55 +235,34 @@ void ALianeGameCharacter::FaceTKObject()
 	auto ActorHit = HitResult.GetActor();
 
 	/// If we hit something then attach a physics handle
-	if (ActorHit)
+		if (ActorHit)
+		{
+			auto PlayerLoc = this->GetActorLocation();
+			auto GrabbedComponentLoc = GrabbedComponent->GetComponentLocation();
+			auto Direction = (PlayerLoc - GrabbedComponentLoc).GetSafeNormal();
+			auto GrabbedComponentRot = FRotationMatrix::MakeFromX(-Direction).Rotator();
+			GetCapsuleComponent()->SetWorldRotation(GrabbedComponentRot);
+		}
+}
+
+
+void ALianeGameCharacter::SetPhysicsHandleLocation()
+{
+	auto FCLoc = FollowCamera->GetComponentLocation();
+	auto FCFVec = FollowCamera->GetForwardVector() * TK_Reach;
+	auto FCTarLoc = FCLoc + FCFVec;
+
+	if (!PhysicsHandle) { return; }
+	// if the physics handle is attached
+	if (PhysicsHandle->GrabbedComponent)
 	{
-		auto PlayerLoc = this->GetActorLocation();
-		auto GrabbedComponentLoc = GrabbedComponent->GetComponentLocation();
-		auto Direction = PlayerLoc - GrabbedComponentLoc;
-		auto GrabbedComponentRot = FRotationMatrix::MakeFromX(-Direction).Rotator();
-		GetCapsuleComponent()->SetWorldRotation(GrabbedComponentRot);
+		// move the object that we're holding
+		PhysicsHandle->SetTargetLocation(FCTarLoc);
 	}
-}
 
-
-void ALianeGameCharacter::TurnAtRate(float Rate)
-{
-	// calculate delta for this frame from the rate information
-	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
-}
-
-void ALianeGameCharacter::LookUpAtRate(float Rate)
-{
-	// calculate delta for this frame from the rate information
-	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
-}
-
-void ALianeGameCharacter::MoveForward(float Value)
-{
-	if ((Controller != NULL) && (Value != 0.0f))
+	if (PhysicsHandle == nullptr)
 	{
-		// find out which way is forward
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
-
-		// get forward vector
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		AddMovementInput(Direction, Value);
-	}
-}
-
-void ALianeGameCharacter::MoveRight(float Value)
-{
-	if ( (Controller != NULL) && (Value != 0.0f) )
-	{
-		// find out which way is right
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
-	
-		// get right vector 
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		// add movement in that direction
-		AddMovementInput(Direction, Value);
+		UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *GetOwner()->GetName())
 	}
 }
 
@@ -274,3 +303,4 @@ FVector ALianeGameCharacter::GetTKReachLineEnd()
 	);
 	return PlayerViewPointLocation + PlayerViewPointRotation.Vector() * TK_Reach;
 }
+*/

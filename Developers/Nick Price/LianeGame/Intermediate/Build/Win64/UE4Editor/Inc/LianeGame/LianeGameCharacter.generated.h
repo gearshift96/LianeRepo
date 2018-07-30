@@ -8,13 +8,49 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UHealthComponent;
+class UDamageType;
+class AController;
+class AActor;
 #ifdef LIANEGAME_LianeGameCharacter_generated_h
 #error "LianeGameCharacter.generated.h already included, missing '#pragma once' in LianeGameCharacter.h"
 #endif
 #define LIANEGAME_LianeGameCharacter_generated_h
 
-#define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_RPC_WRAPPERS
-#define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHealthChanged) \
+	{ \
+		P_GET_OBJECT(UHealthComponent,Z_Param_OwningHealthComp); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Health); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_HealthDelta); \
+		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
+		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHealthChanged(Z_Param_OwningHealthComp,Z_Param_Health,Z_Param_HealthDelta,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
+		P_NATIVE_END; \
+	}
+
+
+#define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHealthChanged) \
+	{ \
+		P_GET_OBJECT(UHealthComponent,Z_Param_OwningHealthComp); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Health); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_HealthDelta); \
+		P_GET_OBJECT(UDamageType,Z_Param_DamageType); \
+		P_GET_OBJECT(AController,Z_Param_InstigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnHealthChanged(Z_Param_OwningHealthComp,Z_Param_Health,Z_Param_HealthDelta,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
+		P_NATIVE_END; \
+	}
+
+
 #define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesALianeGameCharacter(); \
@@ -22,7 +58,8 @@ private: \
 public: \
 	DECLARE_CLASS(ALianeGameCharacter, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/LianeGame"), NO_API) \
 	DECLARE_SERIALIZER(ALianeGameCharacter) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_INCLASS \
@@ -32,7 +69,8 @@ private: \
 public: \
 	DECLARE_CLASS(ALianeGameCharacter, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/LianeGame"), NO_API) \
 	DECLARE_SERIALIZER(ALianeGameCharacter) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_STANDARD_CONSTRUCTORS \
@@ -60,9 +98,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALianeGameCharacter); \
 
 
 #define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ALianeGameCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ALianeGameCharacter, FollowCamera); } \
-	FORCEINLINE static uint32 __PPO__TKCamera() { return STRUCT_OFFSET(ALianeGameCharacter, TKCamera); } \
+	FORCEINLINE static uint32 __PPO__animInstance() { return STRUCT_OFFSET(ALianeGameCharacter, animInstance); } \
+	FORCEINLINE static uint32 __PPO__ZoomedFOV() { return STRUCT_OFFSET(ALianeGameCharacter, ZoomedFOV); } \
+	FORCEINLINE static uint32 __PPO__ZoomInterpSpeed() { return STRUCT_OFFSET(ALianeGameCharacter, ZoomInterpSpeed); } \
+	FORCEINLINE static uint32 __PPO__WeaponAttachSocketName() { return STRUCT_OFFSET(ALianeGameCharacter, WeaponAttachSocketName); } \
+	FORCEINLINE static uint32 __PPO__HealthComp() { return STRUCT_OFFSET(ALianeGameCharacter, HealthComp); } \
+	FORCEINLINE static uint32 __PPO__bDied() { return STRUCT_OFFSET(ALianeGameCharacter, bDied); } \
 	FORCEINLINE static uint32 __PPO__PhysicsHandle() { return STRUCT_OFFSET(ALianeGameCharacter, PhysicsHandle); }
 
 

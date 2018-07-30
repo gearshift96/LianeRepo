@@ -1,0 +1,1232 @@
+﻿Log file open, 07/27/18 14:59:51
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: LianeGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2021877654) SRandInit(2021877654).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.309517
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.101s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Binaries/Win64/UE4Editor-LianeGame.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am KillRoy (10.0.0.108:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.015s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.27-21.59.54:724][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.27-21.59.54:725][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.27-21.59.54:846][  0]LogInit: Computer: KILLROY
+[2018.07.27-21.59.54:846][  0]LogInit: User: Nicholaus
+[2018.07.27-21.59.54:846][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.27-21.59.54:846][  0]LogInit: High frequency timer resolution =3.613346 MHz
+[2018.07.27-21.59.54:847][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.07.27-21.59.54:847][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.27-21.59.54:847][  0]LogMemory: Process Physical Memory: 274.10 MB used, 274.10 MB peak
+[2018.07.27-21.59.54:847][  0]LogMemory: Process Virtual Memory: 264.84 MB used, 264.84 MB peak
+[2018.07.27-21.59.54:847][  0]LogMemory: Physical Memory: 7986.68 MB used,  24698.25 MB free, 32684.93 MB total
+[2018.07.27-21.59.54:847][  0]LogMemory: Virtual Memory: 4794.22 MB used,  24698.25 MB free, 134217728.00 MB total
+[2018.07.27-21.59.55:574][  0]LogInit: Using OS detected language (en-US).
+[2018.07.27-21.59.55:574][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.27-21.59.55:846][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.27-21.59.56:660][  0]LogStreaming: Display: Took  1.081s to EndInitTextLocalization.
+[2018.07.27-21.59.56:695][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.27-21.59.57:261][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.27-21.59.57:261][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.27-22.00.00:441][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.27-22.00.00:575][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.07.27-22.00.00:575][  0]LogD3D11RHI:       6052/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.07.27-22.00.00:578][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.27-22.00.00:578][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.27-22.00.00:578][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.27-22.00.00:606][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.27-22.00.00:606][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.27-22.00.00:606][  0]LogWindows: EnumDisplayDevices:
+[2018.07.27-22.00.00:606][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.07.27-22.00.00:607][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.07.27-22.00.00:607][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.07.27-22.00.00:607][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.07.27-22.00.00:607][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.27-22.00.00:607][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.07.27-22.00.00:607][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.27-22.00.00:607][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.27-22.00.00:608][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.07.27-22.00.00:678][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.27-22.00.00:678][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.27-22.00.00:678][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.27-22.00.00:927][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.27-22.00.01:166][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Intermediate/Shaders/WorkingDirectory/576/).
+[2018.07.27-22.00.01:169][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicholaus/AppData/Local/Temp/UnrealShaderWorkingDir/847C85224254A457C44D288D922CCB27/'.
+[2018.07.27-22.00.02:500][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.27-22.00.02:514][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.27-22.00.02:532][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.27-22.00.02:550][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.27-22.00.02:581][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.27-22.00.02:600][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.27-22.00.02:624][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.27-22.00.02:640][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.27-22.00.02:660][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.27-22.00.02:679][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.27-22.00.02:696][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.27-22.00.02:713][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.27-22.00.02:730][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.27-22.00.02:745][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.27-22.00.02:758][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.27-22.00.02:789][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.27-22.00.02:789][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.27-22.00.02:834][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.27-22.00.02:836][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.27-22.00.03:002][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.27-22.00.03:037][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.27-22.00.03:053][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.27-22.00.03:071][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.27-22.00.03:085][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.27-22.00.03:104][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.27-22.00.03:104][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.27-22.00.04:387][  0]LogXGEController: Cleaning working directory: C:/Users/Nicholaus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.27-22.00.04:388][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.27-22.00.04:397][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.27-22.00.04:398][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.27-22.00.07:753][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.27-22.00.08:131][  0]LogDerivedDataCache: Loaded boot cache 0.38s 77MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.27-22.00.08:132][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.27-22.00.08:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.27-22.00.08:132][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.27-22.00.08:132][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.27-22.00.08:132][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.27-22.00.08:242][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.27-22.00.08:257][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicholaus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.27-22.00.08:257][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.27-22.00.08:257][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.27-22.00.08:327][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.27-22.00.08:389][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.27-22.00.08:461][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.27-22.00.08:462][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.27-22.00.16:821][  0]LogAssetRegistry: FAssetRegistry took 0.0503 seconds to start up
+[2018.07.27-22.00.21:711][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.27-22.00.23:149][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.27-22.00.23:182][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.27-22.00.23:199][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.27-22.00.23:207][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.27-22.00.23:207][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.27-22.00.23:207][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.27-22.00.23:603][  0]LogNetVersion: LianeGame , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3392154298)
+[2018.07.27-22.00.28:374][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.121001 seconds
+[2018.07.27-22.00.28:408][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.27-22.00.28:408][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.07.27-22.00.28:408][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.27-22.00.46:737][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.27-22.00.46:809][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.27-22.00.48:036][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc3f618c80, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.07.27-22.00.48:200][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc3f618c80, Size=64
+[2018.07.27-22.00.48:200][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc3f720200, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.07.27-22.00.48:237][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc3f236c50, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.07.27-22.00.48:747][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc4003d600, Size=424, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-22.00.48:804][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc4003d600, Size=424
+[2018.07.27-22.00.48:804][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc3ffcfc80, Size=424, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_4:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-22.00.48:816][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc3ffcd600, Size=424, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-22.00.48:922][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [9.769615ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.07.27-22.00.49:479][  0]SourceControl: Source control is disabled
+[2018.07.27-22.00.49:480][  0]SourceControl: Source control is disabled
+[2018.07.27-22.00.49:568][  0]SourceControl: Source control is disabled
+[2018.07.27-22.00.49:629][  0]SourceControl: Source control is disabled
+[2018.07.27-22.00.51:227][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.27-22.00.51:716][  0]LogOcInput: OculusInput pre-init called
+[2018.07.27-22.00.52:449][  0]LogEngine: Initializing Engine...
+[2018.07.27-22.00.52:460][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.27-22.00.52:483][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.27-22.00.52:484][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.27-22.00.53:623][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.27-22.00.53:724][  0]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.27-22.00.53:740][  0]LogInit: FAudioDevice initialized.
+[2018.07.27-22.00.53:831][  0]LogDerivedDataCache: Saved boot cache 0.08s 77MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.27-22.00.53:845][  0]LogInit: Texture streaming: Enabled
+[2018.07.27-22.00.53:905][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.27-22.00.54:013][  0]LogInit: Transaction tracking system initialized
+[2018.07.27-22.00.54:368][  0]BlueprintLog: New page: Editor Load
+[2018.07.27-22.00.55:511][  0]LocalizationService: Localization service is disabled
+[2018.07.27-22.00.56:532][  0]LogConsoleResponse: Display: 
+[2018.07.27-22.00.58:157][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.27-22.00.58:157][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.27-22.00.58:157][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.27-22.00.58:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.27-22.00.58:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.27-22.00.59:017][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/' took 0.02s
+[2018.07.27-22.01.00:043][  0]SourceControl: Source control is disabled
+[2018.07.27-22.01.00:073][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.27-22.01.00:083][  0]LightingResults: New page: Lighting Build
+[2018.07.27-22.01.00:213][  0]MapCheck: New page: Map Check
+[2018.07.27-22.01.00:213][  0]LightingResults: New page: Lighting Build
+[2018.07.27-22.01.00:311][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc3f720200, Size=64
+[2018.07.27-22.01.00:312][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc3ffcfc80, Size=424
+[2018.07.27-22.01.02:124][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.27-22.01.02:470][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.27-22.01.02:573][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.27-22.01.02:646][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.655ms to complete.
+[2018.07.27-22.01.02:646][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.580
+[2018.07.27-22.01.03:381][  0]LogCollectionManager: Loaded 0 collections in 0.002601 seconds
+[2018.07.27-22.01.03:484][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Collections/' took 0.01s
+[2018.07.27-22.01.03:484][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/Developers/Nicholaus/Collections/' took 0.01s
+[2018.07.27-22.01.03:484][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/Collections/' took 0.01s
+[2018.07.27-22.01.03:484][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.27-22.01.03:509][  0]LogContentBrowser: Native class hierarchy populated in 0.0248 seconds. Added 2457 classes and 560 folders.
+[2018.07.27-22.01.03:572][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.07.27-22.01.05:147][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.07.27-22.01.05:208][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.07.27-22.01.05:845][  0]LogSlate: Took 0.032569 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.27-22.01.05:898][  0]LogSlate: Took 0.050455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.27-22.01.05:943][  0]LogSlate: Took 0.021145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.27-22.01.06:464][  0]LogRenderer: Reallocating scene render targets to support 1036x576 Format 10 NumSamples 1 (Frame:1).
+[2018.07.27-22.01.06:896][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.07.27-22.01.06:896][  0]LogLoad: (Engine Initialization) Total time: 77.19 seconds
+[2018.07.27-22.01.06:896][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.27-22.01.07:406][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.27-22.01.08:066][  2]LogAssetRegistry: Asset discovery search completed in 51.2865 seconds
+[2018.07.27-22.01.08:069][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.27-22.01.08:069][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000149 seconds (updated 0 objects)
+[2018.07.27-22.01.08:125][  2]LogSlate: Took 0.033859 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.27-22.01.08:404][  3]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.27-22.12.19:614][304]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-22.12.19:700][314]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-22.12.19:738][314]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.27-22.12.19:738][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.27-22.12.19:760][314]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 27, 2018, 8:12:19 AM)
+[2018.07.27-22.12.19:760][314]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.07.27-22.12.19:832][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071964s)
+[2018.07.27-22.12.19:833][314]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.27-22.12.19:834][314]LogPlayLevel: PIE: World Init took: (0.001237s)
+[2018.07.27-22.12.19:834][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.073537s)
+[2018.07.27-22.12.19:870][314]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.27-22.12.19:882][314]LogInit: FAudioDevice initialized.
+[2018.07.27-22.12.19:955][314]LogLoad: Game class is 'LianeGameGameMode'
+[2018.07.27-22.12.19:971][314]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.27-15.12.19
+[2018.07.27-22.12.19:972][314]LogWorld: Bringing up level for play took: 0.014214
+[2018.07.27-22.12.20:018][314]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.07.27-22.12.20:020][314]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.133
+[2018.07.27-22.12.20:020][314]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.27-22.12.22:722][586]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.27-22.12.22:770][586]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.27-22.12.27:339][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-22.12.27:525][ 83]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc55b08100, Size=2280, Default__ThirdPersonCharacter_C Function /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-22.12.27:624][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:626][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:627][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:627][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'KeyCard1' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:627][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'KeyCard2' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:627][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'KeyCard3' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:627][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'AudioLog1' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:627][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'AudioLog2' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:628][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'AudioLog3' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:628][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:629][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:629][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:630][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'Document1' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:630][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'Document2' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:631][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'Document3' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:631][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:631][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:632][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:633][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:634][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:635][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'Searched' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:640][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:640][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set IsInTK : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:640][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set : 'IsThrowing' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:640][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set IsThrowing : 'IsThrowing' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:641][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:641][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set IsInTK : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:641][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'IsThrowing' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:641][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set : 'IsThrowing' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:641][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set IsThrowing : 'IsThrowing' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:642][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:643][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:644][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-22.12.27:648][ 83]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc55b08100, Size=2280
+[2018.07.27-22.12.27:648][ 83]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc559d3580, Size=2280, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_8:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-22.12.27:684][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:685][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:685][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:685][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:685][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:685][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:686][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:686][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:686][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:686][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:686][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:687][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:687][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:688][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.27-22.12.27:690][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get IsInTK
+[2018.07.27-22.12.27:690][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:690][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-22.12.27:691][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:691][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get IsInTK
+[2018.07.27-22.12.27:691][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsThrowing" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsThrowing
+[2018.07.27-22.12.27:691][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsThrowing" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get IsThrowing
+[2018.07.27-22.12.27:692][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:692][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:692][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-22.12.27:692][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:692][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsInTK
+[2018.07.27-22.12.27:692][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:692][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-22.12.27:692][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:692][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:692][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-22.12.27:693][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:693][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsThrowing" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsThrowing
+[2018.07.27-22.12.27:693][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsInTK
+[2018.07.27-22.12.27:693][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:693][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-22.12.27:694][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:694][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "Searched" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get Searched
+[2018.07.27-22.12.27:694][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Create Search UI . Please refresh node or break links to remove pin.
+[2018.07.27-22.12.27:694][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  Target  no longer exists on node  Create Search UI . Please refresh node or break links to remove pin.
+[2018.07.27-22.12.27:694][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Could not find a function named "CreateSearchUI" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Create Search UI
+[2018.07.27-22.12.27:694][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Object to Search : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:694][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As Searchable Desk 1  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-22.12.27:694][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object to Search  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:695][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:695][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.27-22.12.27:696][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.27-22.12.27:696][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.27-22.12.27:696][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.27-22.12.27:696][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "Document3" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get Document3
+[2018.07.27-22.12.27:696][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "Document2" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get Document2
+[2018.07.27-22.12.27:696][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "Document1" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get Document1
+[2018.07.27-22.12.27:697][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.27-22.12.27:697][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.27-22.12.27:697][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.27-22.12.27:697][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "AudioLog3" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get AudioLog3
+[2018.07.27-22.12.27:697][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "AudioLog2" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get AudioLog2
+[2018.07.27-22.12.27:697][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "AudioLog1" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get AudioLog1
+[2018.07.27-22.12.27:698][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "KeyCard3" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get KeyCard3
+[2018.07.27-22.12.27:698][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "KeyCard2" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get KeyCard2
+[2018.07.27-22.12.27:698][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "KeyCard1" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get KeyCard1
+[2018.07.27-22.12.27:698][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.27-22.12.27:698][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.27-22.12.27:699][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.27-22.12.27:699][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:699][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As Master BP  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-22.12.27:699][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.27-22.12.27:699][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:701][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'Light' for  InputAction Light
+[2018.07.27-22.12.27:702][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'Aim' for  InputAction Aim
+[2018.07.27-22.12.27:703][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.07.27-22.12.27:707][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Set Inspection Object  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:707][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Set Inspection Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:707][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As Master BP  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-22.12.27:708][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Set Inspection Object  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:708][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Set Inspection Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-22.12.27:708][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As Master BP  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-22.12.27:715][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Searched  could not be found
+[2018.07.27-22.12.27:715][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.27-22.12.27:715][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is Throwing  could not be found
+[2018.07.27-22.12.27:716][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.27-22.12.27:716][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.27-22.12.27:716][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is Throwing  could not be found
+[2018.07.27-22.12.27:716][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is Throwing  could not be found
+[2018.07.27-22.12.27:716][ 83]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.27-22.12.27:720][ 83]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc55377580, Size=2280, Default__ThirdPersonCharacter_C Function /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-22.12.27:744][ 83]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0758.04] Compile of ThirdPersonCharacter failed. 54 Fatal Issue(s) 64 Warning(s) [in 155 ms] (/Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.07.27-22.12.28:711][ 83]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.07.27-22.12.29:235][ 83]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc5c49bd50, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.27-22.12.29:235][ 83]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc5c49bd48, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.27-22.12.30:338][ 83]LogSlate: Took 0.020740 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.27-22.12.31:990][ 84]LogSlate: Took 0.017759 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.27-22.15.52:849][179]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.07.27-22.28.44:501][838]Running G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame Win64 Development -editorrecompile "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" -invalidatemakefilesonly
+[2018.07.27-22.28.44:806][838]Invalidating makefiles only in this run.
+[2018.07.27-22.28.45:080][838]Candidate modules for hot reload:
+[2018.07.27-22.28.45:080][838]  LianeGame
+[2018.07.27-22.28.45:081][838]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,7016 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.27-22.29.08:642][838]CompilerResultsLog: New page: Compilation - Jul 27, 2018, 8:29:08 AM
+[2018.07.27-22.29.08:642][838]CompilerResultsLog: Creating makefile for hot reloading LianeGame (no existing makefile)
+[2018.07.27-22.29.08:642][838]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.27-22.29.08:642][838]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.27-22.29.08:642][838]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.27-22.29.08:642][838]CompilerResultsLog: Reflection code generated for LianeGameEditor in 12.3288171 seconds
+[2018.07.27-22.29.08:642][838]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.07.27-22.29.08:642][838]CompilerResultsLog: LianeDeBugHelper.gen.cpp
+[2018.07.27-22.29.08:642][838]CompilerResultsLog: LianeDeBugHelper.cpp
+[2018.07.27-22.29.08:643][838]CompilerResultsLog: LianeGame.init.gen.cpp
+[2018.07.27-22.29.08:643][838]CompilerResultsLog: [4/5] Link UE4Editor-LianeGame-7016.dll
+[2018.07.27-22.29.08:643][838]CompilerResultsLog: [5/5] Link UE4Editor-LianeGame-7016.lib
+[2018.07.27-22.29.08:643][838]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-7016.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-7016.suppressed.exp
+[2018.07.27-22.29.08:643][838]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-7016.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-7016.exp
+[2018.07.27-22.29.08:643][838]CompilerResultsLog: Total build time: 23.30 seconds (Local executor: 3.99 seconds)
+[2018.07.27-22.29.08:643][838]LogMainFrame: MainFrame: Module compiling took 23.612 seconds
+[2018.07.27-22.29.08:679][838]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc559d3580, Size=2280
+[2018.07.27-22.29.08:731][838]LogClass: Could not find existing class LianeDeBugHelper in package /Script/LianeGame for HotReload, assuming new class
+[2018.07.27-22.29.08:735][838]LogClass: SoundResult HotReload.
+[2018.07.27-22.29.08:739][838]LogContentBrowser: Native class hierarchy updated for 'LianeGame' in 0.0008 seconds. Added 6 classes and 2 folders.
+[2018.07.27-22.29.08:742][838]Display: HotReload successful (10 functions remapped  1 scriptstructs remapped)
+[2018.07.27-22.29.09:423][838]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2459 classes and 562 folders.
+[2018.07.27-22.29.09:436][838]Display: HotReload took 24.5s.
+[2018.07.27-22.29.09:437][838]Warning: HotReload operation took 24.5s.
+[2018.07.27-22.29.09:732][838]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.07.27-22.29.09:771][838]LogHotReload: New module detected: UE4Editor-LianeGame-7016.dll
+[2018.07.27-22.29.09:923][839]LogHotReload: Starting Hot-Reload from IDE
+[2018.07.27-22.29.10:023][839]LogContentBrowser: Native class hierarchy updated for 'LianeGame' in 0.0010 seconds. Added 6 classes and 2 folders.
+[2018.07.27-22.29.10:028][839]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2018.07.27-22.29.10:650][839]LogContentBrowser: Native class hierarchy populated in 0.0205 seconds. Added 2459 classes and 562 folders.
+[2018.07.27-22.29.10:671][839]Display: HotReload took  0.7s.
+[2018.07.27-23.24.11:372][434]Candidate modules for hot reload:
+[2018.07.27-23.24.11:372][434]  LianeGame
+[2018.07.27-23.24.11:372][434]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,3521 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.27-23.24.11:374][434]Warning: Starting HotReload took  0.0s.
+[2018.07.27-23.24.39:391][551]CompilerResultsLog: New page: Compilation - Jul 27, 2018, 9:24:39 AM
+[2018.07.27-23.24.39:391][551]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.27-23.24.39:391][551]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.27-23.24.39:391][551]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.27-23.24.39:391][551]CompilerResultsLog: Reflection code generated for LianeGameEditor in 12.0935888 seconds
+[2018.07.27-23.24.39:391][551]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.07.27-23.24.39:391][551]CompilerResultsLog: LianeDeBugHelper.cpp
+[2018.07.27-23.24.39:391][551]CompilerResultsLog: LianeDeBugHelper.gen.cpp
+[2018.07.27-23.24.39:391][551]CompilerResultsLog: LianeGame.init.gen.cpp
+[2018.07.27-23.24.39:391][551]CompilerResultsLog: [4/5] Link UE4Editor-LianeGame-3521.dll
+[2018.07.27-23.24.39:391][551]CompilerResultsLog: [5/5] Link UE4Editor-LianeGame-3521.lib
+[2018.07.27-23.24.39:391][551]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3521.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3521.exp
+[2018.07.27-23.24.39:391][551]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3521.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3521.suppressed.exp
+[2018.07.27-23.24.39:392][551]CompilerResultsLog: Total build time: 27.53 seconds (Local executor: 14.33 seconds)
+[2018.07.27-23.24.39:392][551]LogMainFrame: MainFrame: Module compiling took 28.037 seconds
+[2018.07.27-23.24.39:484][551]LogClass: Could not find existing class LianeDeBugHelper in package /Script/LianeGame for HotReload, assuming new class
+[2018.07.27-23.24.39:488][551]LogClass: SoundResult HotReload.
+[2018.07.27-23.24.39:520][551]LogLinker: Warning: Can't find file '/Game/Materials/DebugHelper/M_QLDebugHelperRed'
+[2018.07.27-23.24.39:520][551]LogLinker: Warning: Can't find file '/Game/Materials/DebugHelper/M_QLDebugHelperRed'
+[2018.07.27-23.24.39:520][551]LogUObjectGlobals: Warning: Failed to find object 'Material /Game/Materials/DebugHelper/M_QLDebugHelperRed.M_QLDebugHelperRed'
+[2018.07.27-23.24.39:520][551]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperRed
+
+[2018.07.27-23.24.39:535][551]LogLinker: Warning: Can't find file '/Game/Materials/DebugHelper/M_QLDebugHelperGreen'
+[2018.07.27-23.24.39:535][551]LogLinker: Warning: Can't find file '/Game/Materials/DebugHelper/M_QLDebugHelperGreen'
+[2018.07.27-23.24.39:535][551]LogUObjectGlobals: Warning: Failed to find object 'Material /Game/Materials/DebugHelper/M_QLDebugHelperGreen.M_QLDebugHelperGreen'
+[2018.07.27-23.24.39:535][551]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperGreen
+
+[2018.07.27-23.24.39:535][551]LogLinker: Warning: Can't find file '/Game/Materials/DebugHelper/M_QLDebugHelperBlue'
+[2018.07.27-23.24.39:535][551]LogLinker: Warning: Can't find file '/Game/Materials/DebugHelper/M_QLDebugHelperBlue'
+[2018.07.27-23.24.39:536][551]LogUObjectGlobals: Warning: Failed to find object 'Material /Game/Materials/DebugHelper/M_QLDebugHelperBlue.M_QLDebugHelperBlue'
+[2018.07.27-23.24.39:536][551]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperBlue
+
+[2018.07.27-23.24.39:536][551]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2018.07.27-23.24.39:536][551]LogUObjectBase: Warning: Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperRed
+
+[2018.07.27-23.24.39:536][551]LogUObjectBase: Warning: Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperGreen
+
+[2018.07.27-23.24.39:536][551]LogUObjectBase: Warning: Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperBlue
+
+[2018.07.27-23.24.53:572][551]LogSlate: Window 'Message' being destroyed
+[2018.07.27-23.24.53:588][551]LogHotReload: Re-instancing LianeDeBugHelper after hot-reload.
+[2018.07.27-23.24.53:736][551]LogContentBrowser: Native class hierarchy updated for 'LianeGame' in 0.0011 seconds. Added 6 classes and 2 folders.
+[2018.07.27-23.24.53:742][551]Display: HotReload successful (10 functions remapped  1 scriptstructs remapped)
+[2018.07.27-23.24.54:245][551]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2459 classes and 562 folders.
+[2018.07.27-23.24.54:246][551]Display: HotReload took 42.9s.
+[2018.07.27-23.25.27:265][709]Candidate modules for hot reload:
+[2018.07.27-23.25.27:265][709]  LianeGame
+[2018.07.27-23.25.27:265][709]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,8124 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.27-23.25.27:267][709]Warning: Starting HotReload took  0.0s.
+[2018.07.27-23.25.44:347][122]CompilerResultsLog: New page: Compilation - Jul 27, 2018, 9:25:44 AM
+[2018.07.27-23.25.44:347][122]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.27-23.25.44:347][122]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.07.27-23.25.44:347][122]CompilerResultsLog: LianeDeBugHelper.cpp
+[2018.07.27-23.25.44:347][122]CompilerResultsLog: [2/3] Link UE4Editor-LianeGame-8124.dll
+[2018.07.27-23.25.44:347][122]CompilerResultsLog: [3/3] Link UE4Editor-LianeGame-8124.lib
+[2018.07.27-23.25.44:347][122]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-8124.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-8124.exp
+[2018.07.27-23.25.44:348][122]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-8124.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-8124.suppressed.exp
+[2018.07.27-23.25.44:348][122]CompilerResultsLog: Total build time: 16.78 seconds (Local executor: 15.86 seconds)
+[2018.07.27-23.25.44:348][122]LogMainFrame: MainFrame: Module compiling took 17.102 seconds
+[2018.07.27-23.25.44:455][122]LogClass: SoundResult HotReload.
+[2018.07.27-23.25.44:459][122]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperRed
+
+[2018.07.27-23.25.44:460][122]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperGreen
+
+[2018.07.27-23.25.44:460][122]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperBlue
+
+[2018.07.27-23.25.44:463][122]LogContentBrowser: Native class hierarchy updated for 'LianeGame' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2018.07.27-23.25.44:463][122]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperRed
+
+Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperGreen
+
+Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperBlue
+
+
+[2018.07.27-23.25.44:467][122]Display: HotReload successful (10 functions remapped  1 scriptstructs remapped)
+[2018.07.27-23.25.45:020][122]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2459 classes and 562 folders.
+[2018.07.27-23.25.45:020][122]Display: HotReload took 17.8s.
+[2018.07.27-23.25.47:863][208]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc54f5e058, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.27.00:745][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TK_FollowCamera' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:746][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'LeftClick' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:746][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'LeftClick' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:746][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'LeftClick' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:746][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'LeftClick' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:746][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'LeftClick' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:746][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'LeftClick' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:747][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'LeftClick' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:747][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'LeftClick' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:747][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TK_FollowCamera' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:748][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'LeftClick' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:748][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'LeftClick' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:748][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TK_FollowCamera' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:749][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'GrabbingObject' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:749][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'GrabbingObject' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:749][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'stopInspectionMovement' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:749][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'stopInspectionMovement' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:749][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'GrabbingObject' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:749][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'GrabbingObject' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:749][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'stopInspectionMovement' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:749][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'stopInspectionMovement' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:750][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'isInspecting' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:750][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'GrabbingObject' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:750][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKPullLength' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:750][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKPullLength' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:750][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKPullLength' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:750][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKPullLength' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:750][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKPullLength' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:751][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKPullLength' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:751][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKPullLength' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:751][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKPullLength' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:751][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKPullLength' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:751][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKMoveForward' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:751][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKMoveForward' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:751][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKMoveForward' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:751][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKMoveForward' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:751][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKMoveForward' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:751][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKMoveBackward' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:751][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKMoveBackward' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:752][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKMoveBackward' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:752][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKMoveBackward' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:752][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TKMoveBackward' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:752][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsInTK' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:752][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsInTK' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:752][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsThrowing' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:752][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsThrowing' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:753][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsInTK' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:753][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsInTK' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:753][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsThrowing' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:753][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsThrowing' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:753][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsThrowing' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:753][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'ThrowForceApplied' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:754][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'ThrowForceApplied' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:754][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'ThrowForceApplied' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:754][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'ThrowForceApplied' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:754][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'ThrowForceApplied' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:754][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsInTK' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:754][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsInTK' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:754][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TK_ObjectLocation' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:755][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TK_ObjectLocation' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:755][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TK_ObjectLocation' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:755][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'PointLight' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:755][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'GrabbingObject' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:755][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'IsInTK' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:755][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'LeftClick' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:756][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TK_Camera' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:756][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TK_ObjectLocation' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:756][ 11]LogBlueprint: Warning: [ThirdPersonCharacter] 'TK_Camera' variable not found. Base class was probably changed. /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.27-23.27.00:781][ 11]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc54f5e058, Size=4
+[2018.07.27-23.27.00:781][ 11]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cca6e8f640, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_24:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.27.00:792][ 11]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cca6e8fd38, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.34.57:707][289]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cca6e8f640, Size=4
+[2018.07.27-23.34.57:737][289]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.095
+[2018.07.27-23.34.57:800][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.07.27-23.34.57:843][289]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.07.27-23.34.57:844][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2018.07.27-23.34.58:292][289]LogSavePackage: Save=370.96ms
+[2018.07.27-23.34.58:292][289]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonCharacter_Auto19100B87F42CE54B9485B018A854784E8.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2018.07.27-23.34.58:309][289]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto1.uasset
+[2018.07.27-23.34.58:309][289]LogFileHelpers: Auto-saving content packages took 0.572
+[2018.07.27-23.39.27:520][ 97]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3ce65878-131a-4db2-a92d-e7b1dad6b505} was removed. Shutting down audio device.
+[2018.07.27-23.39.27:520][ 97]LogInit: XAudio2 using 'E24-C1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.27-23.42.14:853][599]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.27-23.44.15:166][960]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.27-23.44.15:234][960]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cca6e8fd38, Size=4
+[2018.07.27-23.44.15:234][960]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cca0fa57c8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_26:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.44.15:301][960]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc3ffcd600, Size=424
+[2018.07.27-23.44.15:301][960]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cca72225c0, Size=424, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_28:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.44.15:317][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "LeftClick" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LeftClick
+[2018.07.27-23.44.15:317][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "PointLight" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get PointLight
+[2018.07.27-23.44.15:317][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TK_ObjectLocation" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get TK_ObjectLocation
+[2018.07.27-23.44.15:318][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TK_ObjectLocation" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set TK_ObjectLocation
+[2018.07.27-23.44.15:318][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get IsInTK
+[2018.07.27-23.44.15:318][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-23.44.15:318][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-23.44.15:318][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-23.44.15:318][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get IsInTK
+[2018.07.27-23.44.15:318][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "ThrowForceApplied" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get ThrowForceApplied
+[2018.07.27-23.44.15:318][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "ThrowForceApplied" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set ThrowForceApplied
+[2018.07.27-23.44.15:319][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "ThrowForceApplied" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set ThrowForceApplied
+[2018.07.27-23.44.15:319][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsThrowing" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsThrowing
+[2018.07.27-23.44.15:319][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsThrowing" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get IsThrowing
+[2018.07.27-23.44.15:319][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-23.44.15:319][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-23.44.15:319][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-23.44.15:319][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-23.44.15:319][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsInTK
+[2018.07.27-23.44.15:319][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-23.44.15:320][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-23.44.15:320][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-23.44.15:320][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-23.44.15:320][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-23.44.15:320][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-23.44.15:320][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsThrowing" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsThrowing
+[2018.07.27-23.44.15:320][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsInTK
+[2018.07.27-23.44.15:320][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.27-23.44.15:320][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.27-23.44.15:320][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKMoveBackward" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get TKMoveBackward
+[2018.07.27-23.44.15:321][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKMoveBackward" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set TKMoveBackward
+[2018.07.27-23.44.15:321][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKMoveBackward" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set TKMoveBackward
+[2018.07.27-23.44.15:321][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKMoveForward" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get TKMoveForward
+[2018.07.27-23.44.15:321][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKMoveForward" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set TKMoveForward
+[2018.07.27-23.44.15:321][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKMoveForward" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set TKMoveForward
+[2018.07.27-23.44.15:321][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKPullLength" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set TKPullLength
+[2018.07.27-23.44.15:322][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKPullLength" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set TKPullLength
+[2018.07.27-23.44.15:322][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKPullLength" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get TKPullLength
+[2018.07.27-23.44.15:322][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKPullLength" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set TKPullLength
+[2018.07.27-23.44.15:322][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKPullLength" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get TKPullLength
+[2018.07.27-23.44.15:322][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TKPullLength" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get TKPullLength
+[2018.07.27-23.44.15:322][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "GrabbingObject" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get GrabbingObject
+[2018.07.27-23.44.15:322][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "isInspecting" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get isInspecting
+[2018.07.27-23.44.15:323][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "stopInspectionMovement" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set stopInspectionMovement
+[2018.07.27-23.44.15:323][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "GrabbingObject" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set GrabbingObject
+[2018.07.27-23.44.15:323][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "stopInspectionMovement" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set stopInspectionMovement
+[2018.07.27-23.44.15:323][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "GrabbingObject" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set GrabbingObject
+[2018.07.27-23.44.15:323][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TK_FollowCamera" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get TK_FollowCamera
+[2018.07.27-23.44.15:323][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "LeftClick" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LeftClick
+[2018.07.27-23.44.15:324][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TK_FollowCamera" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get TK_FollowCamera
+[2018.07.27-23.44.15:324][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "LeftClick" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LeftClick
+[2018.07.27-23.44.15:324][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "LeftClick" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LeftClick
+[2018.07.27-23.44.15:324][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "LeftClick" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LeftClick
+[2018.07.27-23.44.15:324][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "LeftClick" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get LeftClick
+[2018.07.27-23.44.15:324][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "LeftClick" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Set LeftClick
+[2018.07.27-23.44.15:325][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TK_FollowCamera" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get TK_FollowCamera
+[2018.07.27-23.44.15:330][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TK Follow Camera  could not be found
+[2018.07.27-23.44.15:330][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TK Object Location  could not be found
+[2018.07.27-23.44.15:330][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Left Click  could not be found
+[2018.07.27-23.44.15:331][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Left Click  could not be found
+[2018.07.27-23.44.15:331][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Left Click  could not be found
+[2018.07.27-23.44.15:331][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Left Click  could not be found
+[2018.07.27-23.44.15:331][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Left Click  could not be found
+[2018.07.27-23.44.15:331][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TK Follow Camera  could not be found
+[2018.07.27-23.44.15:331][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Left Click  could not be found
+[2018.07.27-23.44.15:331][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TK Follow Camera  could not be found
+[2018.07.27-23.44.15:331][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Grabbing Object  could not be found
+[2018.07.27-23.44.15:331][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Stop Inspection Movement  could not be found
+[2018.07.27-23.44.15:331][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Grabbing Object  could not be found
+[2018.07.27-23.44.15:332][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Stop Inspection Movement  could not be found
+[2018.07.27-23.44.15:332][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is Inspecting  could not be found
+[2018.07.27-23.44.15:332][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Grabbing Object  could not be found
+[2018.07.27-23.44.15:332][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKPull Length  could not be found
+[2018.07.27-23.44.15:332][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKPull Length  could not be found
+[2018.07.27-23.44.15:332][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKPull Length  could not be found
+[2018.07.27-23.44.15:332][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKPull Length  could not be found
+[2018.07.27-23.44.15:332][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKPull Length  could not be found
+[2018.07.27-23.44.15:332][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKPull Length  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKMove Forward  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKMove Forward  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKMove Forward  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKMove Backward  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKMove Backward  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TKMove Backward  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is Throwing  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is Throwing  could not be found
+[2018.07.27-23.44.15:333][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is Throwing  could not be found
+[2018.07.27-23.44.15:334][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Throw Force Applied  could not be found
+[2018.07.27-23.44.15:334][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Throw Force Applied  could not be found
+[2018.07.27-23.44.15:334][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Throw Force Applied  could not be found
+[2018.07.27-23.44.15:334][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  TK Object Location  could not be found
+[2018.07.27-23.44.15:334][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.27-23.44.15:334][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Point Light  could not be found
+[2018.07.27-23.44.15:334][960]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Left Click  could not be found
+[2018.07.27-23.44.15:337][960]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc26da4800, Size=1664, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.44.16:021][960]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cca0fa57c8, Size=4
+[2018.07.27-23.44.16:108][960]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [6266.40] Compile of ThirdPersonCharacter failed. 56 Fatal Issue(s) 41 Warning(s) [in 943 ms] (/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.07.27-23.45.15:617][691]LogSavePackage: Save=254.65ms
+[2018.07.27-23.45.15:617][691]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonExampleMap_Auto2C59E75AE4A72A0ECBF7B67B8D6A33176.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.07.27-23.45.15:619][691]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2018.07.27-23.45.15:636][691]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.370
+[2018.07.27-23.45.15:636][691]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.370
+[2018.07.27-23.45.15:639][691]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.07.27-23.45.15:662][691]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.07.27-23.45.15:663][691]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2018.07.27-23.45.15:866][691]LogSavePackage: Save=187.87ms
+[2018.07.27-23.45.15:866][691]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonCharacter_Auto235158DEC44D1C3017E368285EAA7AAEB.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto2.uasset'
+[2018.07.27-23.45.15:867][691]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto2.uasset
+[2018.07.27-23.45.15:867][691]LogFileHelpers: Auto-saving content packages took 0.230
+[2018.07.27-23.48.24:450][909]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cca3fe3528, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.48.26:925][963]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cca3fe3528, Size=4
+[2018.07.27-23.48.26:925][963]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cca0fa5810, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_36:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.48.26:941][963]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cca0fa40f0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.48.29:547][ 22]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cca0fa40f0, Size=4
+[2018.07.27-23.48.29:547][ 22]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccacfe3500, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_38:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.48.29:560][ 22]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccacfe1650, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.48.44:867][835]LogSlate: Took 0.023611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.07.27-23.49.14:195][321]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ccacfe1650, Size=4
+[2018.07.27-23.49.14:195][321]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc94cc1b20, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_40:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.49.14:209][321]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cca0fa5198, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.49.27:875][943]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.07.27-23.49.27:881][943]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cca0fa5198, Size=4
+[2018.07.27-23.49.27:881][943]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccacfe1b98, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_42:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.49.27:898][943]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccacfe3028, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.50.26:126][825]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ccacfe3028, Size=4
+[2018.07.27-23.50.26:126][825]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc54f5e8a0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_44:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.50.26:140][825]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc54f5e308, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.54.42:415][900]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc54f5e308, Size=4
+[2018.07.27-23.54.42:415][900]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccacfe35e0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_46:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.54.42:424][900]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccacfe0f68, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.54.48:191][ 42]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ccacfe0f68, Size=4
+[2018.07.27-23.54.48:191][ 42]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccacfe0f68, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_48:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.55.18:180][237]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.LianeGame
+[2018.07.27-23.55.18:180][237]LogTemp: CWD: G:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.27-23.55.18:181][237]LogTemp: Initial Dir: G:\Program Files\Epic Games\UE_4.19
+[2018.07.27-23.55.18:181][237]LogTemp: Env CWD: G:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.27-23.55.18:181][237]LogTemp: BranchPath = KILLROY/G/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = KILLROY/G/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.07.27-23.55.18:181][237]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.07.27-23.55.18:410][238]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Nicholaus\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.07.27-23.56.19:776][253]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.27-23.56.19:785][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc26da4800, Size=1664
+[2018.07.27-23.56.19:785][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc986df900, Size=1664, ThirdPersonCharacter_C_4 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_52:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.56.19:787][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccd33156f0, Size=4, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.27-23.56.19:789][253]LogClass: Warning: Type mismatch in bTKPush of ThirdPersonCharacter_C - Previous (BoolProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.07.27-23.56.20:425][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc94cc1b20, Size=4
+[2018.07.27-23.56.46:204][751]LogSavePackage: Save=192.75ms
+[2018.07.27-23.56.46:204][751]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonExampleMap_Auto38829DB8B44ED6276FFC66ABBEF000F67.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2018.07.27-23.56.46:205][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2018.07.27-23.56.46:208][751]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.253
+[2018.07.27-23.56.46:208][751]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.253
+[2018.07.27-23.56.46:210][751]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.07.27-23.56.46:232][751]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.07.27-23.56.46:232][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2018.07.27-23.56.46:290][751]LogSavePackage: Save=42.36ms
+[2018.07.27-23.56.46:290][751]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonCharacter_Auto3C7E4A9934A1328CE830B51B5313E4664.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2018.07.27-23.56.46:291][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto3.uasset
+[2018.07.27-23.56.46:293][751]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.07.27-23.56.46:293][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.07.27-23.56.46:708][751]LogSavePackage: Save=409.68ms
+[2018.07.27-23.56.46:708][751]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonCharacter_Auto3129BB8194052C80BE2972F8CC0EE3480.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2018.07.27-23.56.46:710][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset
+[2018.07.27-23.56.46:710][751]LogFileHelpers: Auto-saving content packages took 0.501
+[2018.07.28-00.18.21:254][531]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.07.28-00.18.21:261][531]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ccd33156f0, Size=4
+[2018.07.28-00.18.21:261][531]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cca3fe0900, Size=4, ThirdPersonCharacter_C_6 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_60:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-00.18.21:262][531]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cca3fe0740, Size=4, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-00.18.48:997][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cca3fe0900, Size=4
+[2018.07.28-00.18.49:210][773]LogSavePackage: Save=191.43ms
+[2018.07.28-00.18.49:210][773]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonExampleMap_Auto4819EE681412AD05D4946C5A890C2AF36.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2018.07.28-00.18.49:211][773]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2018.07.28-00.18.49:214][773]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.243
+[2018.07.28-00.18.49:214][773]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.243
+[2018.07.28-00.18.49:217][773]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.07.28-00.18.49:242][773]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.07.28-00.18.49:242][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2018.07.28-00.18.49:339][773]LogSavePackage: Save=81.62ms
+[2018.07.28-00.18.49:339][773]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonCharacter_Auto42746C77649DD26B5A14F9DBB08B6D824.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto4.uasset'
+[2018.07.28-00.18.49:340][773]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto4.uasset
+[2018.07.28-00.18.49:341][773]LogFileHelpers: Auto-saving content packages took 0.125
+[2018.07.28-00.25.05:878][943]LogSlate: Window 'Project Settings' being destroyed
+[2018.07.28-00.25.05:886][943]LogSlate: Window 'Project Settings' being destroyed
+[2018.07.28-00.27.35:876][549]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3ce65878-131a-4db2-a92d-e7b1dad6b505} was removed. Shutting down audio device.
+[2018.07.28-00.27.35:876][549]LogInit: XAudio2 using 'E24-C1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-00.32.54:213][504]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.28-00.37.34:504][453]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2018.07.28-00.37.34:509][453]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2018.07.28-00.40.27:162][451]Candidate modules for hot reload:
+[2018.07.28-00.40.27:162][451]  LianeGame
+[2018.07.28-00.40.27:162][451]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,155 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.28-00.40.27:165][451]Warning: Starting HotReload took  0.0s.
+[2018.07.28-00.41.05:512][247]CompilerResultsLog: New page: Compilation - Jul 27, 2018, 10:41:05 AM
+[2018.07.28-00.41.05:528][247]CompilerResultsLog: Creating makefile for hot reloading LianeGame (ini files are newer than UBTMakefile)
+[2018.07.28-00.41.05:528][247]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.28-00.41.05:528][247]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.28-00.41.05:528][247]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.28-00.41.05:528][247]CompilerResultsLog: Reflection code generated for LianeGameEditor in 13.4751911 seconds
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: Performing 7 actions (4 in parallel)
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: LianeGame.init.gen.cpp
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: LianeGameGameMode.cpp
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: LianeGameCharacter.cpp
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: LianeGameCharacter.gen.cpp
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: LGWeapon.cpp
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LianeGameCharacter.cpp(96) : error C2039: 'StartFire': is not a member of 'ALianeGameCharacter'
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LianeGameCharacter.h(15) : note: see declaration of 'ALianeGameCharacter'
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LianeGameCharacter.cpp(96) : error C2065: 'StartFire': undeclared identifier
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LianeGameCharacter.cpp(97) : error C2039: 'StopFire': is not a member of 'ALianeGameCharacter'
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LianeGameCharacter.h(15) : note: see declaration of 'ALianeGameCharacter'
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LianeGameCharacter.cpp(97) : error C2065: 'StopFire': undeclared identifier
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LianeGameCharacter.cpp(134) : warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: Error: G:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(89) : note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-155.dll
+[2018.07.28-00.41.05:529][247]CompilerResultsLog: Total build time: 38.08 seconds (Local executor: 0.00 seconds)
+[2018.07.28-00.41.05:529][247]LogMainFrame: MainFrame: Module compiling took 38.385 seconds
+[2018.07.28-00.41.05:530][247]Warning: HotReload failed, recompile failed
+[2018.07.28-00.41.23:943][531]Candidate modules for hot reload:
+[2018.07.28-00.41.23:943][531]  LianeGame
+[2018.07.28-00.41.23:943][531]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,4508 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.28-00.41.23:945][531]Warning: Starting HotReload took  0.0s.
+[2018.07.28-00.41.26:703][731]LogSlate: Window 'Message Log' being destroyed
+[2018.07.28-00.41.26:711][731]LogSlate: Window 'Message Log' being destroyed
+[2018.07.28-00.41.29:725][997]CompilerResultsLog: New page: Compilation - Jul 27, 2018, 10:41:29 AM
+[2018.07.28-00.41.29:725][997]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.28-00.41.29:725][997]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.07.28-00.41.29:725][997]CompilerResultsLog: LianeGameCharacter.cpp
+[2018.07.28-00.41.29:725][997]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LianeGameCharacter.cpp(132) : warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.07.28-00.41.29:725][997]CompilerResultsLog: Error: G:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(89) : note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
+[2018.07.28-00.41.29:726][997]CompilerResultsLog: [2/3] Link UE4Editor-LianeGame-4508.dll
+[2018.07.28-00.41.29:726][997]CompilerResultsLog: [3/3] Link UE4Editor-LianeGame-4508.lib
+[2018.07.28-00.41.29:726][997]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-4508.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-4508.exp
+[2018.07.28-00.41.29:726][997]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-4508.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-4508.suppressed.exp
+[2018.07.28-00.41.29:726][997]CompilerResultsLog: Total build time: 5.49 seconds (Local executor: 4.46 seconds)
+[2018.07.28-00.41.29:726][997]LogMainFrame: MainFrame: Module compiling took 5.801 seconds
+[2018.07.28-00.41.29:780][997]LogClass: Could not find existing class LianeGameCharacter in package /Script/LianeGame for HotReload, assuming new class
+[2018.07.28-00.41.29:781][997]LogClass: Function FaceTKObject is new.
+[2018.07.28-00.41.29:781][997]LogClass: Function Grab is new.
+[2018.07.28-00.41.29:781][997]LogClass: Function Release is new.
+[2018.07.28-00.41.29:781][997]LogClass: Function TKThrow is new.
+[2018.07.28-00.41.29:782][997]LogClass: SoundResult HotReload.
+[2018.07.28-00.41.29:785][997]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperRed
+
+[2018.07.28-00.41.29:786][997]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperGreen
+
+[2018.07.28-00.41.29:786][997]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperBlue
+
+[2018.07.28-00.41.29:793][997]LogHotReload: Re-instancing LianeGameCharacter after hot-reload.
+[2018.07.28-00.41.29:800][997]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cca3fe0740, Size=4
+[2018.07.28-00.41.29:800][997]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccbf1b4ad8, Size=4, ThirdPersonCharacter_C_8 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_68:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-00.41.29:801][997]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccbf1b4648, Size=4, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-00.41.30:522][997]LogContentBrowser: Native class hierarchy updated for 'LianeGame' in 0.0010 seconds. Added 6 classes and 2 folders.
+[2018.07.28-00.41.30:523][997]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperRed
+
+Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperGreen
+
+Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperBlue
+
+
+[2018.07.28-00.41.30:527][997]Display: HotReload successful (2 functions remapped  1 scriptstructs remapped)
+[2018.07.28-00.41.31:008][997]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2459 classes and 562 folders.
+[2018.07.28-00.41.31:008][997]Display: HotReload took  7.1s.
+[2018.07.28-00.41.59:136][416]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.100
+[2018.07.28-00.41.59:138][416]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.07.28-00.41.59:165][416]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.07.28-00.41.59:165][416]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2018.07.28-00.41.59:251][416]LogSavePackage: Save=66.98ms
+[2018.07.28-00.41.59:251][416]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonCharacter_Auto5FB238DB24F963B1A3F6B20924A58D8FF.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto5.uasset'
+[2018.07.28-00.41.59:254][416]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto5.uasset
+[2018.07.28-00.41.59:254][416]LogFileHelpers: Auto-saving content packages took 0.117
+[2018.07.28-00.54.06:667][693]Candidate modules for hot reload:
+[2018.07.28-00.54.06:667][693]  LianeGame
+[2018.07.28-00.54.06:667][693]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,7496 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.28-00.54.06:669][693]Warning: Starting HotReload took  0.0s.
+[2018.07.28-00.54.35:930][801]CompilerResultsLog: New page: Compilation - Jul 27, 2018, 10:54:35 AM
+[2018.07.28-00.54.35:930][801]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.28-00.54.35:930][801]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.28-00.54.35:930][801]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.28-00.54.35:931][801]CompilerResultsLog: Reflection code generated for LianeGameEditor in 10.686506 seconds
+[2018.07.28-00.54.35:931][801]CompilerResultsLog: Performing 7 actions (4 in parallel)
+[2018.07.28-00.54.35:931][801]CompilerResultsLog: LianeGameCharacter.gen.cpp
+[2018.07.28-00.54.35:931][801]CompilerResultsLog: LianeGameCharacter.cpp
+[2018.07.28-00.54.35:931][801]CompilerResultsLog: LianeGameGameMode.cpp
+[2018.07.28-00.54.35:931][801]CompilerResultsLog: LianeGame.init.gen.cpp
+[2018.07.28-00.54.35:931][801]CompilerResultsLog: LGWeapon.cpp
+[2018.07.28-00.54.35:931][801]CompilerResultsLog: [6/7] Link UE4Editor-LianeGame-7496.dll
+[2018.07.28-00.54.35:931][801]CompilerResultsLog: [7/7] Link UE4Editor-LianeGame-7496.lib
+[2018.07.28-00.54.35:931][801]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-7496.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-7496.exp
+[2018.07.28-00.54.35:932][801]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-7496.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-7496.suppressed.exp
+[2018.07.28-00.54.35:932][801]CompilerResultsLog: Total build time: 28.83 seconds (Local executor: 17.17 seconds)
+[2018.07.28-00.54.35:932][801]LogMainFrame: MainFrame: Module compiling took 29.281 seconds
+[2018.07.28-00.54.36:025][801]LogClass: Could not find existing class LianeGameCharacter in package /Script/LianeGame for HotReload, assuming new class
+[2018.07.28-00.54.36:026][801]LogClass: SoundResult HotReload.
+[2018.07.28-00.54.36:029][801]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperRed
+
+[2018.07.28-00.54.36:029][801]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperGreen
+
+[2018.07.28-00.54.36:030][801]Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperBlue
+
+[2018.07.28-00.54.36:036][801]LogHotReload: Re-instancing LianeGameCharacter after hot-reload.
+[2018.07.28-00.54.36:044][801]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ccbf1b4648, Size=4
+[2018.07.28-00.54.36:044][801]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc5cc7d370, Size=4, ThirdPersonCharacter_C_10 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_72:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-00.54.36:046][801]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc5cc7ce58, Size=4, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-00.54.37:147][801]LogContentBrowser: Native class hierarchy updated for 'LianeGame' in 0.0022 seconds. Added 6 classes and 2 folders.
+[2018.07.28-00.54.37:147][801]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperRed
+
+Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperGreen
+
+Error: CDO Constructor (LianeDeBugHelper): Failed to find /Game/Materials/DebugHelper/M_QLDebugHelperBlue
+
+
+[2018.07.28-00.54.37:153][801]Display: HotReload successful (2 functions remapped  1 scriptstructs remapped)
+[2018.07.28-00.54.37:589][801]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2459 classes and 562 folders.
+[2018.07.28-00.54.37:590][801]Display: HotReload took 31.0s.
+[2018.07.28-00.54.45:183][823]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.111
+[2018.07.28-00.54.45:187][823]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.07.28-00.54.45:212][823]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.07.28-00.54.45:212][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2018.07.28-00.54.45:287][823]LogSavePackage: Save=60.34ms
+[2018.07.28-00.54.45:287][823]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonCharacter_Auto6DB6DC41F4F905495258ED09094EAA2AE.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto6.uasset'
+[2018.07.28-00.54.45:290][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto6.uasset
+[2018.07.28-00.54.45:290][823]LogFileHelpers: Auto-saving content packages took 0.105
+[2018.07.28-01.27.28:738][ 56]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39650a48, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.29:278][111]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc39650a48, Size=4
+[2018.07.28-01.27.29:278][111]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39650a48, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_76:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.29:281][111]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39650c78, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.29:715][152]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc39650c78, Size=4
+[2018.07.28-01.27.29:716][152]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39650c78, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_78:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.29:718][152]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39653820, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.30:079][189]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc39653820, Size=4
+[2018.07.28-01.27.30:080][189]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39653820, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_80:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.30:083][189]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc396524e8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.30:431][218]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc396524e8, Size=4
+[2018.07.28-01.27.30:431][218]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccb05392e0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_82:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.30:432][218]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccb0539128, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.30:780][254]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ccb0539128, Size=4
+[2018.07.28-01.27.30:781][254]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39652a80, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_84:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.30:782][254]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc396508b0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.31:226][301]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc396508b0, Size=4
+[2018.07.28-01.27.31:226][301]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccb053bab0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_86:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.31:229][301]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ccb053b0d0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.32:146][397]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ccb053b0d0, Size=4
+[2018.07.28-01.27.32:146][397]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39650e08, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_88:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.32:149][397]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39652690, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.33:798][578]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc39652690, Size=4
+[2018.07.28-01.27.33:798][578]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39652690, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_90:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.33:800][578]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc396517c0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.51:065][424]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc396517c0, Size=4
+[2018.07.28-01.27.51:065][424]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc396517c0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_92:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.51:067][424]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39651c30, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.56:785][ 73]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc39651c30, Size=4
+[2018.07.28-01.27.56:785][ 73]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc96fe70a0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_94:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.27.56:787][ 73]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc96fe6658, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.28.11:738][729]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001cc96fe6658, Size=4
+[2018.07.28-01.28.11:738][729]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc396503f0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_96:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.28.11:740][729]LogUObjectGlobals: Created PersistentFrame Addr=0x000001cc39650438, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.28-01.28.13:059][729]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.308 s
+[2018.07.28-01.28.13:059][729]LogOutputDevice: Error: === Handled ensure: ===
+[2018.07.28-01.28.13:059][729]LogOutputDevice: Error: 
+[2018.07.28-01.28.13:059][729]LogOutputDevice: Error: Ensure condition failed: !FPackageName::IsShortPackageName(Path) [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\SoftObjectPath.cpp] [Line: 45]
+[2018.07.28-01.28.13:059][729]LogOutputDevice: Error: Cannot create SoftObjectPath with short package name 'False'! You must pass in fully qualified package names
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: Stack: 
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x000000007738B706 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x00000000770EAE3A UE4Editor-Core.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x00000000770FECD6 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x000000008C6FB95C UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x000000008C60D47F UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x000000008C62549F UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x000000008C61DAEF UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x000000008C67219E UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x000000008C399404 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x000000006B0D43B2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x0000000089A97785 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x0000000089ACC23C UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x0000000089A8D10E UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x0000000089A88A45 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x0000000089A87C47 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x000000006B0CB843 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.28-01.28.13:060][729]LogOutputDevice: Error: [Callstack] 0x000000006B0DFD1F UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x00000000720A6C09 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x00000000720418E7 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x0000000072045C47 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x000000008B8950C9 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x000000008B896319 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x000000008B81CB6B UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x000000008B644D61 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x000000008B616D2D UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x000000008B6188F6 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x000000008B6963CA UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x000000008B6899C8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x000000009ACFE3DA UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.28-01.28.13:061][729]LogOutputDevice: Error: [Callstack] 0x000000009ACF1B78 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x000000009AD0052C UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x000000009ACED679 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x00000000C9AF6CC1 USER32.dll!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x00000000C9AF6693 USER32.dll!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x000000009AD01666 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x000000007F6C5475 UE4Editor.exe!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x000000007F6D6BD0 UE4Editor.exe!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x000000007F6D6C4A UE4Editor.exe!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x000000007F6E4177 UE4Editor.exe!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x000000007F6E5B87 UE4Editor.exe!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x00000000C9933034 KERNEL32.DLL!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: [Callstack] 0x00000000CA5C1431 ntdll.dll!UnknownFunction []
+[2018.07.28-01.28.13:062][729]LogOutputDevice: Error: 
+[2018.07.28-01.28.13:073][729]LogStats:                SubmitErrorReport -  0.000 s

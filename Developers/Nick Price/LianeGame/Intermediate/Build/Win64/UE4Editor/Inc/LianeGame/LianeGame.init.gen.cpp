@@ -11,17 +11,23 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeLianeGame_init() {}
+	LIANEGAME_API UFunction* Z_Construct_UDelegateFunction_LianeGame_OnHealthChangedSignature__DelegateSignature();
+	LIANEGAME_API UFunction* Z_Construct_UDelegateFunction_LianeGame_OnActorKilled__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_LianeGame()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_LianeGame_OnHealthChangedSignature__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_LianeGame_OnActorKilled__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/LianeGame",
 				PKG_CompiledIn | 0x00000000,
-				0xB9D5C714,
-				0xC09945FE,
-				nullptr, 0,
+				0xA84B30BF,
+				0xD9E84D3D,
+				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

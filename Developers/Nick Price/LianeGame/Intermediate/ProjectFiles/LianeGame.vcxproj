@@ -84,7 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{A9EC502B-0F36-47BF-AC8D-D1AB4C7F1BB0}</ProjectGuid>
+		<ProjectGuid>{D8E131D1-521A-49D4-8D9F-C6CE197BEAD1}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>LianeGame</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
@@ -415,6 +415,18 @@
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
+		<ClCompile Include="..\..\Source\LianeGame\HealthComponent.cpp" />
+		<ClInclude Include="..\..\Source\LianeGame\HealthComponent.h" />
+		<ClCompile Include="..\..\Source\LianeGame\LGActor.cpp" />
+		<ClInclude Include="..\..\Source\LianeGame\LGActor.h" />
+		<ClCompile Include="..\..\Source\LianeGame\LGGameInstance.cpp" />
+		<ClInclude Include="..\..\Source\LianeGame\LGGameInstance.h" />
+		<ClCompile Include="..\..\Source\LianeGame\LGUtility.cpp" />
+		<ClInclude Include="..\..\Source\LianeGame\LGUtility.h" />
+		<ClCompile Include="..\..\Source\LianeGame\LGWeapon.cpp" />
+		<ClInclude Include="..\..\Source\LianeGame\LGWeapon.h" />
+		<ClCompile Include="..\..\Source\LianeGame\LianeDeBugHelper.cpp" />
+		<ClInclude Include="..\..\Source\LianeGame\LianeDeBugHelper.h" />
 		<None Include="..\..\Source\LianeGame\LianeGame.Build.cs" />
 		<ClCompile Include="..\..\Source\LianeGame\LianeGame.cpp" />
 		<ClInclude Include="..\..\Source\LianeGame\LianeGame.h" />

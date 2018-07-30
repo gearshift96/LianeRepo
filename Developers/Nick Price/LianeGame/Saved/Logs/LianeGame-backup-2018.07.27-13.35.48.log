@@ -1,0 +1,1435 @@
+﻿Log file open, 07/24/18 00:21:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: LianeGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(380110302) SRandInit(380110302).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.281754
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.110s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Binaries/Win64/UE4Editor-LianeGame.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am KillRoy (10.0.0.108:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.24-07.21.48:138][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.24-07.21.48:138][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.24-07.21.48:159][  0]LogInit: Computer: KILLROY
+[2018.07.24-07.21.48:159][  0]LogInit: User: Nicholaus
+[2018.07.24-07.21.48:159][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.24-07.21.48:159][  0]LogInit: High frequency timer resolution =3.613346 MHz
+[2018.07.24-07.21.48:159][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.07.24-07.21.48:160][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.24-07.21.48:160][  0]LogMemory: Process Physical Memory: 274.12 MB used, 274.12 MB peak
+[2018.07.24-07.21.48:160][  0]LogMemory: Process Virtual Memory: 264.89 MB used, 264.89 MB peak
+[2018.07.24-07.21.48:160][  0]LogMemory: Physical Memory: 5836.99 MB used,  26847.94 MB free, 32684.93 MB total
+[2018.07.24-07.21.48:160][  0]LogMemory: Virtual Memory: 4794.22 MB used,  26847.94 MB free, 134217728.00 MB total
+[2018.07.24-07.21.48:324][  0]LogInit: Using OS detected language (en-US).
+[2018.07.24-07.21.48:324][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.24-07.21.48:388][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.24-07.21.48:908][  0]LogStreaming: Display: Took  0.584s to EndInitTextLocalization.
+[2018.07.24-07.21.48:908][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.24-07.21.49:015][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.24-07.21.49:015][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.24-07.21.51:460][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.24-07.21.51:570][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.07.24-07.21.51:570][  0]LogD3D11RHI:       6052/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.07.24-07.21.51:573][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.24-07.21.51:573][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.24-07.21.51:573][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.24-07.21.51:578][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.24-07.21.51:578][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.24-07.21.51:578][  0]LogWindows: EnumDisplayDevices:
+[2018.07.24-07.21.51:578][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.07.24-07.21.51:578][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.07.24-07.21.51:579][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.07.24-07.21.51:579][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.07.24-07.21.51:579][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.24-07.21.51:579][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.07.24-07.21.51:579][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.24-07.21.51:579][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.24-07.21.51:579][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.07.24-07.21.51:630][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.24-07.21.51:630][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.24-07.21.51:630][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.24-07.21.51:672][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.24-07.21.51:815][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Intermediate/Shaders/WorkingDirectory/14932/).
+[2018.07.24-07.21.51:815][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicholaus/AppData/Local/Temp/UnrealShaderWorkingDir/694327084E2C487AA3989CABCEBA2C46/'.
+[2018.07.24-07.21.52:384][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.24-07.21.52:402][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.24-07.21.52:419][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.24-07.21.52:437][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.24-07.21.52:457][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.24-07.21.52:475][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.24-07.21.52:494][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.24-07.21.52:510][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.24-07.21.52:517][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.24-07.21.52:534][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.24-07.21.52:550][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.24-07.21.52:564][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.24-07.21.52:577][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.24-07.21.52:592][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.24-07.21.52:610][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.24-07.21.52:647][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.24-07.21.52:647][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.24-07.21.52:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.24-07.21.52:669][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.24-07.21.52:746][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.24-07.21.52:766][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.24-07.21.52:788][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.24-07.21.52:806][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.24-07.21.52:824][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.24-07.21.52:849][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.24-07.21.52:849][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.24-07.21.53:273][  0]LogXGEController: Cleaning working directory: C:/Users/Nicholaus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.24-07.21.53:273][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.24-07.21.53:273][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.24-07.21.53:273][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.24-07.21.55:374][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.24-07.21.55:462][  0]LogDerivedDataCache: Loaded boot cache 0.09s 77MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.24-07.21.55:462][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.24-07.21.55:463][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.24-07.21.55:463][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.24-07.21.55:463][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.24-07.21.55:463][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.24-07.21.55:492][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.24-07.21.55:505][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicholaus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.24-07.21.55:505][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.24-07.21.55:505][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.24-07.21.55:518][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.24-07.21.55:518][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.24-07.21.55:532][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.24-07.21.55:532][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.24-07.21.57:849][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.07.24-07.21.58:328][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.24-07.21.58:668][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.24-07.21.58:673][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.24-07.21.58:673][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.24-07.21.58:673][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.24-07.21.58:673][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.24-07.21.58:673][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.24-07.21.58:742][  0]LogNetVersion: LianeGame , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3392154298)
+[2018.07.24-07.21.59:732][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.104091 seconds
+[2018.07.24-07.21.59:740][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.24-07.21.59:740][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.07.24-07.21.59:740][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.24-07.22.03:508][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.24-07.22.03:542][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.24-07.22.03:894][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023153231080, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.07.24-07.22.03:912][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023153231080, Size=64
+[2018.07.24-07.22.03:912][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023153362540, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.07.24-07.22.03:925][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023153cab1f0, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.07.24-07.22.04:062][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023153c41600, Size=424, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.24-07.22.04:072][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023153c41600, Size=424
+[2018.07.24-07.22.04:072][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231548b3c80, Size=424, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_4:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.24-07.22.04:083][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231548b1600, Size=424, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.24-07.22.04:152][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [2.337169ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.07.24-07.22.04:354][  0]SourceControl: Source control is disabled
+[2018.07.24-07.22.04:354][  0]SourceControl: Source control is disabled
+[2018.07.24-07.22.04:378][  0]SourceControl: Source control is disabled
+[2018.07.24-07.22.04:399][  0]SourceControl: Source control is disabled
+[2018.07.24-07.22.04:982][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.24-07.22.05:213][  0]LogOcInput: OculusInput pre-init called
+[2018.07.24-07.22.05:341][  0]LogEngine: Initializing Engine...
+[2018.07.24-07.22.05:343][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.24-07.22.05:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.24-07.22.05:345][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.24-07.22.05:624][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.24-07.22.05:651][  0]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.24-07.22.05:668][  0]LogInit: FAudioDevice initialized.
+[2018.07.24-07.22.05:755][  0]LogDerivedDataCache: Saved boot cache 0.09s 77MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.24-07.22.05:768][  0]LogInit: Texture streaming: Enabled
+[2018.07.24-07.22.05:790][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.24-07.22.05:863][  0]LogInit: Transaction tracking system initialized
+[2018.07.24-07.22.05:895][  0]BlueprintLog: New page: Editor Load
+[2018.07.24-07.22.06:080][  0]LocalizationService: Localization service is disabled
+[2018.07.24-07.22.06:287][  0]LogConsoleResponse: Display: 
+[2018.07.24-07.22.06:481][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.24-07.22.06:481][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.24-07.22.06:481][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.24-07.22.06:481][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.24-07.22.06:481][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.24-07.22.07:016][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/' took 0.02s
+[2018.07.24-07.22.07:016][  0]SourceControl: Source control is disabled
+[2018.07.24-07.22.07:016][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.24-07.22.07:017][  0]LightingResults: New page: Lighting Build
+[2018.07.24-07.22.07:019][  0]MapCheck: New page: Map Check
+[2018.07.24-07.22.07:019][  0]LightingResults: New page: Lighting Build
+[2018.07.24-07.22.07:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023153362540, Size=64
+[2018.07.24-07.22.07:034][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231548b3c80, Size=424
+[2018.07.24-07.22.07:565][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.24-07.22.07:579][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.24-07.22.07:602][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.24-07.22.07:674][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.031ms to complete.
+[2018.07.24-07.22.07:674][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.658
+[2018.07.24-07.22.07:897][  0]LogCollectionManager: Loaded 0 collections in 0.002575 seconds
+[2018.07.24-07.22.07:957][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Collections/' took 0.01s
+[2018.07.24-07.22.07:957][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/Developers/Nicholaus/Collections/' took 0.01s
+[2018.07.24-07.22.07:957][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/Collections/' took 0.01s
+[2018.07.24-07.22.07:957][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.24-07.22.07:974][  0]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2455 classes and 560 folders.
+[2018.07.24-07.22.07:985][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.07.24-07.22.08:365][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.07.24-07.22.08:375][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.07.24-07.22.08:492][  0]LogSlate: Took 0.006112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.24-07.22.08:501][  0]LogSlate: Took 0.005323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.24-07.22.08:518][  0]LogSlate: Took 0.004993 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.24-07.22.08:718][  0]LogRenderer: Reallocating scene render targets to support 1036x576 Format 10 NumSamples 1 (Frame:1).
+[2018.07.24-07.22.08:787][  0]LogSlate: Took 0.003644 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.24-07.22.08:873][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.07.24-07.22.08:873][  0]LogLoad: (Engine Initialization) Total time: 23.99 seconds
+[2018.07.24-07.22.08:873][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.24-07.22.08:949][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.24-07.22.09:019][  1]LogFileCache: Retrieving MD5 hashes for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/' took 0.10s
+[2018.07.24-07.22.09:157][  7]LogAssetRegistry: Asset discovery search completed in 11.3306 seconds
+[2018.07.24-07.22.09:162][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.24-07.22.09:162][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000136 seconds (updated 0 objects)
+[2018.07.24-07.22.09:925][ 66]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.24-07.22.11:687][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.24-07.22.17:026][788]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.07.24-07.22.17:041][788]Candidate modules for hot reload:
+[2018.07.24-07.22.17:041][788]  LianeGame
+[2018.07.24-07.22.17:041][788]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,5680 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-07.22.17:043][788]Warning: Starting HotReload took  0.0s.
+[2018.07.24-07.22.25:575][616]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 5:22:25 PM
+[2018.07.24-07.22.25:575][616]CompilerResultsLog: Creating makefile for hot reloading LianeGame (no existing makefile)
+[2018.07.24-07.22.25:575][616]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-07.22.25:575][616]CompilerResultsLog: Performing 1 actions (4 in parallel)
+[2018.07.24-07.22.25:575][616]CompilerResultsLog: [1/1] Link UE4Editor-LianeGame-5680.dll
+[2018.07.24-07.22.25:575][616]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-5680.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-5680.suppressed.exp
+[2018.07.24-07.22.25:575][616]CompilerResultsLog: Total build time: 8.26 seconds (Local executor: 1.53 seconds)
+[2018.07.24-07.22.25:575][616]LogMainFrame: MainFrame: Module compiling took 8.549 seconds
+[2018.07.24-07.22.25:617][616]LogContentBrowser: Native class hierarchy updated for 'LianeGame' in 0.0011 seconds. Added 3 classes and 2 folders.
+[2018.07.24-07.22.25:621][616]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2018.07.24-07.22.25:758][616]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 2456 classes and 562 folders.
+[2018.07.24-07.22.25:758][616]Display: HotReload took  8.7s.
+[2018.07.24-07.45.27:949][508]LogSlate: Took 0.006429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.24-07.46.01:207][ 35]Running G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame Win64 Development -editorrecompile "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" -invalidatemakefilesonly
+[2018.07.24-07.46.01:511][ 35]Invalidating makefiles only in this run.
+[2018.07.24-07.46.01:642][ 35]Candidate modules for hot reload:
+[2018.07.24-07.46.01:642][ 35]  LianeGame
+[2018.07.24-07.46.01:642][ 35]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,4180 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-07.46.20:394][ 35]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 5:46:20 PM
+[2018.07.24-07.46.20:394][ 35]CompilerResultsLog: Creating makefile for hot reloading LianeGame (no existing makefile)
+[2018.07.24-07.46.20:394][ 35]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-07.46.20:394][ 35]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.24-07.46.20:394][ 35]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.24-07.46.20:395][ 35]CompilerResultsLog: Reflection code generated for LianeGameEditor in 12.2762035 seconds
+[2018.07.24-07.46.20:395][ 35]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGUtility.cpp(1) : error: Expected LGUtility.h to be first header included.
+[2018.07.24-07.46.20:395][ 35]CompilerResultsLog: ERROR: Build canceled.
+[2018.07.24-07.46.20:395][ 35]LogMainFrame: MainFrame: Module compiling took 18.769 seconds
+[2018.07.24-07.46.20:395][ 35]Warning: HotReload failed, recompile failed
+[2018.07.24-07.46.20:400][ 35]Warning: RebindPackages failed because compilation failed.
+[2018.07.24-07.48.23:134][ 35]LogSlate: Window 'Message' being destroyed
+[2018.07.24-07.48.23:141][ 35]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.07.24-07.48.23:152][ 35]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.07.24-07.48.46:857][319]Candidate modules for hot reload:
+[2018.07.24-07.48.46:857][319]  LianeGame
+[2018.07.24-07.48.46:857][319]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,1635 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-07.48.46:860][319]Warning: Starting HotReload took  0.0s.
+[2018.07.24-07.48.46:984][329]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 5:48:46 PM
+[2018.07.24-07.48.46:985][329]CompilerResultsLog: ERROR: UnrealBuildTool Exception: A conflicting instance of UnrealBuildTool is already running at this location: G:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\UnrealBuildTool.exe. A process manager may be used to determine the conflicting process and what tool may have launched it.
+[2018.07.24-07.48.46:985][329]LogMainFrame: MainFrame: Module compiling took 0.145 seconds
+[2018.07.24-07.48.46:986][329]Warning: HotReload failed, recompile failed
+[2018.07.24-07.48.53:875][943]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-07.48.53:880][943]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-07.51.50:707][893]Candidate modules for hot reload:
+[2018.07.24-07.51.50:707][893]  LianeGame
+[2018.07.24-07.51.50:707][893]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,4468 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-07.51.50:710][893]Warning: Starting HotReload took  0.0s.
+[2018.07.24-07.51.58:187][666]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 5:51:58 PM
+[2018.07.24-07.51.58:187][666]CompilerResultsLog: Creating makefile for hot reloading LianeGame (modules to compile have changed)
+[2018.07.24-07.51.58:188][666]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-07.51.58:188][666]CompilerResultsLog: Target is up to date
+[2018.07.24-07.51.58:188][666]CompilerResultsLog: Total build time: 7.22 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.07.24-07.51.58:188][666]LogMainFrame: MainFrame: Module compiling took 7.500 seconds
+[2018.07.24-07.51.58:218][666]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2456 classes and 562 folders.
+[2018.07.24-07.51.58:219][666]Display: HotReload took  7.5s.
+[2018.07.24-08.12.54:683][266]Candidate modules for hot reload:
+[2018.07.24-08.12.54:683][266]  LianeGame
+[2018.07.24-08.12.54:683][266]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,99 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-08.12.54:686][266]Warning: Starting HotReload took  0.0s.
+[2018.07.24-08.13.28:435][487]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 6:13:28 PM
+[2018.07.24-08.13.28:436][487]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-08.13.28:436][487]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.24-08.13.28:436][487]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.24-08.13.28:437][487]CompilerResultsLog: Reflection code generated for LianeGameEditor in 14.9824865 seconds
+[2018.07.24-08.13.28:437][487]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.07.24-08.13.28:438][487]CompilerResultsLog: LianeGame.init.gen.cpp
+[2018.07.24-08.13.28:438][487]CompilerResultsLog: LGGameInstance.gen.cpp
+[2018.07.24-08.13.28:438][487]CompilerResultsLog: LGUtility.cpp
+[2018.07.24-08.13.28:438][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-08.13.28:438][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.13.28:439][487]CompilerResultsLog: LGGameInstance.cpp
+[2018.07.24-08.13.28:439][487]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-08.13.28:439][487]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.13.28:440][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(54) : error C3646: 'PersistentData': unknown override specifier
+[2018.07.24-08.13.28:440][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(54) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.13.28:441][487]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(54) : error C3646: 'PersistentData': unknown override specifier
+[2018.07.24-08.13.28:441][487]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(54) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.13.28:442][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(17) : error C2614: 'ULGGameInstance': illegal member initialization: 'PersistentData' is not a base or member
+[2018.07.24-08.13.28:442][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(26) : error C2065: 'PersistentData': undeclared identifier
+[2018.07.24-08.13.28:443][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(26) : error C2228: left of '.SoundWaveList' must have class/struct/union
+[2018.07.24-08.13.28:443][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(26) : note: type is 'unknown-type'
+[2018.07.24-08.13.28:444][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(26) : error C2228: left of '.Find' must have class/struct/union
+[2018.07.24-08.13.28:444][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(37) : error C2065: 'PersistentData': undeclared identifier
+[2018.07.24-08.13.28:444][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(37) : error C2228: left of '.StreamableManager' must have class/struct/union
+[2018.07.24-08.13.28:445][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(37) : note: type is 'unknown-type'
+[2018.07.24-08.13.28:445][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(37) : error C2228: left of '.SynchronousLoad' must have class/struct/union
+[2018.07.24-08.13.28:446][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(44) : error C2065: 'PersistentData': undeclared identifier
+[2018.07.24-08.13.28:446][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(44) : error C2228: left of '.SoundWaveList' must have class/struct/union
+[2018.07.24-08.13.28:447][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(44) : note: type is 'unknown-type'
+[2018.07.24-08.13.28:447][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(44) : error C2228: left of '.Add' must have class/struct/union
+[2018.07.24-08.13.28:448][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(57) : error C2065: 'PersistentData': undeclared identifier
+[2018.07.24-08.13.28:448][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(57) : error C2228: left of '.SoundWaveList' must have class/struct/union
+[2018.07.24-08.13.28:448][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(57) : note: type is 'unknown-type'
+[2018.07.24-08.13.28:449][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(57) : error C2228: left of '.Find' must have class/struct/union
+[2018.07.24-08.13.28:449][487]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(72) : error C2614: 'LGPersistentData': illegal member initialization: 'StreamableManager' is not a base or member
+[2018.07.24-08.13.28:450][487]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(54) : error C3646: 'PersistentData': unknown override specifier
+[2018.07.24-08.13.28:450][487]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(54) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.13.28:451][487]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-99.dll
+[2018.07.24-08.13.28:451][487]CompilerResultsLog: Total build time: 33.48 seconds (Local executor: 0.00 seconds)
+[2018.07.24-08.13.28:451][487]LogMainFrame: MainFrame: Module compiling took 33.788 seconds
+[2018.07.24-08.13.28:452][487]Warning: HotReload failed, recompile failed
+[2018.07.24-08.14.26:513][ 22]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-08.14.26:517][ 22]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-08.14.27:876][161]Candidate modules for hot reload:
+[2018.07.24-08.14.27:877][161]  LianeGame
+[2018.07.24-08.14.27:877][161]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,6941 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-08.14.27:880][161]Warning: Starting HotReload took  0.0s.
+[2018.07.24-08.15.02:556][572]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 6:15:02 PM
+[2018.07.24-08.15.02:557][572]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-08.15.02:557][572]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.24-08.15.02:557][572]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.24-08.15.02:558][572]CompilerResultsLog: Reflection code generated for LianeGameEditor in 14.4907645 seconds
+[2018.07.24-08.15.02:558][572]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.07.24-08.15.02:558][572]CompilerResultsLog: LGUtility.cpp
+[2018.07.24-08.15.02:558][572]CompilerResultsLog: LGGameInstance.cpp
+[2018.07.24-08.15.02:558][572]CompilerResultsLog: LGGameInstance.gen.cpp
+[2018.07.24-08.15.02:558][572]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-08.15.02:559][572]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.15.02:559][572]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-08.15.02:560][572]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-intG:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(37): error C2039: 'StreamableManager': is not a member of 'LGPersistentData'
+[2018.07.24-08.15.02:561][572]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(31) : note: see declaration of 'LGPersistentData'
+[2018.07.24-08.15.02:561][572]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(37) : error C2228: left of '.SynchronousLoad' must have class/struct/union
+[2018.07.24-08.15.02:561][572]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(72) : error C2614: 'LGPersistentData': illegal member initialization: 'StreamableManager' is not a base or member
+[2018.07.24-08.15.02:562][572]CompilerResultsLog: 
+[2018.07.24-08.15.02:562][572]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-6941.dll
+[2018.07.24-08.15.02:562][572]CompilerResultsLog: Total build time: 34.36 seconds (Local executor: 0.00 seconds)
+[2018.07.24-08.15.02:562][572]LogMainFrame: MainFrame: Module compiling took 34.707 seconds
+[2018.07.24-08.15.02:563][572]Warning: HotReload failed, recompile failed
+[2018.07.24-08.30.56:878][475]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-08.30.56:882][475]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-08.32.09:850][789]Candidate modules for hot reload:
+[2018.07.24-08.32.09:851][789]  LianeGame
+[2018.07.24-08.32.09:851][789]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,5359 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-08.32.09:854][789]Warning: Starting HotReload took  0.0s.
+[2018.07.24-08.32.17:407][554]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 6:32:17 PM
+[2018.07.24-08.32.17:407][554]CompilerResultsLog: Creating makefile for hot reloading LianeGame (modules to compile have changed)
+[2018.07.24-08.32.17:408][554]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-08.32.17:408][554]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(1) : error: Expected LGGameInstance.h to be first header included.
+[2018.07.24-08.32.17:408][554]CompilerResultsLog: ERROR: Build canceled.
+[2018.07.24-08.32.17:408][554]LogMainFrame: MainFrame: Module compiling took 7.576 seconds
+[2018.07.24-08.32.17:409][554]Warning: HotReload failed, recompile failed
+[2018.07.24-08.32.32:870][451]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-08.32.32:876][451]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-08.32.33:865][543]Candidate modules for hot reload:
+[2018.07.24-08.32.33:865][543]  LianeGame
+[2018.07.24-08.32.33:865][543]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,1547 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-08.32.33:868][543]Warning: Starting HotReload took  0.0s.
+[2018.07.24-08.33.00:853][561]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 6:33:00 PM
+[2018.07.24-08.33.00:854][561]CompilerResultsLog: Creating makefile for hot reloading LianeGame (modules to compile have changed)
+[2018.07.24-08.33.00:854][561]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-08.33.00:854][561]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.07.24-08.33.00:854][561]CompilerResultsLog: LGGameInstance.cpp
+[2018.07.24-08.33.00:854][561]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-08.33.00:855][561]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.33.00:855][561]CompilerResultsLog: LGGameInstance.gen.cpp
+[2018.07.24-08.33.00:855][561]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-08.33.00:856][561]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.33.00:856][561]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2039: 'StreamableManager': is not a member of 'LGPersistentData'
+[2018.07.24-08.33.00:857][561]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(31) : note: see declaration of 'LGPersistentData'
+[2018.07.24-08.33.00:857][561]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2228: left of '.SynchronousLoad' must have class/struct/union
+[2018.07.24-08.33.00:858][561]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(75) : error C2614: 'LGPersistentData': illegal member initialization: 'StreamableManager' is not a base or member
+[2018.07.24-08.33.00:859][561]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-1547.dll
+[2018.07.24-08.33.00:859][561]CompilerResultsLog: Total build time: 26.52 seconds (Local executor: 0.00 seconds)
+[2018.07.24-08.33.00:859][561]LogMainFrame: MainFrame: Module compiling took 27.014 seconds
+[2018.07.24-08.33.00:860][561]Warning: HotReload failed, recompile failed
+[2018.07.24-08.34.16:780][688]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-08.34.16:783][688]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-08.44.31:590][647]Candidate modules for hot reload:
+[2018.07.24-08.44.31:590][647]  LianeGame
+[2018.07.24-08.44.31:590][647]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,6380 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-08.44.31:593][647]Warning: Starting HotReload took  0.0s.
+[2018.07.24-08.45.00:554][167]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 6:45:00 PM
+[2018.07.24-08.45.00:555][167]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-08.45.00:555][167]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.24-08.45.00:556][167]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.24-08.45.00:556][167]CompilerResultsLog: Reflection code generated for LianeGameEditor in 12.5259706 seconds
+[2018.07.24-08.45.00:557][167]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.07.24-08.45.00:557][167]CompilerResultsLog: LGGameInstance.cpp
+[2018.07.24-08.45.00:557][167]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-08.45.00:558][167]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.45.00:558][167]CompilerResultsLog: LGGameInstance.gen.cpp
+[2018.07.24-08.45.00:558][167]CompilerResultsLog: LGUtility.cpp
+[2018.07.24-08.45.00:558][167]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-08.45.00:559][167]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.45.00:559][167]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2039: 'StreamableManager': is not a member of 'LGPersistentData'
+[2018.07.24-08.45.00:560][167]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(31) : note: see declaration of 'LGPersistentData'
+[2018.07.24-08.45.00:560][167]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2228: left of '.SynchronousLoad' must have class/struct/union
+[2018.07.24-08.45.00:561][167]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(75) : error C2614: 'LGPersistentData': illegal member initialization: 'StreamableManager' is not a base or member
+[2018.07.24-08.45.00:561][167]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGUtility.cpp(10) : fatal error C1075: '{': no matching token found
+[2018.07.24-08.45.00:562][167]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-6380.dll
+[2018.07.24-08.45.00:562][167]CompilerResultsLog: Total build time: 28.47 seconds (Local executor: 0.00 seconds)
+[2018.07.24-08.45.00:563][167]LogMainFrame: MainFrame: Module compiling took 28.993 seconds
+[2018.07.24-08.45.00:563][167]Warning: HotReload failed, recompile failed
+[2018.07.24-08.45.43:338][293]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-08.45.43:342][293]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-08.47.29:988][527]Candidate modules for hot reload:
+[2018.07.24-08.47.29:988][527]  LianeGame
+[2018.07.24-08.47.29:989][527]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,9980 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-08.47.29:991][527]Warning: Starting HotReload took  0.0s.
+[2018.07.24-08.47.44:666][668]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 6:47:44 PM
+[2018.07.24-08.47.44:667][668]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-08.47.44:667][668]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.07.24-08.47.44:667][668]CompilerResultsLog: LGUtility.cpp
+[2018.07.24-08.47.44:667][668]CompilerResultsLog: LGGameInstance.cpp
+[2018.07.24-08.47.44:667][668]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-08.47.44:668][668]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.47.44:668][668]CompilerResultsLog: LGGameInstance.gen.cpp
+[2018.07.24-08.47.44:669][668]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-08.47.44:669][668]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-08.47.44:669][668]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2039: 'StreamableManager': is not a member of 'LGPersistentData'
+[2018.07.24-08.47.44:670][668]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(31) : note: see declaration of 'LGPersistentData'
+[2018.07.24-08.47.44:670][668]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2228: left of '.SynchronousLoad' must have class/struct/union
+[2018.07.24-08.47.44:671][668]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(75) : error C2614: 'LGPersistentData': illegal member initialization: 'StreamableManager' is not a base or member
+[2018.07.24-08.47.44:671][668]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGUtility.cpp(10) : fatal error C1075: '{': no matching token found
+[2018.07.24-08.47.44:672][668]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-9980.dll
+[2018.07.24-08.47.44:672][668]CompilerResultsLog: Total build time: 14.34 seconds (Local executor: 0.00 seconds)
+[2018.07.24-08.47.44:672][668]LogMainFrame: MainFrame: Module compiling took 14.701 seconds
+[2018.07.24-08.47.44:672][668]Warning: HotReload failed, recompile failed
+[2018.07.24-08.48.05:683][749]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-08.48.05:688][749]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-09.03.37:279][162]Running G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame Win64 Development -editorrecompile "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" -invalidatemakefilesonly
+[2018.07.24-09.03.37:919][162]Invalidating makefiles only in this run.
+[2018.07.24-09.03.38:056][162]Candidate modules for hot reload:
+[2018.07.24-09.03.38:056][162]  LianeGame
+[2018.07.24-09.03.38:056][162]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,1322 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-09.04.27:289][162]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 7:04:27 PM
+[2018.07.24-09.04.27:289][162]CompilerResultsLog: Creating makefile for hot reloading LianeGame (no existing makefile)
+[2018.07.24-09.04.27:289][162]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-09.04.27:289][162]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.24-09.04.27:290][162]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.24-09.04.27:290][162]CompilerResultsLog: Reflection code generated for LianeGameEditor in 11.1090349 seconds
+[2018.07.24-09.04.27:291][162]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGUtility.cpp(1) : error: Expected LGUtility.h to be first header included.
+[2018.07.24-09.04.27:291][162]CompilerResultsLog: ERROR: Build canceled.
+[2018.07.24-09.04.27:291][162]LogMainFrame: MainFrame: Module compiling took 49.257 seconds
+[2018.07.24-09.04.27:292][162]Warning: HotReload failed, recompile failed
+[2018.07.24-09.04.27:295][162]Warning: RebindPackages failed because compilation failed.
+[2018.07.24-09.04.35:264][162]LogSlate: Window 'Message' being destroyed
+[2018.07.24-09.04.35:271][162]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.07.24-09.04.44:217][104]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-09.04.44:221][104]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-09.09.32:683][ 82]Candidate modules for hot reload:
+[2018.07.24-09.09.32:684][ 82]  LianeGame
+[2018.07.24-09.09.32:684][ 82]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,5635 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-09.09.32:686][ 82]Warning: Starting HotReload took  0.0s.
+[2018.07.24-09.09.52:420][ 84]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 7:09:52 PM
+[2018.07.24-09.09.52:420][ 84]CompilerResultsLog: Creating makefile for hot reloading LianeGame (no existing makefile)
+[2018.07.24-09.09.52:420][ 84]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-09.09.52:421][ 84]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.24-09.09.52:421][ 84]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.24-09.09.52:421][ 84]CompilerResultsLog: Reflection code generated for LianeGameEditor in 11.9160199 seconds
+[2018.07.24-09.09.52:422][ 84]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGActor.cpp(1) : error: Expected LGActor.h to be first header included.
+[2018.07.24-09.09.52:422][ 84]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGUtility.cpp(1) : error: Expected LGUtility.h to be first header included.
+[2018.07.24-09.09.52:422][ 84]CompilerResultsLog: ERROR: Build canceled.
+[2018.07.24-09.09.52:423][ 84]LogMainFrame: MainFrame: Module compiling took 19.758 seconds
+[2018.07.24-09.09.52:423][ 84]Warning: HotReload failed, recompile failed
+[2018.07.24-09.11.22:577][813]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-09.11.22:581][813]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-09.11.23:310][881]Candidate modules for hot reload:
+[2018.07.24-09.11.23:310][881]  LianeGame
+[2018.07.24-09.11.23:310][881]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,4843 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-09.11.23:313][881]Warning: Starting HotReload took  0.0s.
+[2018.07.24-09.11.51:197][856]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 7:11:51 PM
+[2018.07.24-09.11.51:198][856]CompilerResultsLog: Creating makefile for hot reloading LianeGame (no existing makefile)
+[2018.07.24-09.11.51:198][856]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-09.11.51:198][856]CompilerResultsLog: Performing 8 actions (4 in parallel)
+[2018.07.24-09.11.51:199][856]CompilerResultsLog: LGUtility.cpp
+[2018.07.24-09.11.51:199][856]CompilerResultsLog: LGGameInstance.cpp
+[2018.07.24-09.11.51:199][856]CompilerResultsLog: LGActor.cpp
+[2018.07.24-09.11.51:199][856]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.11.51:200][856]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.11.51:200][856]CompilerResultsLog: LGActor.gen.cpp
+[2018.07.24-09.11.51:200][856]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.11.51:201][856]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.11.51:201][856]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.11.51:202][856]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.11.51:202][856]CompilerResultsLog: LGGameInstance.gen.cpp
+[2018.07.24-09.11.51:202][856]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.11.51:203][856]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.11.51:203][856]CompilerResultsLog: LianeGame.init.gen.cpp
+[2018.07.24-09.11.51:203][856]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGActor.cpp(5) : fatal error C1083: Cannot open include file: 'LianeGameGameModeBase.h': No such file or directory
+[2018.07.24-09.11.51:204][856]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2039: 'StreamableManager': is not a member of 'LGPersistentData'
+[2018.07.24-09.11.51:204][856]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(31) : note: see declaration of 'LGPersistentData'
+[2018.07.24-09.11.51:205][856]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2228: left of '.SynchronousLoad' must have class/struct/union
+[2018.07.24-09.11.51:205][856]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(75) : error C2614: 'LGPersistentData': illegal member initialization: 'StreamableManager' is not a base or member
+[2018.07.24-09.11.51:206][856]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGUtility.cpp(10) : fatal error C1075: '{': no matching token found
+[2018.07.24-09.11.51:206][856]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-4843.dll
+[2018.07.24-09.11.51:206][856]CompilerResultsLog: Total build time: 27.38 seconds (Local executor: 0.00 seconds)
+[2018.07.24-09.11.51:207][856]LogMainFrame: MainFrame: Module compiling took 27.917 seconds
+[2018.07.24-09.11.51:207][856]Warning: HotReload failed, recompile failed
+[2018.07.24-09.12.44:392][159]Candidate modules for hot reload:
+[2018.07.24-09.12.44:392][159]  LianeGame
+[2018.07.24-09.12.44:393][159]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,4587 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-09.12.44:395][159]Warning: Starting HotReload took  0.1s.
+[2018.07.24-09.12.46:127][281]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-09.12.46:132][281]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-09.13.04:873][419]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 7:13:04 PM
+[2018.07.24-09.13.04:874][419]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-09.13.04:874][419]CompilerResultsLog: Performing 7 actions (4 in parallel)
+[2018.07.24-09.13.04:875][419]CompilerResultsLog: LGGameInstance.cpp
+[2018.07.24-09.13.04:875][419]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.13.04:875][419]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.13.04:876][419]CompilerResultsLog: LGUtility.cpp
+[2018.07.24-09.13.04:876][419]CompilerResultsLog: LGActor.gen.cpp
+[2018.07.24-09.13.04:876][419]CompilerResultsLog: LGActor.cpp
+[2018.07.24-09.13.04:876][419]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.13.04:876][419]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.13.04:877][419]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.13.04:877][419]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.13.04:877][419]CompilerResultsLog: LGGameInstance.gen.cpp
+[2018.07.24-09.13.04:877][419]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.13.04:878][419]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.13.04:878][419]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2039: 'StreamableManager': is not a member of 'LGPersistentData'
+[2018.07.24-09.13.04:878][419]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(31) : note: see declaration of 'LGPersistentData'
+[2018.07.24-09.13.04:879][419]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2228: left of '.SynchronousLoad' must have class/struct/union
+[2018.07.24-09.13.04:879][419]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(75) : error C2614: 'LGPersistentData': illegal member initialization: 'StreamableManager' is not a base or member
+[2018.07.24-09.13.04:879][419]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGActor.cpp(5) : fatal error C1083: Cannot open include file: 'LianeGameGameModeBase.h': No such file or directory
+[2018.07.24-09.13.04:880][419]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-4587.dll
+[2018.07.24-09.13.04:880][419]CompilerResultsLog: Total build time: 20.14 seconds (Local executor: 0.00 seconds)
+[2018.07.24-09.13.04:880][419]LogMainFrame: MainFrame: Module compiling took 20.507 seconds
+[2018.07.24-09.13.04:880][419]Warning: HotReload failed, recompile failed
+[2018.07.24-09.13.37:112][896]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-09.13.37:116][896]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-09.13.38:649][ 53]Candidate modules for hot reload:
+[2018.07.24-09.13.38:649][ 53]  LianeGame
+[2018.07.24-09.13.38:649][ 53]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,4197 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-09.13.38:652][ 53]Warning: Starting HotReload took  0.0s.
+[2018.07.24-09.13.57:356][221]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 7:13:57 PM
+[2018.07.24-09.13.57:357][221]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-09.13.57:358][221]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2018.07.24-09.13.57:358][221]CompilerResultsLog: LGGameInstance.cpp
+[2018.07.24-09.13.57:358][221]CompilerResultsLog: LGActor.gen.cpp
+[2018.07.24-09.13.57:358][221]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.13.57:359][221]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.13.57:359][221]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.13.57:360][221]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.13.57:360][221]CompilerResultsLog: LGGameInstance.gen.cpp
+[2018.07.24-09.13.57:361][221]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.13.57:361][221]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.13.57:362][221]CompilerResultsLog: LGActor.cpp
+[2018.07.24-09.13.57:362][221]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C3646: 'StreamableManager': unknown override specifier
+[2018.07.24-09.13.57:362][221]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(34) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2018.07.24-09.13.57:363][221]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2039: 'StreamableManager': is not a member of 'LGPersistentData'
+[2018.07.24-09.13.57:363][221]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGGameInstance.h(31) : note: see declaration of 'LGPersistentData'
+[2018.07.24-09.13.57:364][221]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(40) : error C2228: left of '.SynchronousLoad' must have class/struct/union
+[2018.07.24-09.13.57:364][221]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGGameInstance.cpp(75) : error C2614: 'LGPersistentData': illegal member initialization: 'StreamableManager' is not a base or member
+[2018.07.24-09.13.57:365][221]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-4197.dll
+[2018.07.24-09.13.57:365][221]CompilerResultsLog: Total build time: 18.27 seconds (Local executor: 0.00 seconds)
+[2018.07.24-09.13.57:365][221]LogMainFrame: MainFrame: Module compiling took 18.732 seconds
+[2018.07.24-09.13.57:366][221]Warning: HotReload failed, recompile failed
+[2018.07.24-09.38.17:461][600]Candidate modules for hot reload:
+[2018.07.24-09.38.17:462][600]  LianeGame
+[2018.07.24-09.38.17:462][600]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,3464 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-09.38.17:464][600]Warning: Starting HotReload took  0.1s.
+[2018.07.24-09.38.51:266][655]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 7:38:51 PM
+[2018.07.24-09.38.51:268][655]CompilerResultsLog: Creating makefile for hot reloading LianeGame (modules to compile have changed)
+[2018.07.24-09.38.51:268][655]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-09.38.51:269][655]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.24-09.38.51:270][655]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.24-09.38.51:271][655]CompilerResultsLog: Reflection code generated for LianeGameEditor in 10.2813112 seconds
+[2018.07.24-09.38.51:271][655]CompilerResultsLog: Performing 7 actions (4 in parallel)
+[2018.07.24-09.38.51:272][655]CompilerResultsLog: LGActor.gen.cpp
+[2018.07.24-09.38.51:272][655]CompilerResultsLog: LGActor.cpp
+[2018.07.24-09.38.51:272][655]CompilerResultsLog: LGUtility.cpp
+[2018.07.24-09.38.51:272][655]CompilerResultsLog: LGGameInstance.cpp
+[2018.07.24-09.38.51:272][655]CompilerResultsLog: LGGameInstance.gen.cpp
+[2018.07.24-09.38.51:272][655]CompilerResultsLog: [6/7] Link UE4Editor-LianeGame-3464.dll
+[2018.07.24-09.38.51:272][655]CompilerResultsLog: [7/7] Link UE4Editor-LianeGame-3464.lib
+[2018.07.24-09.38.51:272][655]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3464.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3464.exp
+[2018.07.24-09.38.51:273][655]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3464.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3464.suppressed.exp
+[2018.07.24-09.38.51:274][655]CompilerResultsLog: Total build time: 33.50 seconds (Local executor: 16.67 seconds)
+[2018.07.24-09.38.51:274][655]LogMainFrame: MainFrame: Module compiling took 33.829 seconds
+[2018.07.24-09.38.51:307][655]LogClass: Could not find existing class LGActor in package /Script/LianeGame for HotReload, assuming new class
+[2018.07.24-09.38.51:307][655]LogClass: Could not find existing class LGGameInstance in package /Script/LianeGame for HotReload, assuming new class
+[2018.07.24-09.38.51:308][655]LogClass: Function AddToSoundWaveList is new.
+[2018.07.24-09.38.51:308][655]LogClass: Function GetSoundWaveFromList is new.
+[2018.07.24-09.38.51:311][655]LogClass: Could not find existing type SoundResult for HotReload. Assuming new
+[2018.07.24-09.38.51:315][655]LogContentBrowser: Native class hierarchy updated for 'LianeGame' in 0.0008 seconds. Added 5 classes and 2 folders.
+[2018.07.24-09.38.51:317][655]Display: HotReload successful (8 functions remapped  1 scriptstructs remapped)
+[2018.07.24-09.38.51:366][655]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2458 classes and 562 folders.
+[2018.07.24-09.38.51:366][655]Display: HotReload took 34.0s.
+[2018.07.24-09.40.49:106][429]Candidate modules for hot reload:
+[2018.07.24-09.40.49:106][429]  LianeGame
+[2018.07.24-09.40.49:107][429]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,1114 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-09.40.49:109][429]Warning: Starting HotReload took  0.0s.
+[2018.07.24-09.41.15:472][840]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 7:41:15 PM
+[2018.07.24-09.41.15:472][840]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-09.41.15:472][840]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.24-09.41.15:472][840]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.24-09.41.15:473][840]CompilerResultsLog: Reflection code generated for LianeGameEditor in 10.5799768 seconds
+[2018.07.24-09.41.15:473][840]CompilerResultsLog: Performing 7 actions (4 in parallel)
+[2018.07.24-09.41.15:473][840]CompilerResultsLog: LGUtility.cpp
+[2018.07.24-09.41.15:473][840]CompilerResultsLog: LGGameInstance.cpp
+[2018.07.24-09.41.15:474][840]CompilerResultsLog: LGActor.gen.cpp
+[2018.07.24-09.41.15:474][840]CompilerResultsLog: LGActor.cpp
+[2018.07.24-09.41.15:474][840]CompilerResultsLog: LGGameInstance.gen.cpp
+[2018.07.24-09.41.15:474][840]CompilerResultsLog: [6/7] Link UE4Editor-LianeGame-1114.dll
+[2018.07.24-09.41.15:474][840]CompilerResultsLog: [7/7] Link UE4Editor-LianeGame-1114.lib
+[2018.07.24-09.41.15:474][840]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-1114.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-1114.exp
+[2018.07.24-09.41.15:475][840]CompilerResultsLog:    Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-1114.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-1114.suppressed.exp
+[2018.07.24-09.41.15:475][840]CompilerResultsLog: Total build time: 26.07 seconds (Local executor: 14.64 seconds)
+[2018.07.24-09.41.15:475][840]LogMainFrame: MainFrame: Module compiling took 26.387 seconds
+[2018.07.24-09.41.15:502][840]LogClass: SoundResult HotReload.
+[2018.07.24-09.41.15:507][840]LogContentBrowser: Native class hierarchy updated for 'LianeGame' in 0.0009 seconds. Added 5 classes and 2 folders.
+[2018.07.24-09.41.15:509][840]Display: HotReload successful (10 functions remapped  1 scriptstructs remapped)
+[2018.07.24-09.41.15:560][840]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2458 classes and 562 folders.
+[2018.07.24-09.41.15:560][840]Display: HotReload took 26.5s.
+[2018.07.24-09.45.12:533][552]Candidate modules for hot reload:
+[2018.07.24-09.45.12:533][552]  LianeGame
+[2018.07.24-09.45.12:533][552]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,6815 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-09.45.12:535][552]Warning: Starting HotReload took  0.0s.
+[2018.07.24-09.45.13:444][653]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 7:45:13 PM
+[2018.07.24-09.45.13:444][653]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-09.45.13:444][653]CompilerResultsLog: Target is up to date
+[2018.07.24-09.45.13:444][653]CompilerResultsLog: Total build time: 0.72 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.07.24-09.45.13:445][653]LogMainFrame: MainFrame: Module compiling took 0.928 seconds
+[2018.07.24-09.45.13:472][653]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2458 classes and 562 folders.
+[2018.07.24-09.45.13:472][653]Display: HotReload took  1.0s.
+[2018.07.24-09.45.13:834][673]LogSavePackage: Save=112.93ms
+[2018.07.24-09.45.13:834][673]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonExampleMap35E927824F35DAD391C976A8BF8357B7.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.07.24-09.45.13:848][673]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2018.07.24-09.45.14:204][673]LogSavePackage: Save=222.23ms
+[2018.07.24-09.45.14:204][673]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonExampleMap_BuiltData06CC6FF1448CA982C3DC08B8A05D3E3C.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.07.24-09.45.14:206][673]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.07.24-09.45.20:090][346]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.24-09.45.20:111][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.24-09.45.20:112][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.24-09.45.20:112][346]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 23, 2018, 7:45:20 PM)
+[2018.07.24-09.45.20:113][346]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.07.24-09.45.20:139][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025926s)
+[2018.07.24-09.45.20:140][346]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.07.24-09.45.20:140][346]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2018.07.24-09.45.20:140][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027632s)
+[2018.07.24-09.45.20:170][346]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.24-09.45.20:179][346]LogInit: FAudioDevice initialized.
+[2018.07.24-09.45.20:220][346]LogLoad: Game class is 'LianeGameGameMode'
+[2018.07.24-09.45.20:223][346]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.07.24-02.45.20
+[2018.07.24-09.45.20:224][346]LogWorld: Bringing up level for play took: 0.002826
+[2018.07.24-09.45.20:417][346]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.07.24-09.45.20:418][346]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.644
+[2018.07.24-09.45.20:418][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.24-09.45.25:415][928]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.24-09.45.25:447][928]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.07.24-09.49.28:640][604]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3ce65878-131a-4db2-a92d-e7b1dad6b505} was removed. Shutting down audio device.
+[2018.07.24-09.49.28:640][604]LogInit: XAudio2 using 'E24-C1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.24-09.55.41:271][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.24-09.55.41:366][727]Candidate modules for hot reload:
+[2018.07.24-09.55.41:366][727]  LianeGame
+[2018.07.24-09.55.41:366][727]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,1989 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-09.55.41:368][727]Warning: Starting HotReload took  0.0s.
+[2018.07.24-09.55.54:321][  7]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 7:55:54 PM
+[2018.07.24-09.55.54:323][  7]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-09.55.54:323][  7]CompilerResultsLog: Parsing headers for LianeGameEditor
+[2018.07.24-09.55.54:324][  7]CompilerResultsLog:   Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.07.24-09.55.54:327][  7]CompilerResultsLog: Reflection code generated for LianeGameEditor in 10.3054241 seconds
+[2018.07.24-09.55.54:328][  7]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.07.24-09.55.54:329][  7]CompilerResultsLog: LGWeapon.gen.cpp
+[2018.07.24-09.55.54:329][  7]CompilerResultsLog: LianeGame.init.gen.cpp
+[2018.07.24-09.55.54:330][  7]CompilerResultsLog: LGWeapon.cpp
+[2018.07.24-09.55.54:330][  7]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGWeapon.h(41) : error C3668: 'ALGWeapon::SetLGOwner': method with override specifier 'override' did not override any base class methods
+[2018.07.24-09.55.54:332][  7]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGWeapon.h(41) : error C3668: 'ALGWeapon::SetLGOwner': method with override specifier 'override' did not override any base class methods
+[2018.07.24-09.55.54:333][  7]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGWeapon.h(42) : error C3668: 'ALGWeapon::UnSetLGOwner': method with override specifier 'override' did not override any base class methods
+[2018.07.24-09.55.54:334][  7]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGWeapon.h(42) : error C3668: 'ALGWeapon::UnSetLGOwner': method with override specifier 'override' did not override any base class methods
+[2018.07.24-09.55.54:335][  7]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-1989.dll
+[2018.07.24-09.55.54:336][  7]CompilerResultsLog: Total build time: 12.46 seconds (Local executor: 0.00 seconds)
+[2018.07.24-09.55.54:337][  7]LogMainFrame: MainFrame: Module compiling took 12.989 seconds
+[2018.07.24-09.55.54:337][  7]Warning: HotReload failed, recompile failed
+[2018.07.24-09.57.32:459][911]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-09.57.32:463][911]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-09.58.37:226][451]Candidate modules for hot reload:
+[2018.07.24-09.58.37:227][451]  LianeGame
+[2018.07.24-09.58.37:227][451]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,4254 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-09.58.37:230][451]Warning: Starting HotReload took  0.1s.
+[2018.07.24-09.58.39:731][701]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 7:58:39 PM
+[2018.07.24-09.58.39:732][701]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-09.58.39:732][701]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.07.24-09.58.39:732][701]CompilerResultsLog: LGWeapon.cpp
+[2018.07.24-09.58.39:732][701]CompilerResultsLog: LGWeapon.gen.cpp
+[2018.07.24-09.58.39:732][701]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGWeapon.cpp(3) : fatal error C1083: Cannot open include file: 'LG.h': No such file or directory
+[2018.07.24-09.58.39:732][701]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGWeapon.h(41) : error C3668: 'ALGWeapon::SetLGOwner': method with override specifier 'override' did not override any base class methods
+[2018.07.24-09.58.39:733][701]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGWeapon.h(42) : error C3668: 'ALGWeapon::UnSetLGOwner': method with override specifier 'override' did not override any base class methods
+[2018.07.24-09.58.39:733][701]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-4254.dll
+[2018.07.24-09.58.39:733][701]CompilerResultsLog: Total build time: 2.28 seconds (Local executor: 0.00 seconds)
+[2018.07.24-09.58.39:733][701]LogMainFrame: MainFrame: Module compiling took 2.543 seconds
+[2018.07.24-09.58.39:734][701]Warning: HotReload failed, recompile failed
+[2018.07.24-10.00.12:785][ 96]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-10.00.12:804][ 96]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-10.00.13:657][184]Candidate modules for hot reload:
+[2018.07.24-10.00.13:657][184]  LianeGame
+[2018.07.24-10.00.13:657][184]Launching UnrealBuildTool... [G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe LianeGame -ModuleWithSuffix=LianeGame,6107 Win64 Development -editorrecompile -canskiplink "G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/LianeGame.uproject" ]
+[2018.07.24-10.00.13:659][184]Warning: Starting HotReload took  0.0s.
+[2018.07.24-10.00.28:373][742]CompilerResultsLog: New page: Compilation - Jul 23, 2018, 8:00:28 PM
+[2018.07.24-10.00.28:374][742]CompilerResultsLog: Compiling game modules for hot reload
+[2018.07.24-10.00.28:374][742]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.07.24-10.00.28:374][742]CompilerResultsLog: LianeGameCharacter.cpp
+[2018.07.24-10.00.28:374][742]CompilerResultsLog: LGWeapon.cpp
+[2018.07.24-10.00.28:374][742]CompilerResultsLog: LGWeapon.gen.cpp
+[2018.07.24-10.00.28:374][742]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGWeapon.h(41) : error C3668: 'ALGWeapon::SetLGOwner': method with override specifier 'override' did not override any base class methods
+[2018.07.24-10.00.28:375][742]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGWeapon.h(42) : error C3668: 'ALGWeapon::UnSetLGOwner': method with override specifier 'override' did not override any base class methods
+[2018.07.24-10.00.28:375][742]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGWeapon.h(41) : error C3668: 'ALGWeapon::SetLGOwner': method with override specifier 'override' did not override any base class methods
+[2018.07.24-10.00.28:376][742]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LGWeapon.h(42) : error C3668: 'ALGWeapon::UnSetLGOwner': method with override specifier 'override' did not override any base class methods
+[2018.07.24-10.00.28:376][742]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LianeGameCharacter.cpp(136) : warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.07.24-10.00.28:376][742]CompilerResultsLog: Error: G:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(89) : note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
+[2018.07.24-10.00.28:377][742]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGWeapon.cpp(42) : error C2039: 'PickUpWeapon': is not a member of 'ALianeGameCharacter'
+[2018.07.24-10.00.28:377][742]CompilerResultsLog: Error: g:\users\nicholaus\documents\lianerepo\developers\nick price\lianegame\source\lianegame\LianeGameCharacter.h(15) : note: see declaration of 'ALianeGameCharacter'
+[2018.07.24-10.00.28:378][742]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGWeapon.cpp(48) : error C2039: 'SetLGOwner': is not a member of 'AActor'
+[2018.07.24-10.00.28:378][742]CompilerResultsLog: Error: G:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshSocket.h(11) : note: see declaration of 'AActor'
+[2018.07.24-10.00.28:379][742]CompilerResultsLog: Error: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LGWeapon.cpp(56) : error C2039: 'SetLGOwner': is not a member of 'AActor'
+[2018.07.24-10.00.28:379][742]CompilerResultsLog: Error: G:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshSocket.h(11) : note: see declaration of 'AActor'
+[2018.07.24-10.00.28:380][742]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-6107.dll
+[2018.07.24-10.00.28:380][742]CompilerResultsLog: Total build time: 14.47 seconds (Local executor: 0.00 seconds)
+[2018.07.24-10.00.28:380][742]LogMainFrame: MainFrame: Module compiling took 14.739 seconds
+[2018.07.24-10.00.28:380][742]Warning: HotReload failed, recompile failed
+[2018.07.24-10.07.42:149][251]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-10.07.42:155][251]LogSlate: Window 'Message Log' being destroyed
+[2018.07.24-20.01.58:461][466]LogRenderer: Reallocating scene render targets to support 1036x600 Format 10 NumSamples 1 (Frame:84154).
+[2018.07.24-20.32.55:700][ 35]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.24-21.21.40:701][810]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3ce65878-131a-4db2-a92d-e7b1dad6b505} was removed. Shutting down audio device.
+[2018.07.24-21.21.40:701][810]LogInit: XAudio2 using 'E24-C1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.24-21.41.19:201][683]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.24-22.35.01:896][351]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3ce65878-131a-4db2-a92d-e7b1dad6b505} was removed. Shutting down audio device.
+[2018.07.24-22.35.01:897][351]LogInit: XAudio2 using 'E24-C1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.24-22.42.40:233][726]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.24-23.58.58:460][460]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3ce65878-131a-4db2-a92d-e7b1dad6b505} was removed. Shutting down audio device.
+[2018.07.24-23.58.58:461][460]LogInit: XAudio2 using 'E24-C1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.25-05.17.39:124][619]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.25-05.17.39:474][620]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.25-05.30.57:748][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.25-05.52.41:465][ 52]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.07.25-05.52.41:912][ 52]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231589fcb70, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.25-05.52.41:913][ 52]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231589fcb68, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.25-05.52.42:878][ 53]LogSlate: Took 0.004437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.25-05.53.23:651][859]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023191fe8b80, Size=2280, Default__ThirdPersonCharacter_C Function /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.25-05.53.23:722][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:725][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:727][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:728][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'KeyCard1' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:729][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'KeyCard2' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:729][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'KeyCard3' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:730][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'AudioLog1' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:730][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'AudioLog2' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:731][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'AudioLog3' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:732][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:732][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:733][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:734][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'Document1' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:734][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'Document2' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:735][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'Document3' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:736][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:737][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:737][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:738][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:740][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'TextBlock_37' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:742][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'Searched' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:747][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:747][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set IsInTK : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:748][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set : 'IsThrowing' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:748][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set IsThrowing : 'IsThrowing' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:749][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:749][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set IsInTK : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:750][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'IsThrowing' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:751][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set : 'IsThrowing' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:751][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Set IsThrowing : 'IsThrowing' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:753][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:753][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:755][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Get : 'IsInTK' variable not found. Base class was probably changed. /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.07.25-05.53.23:761][859]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023191fe8b80, Size=2280
+[2018.07.25-05.53.23:761][859]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023192792b00, Size=2280, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_24:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.25-05.53.23:787][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:788][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:789][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:789][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:790][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:790][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:791][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:791][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:791][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:791][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:792][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:793][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:794][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:795][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  Create Widget  must have a class specified.
+[2018.07.25-05.53.23:797][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get IsInTK
+[2018.07.25-05.53.23:797][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:798][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.25-05.53.23:798][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:798][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get IsInTK
+[2018.07.25-05.53.23:799][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsThrowing" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsThrowing
+[2018.07.25-05.53.23:799][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsThrowing" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get IsThrowing
+[2018.07.25-05.53.23:800][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:800][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:800][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.25-05.53.23:801][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:801][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsInTK
+[2018.07.25-05.53.23:802][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:802][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.25-05.53.23:803][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:803][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:804][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.25-05.53.23:804][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:805][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsThrowing" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsThrowing
+[2018.07.25-05.53.23:806][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "IsInTK" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set IsInTK
+[2018.07.25-05.53.23:806][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:807][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As ABP Anna  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.25-05.53.23:809][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:809][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "Searched" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get Searched
+[2018.07.25-05.53.23:810][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  <Unnamed>  no longer exists on node  Create Search UI . Please refresh node or break links to remove pin.
+[2018.07.25-05.53.23:811][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  Target  no longer exists on node  Create Search UI . Please refresh node or break links to remove pin.
+[2018.07.25-05.53.23:811][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Could not find a function named "CreateSearchUI" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Create Search UI
+[2018.07.25-05.53.23:812][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Object to Search : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:812][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As Searchable Desk 1  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.25-05.53.23:813][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object to Search  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:813][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:814][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.25-05.53.23:815][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.25-05.53.23:816][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.25-05.53.23:816][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.25-05.53.23:817][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "Document3" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get Document3
+[2018.07.25-05.53.23:817][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "Document2" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get Document2
+[2018.07.25-05.53.23:818][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "Document1" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get Document1
+[2018.07.25-05.53.23:818][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.25-05.53.23:819][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.25-05.53.23:819][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.25-05.53.23:820][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "AudioLog3" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get AudioLog3
+[2018.07.25-05.53.23:820][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "AudioLog2" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get AudioLog2
+[2018.07.25-05.53.23:821][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "AudioLog1" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get AudioLog1
+[2018.07.25-05.53.23:821][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "KeyCard3" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get KeyCard3
+[2018.07.25-05.53.23:821][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "KeyCard2" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get KeyCard2
+[2018.07.25-05.53.23:822][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "KeyCard1" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get KeyCard1
+[2018.07.25-05.53.23:822][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.25-05.53.23:823][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.25-05.53.23:824][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.25-05.53.23:825][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:825][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As Master BP  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.25-05.53.23:826][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "TextBlock_37" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Get TextBlock_37
+[2018.07.25-05.53.23:827][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:829][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'Light' for  InputAction Light
+[2018.07.25-05.53.23:830][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'Aim' for  InputAction Aim
+[2018.07.25-05.53.23:830][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.07.25-05.53.23:833][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Set Inspection Object  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:834][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Set Inspection Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:834][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As Master BP  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.25-05.53.23:835][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Set Inspection Object  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:835][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Object  and  Set Inspection Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.07.25-05.53.23:836][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] In use pin  As Master BP  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2018.07.25-05.53.23:842][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Searched  could not be found
+[2018.07.25-05.53.23:844][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.25-05.53.23:844][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is Throwing  could not be found
+[2018.07.25-05.53.23:845][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.25-05.53.23:845][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.25-05.53.23:845][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is Throwing  could not be found
+[2018.07.25-05.53.23:846][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is Throwing  could not be found
+[2018.07.25-05.53.23:846][859]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Is in TK  could not be found
+[2018.07.25-05.53.23:851][859]LogUObjectGlobals: Created PersistentFrame Addr=0x00000231793a1600, Size=2280, Default__ThirdPersonCharacter_C Function /Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.07.25-05.53.23:856][859]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [1099.37] Compile of ThirdPersonCharacter failed. 54 Fatal Issue(s) 64 Warning(s) [in 142 ms] (/Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.07.25-05.53.30:621][160]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2018.07.25-06.13.22:965][715]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3ce65878-131a-4db2-a92d-e7b1dad6b505} was removed. Shutting down audio device.
+[2018.07.25-06.13.22:965][715]LogInit: XAudio2 using 'E24-C1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.25-06.14.34:312][318]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023192792b00, Size=2280
+[2018.07.25-06.14.34:315][318]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.040
+[2018.07.25-06.14.34:319][318]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.07.25-06.14.34:319][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.07.25-06.14.34:788][318]LogSavePackage: Save=437.20ms
+[2018.07.25-06.14.34:789][318]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonCharacter_Auto1E39306F241236C3988D70CADC39B21F9.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2018.07.25-06.14.34:791][318]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Autosaves/Game/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset
+[2018.07.25-06.14.34:792][318]LogFileHelpers: Auto-saving content packages took 0.475
+[2018.07.25-07.06.33:610][675]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.25-07.51.09:001][701]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3ce65878-131a-4db2-a92d-e7b1dad6b505} was removed. Shutting down audio device.
+[2018.07.25-07.51.09:001][701]LogInit: XAudio2 using 'E24-C1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.25-20.28.04:799][723]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.07.25-20.36.56:465][313]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.25-20.36.56:848][314]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.26-04.39.18:851][811]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.07.26-04.39.20:182][811]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3ce65878-131a-4db2-a92d-e7b1dad6b505} was removed. Shutting down audio device.
+[2018.07.26-04.39.20:183][811]LogInit: XAudio2 using 'E24-C1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.26-04.39.45:962][888]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.26-04.39.46:306][889]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.26-04.50.23:782][920]LogSlate: Window 'Save Content' being destroyed
+[2018.07.26-04.50.24:250][920]LogSavePackage: Save=417.29ms
+[2018.07.26-04.50.24:251][920]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/ThirdPersonCharacterC152B5BC43FE71CD881FE3A8826A5AD4.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.07.26-04.50.24:257][920]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/OldPrototypeAssets/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.07.26-04.50.24:574][920]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.26-04.50.24:640][920]LogSlate: Window 'LianeGame - Unreal Editor' being destroyed
+[2018.07.26-04.50.24:835][921]Cmd: QUIT_EDITOR
+[2018.07.26-04.50.25:655][921]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.26-04.50.25:676][921]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.07.26-04.50.25:677][921]LogExit: Preparing to exit.
+[2018.07.26-04.50.26:077][921]LogDirectoryWatcher: A directory notification for 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/' was aborted.
+[2018.07.26-04.50.26:111][921]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023153cab1f0, Size=72
+[2018.07.26-04.50.26:111][921]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231548b1600, Size=424
+[2018.07.26-04.50.26:116][921]LogExit: Editor shut down
+[2018.07.26-04.50.26:120][921]LogExit: Transaction tracking system shut down
+[2018.07.26-04.50.26:123][921]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231589fcb70, Size=4
+[2018.07.26-04.50.26:123][921]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231589fcb68, Size=4
+[2018.07.26-04.50.26:125][921]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000231793a1600, Size=2280
+[2018.07.26-04.50.26:212][921]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.07.26-04.50.26:212][921]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/' was aborted.
+[2018.07.26-04.50.26:212][921]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.07.26-04.50.26:212][921]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.07.26-04.50.26:212][921]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.07.26-04.50.26:212][921]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.07.26-04.50.26:212][921]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.07.26-04.50.26:212][921]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.07.26-04.50.26:360][921]LogExit: Object subsystem successfully closed.
+[2018.07.26-04.50.26:379][921]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.07.26-04.50.26:386][921]LogD3D11RHI: Shutdown
+[2018.07.26-04.50.26:386][921]LogD3D11RHI: CleanupD3DDevice
+[2018.07.26-04.50.26:408][921]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.07.26-04.50.26:424][921]LogModuleManager: Shutting down and abandoning module BlueprintGraph (583)
+[2018.07.26-04.50.26:424][921]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (581)
+[2018.07.26-04.50.26:424][921]LogModuleManager: Shutting down and abandoning module LianeGame (579)
+[2018.07.26-04.50.26:424][921]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.07.26-04.50.26:424][921]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2018.07.26-04.50.26:424][921]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.07.26-04.50.26:424][921]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.07.26-04.50.26:424][921]LogDirectoryWatcher: A directory notification for 'G:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.07.26-04.50.26:427][921]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.07.26-04.50.26:427][921]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.07.26-04.50.26:427][921]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.07.26-04.50.26:427][921]LogDirectoryWatcher: A directory notification for 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/Collections/' was aborted.
+[2018.07.26-04.50.26:427][921]LogDirectoryWatcher: A directory notification for 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Content/Developers/Nicholaus/Collections/' was aborted.
+[2018.07.26-04.50.26:427][921]LogDirectoryWatcher: A directory notification for 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Saved/Collections/' was aborted.
+[2018.07.26-04.50.26:427][921]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.07.26-04.50.26:428][921]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.07.26-04.50.26:429][921]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.07.26-04.50.26:430][921]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.07.26-04.50.26:430][921]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.07.26-04.50.26:430][921]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.07.26-04.50.26:430][921]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.07.26-04.50.26:430][921]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.07.26-04.50.26:430][921]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.07.26-04.50.27:057][921]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.07.26-04.50.27:057][921]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.07.26-04.50.27:057][921]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.07.26-04.50.27:057][921]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.07.26-04.50.27:057][921]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.07.26-04.50.27:057][921]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.07.26-04.50.27:058][921]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.07.26-04.50.27:114][921]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.07.26-04.50.27:114][921]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.07.26-04.50.27:114][921]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.07.26-04.50.27:114][921]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.07.26-04.50.27:114][921]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.07.26-04.50.27:114][921]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.07.26-04.50.27:114][921]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.07.26-04.50.27:114][921]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.07.26-04.50.27:114][921]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.07.26-04.50.27:114][921]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.07.26-04.50.27:119][921]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.07.26-04.50.27:120][921]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.07.26-04.50.27:121][921]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.07.26-04.50.27:122][921]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.07.26-04.50.27:122][921]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.07.26-04.50.27:122][921]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2018.07.26-04.50.27:130][921]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2018.07.26-04.50.27:130][921]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.07.26-04.50.27:131][921]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.07.26-04.50.27:134][921]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.07.26-04.50.27:135][921]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.07.26-04.50.27:135][921]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.07.26-04.50.27:135][921]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.07.26-04.50.27:140][921]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.07.26-04.50.27:241][921]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.07.26-04.50.27:342][921]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.07.26-04.50.27:342][921]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.07.26-04.50.27:342][921]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.07.26-04.50.27:342][921]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.07.26-04.50.27:342][921]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.07.26-04.50.27:342][921]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.07.26-04.50.27:343][921]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.07.26-04.50.27:343][921]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.07.26-04.50.27:343][921]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.07.26-04.50.27:343][921]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.07.26-04.50.27:343][921]LogDirectoryWatcher: A directory notification for 'G:/Users/Nicholaus/Documents/LianeRepo/Developers/Nick Price/LianeGame/Binaries/Win64' was aborted.
+[2018.07.26-04.50.27:343][921]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.07.26-04.50.27:345][921]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.07.26-04.50.27:345][921]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.07.26-04.50.27:345][921]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.07.26-04.50.27:345][921]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.07.26-04.50.28:020][921]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.07.26-04.50.28:021][921]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.07.26-04.50.28:021][921]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.07.26-04.50.28:022][921]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.07.26-04.50.28:028][921]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.07.26-04.50.28:029][921]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.07.26-04.50.28:029][921]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.07.26-04.50.28:029][921]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.07.26-04.50.28:029][921]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.07.26-04.50.28:029][921]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.07.26-04.50.28:029][921]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.07.26-04.50.28:029][921]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.07.26-04.50.28:029][921]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.07.26-04.50.28:032][921]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.07.26-04.50.28:033][921]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.07.26-04.50.28:046][921]LogDerivedDataCache: Shutdown
+[2018.07.26-04.50.28:046][921]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.07.26-04.50.28:046][921]LogXGEController: Cleaning working directory: C:/Users/Nicholaus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.07.26-04.50.28:047][921]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.07.26-04.50.28:048][921]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.07.26-04.50.28:049][921]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.07.26-04.50.28:049][921]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.07.26-04.50.28:049][921]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.07.26-04.50.28:049][921]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.07.26-04.50.28:049][921]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.07.26-04.50.28:049][921]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.07.26-04.50.28:049][921]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B155A1B62-449C-F3E0-28F3-DC9DD2EFCB16%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=a6ce6b894be0bacd65eb7dbd7d089076%7C238961097ff24549b5636e54d1a5be08%7Cb77259cb-d6bf-4efb-aa59-b427f71ffbb1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.07.26-04.50.28:083][921]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.07.26-04.50.28:084][921]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.07.26-04.50.28:084][921]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.07.26-04.50.28:084][921]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.07.26-04.50.28:084][921]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.07.26-04.50.28:084][921]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.07.26-04.50.28:085][921]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.07.26-04.50.28:085][921]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.07.26-04.50.28:086][921]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.07.26-04.50.28:086][921]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.07.26-04.50.28:086][921]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.07.26-04.50.28:086][921]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.07.26-04.50.28:086][921]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.07.26-04.50.28:086][921]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.07.26-04.50.28:086][921]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.07.26-04.50.28:086][921]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.07.26-04.50.28:086][921]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.07.26-04.50.28:086][921]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.07.26-04.50.28:086][921]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.07.26-04.50.28:092][921]LogExit: Exiting.
+[2018.07.26-04.50.28:115][921]Log file closed, 07/25/18 21:50:28
