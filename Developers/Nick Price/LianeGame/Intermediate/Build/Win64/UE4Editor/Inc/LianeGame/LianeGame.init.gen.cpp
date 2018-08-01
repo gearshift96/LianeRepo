@@ -25,8 +25,8 @@ void EmptyLinkFunctionForGeneratedCodeLianeGame_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/LianeGame",
 				PKG_CompiledIn | 0x00000000,
-				0xA84B30BF,
-				0xD9E84D3D,
+				0xD4183E36,
+				0xE0B53924,
 				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};

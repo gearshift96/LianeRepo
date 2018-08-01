@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\LianeGame.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{8E679735-5127-457C-9AE2-BEF999801202}</UniqueIdentifier>
+			<UniqueIdentifier>{D7331922-00E2-4973-8024-50F163AAB4F9}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\LianeGame.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{CF42E845-51A5-4BC5-B2C2-53B3BA8C4D98}</UniqueIdentifier>
+			<UniqueIdentifier>{F3D1611E-5783-432B-9290-915CF9A552BE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\LianeGame">
-			<UniqueIdentifier>{FE6E7545-6D92-4575-B0C8-6A88E76481CE}</UniqueIdentifier>
+			<UniqueIdentifier>{0726C39A-675F-44D1-888D-C060C3FD083D}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\LianeGame\HealthComponent.cpp">
 			<Filter>Source\LianeGame</Filter>
@@ -88,6 +88,12 @@
 			<Filter>Source\LianeGame</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\LianeGame\LianeGameGameMode.h">
+			<Filter>Source\LianeGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\LianeGame\TKShield.cpp">
+			<Filter>Source\LianeGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\LianeGame\TKShield.h">
 			<Filter>Source\LianeGame</Filter>
 		</ClInclude >
 	</ItemGroup>

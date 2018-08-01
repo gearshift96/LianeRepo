@@ -1,56 +1,14 @@
-﻿  Creating makefile for LianeGameEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
+﻿  Compiling game modules for hot reload
   Parsing headers for LianeGameEditor
     Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for LianeGameEditor in 11.2165472 seconds
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-1509.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-1509.pdb".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-2782.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-2782.pdb".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-2826.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-2826.pdb".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-3521.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-3521.pdb".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-4508.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-4508.pdb".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-4592.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-4592.pdb".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-6210.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-6210.pdb".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-7016.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-7016.pdb".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-7163.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-7163.pdb".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-7496.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-7496.pdb".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-7871.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-7871.pdb".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-8124.dll".
-  Deleting old hot reload file: "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Binaries\Win64\UE4Editor-LianeGame-8124.pdb".
-  Performing 22 actions (4 in parallel)
-  [3/22] Resource ModuleVersionResource.rc.inl
-  [2/22] Resource PCLaunch.rc
-  SharedPCH.Engine.cpp
-  LianeDeBugHelper.gen.cpp
-  LianeGameGameMode.cpp
-  LGWeapon.gen.cpp
+  Reflection code generated for LianeGameEditor in 19.9033181 seconds
+  Performing 5 actions (4 in parallel)
+  TKShield.gen.cpp
   LianeGame.init.gen.cpp
-  LGGameInstance.gen.cpp
-  LGActor.gen.cpp
-  HealthComponent.gen.cpp
-  LianeGameCharacter.gen.cpp
-  LianeGameCharacter.cpp
-  LianeDeBugHelper.cpp
-  LGWeapon.cpp
-  LGUtility.cpp
-  LGGameInstance.cpp
-  LGActor.cpp
-  HealthComponent.cpp
-  LianeGame.cpp
-  LianeGameGameMode.gen.cpp
-  [21/22] Link UE4Editor-LianeGame.dll
-  [22/22] Link UE4Editor-LianeGame.lib
-     Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame.exp
-     Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame.suppressed.exp
+  TKShield.cpp
+  [4/5] Link UE4Editor-LianeGame-3049.dll
+  [5/5] Link UE4Editor-LianeGame-3049.lib
+     Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3049.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3049.exp
+     Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3049.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3049.suppressed.exp
   Deploying LianeGameEditor Win64 Development...
-  Total build time: 78.88 seconds (Local executor: 60.22 seconds)
+  Total build time: 23.79 seconds (Local executor: 2.44 seconds)
