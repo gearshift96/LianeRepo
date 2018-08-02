@@ -76,7 +76,7 @@ void ALianeGameCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	SetPhysicsHandleLocation();
-	FaceTKObject();
+	//FaceTKObject();
 
 	float TargetFOV = bWantsToZoom ? ZoomedFOV : DefaultFOV;
 	float NewFOV = FMath::FInterpTo(FollowCamera->FieldOfView, TargetFOV, DeltaTime, ZoomInterpSpeed);
@@ -198,7 +198,7 @@ void ALianeGameCharacter::Grab()
 			true // allow rotation
 		);
 		ComponentToGrab->SetEnableGravity(false);
-		
+		FaceTKObject();
 	}
 }
 
@@ -242,6 +242,10 @@ void ALianeGameCharacter::FaceTKObject()
 		{
 			auto PlayerLoc = this->GetActorLocation();
 			auto GrabbedComponentLoc = GrabbedComponent->GetComponentLocation();
+
+			auto Direction = PlayerLoc - GrabbedComponentLoc;
+			//FRotator GrabbedComponentRot = FRotationMatrix::MakeFromX(-Direction).Rotator();
+
 			auto GrabbedComponentRot = UKismetMathLibrary::FindLookAtRotation(FVector(0, PlayerLoc.Y, 0), FVector(0, GrabbedComponentLoc.Y,0));
 			GetCapsuleComponent()->SetWorldRotation(GrabbedComponentRot);
 		}

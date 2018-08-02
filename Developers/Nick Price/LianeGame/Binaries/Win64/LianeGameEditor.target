@@ -16,15 +16,15 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-LianeGame-6018.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-LianeGame-3151.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-LianeGame-6018.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-LianeGame-3151.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-LianeGame-6018.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-LianeGame-3151.lib",
 			"Type": "ImportLibrary"
 		},
 		{
