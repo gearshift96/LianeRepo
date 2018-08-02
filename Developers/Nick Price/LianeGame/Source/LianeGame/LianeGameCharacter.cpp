@@ -22,8 +22,8 @@ ALianeGameCharacter::ALianeGameCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	//set our telekinesis variables
-	//PullDirection = 105000.0f;
-	//ThrowStrength = 250000.0f;
+	ThrowStrength = 250000.0f;
+	Reach = 750.f;
 
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -66,8 +66,7 @@ ALianeGameCharacter::ALianeGameCharacter()
 void ALianeGameCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	//TK_Reach = 300.f;
-	//StoredRot = FRotator(0, 0, 0);
+
 	DefaultFOV = FollowCamera->FieldOfView;
 	HealthComp->OnHealthChanged.AddDynamic(this, &ALianeGameCharacter::OnHealthChanged);
 }
@@ -76,8 +75,8 @@ void ALianeGameCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	//SetPhysicsHandleLocation();
-	//FaceTKObject();
+	SetPhysicsHandleLocation();
+	FaceTKObject();
 
 	float TargetFOV = bWantsToZoom ? ZoomedFOV : DefaultFOV;
 	float NewFOV = FMath::FInterpTo(FollowCamera->FieldOfView, TargetFOV, DeltaTime, ZoomInterpSpeed);
@@ -119,7 +118,6 @@ void ALianeGameCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 	PlayerInputComponent->BindAction("ZoomAim", IE_Pressed, this, &ALianeGameCharacter::BeginZoom);
 	PlayerInputComponent->BindAction("ZoomAim", IE_Released, this, &ALianeGameCharacter::EndZoom);
 
-
 	//Axis bindings
 	PlayerInputComponent->BindAxis("LookUp", this, &ALianeGameCharacter::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("Turn", this, &ALianeGameCharacter::AddControllerYawInput);
@@ -128,6 +126,14 @@ void ALianeGameCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 	PlayerInputComponent->BindAxis("MoveLeftRight", this, &ALianeGameCharacter::MoveLeftRight);
 
 	//Telekinesis key bindings
+	PlayerInputComponent->BindAction("TKGrab", IE_Pressed, this, &ALianeGameCharacter::Grab);
+	PlayerInputComponent->BindAction("TKGrab", IE_Released, this, &ALianeGameCharacter::Release);
+
+	PlayerInputComponent->BindAction("TKThrow", IE_Pressed, this, &ALianeGameCharacter::TKThrow);
+
+	PlayerInputComponent->BindAction("TKShield", IE_Pressed, this, &ALianeGameCharacter::TKShield);
+
+	PlayerInputComponent->BindAction("TKHeal", IE_Pressed, this, &ALianeGameCharacter::TKHeal);
 }
 
 void ALianeGameCharacter::TurnAtRate(float Rate)
@@ -173,7 +179,6 @@ void ALianeGameCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 	DOREPLIFETIME(ALianeGameCharacter, bDied);
 }
 
-/*
 void ALianeGameCharacter::Grab()
 {
 	/// LINE TRACE and see if we reach any actors with physics body collision channel set
@@ -193,7 +198,7 @@ void ALianeGameCharacter::Grab()
 			true // allow rotation
 		);
 		ComponentToGrab->SetEnableGravity(false);
-		GetCharacterMovement()->MaxWalkSpeed = 0.f;
+		
 	}
 }
 
@@ -209,9 +214,7 @@ void ALianeGameCharacter::Release()
 		{
 			PhysicsHandle->ReleaseComponent();
 			ComponentGrabbed->SetEnableGravity(true);
-			TK_Reach = 300.f;	 //Reset the telekinesis reach
-			GetCharacterMovement()->MaxWalkSpeed = 600.f;
-			GetCapsuleComponent()->SetWorldRotation(StoredRot);
+			Reach = 750.f;	 //Reset the telekinesis reach
 		}
 }
 
@@ -239,17 +242,25 @@ void ALianeGameCharacter::FaceTKObject()
 		{
 			auto PlayerLoc = this->GetActorLocation();
 			auto GrabbedComponentLoc = GrabbedComponent->GetComponentLocation();
-			auto Direction = (PlayerLoc - GrabbedComponentLoc).GetSafeNormal();
-			auto GrabbedComponentRot = FRotationMatrix::MakeFromX(-Direction).Rotator();
+			auto GrabbedComponentRot = UKismetMathLibrary::FindLookAtRotation(FVector(0, PlayerLoc.Y, 0), FVector(0, GrabbedComponentLoc.Y,0));
 			GetCapsuleComponent()->SetWorldRotation(GrabbedComponentRot);
 		}
 }
 
+void ALianeGameCharacter::TKHeal()
+{
+
+}
+
+void ALianeGameCharacter::TKShield()
+{
+
+}
 
 void ALianeGameCharacter::SetPhysicsHandleLocation()
 {
 	auto FCLoc = FollowCamera->GetComponentLocation();
-	auto FCFVec = FollowCamera->GetForwardVector() * TK_Reach;
+	auto FCFVec = FollowCamera->GetForwardVector() * Reach;
 	auto FCTarLoc = FCLoc + FCFVec;
 
 	if (!PhysicsHandle) { return; }
@@ -301,6 +312,5 @@ FVector ALianeGameCharacter::GetTKReachLineEnd()
 		OUT PlayerViewPointLocation,
 		OUT PlayerViewPointRotation
 	);
-	return PlayerViewPointLocation + PlayerViewPointRotation.Vector() * TK_Reach;
+	return PlayerViewPointLocation + PlayerViewPointRotation.Vector() * 800;
 }
-*/

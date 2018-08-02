@@ -19,6 +19,54 @@ class AActor;
 
 #define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execTKShield) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TKShield(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTKHeal) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TKHeal(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFaceTKObject) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->FaceTKObject(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTKThrow) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TKThrow(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRelease) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Release(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGrab) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Grab(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnHealthChanged) \
 	{ \
 		P_GET_OBJECT(UHealthComponent,Z_Param_OwningHealthComp); \
@@ -35,6 +83,54 @@ class AActor;
 
 
 #define LianeGame_Source_LianeGame_LianeGameCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execTKShield) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TKShield(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTKHeal) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TKHeal(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execFaceTKObject) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->FaceTKObject(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execTKThrow) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->TKThrow(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execRelease) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Release(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGrab) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Grab(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnHealthChanged) \
 	{ \

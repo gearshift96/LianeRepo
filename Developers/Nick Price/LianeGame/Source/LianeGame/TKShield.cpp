@@ -29,9 +29,6 @@ ATKShield::ATKShield()
 	MeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShieldMesh"));
 	MeshComp->SetCanEverAffectNavigation(true);
 	MeshComp->SetupAttachment(RootComponent);
-
-	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComp"));
-	HealthComp->OnHealthChanged.AddDynamic(this, &ATKShield::HandleTakeDamage);
 	*/
 }
 

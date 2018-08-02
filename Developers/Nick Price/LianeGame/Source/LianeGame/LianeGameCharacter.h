@@ -27,13 +27,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 	float BaseLookUpRate;
 
-	//The direction which the grabbed object is pulled
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
-	float PullDirection;
-
 	// How far ahead of the player can we reach in cm
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
-	float TK_Reach;
+	float Reach;
 
 	//The strength of the telekinesis throw
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
@@ -83,7 +79,6 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 
-	/*
 	// Ray-cast and grab what's in reach
 	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
 	void Grab();
@@ -101,7 +96,7 @@ private:
 	void FaceTKObject();
 
 	//Recover the player's health
-	//UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
 	void TKHeal();
 
 	//Generates a force field that deflects objects
@@ -120,8 +115,6 @@ private:
 	// Returns current end of reach line
 	FVector GetTKReachLineEnd();
 
-	FRotator StoredRot;
-	*/
 public:
 
 	virtual void Tick(float DeltaTime) override;

@@ -17,11 +17,17 @@ void EmptyLinkFunctionForGeneratedCodeLianeGameCharacter() {}
 	LIANEGAME_API UClass* Z_Construct_UClass_ALianeGameCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_LianeGame();
+	LIANEGAME_API UFunction* Z_Construct_UFunction_ALianeGameCharacter_FaceTKObject();
+	LIANEGAME_API UFunction* Z_Construct_UFunction_ALianeGameCharacter_Grab();
 	LIANEGAME_API UFunction* Z_Construct_UFunction_ALianeGameCharacter_OnHealthChanged();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	LIANEGAME_API UClass* Z_Construct_UClass_UHealthComponent_NoRegister();
+	LIANEGAME_API UFunction* Z_Construct_UFunction_ALianeGameCharacter_Release();
+	LIANEGAME_API UFunction* Z_Construct_UFunction_ALianeGameCharacter_TKHeal();
+	LIANEGAME_API UFunction* Z_Construct_UFunction_ALianeGameCharacter_TKShield();
+	LIANEGAME_API UFunction* Z_Construct_UFunction_ALianeGameCharacter_TKThrow();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UPhysicsHandleComponent_NoRegister();
@@ -31,9 +37,51 @@ void EmptyLinkFunctionForGeneratedCodeLianeGameCharacter() {}
 	{
 		UClass* Class = ALianeGameCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "FaceTKObject", &ALianeGameCharacter::execFaceTKObject },
+			{ "Grab", &ALianeGameCharacter::execGrab },
 			{ "OnHealthChanged", &ALianeGameCharacter::execOnHealthChanged },
+			{ "Release", &ALianeGameCharacter::execRelease },
+			{ "TKHeal", &ALianeGameCharacter::execTKHeal },
+			{ "TKShield", &ALianeGameCharacter::execTKShield },
+			{ "TKThrow", &ALianeGameCharacter::execTKThrow },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_ALianeGameCharacter_FaceTKObject()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "AllowPrivateAccess", "true" },
+				{ "Category", "Telekinesis" },
+				{ "ModuleRelativePath", "LianeGameCharacter.h" },
+				{ "ToolTip", "Make player face the telekinesis object they are grabbing" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ALianeGameCharacter, "FaceTKObject", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_ALianeGameCharacter_Grab()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "AllowPrivateAccess", "true" },
+				{ "Category", "Telekinesis" },
+				{ "ModuleRelativePath", "LianeGameCharacter.h" },
+				{ "ToolTip", "Ray-cast and grab what's in reach" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ALianeGameCharacter, "Grab", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UFunction* Z_Construct_UFunction_ALianeGameCharacter_OnHealthChanged()
 	{
@@ -83,6 +131,78 @@ void EmptyLinkFunctionForGeneratedCodeLianeGameCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_ALianeGameCharacter_Release()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "AllowPrivateAccess", "true" },
+				{ "Category", "Telekinesis" },
+				{ "ModuleRelativePath", "LianeGameCharacter.h" },
+				{ "ToolTip", "Called when grab is released" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ALianeGameCharacter, "Release", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_ALianeGameCharacter_TKHeal()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "AllowPrivateAccess", "true" },
+				{ "Category", "Telekinesis" },
+				{ "ModuleRelativePath", "LianeGameCharacter.h" },
+				{ "ToolTip", "Recover the player's health" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ALianeGameCharacter, "TKHeal", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_ALianeGameCharacter_TKShield()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "AllowPrivateAccess", "true" },
+				{ "Category", "Telekinesis" },
+				{ "ModuleRelativePath", "LianeGameCharacter.h" },
+				{ "ToolTip", "Generates a force field that deflects objects" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ALianeGameCharacter, "TKShield", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_ALianeGameCharacter_TKThrow()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "AllowPrivateAccess", "true" },
+				{ "Category", "Telekinesis" },
+				{ "ModuleRelativePath", "LianeGameCharacter.h" },
+				{ "ToolTip", "Throw the object the player is grabbing" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ALianeGameCharacter, "TKThrow", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04040401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ALianeGameCharacter_NoRegister()
 	{
 		return ALianeGameCharacter::StaticClass();
@@ -97,7 +217,13 @@ void EmptyLinkFunctionForGeneratedCodeLianeGameCharacter() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_LianeGame,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_ALianeGameCharacter_FaceTKObject, "FaceTKObject" }, // 745447975
+				{ &Z_Construct_UFunction_ALianeGameCharacter_Grab, "Grab" }, // 720462637
 				{ &Z_Construct_UFunction_ALianeGameCharacter_OnHealthChanged, "OnHealthChanged" }, // 2150367406
+				{ &Z_Construct_UFunction_ALianeGameCharacter_Release, "Release" }, // 2245754535
+				{ &Z_Construct_UFunction_ALianeGameCharacter_TKHeal, "TKHeal" }, // 1768011533
+				{ &Z_Construct_UFunction_ALianeGameCharacter_TKShield, "TKShield" }, // 2380508910
+				{ &Z_Construct_UFunction_ALianeGameCharacter_TKThrow, "TKThrow" }, // 4267182922
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -188,21 +314,13 @@ void EmptyLinkFunctionForGeneratedCodeLianeGameCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ThrowStrength = { UE4CodeGen_Private::EPropertyClass::Float, "ThrowStrength", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ALianeGameCharacter, ThrowStrength), METADATA_PARAMS(NewProp_ThrowStrength_MetaData, ARRAY_COUNT(NewProp_ThrowStrength_MetaData)) };
 #if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TK_Reach_MetaData[] = {
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Reach_MetaData[] = {
 				{ "Category", "Telekinesis" },
 				{ "ModuleRelativePath", "LianeGameCharacter.h" },
 				{ "ToolTip", "How far ahead of the player can we reach in cm" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TK_Reach = { UE4CodeGen_Private::EPropertyClass::Float, "TK_Reach", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ALianeGameCharacter, TK_Reach), METADATA_PARAMS(NewProp_TK_Reach_MetaData, ARRAY_COUNT(NewProp_TK_Reach_MetaData)) };
-#if WITH_METADATA
-			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PullDirection_MetaData[] = {
-				{ "Category", "Telekinesis" },
-				{ "ModuleRelativePath", "LianeGameCharacter.h" },
-				{ "ToolTip", "The direction which the grabbed object is pulled" },
-			};
-#endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PullDirection = { UE4CodeGen_Private::EPropertyClass::Float, "PullDirection", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ALianeGameCharacter, PullDirection), METADATA_PARAMS(NewProp_PullDirection_MetaData, ARRAY_COUNT(NewProp_PullDirection_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Reach = { UE4CodeGen_Private::EPropertyClass::Float, "Reach", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ALianeGameCharacter, Reach), METADATA_PARAMS(NewProp_Reach_MetaData, ARRAY_COUNT(NewProp_Reach_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[] = {
 				{ "Category", "Camera" },
@@ -230,8 +348,7 @@ void EmptyLinkFunctionForGeneratedCodeLianeGameCharacter() {}
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ZoomedFOV,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_animInstance,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ThrowStrength,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TK_Reach,
-				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_PullDirection,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Reach,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_BaseLookUpRate,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_BaseTurnRate,
 			};
@@ -253,7 +370,7 @@ void EmptyLinkFunctionForGeneratedCodeLianeGameCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALianeGameCharacter, 3016848830);
+	IMPLEMENT_CLASS(ALianeGameCharacter, 5965208);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALianeGameCharacter(Z_Construct_UClass_ALianeGameCharacter, &ALianeGameCharacter::StaticClass, TEXT("/Script/LianeGame"), TEXT("ALianeGameCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALianeGameCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

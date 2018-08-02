@@ -1,14 +1,12 @@
-﻿  Compiling game modules for hot reload
-  Parsing headers for LianeGameEditor
-    Running UnrealHeaderTool "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\LianeGame.uproject" "G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\LianeGameEditor\Development\LianeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for LianeGameEditor in 19.9033181 seconds
-  Performing 5 actions (4 in parallel)
-  TKShield.gen.cpp
-  LianeGame.init.gen.cpp
-  TKShield.cpp
-  [4/5] Link UE4Editor-LianeGame-3049.dll
-  [5/5] Link UE4Editor-LianeGame-3049.lib
-     Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3049.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3049.exp
-     Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3049.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-3049.suppressed.exp
+﻿  Creating makefile for hot reloading LianeGameEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Performing 3 actions (4 in parallel)
+  LianeGameCharacter.cpp
+G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Source\LianeGame\LianeGameCharacter.cpp(196): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  G:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h(89): note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
+  [2/3] Link UE4Editor-LianeGame-6018.dll
+  [3/3] Link UE4Editor-LianeGame-6018.lib
+     Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-6018.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-6018.exp
+     Creating library G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-6018.suppressed.lib and object G:\Users\Nicholaus\Documents\LianeRepo\Developers\Nick Price\LianeGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LianeGame-6018.suppressed.exp
   Deploying LianeGameEditor Win64 Development...
-  Total build time: 23.79 seconds (Local executor: 2.44 seconds)
+  Total build time: 11.14 seconds (Local executor: 3.95 seconds)

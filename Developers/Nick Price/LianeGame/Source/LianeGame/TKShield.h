@@ -25,15 +25,10 @@ protected:
 	UStaticMeshComponent* MeshComp;
 
 	UPROPERTY(VisibleDefaultsOnly, Category = "Components")
-	UHealthComponent* HealthComp;
-
-	UPROPERTY(VisibleDefaultsOnly, Category = "Components")
 	USphereComponent* SphereComp;
 	*/
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	
-	
 };
