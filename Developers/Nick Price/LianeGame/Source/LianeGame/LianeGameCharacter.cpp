@@ -253,10 +253,20 @@ void ALianeGameCharacter::FaceTKObject()
 
 void ALianeGameCharacter::TKHeal()
 {
-
+	GLog->Log("Healing work in Progress!");
 }
 
 void ALianeGameCharacter::TKShield()
+{
+	GLog->Log("Shield Work in progress!");
+}
+
+/*void ALianeGameCharacter::ActivateShield(float dt)
+{
+	
+}
+*/
+void ALianeGameCharacter::RechargeShield(float dt)
 {
 
 }
@@ -317,4 +327,14 @@ FVector ALianeGameCharacter::GetTKReachLineEnd()
 		OUT PlayerViewPointRotation
 	);
 	return PlayerViewPointLocation + PlayerViewPointRotation.Vector() * 800;
+}
+
+bool ALianeGameCharacter::bIsReady()
+{
+	return ShieldCooldown <= 0.0f;
+}
+
+bool ALianeGameCharacter::bIsShieldActive()
+{
+	return ShieldLifetime > 0;
 }

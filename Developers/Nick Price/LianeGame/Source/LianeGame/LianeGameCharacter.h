@@ -35,6 +35,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
 	float ThrowStrength;
 
+	//How long is the shield active?
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
+	float ShieldLifetime;
+
+	//The time it takes to recharge the shield
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
+	float ShieldCooldown;
+
 protected:
 
 	virtual void BeginPlay() override;
@@ -103,6 +111,12 @@ private:
 	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
 	void TKShield();
 
+	//UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	//void ActivateShield(float dt);
+
+	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	void RechargeShield(float dt);
+
 	// Set (assumed) phyics handle location
 	void SetPhysicsHandleLocation();
 
@@ -114,6 +128,12 @@ private:
 
 	// Returns current end of reach line
 	FVector GetTKReachLineEnd();
+
+	//Is the shield ready to go?
+	bool bIsReady();
+
+	//Is the Shield already active?
+	bool bIsShieldActive();
 
 public:
 
