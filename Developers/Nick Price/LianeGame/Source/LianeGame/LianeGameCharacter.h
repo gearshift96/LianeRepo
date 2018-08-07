@@ -43,7 +43,28 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
 	float ShieldCooldown;
 
+	//The amount of health Anna/Robert heal
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
+	float HealAmount;
+
+	//The rate of which health is recovered
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
+	float HealTickInterval;
+
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Ability")
+	static bool IsInPuzzleState();
+
 protected:
+	// state machine states
+	enum LianeStateEnum
+	{
+		Nothing,
+		Puzzle,
+		Combat,
+	};
+
+	// stores state machine current status
+	LianeStateEnum LianeState;
 
 	virtual void BeginPlay() override;
 
@@ -72,7 +93,7 @@ protected:
 	UPROPERTY(VisibleDefaultsOnly, Category = "Player")
 	FName WeaponAttachSocketName;
 
-	UPROPERTY(VisibleDefaultsOnly, Category = "Components")
+	UPROPERTY(BlueprintReadWrite, Category = "Components")
 	UHealthComponent* HealthComp;
 
 	UFUNCTION()
