@@ -59,13 +59,7 @@ ALianeGameCharacter::ALianeGameCharacter()
 
 	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComp"));
 
-
 	//WeaponAttachSocketName = "WeaponSocket";
-}
-
-bool ALianeGameCharacter::IsInPuzzleState()
-{
-	return false;
 }
 
 void ALianeGameCharacter::BeginPlay()
@@ -87,18 +81,6 @@ void ALianeGameCharacter::Tick(float DeltaTime)
 	float NewFOV = FMath::FInterpTo(FollowCamera->FieldOfView, TargetFOV, DeltaTime, ZoomInterpSpeed);
 
 	FollowCamera->SetFieldOfView(NewFOV);
-
-	switch (LianeState)
-	{
-	case Puzzle:
-		//disable srynge, heal, and shield abilites 
-		break;
-	case Combat:
-		//All abilites are functional
-		break;
-	default:
-		break;
-	}
 }
 
 void ALianeGameCharacter::MoveForward(float v)
@@ -283,6 +265,7 @@ void ALianeGameCharacter::TKShield()
 	
 }
 */
+
 void ALianeGameCharacter::RechargeShield(float dt)
 {
 
