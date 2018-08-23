@@ -7,12 +7,15 @@
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Engine/World.h"
+#include "Engine.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Animation/AnimInstance.h"
 #include "HealthComponent.h"
 #include "Net/UnrealNetwork.h"
+#include "TimerManager.h"
+#include "TKShield.h"
 
 #define OUT
 //////////////////////////////////////////////////////////////////////////
@@ -24,6 +27,7 @@ ALianeGameCharacter::ALianeGameCharacter()
 	//set our telekinesis variables
 	ThrowStrength = 250000.0f;
 	Reach = 750.f;
+	bCanUseTelekinesis = true;
 
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -40,6 +44,7 @@ ALianeGameCharacter::ALianeGameCharacter()
 	// Configure character movement
 	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
+	GetCharacterMovement()->MaxWalkSpeed = 400.f;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
@@ -58,6 +63,8 @@ ALianeGameCharacter::ALianeGameCharacter()
 	ZoomInterpSpeed = 20;
 
 	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComp"));
+
+	ShieldSpawner = CreateDefaultSubobject<USceneComponent>(TEXT("ShieldSpawner"));
 
 	//WeaponAttachSocketName = "WeaponSocket";
 }
@@ -154,6 +161,7 @@ void ALianeGameCharacter::EndZoom()
 {
 	bWantsToZoom = false;
 }
+
 void ALianeGameCharacter::OnHealthChanged(UHealthComponent * OwningHealthComp, float Health, float HealthDelta, const UDamageType * DamageType, AController * InstigatedBy, AActor * DamageCauser)
 {
 	if (Health <= 0.0f && !bDied)
@@ -174,36 +182,37 @@ void ALianeGameCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
-	//DOREPLIFETIME(ASCharacter, CurrentWeapon);
+	//DOREPLIFETIME(ALianeGameCharacter, CurrentWeapon);
 	DOREPLIFETIME(ALianeGameCharacter, bDied);
 }
 
 void ALianeGameCharacter::Grab()
 {
-	/// LINE TRACE and see if we reach any actors with physics body collision channel set
-	auto HitResult = GetFirstPhysicsBodyInReach();
-	auto ComponentToGrab = HitResult.GetComponent(); // gets an actor with physics 
-	auto ActorHit = HitResult.GetActor();
+	if (!bCanUseTelekinesis) { return; }
+		/// LINE TRACE and see if we reach any actors with physics body collision channel set
+		auto HitResult = GetFirstPhysicsBodyInReach();
+		auto ComponentToGrab = HitResult.GetComponent(); // gets an actor with physics 
+		auto ActorHit = HitResult.GetActor();
 
-	/// If we hit something then attach a physics handle
-	if (ActorHit)
-	{
-	
-		if (!PhysicsHandle) { return; }
-		PhysicsHandle->GrabComponent(
-			ComponentToGrab,
-			NAME_None, // no bones needed
-			ComponentToGrab->GetOwner()->GetActorLocation(),
-			true // allow rotation
-		);
-		ComponentToGrab->SetEnableGravity(false);
-		FaceTKObject();
-	}
+		/// If we hit something then attach a physics handle
+		if (ActorHit)
+		{
+
+			if (!PhysicsHandle) { return; }
+			PhysicsHandle->GrabComponentAtLocation(
+				ComponentToGrab,
+				NAME_None, // no bones needed
+				ComponentToGrab->GetOwner()->GetActorLocation()
+			);
+			ComponentToGrab->SetEnableGravity(false);
+			FaceTKObject();
+		}
 }
 
 void ALianeGameCharacter::Release()
 {
 	if (!PhysicsHandle) { return; }
+	if (!bCanUseTelekinesis) { return; }
 	auto HitResult = GetFirstPhysicsBodyInReach();
 	auto ComponentGrabbed = HitResult.GetComponent(); // gets an actor with physics 
 	auto ActorHit = HitResult.GetActor();
@@ -220,6 +229,7 @@ void ALianeGameCharacter::Release()
 void ALianeGameCharacter::TKThrow()
 {
 	if (!PhysicsHandle) { return; }
+	if (!bCanUseTelekinesis) { return; }
 	if (PhysicsHandle->GetGrabbedComponent() != nullptr)
 	{
 		FVector TKImpulse = FollowCamera->GetForwardVector() * ThrowStrength;
@@ -231,6 +241,7 @@ void ALianeGameCharacter::TKThrow()
 
 void ALianeGameCharacter::FaceTKObject()
 {
+	if (!bCanUseTelekinesis) { return; }
 	/// LINE TRACE and see if we reach any actors with physics body collision channel set
 	auto HitResult = GetFirstPhysicsBodyInReach();
 	auto GrabbedComponent = HitResult.GetComponent(); // gets an actor with physics 
@@ -252,23 +263,60 @@ void ALianeGameCharacter::FaceTKObject()
 
 void ALianeGameCharacter::TKHeal()
 {
+	if (!bCanUseTelekinesis) { return; }
 	GLog->Log("Healing work in Progress!");
 }
 
 void ALianeGameCharacter::TKShield()
 {
 	GLog->Log("Shield Work in progress!");
+	if (bCanUseShield)
+	{
+		if (bIsReady())
+		{
+			//play sound here
+			FActorSpawnParameters SpawnInfo;
+			SpawnInfo.Owner = this;
+			SpawnInfo.Instigator = Instigator;
+			SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+			if (GetWorld())
+			{
+				ATKShield* SpawnedShield = GetWorld()->SpawnActor<ATKShield>(ATKShield::StaticClass(), ShieldSpawner->GetComponentLocation(), ShieldSpawner->GetComponentRotation(), SpawnInfo);
+				SpawnedShield->AttachToComponent(ShieldSpawner, FAttachmentTransformRules::SnapToTargetIncludingScale, NAME_None);
+				GLog->Log("Shield is Attached!");
+				bCanUseShield = false;
+				bCanUseTelekinesis = false;
+				GetCharacterMovement()->MaxWalkSpeed = 200.f;
+				GetWorldTimerManager().SetTimer(ShieldTimerHandle, this, &ALianeGameCharacter::ActivateShield, 1.0f, true);
+				if (!bIsShieldActive())
+				{
+					Destroy(SpawnedShield);
+					GetWorldTimerManager().SetTimer(RechargeTimerHandle, this, &ALianeGameCharacter::RechargeShield, 1.0f, true);
+					GetCharacterMovement()->MaxWalkSpeed = 400.f;
+				}
+			}
+		}
+	}
+}
+		
+void ALianeGameCharacter::ActivateShield()
+{
+	--ShieldLifetime;
+	if (ShieldLifetime <= 0)
+	{
+		GetWorldTimerManager().ClearTimer(ShieldTimerHandle);
+		CountdownHasFinished();
+	}
 }
 
-/*void ALianeGameCharacter::ActivateShield(float dt)
+void ALianeGameCharacter::RechargeShield()
 {
-	
-}
-*/
-
-void ALianeGameCharacter::RechargeShield(float dt)
-{
-
+	--ShieldCooldown;
+	if (ShieldCooldown <= 0)
+	{
+		GetWorldTimerManager().ClearTimer(RechargeTimerHandle);
+		CooldownHasFinished();
+	}
 }
 
 void ALianeGameCharacter::SetPhysicsHandleLocation()
@@ -331,10 +379,21 @@ FVector ALianeGameCharacter::GetTKReachLineEnd()
 
 bool ALianeGameCharacter::bIsReady()
 {
-	return ShieldCooldown <= 0.0f;
+	return ShieldCooldown <= 0;
 }
 
 bool ALianeGameCharacter::bIsShieldActive()
 {
 	return ShieldLifetime > 0;
+}
+
+void ALianeGameCharacter::CountdownHasFinished_Implementation()
+{
+	
+	bCanUseTelekinesis = true;
+}
+
+void ALianeGameCharacter::CooldownHasFinished_Implementation()
+{
+	bCanUseShield = true;
 }

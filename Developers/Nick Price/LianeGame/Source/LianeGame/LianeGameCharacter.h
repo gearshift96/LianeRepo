@@ -10,6 +10,8 @@ class USpotLightComponent;
 class UPhysicsHandleComponent;
 class USphereComponent;
 class UHealthComponent;
+class USceneComponent;
+class ATKShield;
 
 UCLASS(config = Game)
 class ALianeGameCharacter : public ACharacter
@@ -37,15 +39,19 @@ public:
 
 	//How long is the shield active?
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
-	float ShieldLifetime;
+	int32 ShieldLifetime = 5;
 
 	//The time it takes to recharge the shield
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
-	float ShieldCooldown;
+	int32 ShieldCooldown = 30;
 
 	//Can Anna use her shield in a level
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
 	bool bCanUseShield;
+
+	//Can Anna use her shield in a level
+	UPROPERTY(BlueprintReadWrite, Category = "Telekinesis")
+	bool bCanUseTelekinesis;
 
 	//Can Robert use his hacking skills
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hacking")
@@ -66,6 +72,12 @@ public:
 	//Can Anna/Robert shoot with a weapon in a level
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
 	bool bCanShoot;
+
+	UFUNCTION(BlueprintNativeEvent)
+	void CountdownHasFinished();
+
+	UFUNCTION(BlueprintNativeEvent)
+	void CooldownHasFinished();
 	
 
 protected:
@@ -112,6 +124,9 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 
+	UPROPERTY(VisibleAnywhere)
+	USceneComponent* ShieldSpawner;
+
 	// Ray-cast and grab what's in reach
 	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
 	void Grab();
@@ -136,11 +151,12 @@ private:
 	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
 	void TKShield();
 
-	//UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	//void ActivateShield(float dt);
+	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	void ActivateShield();
 
 	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	void RechargeShield(float dt);
+	void RechargeShield();
+
 
 	// Set (assumed) phyics handle location
 	void SetPhysicsHandleLocation();
@@ -159,6 +175,10 @@ private:
 
 	//Is the Shield already active?
 	bool bIsShieldActive();
+
+	FTimerHandle RechargeTimerHandle;
+
+	FTimerHandle ShieldTimerHandle;
 
 public:
 
