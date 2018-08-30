@@ -73,6 +73,7 @@ void ALianeGameCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	GetWorldTimerManager().SetTimer(RechargeTimerHandle,this, &ALianeGameCharacter::RechargeShield, 1.0f, true);
 	DefaultFOV = FollowCamera->FieldOfView;
 	HealthComp->OnHealthChanged.AddDynamic(this, &ALianeGameCharacter::OnHealthChanged);
 }
@@ -269,30 +270,33 @@ void ALianeGameCharacter::TKHeal()
 
 void ALianeGameCharacter::TKShield()
 {
-	GLog->Log("Shield Work in progress!");
+	UE_LOG(LogTemp, Warning, TEXT("Shield Work in progress!"));
 	if (bCanUseShield)
 	{
 		if (bIsReady())
 		{
+			UWorld* const World = GetWorld();
 			//play sound here
 			FActorSpawnParameters SpawnInfo;
 			SpawnInfo.Owner = this;
 			SpawnInfo.Instigator = Instigator;
 			SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-			if (GetWorld())
+			if (World)
 			{
-				ATKShield* SpawnedShield = GetWorld()->SpawnActor<ATKShield>(ATKShield::StaticClass(), ShieldSpawner->GetComponentLocation(), ShieldSpawner->GetComponentRotation(), SpawnInfo);
-				SpawnedShield->AttachToComponent(ShieldSpawner, FAttachmentTransformRules::SnapToTargetIncludingScale, NAME_None);
-				GLog->Log("Shield is Attached!");
-				bCanUseShield = false;
-				bCanUseTelekinesis = false;
-				GetCharacterMovement()->MaxWalkSpeed = 200.f;
-				GetWorldTimerManager().SetTimer(ShieldTimerHandle, this, &ALianeGameCharacter::ActivateShield, 1.0f, true);
-				if (!bIsShieldActive())
+				if (ShieldBlueprint != nullptr)
 				{
-					Destroy(SpawnedShield);
-					GetWorldTimerManager().SetTimer(RechargeTimerHandle, this, &ALianeGameCharacter::RechargeShield, 1.0f, true);
-					GetCharacterMovement()->MaxWalkSpeed = 400.f;
+					bCanUseShield = false;
+					bCanUseTelekinesis = false;
+					Shield = World->SpawnActor<ATKShield>(ShieldBlueprint, ShieldSpawner->GetComponentLocation(), ShieldSpawner->GetComponentRotation(), SpawnInfo);
+					Shield->AttachToComponent(ShieldSpawner, FAttachmentTransformRules::SnapToTargetIncludingScale, NAME_None);
+					UE_LOG(LogTemp, Warning, TEXT("Shield is Attached!"));
+					GetCharacterMovement()->MaxWalkSpeed = 200.f;
+					GetWorldTimerManager().SetTimer(ShieldTimerHandle, this, &ALianeGameCharacter::ActivateShield, 1.0f, true);
+				}
+				else
+				{
+					UE_LOG(LogTemp, Warning, TEXT("Shield is missing please attach a shield!"));
+					return;
 				}
 			}
 		}
@@ -301,6 +305,7 @@ void ALianeGameCharacter::TKShield()
 		
 void ALianeGameCharacter::ActivateShield()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Shield is active!"));
 	--ShieldLifetime;
 	if (ShieldLifetime <= 0)
 	{
@@ -311,13 +316,16 @@ void ALianeGameCharacter::ActivateShield()
 
 void ALianeGameCharacter::RechargeShield()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Shield is cooling down!"));
 	--ShieldCooldown;
+
 	if (ShieldCooldown <= 0)
 	{
 		GetWorldTimerManager().ClearTimer(RechargeTimerHandle);
 		CooldownHasFinished();
 	}
 }
+
 
 void ALianeGameCharacter::SetPhysicsHandleLocation()
 {
@@ -382,18 +390,20 @@ bool ALianeGameCharacter::bIsReady()
 	return ShieldCooldown <= 0;
 }
 
-bool ALianeGameCharacter::bIsShieldActive()
-{
-	return ShieldLifetime > 0;
-}
-
 void ALianeGameCharacter::CountdownHasFinished_Implementation()
 {
-	
+	UE_LOG(LogTemp, Warning, TEXT("Countdown has finished!"));
 	bCanUseTelekinesis = true;
+	ShieldCooldown = 30;
+	GLog->Log("Shield is Destroyed!");
+	Shield->Destroy();
+	GetWorldTimerManager().SetTimer(RechargeTimerHandle, this, &ALianeGameCharacter::RechargeShield, 1.0f, true);
 }
 
 void ALianeGameCharacter::CooldownHasFinished_Implementation()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Cooldown has finished!"));
 	bCanUseShield = true;
+	ShieldLifetime = 5;
+	GetCharacterMovement()->MaxWalkSpeed = 400.f;
 }

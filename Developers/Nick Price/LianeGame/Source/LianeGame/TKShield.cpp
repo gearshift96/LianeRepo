@@ -22,7 +22,7 @@ FAutoConsoleVariableRef CVARDebugTKShieldDrawing(
 ATKShield::ATKShield()
 {
 	PrimaryActorTick.bCanEverTick = true;
-	
+	/*
 	ShieldCollision = CreateDefaultSubobject<USphereComponent>(TEXT("ShieldCollision"));
 	ShieldCollision->SetSphereRadius(190);
 	ShieldCollision->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
@@ -39,7 +39,7 @@ ATKShield::ATKShield()
 	ShieldMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShieldMesh"));
 	ShieldMesh->SetCanEverAffectNavigation(true);
 	ShieldMesh->SetupAttachment(RootComponent);
-
+	*/
 	//ShieldTimeline = CreateDefaultSubobject<UTimelineComponent>(TEXT("Animate"));
 
 	//InterpFunction.BindUFunction(this, FName("TimelineFloatReturn"));

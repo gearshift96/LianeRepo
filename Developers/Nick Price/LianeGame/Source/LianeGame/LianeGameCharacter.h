@@ -126,6 +126,12 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* ShieldSpawner;
+	
+	UPROPERTY()
+	ATKShield* Shield;
+
+	UPROPERTY(EditAnywhere, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<ATKShield> ShieldBlueprint;
 
 	// Ray-cast and grab what's in reach
 	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
@@ -173,12 +179,10 @@ private:
 	//Is the shield ready to go?
 	bool bIsReady();
 
-	//Is the Shield already active?
-	bool bIsShieldActive();
-
 	FTimerHandle RechargeTimerHandle;
 
 	FTimerHandle ShieldTimerHandle;
+
 
 public:
 
@@ -193,6 +197,7 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
