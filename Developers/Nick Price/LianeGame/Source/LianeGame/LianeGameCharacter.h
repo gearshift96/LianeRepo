@@ -1,6 +1,5 @@
 #pragma once
 
-#include "LGGameInstance.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "LianeGameCharacter.generated.h"
@@ -83,9 +82,6 @@ public:
 protected:
 
 	virtual void BeginPlay() override;
-
-	UPROPERTY()
-	class UAnimInstance* animInstance;
 
 	void TurnAtRate(float Rate);
 
@@ -197,7 +193,6 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
-
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }

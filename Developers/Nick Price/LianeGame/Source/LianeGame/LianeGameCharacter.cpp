@@ -11,7 +11,6 @@
 #include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
-#include "Animation/AnimInstance.h"
 #include "HealthComponent.h"
 #include "Net/UnrealNetwork.h"
 #include "TimerManager.h"
