@@ -2,12 +2,13 @@
 
 #include "LianeGameGameMode.h"
 #include "LianeGameCharacter.h"
+#include "LianeController.h"
 #include "UObject/ConstructorHelpers.h"
 
 ALianeGameGameMode::ALianeGameGameMode()
 {
 	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter"));
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/Liane/Blueprints/BP_Robert"));
 	if (PlayerPawnBPClass.Class != NULL)
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
