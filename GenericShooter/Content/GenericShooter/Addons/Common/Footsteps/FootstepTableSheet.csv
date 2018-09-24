@@ -1,0 +1,10 @@
+AnimKeyName,Effect,Sound,DecalMaterial,DecalSize,DecalLifetime
+Default_Default,ParticleSystem'/Game/GenericShooter/Addons/WeaponSystem/Examples/FX/Impacts/PS_Impact_Dirt.PS_Impact_Dirt',SoundCue'/Game/GenericShooter/Audio/Footsteps/A_Footstep_Generic_Cue.A_Footstep_Generic_Cue',None,8.0,15.0
+Default_Concrete,ParticleSystem'/Game/GenericShooter/Addons/WeaponSystem/Examples/FX/Impacts/PS_Impact_Dirt.PS_Impact_Dirt',SoundCue'/Game/GenericShooter/Audio/Footsteps/A_Footstep_Generic_Cue.A_Footstep_Generic_Cue',None,8.0,15.0
+Default_Dirt,ParticleSystem'/Game/GenericShooter/Addons/WeaponSystem/Examples/FX/Impacts/PS_Impact_Dirt.PS_Impact_Dirt',SoundCue'/Game/GenericShooter/Audio/Footsteps/A_Footstep_Generic_Cue.A_Footstep_Generic_Cue',None,8.0,15.0
+Default_Water,ParticleSystem'/Game/GenericShooter/Addons/WeaponSystem/Examples/FX/Impacts/PS_Impact_Dirt.PS_Impact_Dirt',SoundCue'/Game/GenericShooter/Audio/Footsteps/A_Footstep_Generic_Cue.A_Footstep_Generic_Cue',None,8.0,15.0
+Default_Metal,ParticleSystem'/Game/GenericShooter/Addons/WeaponSystem/Examples/FX/Impacts/PS_Impact_Dirt.PS_Impact_Dirt',SoundCue'/Game/GenericShooter/Audio/Footsteps/A_Footstep_Generic_Cue.A_Footstep_Generic_Cue',None,8.0,15.0
+Default_Wood,ParticleSystem'/Game/GenericShooter/Addons/WeaponSystem/Examples/FX/Impacts/PS_Impact_Dirt.PS_Impact_Dirt',SoundCue'/Game/GenericShooter/Audio/Footsteps/A_Footstep_Generic_Cue.A_Footstep_Generic_Cue',None,8.0,15.0
+Default_Grass,ParticleSystem'/Game/GenericShooter/Addons/WeaponSystem/Examples/FX/Impacts/PS_Impact_Dirt.PS_Impact_Dirt',SoundCue'/Game/GenericShooter/Audio/Footsteps/A_Footstep_Generic_Cue.A_Footstep_Generic_Cue',None,8.0,15.0
+Default_Glass,ParticleSystem'/Game/GenericShooter/Addons/WeaponSystem/Examples/FX/Impacts/PS_Impact_Dirt.PS_Impact_Dirt',SoundCue'/Game/GenericShooter/Audio/Footsteps/A_Footstep_Generic_Cue.A_Footstep_Generic_Cue',None,8.0,15.0
+Default_Flesh,ParticleSystem'/Game/GenericShooter/Addons/WeaponSystem/Examples/FX/Impacts/PS_Impact_Dirt.PS_Impact_Dirt',SoundCue'/Game/GenericShooter/Audio/Footsteps/A_Footstep_Generic_Cue.A_Footstep_Generic_Cue',None,8.0,15.0
