@@ -16,23 +16,6 @@ AAnna::AAnna()
 	Reach = 750.f;
 	bCanUseTelekinesis = true;
 
-	// Set size for collision capsule
-	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
-
-	// set our turn rates for input
-	BaseTurnRate = 45.f;
-	BaseLookUpRate = 45.f;
-
-	// Don't rotate when the controller rotates. Let that just affect the camera.
-	bUseControllerRotationPitch = false;
-	bUseControllerRotationYaw = false;
-	bUseControllerRotationRoll = false;
-
-	// Configure character movement
-	GetCharacterMovement()->bOrientRotationToMovement = true; // Character moves in the direction of input...	
-	GetCharacterMovement()->RotationRate = FRotator(0.0f, 540.0f, 0.0f); // ...at this rotation rate
-	GetCharacterMovement()->MaxWalkSpeed = 400.f;
-
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
@@ -46,22 +29,22 @@ AAnna::AAnna()
 
 	PhysicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
 
-	ZoomedFOV = 60.0f;
-	ZoomInterpSpeed = 20;
-
 	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComp"));
 
 	ShieldSpawner = CreateDefaultSubobject<USceneComponent>(TEXT("ShieldSpawner"));
-
-	//WeaponAttachSocketName = "WeaponSocket";
 }
+
+AAnna::~AAnna()
+{
+}
+
 
 void AAnna::BeginPlay()
 {
 	Super::BeginPlay();
 
 	GetWorldTimerManager().SetTimer(RechargeTimerHandle, this, &AAnna::RechargeShield, 1.0f, true);
-	DefaultFOV = FollowCamera->FieldOfView;
+
 	HealthComp->OnHealthChanged.AddDynamic(this, &AAnna::OnHealthChanged);
 }
 
@@ -71,33 +54,6 @@ void AAnna::Tick(float DeltaTime)
 
 	SetPhysicsHandleLocation();
 	//FaceTKObject();
-
-	float TargetFOV = bWantsToZoom ? ZoomedFOV : DefaultFOV;
-	float NewFOV = FMath::FInterpTo(FollowCamera->FieldOfView, TargetFOV, DeltaTime, ZoomInterpSpeed);
-
-	FollowCamera->SetFieldOfView(NewFOV);
-}
-
-void AAnna::MoveForward(float v)
-{
-	if (v != 0.0f)
-	{
-		// Find out which way is "forward" and record that the player wants to move that way.
-		FRotator Rotation = Controller->GetControlRotation();
-		const FVector Direction = FRotationMatrix(Rotation).GetScaledAxis(EAxis::X);
-		AddMovementInput(Direction, v);
-	}
-}
-
-void AAnna::MoveLeftRight(float h)
-{
-	if (h != 0.0f)
-	{
-		// Find out which way is "right" and record that the player wants to move that way.
-		FRotator Rotation = Controller->GetControlRotation();
-		const FVector Direction = FRotationMatrix(Rotation).GetScaledAxis(EAxis::Y);
-		AddMovementInput(Direction, h);
-	}
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -108,16 +64,6 @@ void AAnna::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponen
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("ZoomAim", IE_Pressed, this, &AAnna::BeginZoom);
-	PlayerInputComponent->BindAction("ZoomAim", IE_Released, this, &AAnna::EndZoom);
-
-	//Axis bindings
-	PlayerInputComponent->BindAxis("LookUp", this, &AAnna::AddControllerPitchInput);
-	PlayerInputComponent->BindAxis("Turn", this, &AAnna::AddControllerYawInput);
-
-	PlayerInputComponent->BindAxis("MoveForward", this, &AAnna::MoveForward);
-	PlayerInputComponent->BindAxis("MoveLeftRight", this, &AAnna::MoveLeftRight);
-
 	//Telekinesis key bindings
 	PlayerInputComponent->BindAction("TKGrab", IE_Pressed, this, &AAnna::Grab);
 	PlayerInputComponent->BindAction("TKGrab", IE_Released, this, &AAnna::Release);
@@ -126,27 +72,7 @@ void AAnna::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponen
 
 	PlayerInputComponent->BindAction("TKShield", IE_Pressed, this, &AAnna::TKShield);
 
-	PlayerInputComponent->BindAction("TKHeal", IE_Pressed, this, &AAnna::TKHeal);
-}
-
-void AAnna::TurnAtRate(float Rate)
-{
-	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
-}
-
-void AAnna::LookUpAtRate(float Rate)
-{
-	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
-}
-
-void AAnna::BeginZoom()
-{
-	bWantsToZoom = true;
-}
-
-void AAnna::EndZoom()
-{
-	bWantsToZoom = false;
+	PlayerInputComponent->BindAction("Heal", IE_Pressed, this, &AAnna::TKHeal);
 }
 
 void AAnna::OnHealthChanged(UHealthComponent * OwningHealthComp, float Health, float HealthDelta, const UDamageType * DamageType, AController * InstigatedBy, AActor * DamageCauser)
@@ -319,17 +245,13 @@ void AAnna::SetPhysicsHandleLocation()
 	auto FCFVec = FollowCamera->GetForwardVector() * Reach;
 	auto FCTarLoc = FCLoc + FCFVec;
 
-	if (!PhysicsHandle) { return; }
+	if (!PhysicsHandle) 
+	{UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *GetOwner()->GetName()) return; }
 	// if the physics handle is attached
 	if (PhysicsHandle->GrabbedComponent)
 	{
 		// move the object that we're holding
 		PhysicsHandle->SetTargetLocation(FCTarLoc);
-	}
-
-	if (PhysicsHandle == nullptr)
-	{
-		UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *GetOwner()->GetName())
 	}
 }
 

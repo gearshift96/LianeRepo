@@ -10,17 +10,10 @@
  * 
  */
 
-struct PlayerPawnData
-{
-	int32 Type;
-};
-
 UCLASS()
 class LIANEGAME_API ALianeController : public APlayerController
 {
 	GENERATED_BODY()
 	
-public:
-	PlayerPawnData CurrentPawnData;
 	
 };

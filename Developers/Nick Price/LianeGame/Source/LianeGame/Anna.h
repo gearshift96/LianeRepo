@@ -24,29 +24,9 @@ class LIANEGAME_API AAnna : public ALianeGameCharacter
 public:
 
 	AAnna();
+	~AAnna();
 
 	virtual void Tick(float DeltaTime) override;
-	void MoveForward(float v);
-	void MoveLeftRight(float h);
-
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	class USpringArmComponent* CameraBoom;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	class UCameraComponent* FollowCamera;
-
-	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
-	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
-
-	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
-	float BaseTurnRate;
-
-	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
-	float BaseLookUpRate;
 
 	// How far ahead of the player can we reach in cm
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
@@ -80,39 +60,35 @@ public:
 
 protected:
 
+
+	bool bInvertY; //Invert the Y axis for aiming
+	bool bInvertX; //Invert the X axis for aiming
+
+	float aimSensitivity = 1.0f;
+
 	virtual void BeginPlay() override;
 
-	void TurnAtRate(float Rate);
+	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
 
-	void LookUpAtRate(float Rate);
 
-	bool bWantsToZoom;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera" ,meta = (AllowPrivateAccess = "true"))
+	class USpringArmComponent* CameraBoom;
 
-	UPROPERTY(EditDefaultsOnly, Category = "Player")
-	float ZoomedFOV;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite,  Category = "Camera", meta = (AllowPrivateAccess = "true"))
+	class UCameraComponent* FollowCamera;
 
-	UPROPERTY(EditDefaultsOnly, Category = "Player", meta = (ClampMin = 0.1, ClampMax = 100))
-	float ZoomInterpSpeed;
+	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
-	/* Default FOV set during begin play */
-	float DefaultFOV;
-
-	void BeginZoom();
-
-	void EndZoom();
+	/* Pawn died previously */
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Player")
+	bool bDied;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Components")
 	UHealthComponent* HealthComp;
 
 	UFUNCTION()
 	void OnHealthChanged(UHealthComponent* OwningHealthComp, float Health, float HealthDelta, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
-
-	/* Pawn died previously */
-	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Player")
-	bool bDied;
-
-	UPROPERTY(VisibleDefaultsOnly, Category = "Player")
-	FName WeaponAttachSocketName;
 
 private:
 
