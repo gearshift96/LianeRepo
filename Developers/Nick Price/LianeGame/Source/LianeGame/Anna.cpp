@@ -17,17 +17,17 @@ AAnna::AAnna()
 	bCanUseTelekinesis = true;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
-	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
-	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 100.0f; // The camera follows at this distance behind the character	
-	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
+	//CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
+	//CameraBoom->SetupAttachment(RootComponent);
+	//CameraBoom->TargetArmLength = 100.0f; // The camera follows at this distance behind the character	
+	//CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 
 	// Create a follow camera
-	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
-	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
-	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arms
+	//FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
+	//FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
+	//FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arms
 
-	PhysicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
+	//PhysicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
 
 	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComp"));
 
@@ -52,7 +52,7 @@ void AAnna::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	SetPhysicsHandleLocation();
+	//SetPhysicsHandleLocation();
 	//FaceTKObject();
 }
 
@@ -65,12 +65,12 @@ void AAnna::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponen
 	check(PlayerInputComponent);
 
 	//Telekinesis key bindings
-	PlayerInputComponent->BindAction("TKGrab", IE_Pressed, this, &AAnna::Grab);
-	PlayerInputComponent->BindAction("TKGrab", IE_Released, this, &AAnna::Release);
+	//PlayerInputComponent->BindAction("TKGrab", IE_Pressed, this, &AAnna::Grab);
+	//PlayerInputComponent->BindAction("TKGrab", IE_Released, this, &AAnna::Release);
 
-	PlayerInputComponent->BindAction("TKThrow", IE_Pressed, this, &AAnna::TKThrow);
+	//PlayerInputComponent->BindAction("TKThrow", IE_Pressed, this, &AAnna::TKThrow);
 
-	PlayerInputComponent->BindAction("TKShield", IE_Pressed, this, &AAnna::TKShield);
+	PlayerInputComponent->BindAction("TKShield", IE_Pressed, this, &AAnna::TKShieldF);
 
 	PlayerInputComponent->BindAction("Heal", IE_Pressed, this, &AAnna::TKHeal);
 }
@@ -99,6 +99,96 @@ void AAnna::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimePro
 	DOREPLIFETIME(AAnna, bDied);
 }
 
+void AAnna::TKHeal()
+{
+	if (!bCanUseTelekinesis) { return; }
+	GLog->Log("Healing work in Progress!");
+}
+
+void AAnna::TKShieldF()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Shield Work in progress!"));
+	if (bCanUseShield)
+	{
+		if (bIsReady())
+		{
+			UWorld* const World = GetWorld();
+			//play sound here
+			FActorSpawnParameters SpawnInfo;
+			SpawnInfo.Owner = this;
+			SpawnInfo.Instigator = Instigator;
+			SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+			if (World)
+			{
+				if (TKShieldBlueprint != nullptr)
+				{
+					bCanUseShield = false;
+					bCanUseTelekinesis = false;
+					TKShield = World->SpawnActor<ATKShield>(TKShieldBlueprint, ShieldSpawner->GetComponentLocation(), ShieldSpawner->GetComponentRotation(), SpawnInfo);
+					TKShield->AttachToComponent(ShieldSpawner, FAttachmentTransformRules::SnapToTargetIncludingScale, NAME_None);
+					UE_LOG(LogTemp, Warning, TEXT("Shield is Attached!"));
+					GetCharacterMovement()->MaxWalkSpeed = 200.f;
+					GetWorldTimerManager().SetTimer(ShieldTimerHandle, this, &AAnna::ActivateShield, 1.0f, true);
+				}
+				else
+				{
+					UE_LOG(LogTemp, Warning, TEXT("Shield is missing please attach a shield!"));
+					return;
+				}
+			}
+		}
+	}
+}
+
+void AAnna::ActivateShield()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Shield is active!"));
+	--ShieldLifetime;
+	if (ShieldLifetime <= 0)
+	{
+		GetWorldTimerManager().ClearTimer(ShieldTimerHandle);
+		CountdownHasFinished();
+	}
+}
+
+void AAnna::RechargeShield()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Shield is cooling down!"));
+	--ShieldCooldown;
+
+	if (ShieldCooldown <= 0)
+	{
+		GetWorldTimerManager().ClearTimer(RechargeTimerHandle);
+		CooldownHasFinished();
+	}
+}
+
+bool AAnna::bIsReady()
+{
+	return ShieldCooldown <= 0;
+}
+
+void AAnna::CountdownHasFinished_Implementation()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Countdown has finished!"));
+	bCanUseTelekinesis = true;
+	ShieldCooldown = 30;
+	GLog->Log("Shield is Destroyed!");
+	TKShield->Destroy();
+	GetWorldTimerManager().SetTimer(RechargeTimerHandle, this, &AAnna::RechargeShield, 1.0f, true);
+}
+
+void AAnna::CooldownHasFinished_Implementation()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Cooldown has finished!"));
+	bCanUseShield = true;
+	ShieldLifetime = 5;
+	GetCharacterMovement()->MaxWalkSpeed = 400.f;
+}
+
+/*Telekinesis Logic*/
+
+/*
 void AAnna::Grab()
 {
 	if (!bCanUseTelekinesis) { return; }
@@ -150,7 +240,7 @@ void AAnna::TKThrow()
 		Release();
 		//add camera shake effect
 	}
-}
+	}
 
 void AAnna::FaceTKObject()
 {
@@ -174,78 +264,13 @@ void AAnna::FaceTKObject()
 	}
 }
 
-void AAnna::TKHeal()
-{
-	if (!bCanUseTelekinesis) { return; }
-	GLog->Log("Healing work in Progress!");
-}
-
-void AAnna::TKShield()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Shield Work in progress!"));
-	if (bCanUseShield)
-	{
-		if (bIsReady())
-		{
-			UWorld* const World = GetWorld();
-			//play sound here
-			FActorSpawnParameters SpawnInfo;
-			SpawnInfo.Owner = this;
-			SpawnInfo.Instigator = Instigator;
-			SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-			if (World)
-			{
-				if (ShieldBlueprint != nullptr)
-				{
-					bCanUseShield = false;
-					bCanUseTelekinesis = false;
-					Shield = World->SpawnActor<ATKShield>(ShieldBlueprint, ShieldSpawner->GetComponentLocation(), ShieldSpawner->GetComponentRotation(), SpawnInfo);
-					Shield->AttachToComponent(ShieldSpawner, FAttachmentTransformRules::SnapToTargetIncludingScale, NAME_None);
-					UE_LOG(LogTemp, Warning, TEXT("Shield is Attached!"));
-					GetCharacterMovement()->MaxWalkSpeed = 200.f;
-					GetWorldTimerManager().SetTimer(ShieldTimerHandle, this, &AAnna::ActivateShield, 1.0f, true);
-				}
-				else
-				{
-					UE_LOG(LogTemp, Warning, TEXT("Shield is missing please attach a shield!"));
-					return;
-				}
-			}
-		}
-	}
-}
-
-void AAnna::ActivateShield()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Shield is active!"));
-	--ShieldLifetime;
-	if (ShieldLifetime <= 0)
-	{
-		GetWorldTimerManager().ClearTimer(ShieldTimerHandle);
-		CountdownHasFinished();
-	}
-}
-
-void AAnna::RechargeShield()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Shield is cooling down!"));
-	--ShieldCooldown;
-
-	if (ShieldCooldown <= 0)
-	{
-		GetWorldTimerManager().ClearTimer(RechargeTimerHandle);
-		CooldownHasFinished();
-	}
-}
-
-
 void AAnna::SetPhysicsHandleLocation()
 {
 	auto FCLoc = FollowCamera->GetComponentLocation();
 	auto FCFVec = FollowCamera->GetForwardVector() * Reach;
 	auto FCTarLoc = FCLoc + FCFVec;
 
-	if (!PhysicsHandle) 
+	if (!PhysicsHandle)
 	{UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *GetOwner()->GetName()) return; }
 	// if the physics handle is attached
 	if (PhysicsHandle->GrabbedComponent)
@@ -292,27 +317,4 @@ FVector AAnna::GetTKReachLineEnd()
 	);
 	return PlayerViewPointLocation + PlayerViewPointRotation.Vector() * 800;
 }
-
-bool AAnna::bIsReady()
-{
-	return ShieldCooldown <= 0;
-}
-
-void AAnna::CountdownHasFinished_Implementation()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Countdown has finished!"));
-	bCanUseTelekinesis = true;
-	ShieldCooldown = 30;
-	GLog->Log("Shield is Destroyed!");
-	Shield->Destroy();
-	GetWorldTimerManager().SetTimer(RechargeTimerHandle, this, &AAnna::RechargeShield, 1.0f, true);
-}
-
-void AAnna::CooldownHasFinished_Implementation()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Cooldown has finished!"));
-	bCanUseShield = true;
-	ShieldLifetime = 5;
-	GetCharacterMovement()->MaxWalkSpeed = 400.f;
-}
-
+*/

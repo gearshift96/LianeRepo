@@ -71,7 +71,7 @@ protected:
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
 
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera" ,meta = (AllowPrivateAccess = "true"))
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera" ,meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite,  Category = "Camera", meta = (AllowPrivateAccess = "true"))
@@ -79,7 +79,7 @@ protected:
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
-
+	*/
 	/* Pawn died previously */
 	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Player")
 	bool bDied;
@@ -92,17 +92,55 @@ protected:
 
 private:
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+	/*Shield variables and functions*/
+
+	FTimerHandle RechargeTimerHandle;
+
+	FTimerHandle ShieldTimerHandle;
 
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* ShieldSpawner;
 
 	UPROPERTY()
-	ATKShield* Shield;
+	ATKShield* TKShield;
 
 	UPROPERTY(EditAnywhere, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	TSubclassOf<ATKShield> ShieldBlueprint;
+	TSubclassOf<ATKShield> TKShieldBlueprint;
+	
+	//Is the shield ready to go?
+	bool bIsReady();
+
+	//Recover the player's health
+	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	void TKHeal();
+
+	//Generates a force field that deflects objects
+	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	void TKShieldF();
+
+	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	void ActivateShield();
+
+	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	void RechargeShield();
+
+	/*
+	// Telekinesis variables and functions
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+
+	// Set (assumed) phyics handle location
+	void SetPhysicsHandleLocation();
+
+	// Return hit for first physics body in reach
+	const FHitResult GetFirstPhysicsBodyInReach();
+
+	// Returns current start of reach line
+	FVector GetTKReachLineStart();
+
+	// Returns current end of reach line
+	FVector GetTKReachLineEnd();
 
 	// Ray-cast and grab what's in reach
 	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
@@ -118,39 +156,6 @@ private:
 
 	//Make player face the telekinesis object they are grabbing
 	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	void FaceTKObject();
-
-	//Recover the player's health
-	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	void TKHeal();
-
-	//Generates a force field that deflects objects
-	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	void TKShield();
-
-	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	void ActivateShield();
-
-	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	void RechargeShield();
-
-
-	// Set (assumed) phyics handle location
-	void SetPhysicsHandleLocation();
-
-	// Return hit for first physics body in reach
-	const FHitResult GetFirstPhysicsBodyInReach();
-
-	// Returns current start of reach line
-	FVector GetTKReachLineStart();
-
-	// Returns current end of reach line
-	FVector GetTKReachLineEnd();
-
-	//Is the shield ready to go?
-	bool bIsReady();
-
-	FTimerHandle RechargeTimerHandle;
-
-	FTimerHandle ShieldTimerHandle;
+	FaceTKObject();
+	 */
 };
