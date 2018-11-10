@@ -1,0 +1,868 @@
+﻿Log file open, 11/03/18 00:07:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: TheArtofCombat
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.293758
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineFramework
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.144s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: Display: STEAM: Loading Steam SDK 1.39
+LogOnline: Warning: STEAM: Steam API disabled!
+LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:        Intel(R) Core(TM) i7-4820K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: G:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.03-07.07.00:542][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.03-07.07.00:542][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.03-07.07.00:579][  0]LogHAL: Display: Platform has ~ 32 GB [34272636928 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.03-07.07.00:579][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.03-07.07.00:579][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.03-07.07.00:580][  0]LogInit: Computer: KILLROY
+[2018.11.03-07.07.00:580][  0]LogInit: User: Nicholaus
+[2018.11.03-07.07.00:580][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.03-07.07.00:580][  0]LogInit: High frequency timer resolution =3.613343 MHz
+[2018.11.03-07.07.00:580][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.11.03-07.07.00:580][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.03-07.07.00:580][  0]LogMemory: Process Physical Memory: 101.62 MB used, 101.62 MB peak
+[2018.11.03-07.07.00:580][  0]LogMemory: Process Virtual Memory: 89.77 MB used, 89.77 MB peak
+[2018.11.03-07.07.00:580][  0]LogMemory: Physical Memory: 6654.55 MB used,  26030.39 MB free, 32684.93 MB total
+[2018.11.03-07.07.00:580][  0]LogMemory: Virtual Memory: 4644.64 MB used,  26030.39 MB free, 134217728.00 MB total
+[2018.11.03-07.07.00:600][  0]LogInit: Using OS detected language (en-US).
+[2018.11.03-07.07.00:600][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.03-07.07.00:601][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.03-07.07.01:003][  0]LogStreaming: Display: Took  0.404s to InitEngineTextLocalization.
+[2018.11.03-07.07.01:003][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.03-07.07.01:072][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.03-07.07.01:072][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.03-07.07.01:300][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.03-07.07.01:300][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.03-07.07.01:372][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.11.03-07.07.01:372][  0]LogD3D11RHI:       6052/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.11.03-07.07.01:375][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.03-07.07.01:375][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.03-07.07.01:375][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.03-07.07.01:383][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.03-07.07.01:383][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.03-07.07.01:383][  0]LogWindows: EnumDisplayDevices:
+[2018.11.03-07.07.01:383][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.11.03-07.07.01:383][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.11.03-07.07.01:383][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.11.03-07.07.01:384][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.11.03-07.07.01:384][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.03-07.07.01:384][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.11.03-07.07.01:384][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2018.11.03-07.07.01:384][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2018.11.03-07.07.01:384][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.11.03-07.07.01:438][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.03-07.07.01:476][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.03-07.07.01:618][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Nicholaus/Documents/LianeRepo/Art of Combat/TheArtofCombat/Intermediate/Shaders/WorkingDirectory/3868/).
+[2018.11.03-07.07.01:618][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicholaus/AppData/Local/Temp/UnrealShaderWorkingDir/CF276DC346179BE29983CF90E93CFE71/'.
+[2018.11.03-07.07.01:923][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.03-07.07.01:939][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.03-07.07.01:958][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.03-07.07.01:978][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.03-07.07.01:998][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.03-07.07.02:017][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.03-07.07.02:034][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.03-07.07.02:058][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.03-07.07.02:069][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:174][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.03-07.07.02:175][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.03-07.07.02:241][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.03-07.07.02:241][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.03-07.07.02:268][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.03-07.07.02:268][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.03-07.07.02:282][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.03-07.07.02:300][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.03-07.07.02:317][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.03-07.07.02:334][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.03-07.07.02:349][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.03-07.07.02:349][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.03-07.07.02:417][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.03-07.07.02:417][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.03-07.07.02:417][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.03-07.07.03:292][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.03-07.07.03:362][  0]LogDerivedDataCache: Loaded boot cache 0.07s 75MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.03-07.07.03:362][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.03-07.07.03:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Art of Combat/TheArtofCombat/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.03-07.07.03:362][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.03-07.07.03:362][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Art of Combat/TheArtofCombat/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.03-07.07.03:362][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.03-07.07.03:374][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.03-07.07.03:387][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicholaus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.03-07.07.03:387][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.03-07.07.03:387][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.03-07.07.03:411][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.03-07.07.03:412][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.03-07.07.03:413][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.03-07.07.03:496][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2018.11.03-07.07.03:930][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.03-07.07.03:991][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.03-07.07.03:995][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.03-07.07.03:995][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.03-07.07.03:995][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.03-07.07.03:995][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.03-07.07.04:308][  0]LogNetVersion: TheArtofCombat 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3742453547)
+[2018.11.03-07.07.04:376][  0]LogNavigation: Error: [/Script/Engine.NavigationSystem] found in the DefaultEngine.ini file. This class has been moved. Please rename that section to [/Script/NavigationSystem.NavigationSystemV1]
+[2018.11.03-07.07.04:376][  0]LogNavigation: Error: [/Script/Engine.RecastNavMesh] found in the DefaultEngine.ini file. This class has been moved. Please rename that section to [/Script/NavigationSystem.RecastNavMesh]
+[2018.11.03-07.07.04:917][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.167759 seconds
+[2018.11.03-07.07.04:927][  0]LogUObjectArray: 38434 objects as part of root set at end of initial load.
+[2018.11.03-07.07.04:927][  0]LogUObjectAllocator: 6701144 out of 0 bytes used by permanent object pool.
+[2018.11.03-07.07.04:927][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.03-07.07.05:889][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.03-07.07.05:902][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.03-07.07.06:068][  0]SourceControl: Source control is disabled
+[2018.11.03-07.07.06:068][  0]SourceControl: Source control is disabled
+[2018.11.03-07.07.06:070][  0]SourceControl: Source control is disabled
+[2018.11.03-07.07.06:071][  0]SourceControl: Source control is disabled
+[2018.11.03-07.07.06:658][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.03-07.07.06:770][  0]LogOcInput: OculusInput pre-init called
+[2018.11.03-07.07.06:842][  0]LogEngine: Initializing Engine...
+[2018.11.03-07.07.06:842][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.03-07.07.06:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.03-07.07.06:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.03-07.07.06:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.03-07.07.06:844][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.03-07.07.07:177][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.03-07.07.07:195][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.03-07.07.07:218][  0]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.03-07.07.07:231][  0]LogInit: FAudioDevice initialized.
+[2018.11.03-07.07.07:231][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.03-07.07.07:313][  0]LogDerivedDataCache: Saved boot cache 0.08s 82MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.03-07.07.07:325][  0]LogInit: Texture streaming: Enabled
+[2018.11.03-07.07.07:346][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.03-07.07.07:365][  0]LogInit: Transaction tracking system initialized
+[2018.11.03-07.07.07:392][  0]BlueprintLog: New page: Editor Load
+[2018.11.03-07.07.07:497][  0]LocalizationService: Localization service is disabled
+[2018.11.03-07.07.07:934][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.03-07.07.07:934][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.03-07.07.07:934][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.03-07.07.07:934][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.03-07.07.07:934][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.03-07.07.07:934][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.03-07.07.07:934][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.03-07.07.08:098][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Art of Combat/TheArtofCombat/Content/' took 0.07s
+[2018.11.03-07.07.08:098][  0]SourceControl: Source control is disabled
+[2018.11.03-07.07.08:132][  0]LightingResults: New page: Lighting Build
+[2018.11.03-07.07.08:136][  0]MapCheck: New page: Map Check
+[2018.11.03-07.07.08:136][  0]LightingResults: New page: Lighting Build
+[2018.11.03-07.07.12:862][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2018.11.03-07.07.12:862][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2018.11.03-07.07.30:619][  0]LogAnimation: Warning: Animation Blueprint /Game/_ADNeo/CombatSys/BPs/CharBPs/Manne/_Parent/Manne_ABP_Drache_2.Manne_ABP_Drache_2 has nodes with invalid node guids that have been regenerated. This blueprint will not cook deterministically until it is resaved.
+[2018.11.03-07.07.53:400][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.03-07.07.53:437][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.03-07.07.53:665][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.03-07.07.53:840][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 175.275ms to complete.
+[2018.11.03-07.07.53:840][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 45.742
+[2018.11.03-07.07.53:976][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-07.07.53:987][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-07.07.54:000][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-07.07.54:012][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-07.07.54:021][  0]LogCollectionManager: Loaded 0 collections in 0.002073 seconds
+[2018.11.03-07.07.54:086][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Art of Combat/TheArtofCombat/Saved/Collections/' took 0.01s
+[2018.11.03-07.07.54:086][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Art of Combat/TheArtofCombat/Content/Developers/Nicholaus/Collections/' took 0.01s
+[2018.11.03-07.07.54:086][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Art of Combat/TheArtofCombat/Content/Collections/' took 0.01s
+[2018.11.03-07.07.54:086][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.03-07.07.54:101][  0]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2590 classes and 619 folders.
+[2018.11.03-07.07.54:108][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.03-07.07.54:153][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.03-07.07.54:164][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.11.03-07.07.54:624][  0]LogSlate: Took 0.000416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.03-07.07.54:629][  0]LogSlate: Took 0.000372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.03-07.07.54:640][  0]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.03-07.07.54:732][  0]LogRenderer: Reallocating scene render targets to support 1036x576 Format 10 NumSamples 1 (Frame:1).
+[2018.11.03-07.07.54:897][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.03-07.07.54:897][  0]LogLoad: (Engine Initialization) Total time: 56.63 seconds
+[2018.11.03-07.07.54:897][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.03-07.07.54:909][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.03-07.07.54:965][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.03-07.07.55:003][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.03-07.07.55:164][  3]LogAssetRegistry: Asset discovery search completed in 51.6904 seconds
+[2018.11.03-07.07.55:166][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.03-07.07.55:166][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2018.11.03-07.07.59:285][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.03-07.08.00:985][363]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.03-07.08.02:181][487]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sheath_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sheath_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sheath_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:682][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:683][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:683][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:683][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:683][500]LogSkinnedMeshComp: Warning: GetSocketByName(Bow_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:683][500]LogSkinnedMeshComp: Warning: GetSocketByName(Bow_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:683][500]LogSkinnedMeshComp: Warning: GetSocketByName(Bow_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:683][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sheath_Bow_Socket_Back): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:683][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sheath_Bow_Socket_Back): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:683][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sheath_Bow_Socket_Back): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:683][500]LogSkinnedMeshComp: Warning: GetSocketByName(Bow_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:684][500]LogSkinnedMeshComp: Warning: GetSocketByName(Bow_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:684][500]LogSkinnedMeshComp: Warning: GetSocketByName(Bow_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:684][500]LogSkinnedMeshComp: Warning: GetSocketByName(ArrowBeingDrawn_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:684][500]LogSkinnedMeshComp: Warning: GetSocketByName(ArrowBeingDrawn_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:684][500]LogSkinnedMeshComp: Warning: GetSocketByName(ArrowBeingDrawn_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:684][500]LogSkinnedMeshComp: Warning: GetSocketByName(Arrow_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:684][500]LogSkinnedMeshComp: Warning: GetSocketByName(Arrow_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:684][500]LogSkinnedMeshComp: Warning: GetSocketByName(Arrow_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:684][500]LogSkinnedMeshComp: Warning: GetSocketByName(Quiver_Socket_Back): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:684][500]LogSkinnedMeshComp: Warning: GetSocketByName(Quiver_Socket_Back): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:684][500]LogSkinnedMeshComp: Warning: GetSocketByName(Quiver_Socket_Back): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(spine_02): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(spine_02): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(spine_02): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(head): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(head): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(head): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(upperarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(upperarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(upperarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(upperarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(upperarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(upperarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(thigh_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(thigh_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:685][500]LogSkinnedMeshComp: Warning: GetSocketByName(thigh_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(thigh_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(thigh_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(thigh_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(foot_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(foot_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:686][500]LogSkinnedMeshComp: Warning: GetSocketByName(foot_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:687][500]LogSkinnedMeshComp: Warning: GetSocketByName(foot_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:687][500]LogSkinnedMeshComp: Warning: GetSocketByName(foot_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:687][500]LogSkinnedMeshComp: Warning: GetSocketByName(foot_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:687][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:687][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:687][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:687][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:687][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:687][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:690][500]LogSkinnedMeshComp: Warning: GetSocketByName(hand_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:690][500]LogSkinnedMeshComp: Warning: GetSocketByName(hand_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:690][500]LogSkinnedMeshComp: Warning: GetSocketByName(hand_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:690][500]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:690][500]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:690][500]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:690][500]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:690][500]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:690][500]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:693][500]LogSkinnedMeshComp: Warning: GetSocketByName(Arrow_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:693][500]LogSkinnedMeshComp: Warning: GetSocketByName(Arrow_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:693][500]LogSkinnedMeshComp: Warning: GetSocketByName(Arrow_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:694][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:694][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:694][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:694][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:694][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:694][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sheath_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(Bow_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sheath_Bow_Socket_Back): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(Bow_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(ArrowBeingDrawn_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(Arrow_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(Quiver_Socket_Back): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(spine_02): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(head): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(upperarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(upperarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(thigh_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(thigh_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:695][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(foot_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(foot_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(calf_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(Sword_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(hand_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(Shield_Socket_Left): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(Arrow_Socket_Right): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_r): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:696][500]LogSkinnedMeshComp: Warning: GetSocketByName(lowerarm_l): No SkeletalMesh for Component(CharacterMesh0) Actor(Assassin_C_0)
+[2018.11.03-07.08.02:850][505]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.03-07.08.02:854][505]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap
+[2018.11.03-07.08.03:721][505]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.11.03-07.08.06:302][505]LogSlate: Took 0.008955 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.03-07.08.06:433][506]LogSlate: Took 0.007609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.03-07.08.43:622][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-07.08.43:738][877]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.03-07.08.43:759][877]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.03-07.08.43:760][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.03-07.08.43:761][877]LogOnline: Warning: STEAM: Steam API disabled!
+[2018.11.03-07.08.43:761][877]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.11.03-07.08.43:772][877]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 2, 2018, 5:08:43 PM)
+[2018.11.03-07.08.43:773][877]LogPlayLevel: Creating play world package: /Game/_ADNeo/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.03-07.08.43:816][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043140s)
+[2018.11.03-07.08.43:816][877]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.03-07.08.43:817][877]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2018.11.03-07.08.43:817][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/_ADNeo/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.044223s)
+[2018.11.03-07.08.43:882][877]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.03-07.08.43:891][877]LogInit: FAudioDevice initialized.
+[2018.11.03-07.08.43:936][877]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.03-07.08.43:953][877]LogWorld: Bringing World /Game/_ADNeo/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.03-00.08.43
+[2018.11.03-07.08.43:958][877]LogWorld: Bringing up level for play took: 0.018392
+[2018.11.03-07.08.43:989][877]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.11.03-07.08.43:989][877]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-07.08.43:989][877]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.11.03-07.08.43:989][877]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-07.08.44:019][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-07.08.44:019][877]LogStreaming: Warning: Failed to read file '../../../../../../Users/Nicholaus/Documents/LianeRepo/Art of Combat/TheArtofCombat/Saved/SaveGames/PlayerSettingsSave.sav' error.
+[2018.11.03-07.08.44:019][877]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.11.03-07.08.44:020][877]PIE: Play in editor start time for /Game/_ADNeo/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.71
+[2018.11.03-07.08.44:020][877]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.03-07.08.46:147][113]LogSlate: Took 0.063327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.11.03-07.08.54:076][ 44]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'TC_Array_Currently Being Targeted' of length 0 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Ctrl_AI/Manne_AI_Controller.Manne_AI_Controller_C'!
+[2018.11.03-07.08.54:177][ 56]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'TC_Array_Currently Being Targeted' of length 0 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Ctrl_AI/Manne_AI_Controller.Manne_AI_Controller_C'!
+[2018.11.03-07.08.55:376][188]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Montages_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.08.55:376][188]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Min Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.08.55:376][188]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Max Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.08.55:376][188]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Action Slomo_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.08.55:696][220]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Montages_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.08.55:696][220]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Min Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.08.55:696][220]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Max Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.08.55:696][220]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Action Slomo_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.08.55:895][240]LogAnimMontage: Warning: JumpToSectionName Start_Anim bEndOfSection: 0 failed for Montage dodging_back_Montage
+[2018.11.03-07.08.59:201][603]LogAnimMontage: Warning: JumpToSectionName Start_Anim bEndOfSection: 0 failed for Montage chapa_giratoria_2_Montage
+[2018.11.03-07.09.06:303][400]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Montages_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.06:303][400]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Min Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.06:303][400]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Max Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.06:303][400]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Action Slomo_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.06:628][434]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Montages_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.06:628][434]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Min Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.06:628][434]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Max Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.06:628][434]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'Action Slomo_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.07:287][506]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Montages_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.07:287][506]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Min Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.07:287][506]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Max Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.07:287][506]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Action Slomo_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.07:609][543]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Montages_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.07:609][543]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Min Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.07:609][543]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Max Dmg_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.07:609][543]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'Action Slomo_Normal Attacks' of length 3 in '/Game/_ADNeo/CombatSys/BPs/CharBPs/Components/RPG/RPG_Component.RPG_Component_C'!
+[2018.11.03-07.09.09:085][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.03-07.09.09:086][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-07.09.09:134][709]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.03-07.09.09:134][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.03-07.09.09:175][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.03-07.09.09:213][710]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.03-07.11.08:286][662]LogEditorViewport: Clicking on Actor (LMB): Manne_BP_C (Manne_BP_AI)
+[2018.11.03-07.11.19:122][859]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2018.11.03-07.11.21:490][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.03-07.11.22:896][294]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart2)
+[2018.11.03-07.11.25:557][606]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2018.11.03-07.11.27:808][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.03-07.18.21:177][982]LogSavePackage: Moving '../../../../../../Users/Nicholaus/Documents/LianeRepo/Art of Combat/TheArtofCombat/Saved/ThirdPersonExampleMap_Auto1202F41ED4FA86483C9A5ACBAA04D4662.tmp' to '../../../../../../Users/Nicholaus/Documents/LianeRepo/Art of Combat/TheArtofCombat/Saved/Autosaves/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.11.03-07.18.21:180][982]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_ADNeo/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.777
+[2018.11.03-07.18.21:180][982]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.777
+[2018.11.03-07.25.08:328][226]LogSlate: Window 'Save Content' being destroyed
+[2018.11.03-07.25.08:475][226]LogSlate: Window 'TheArtofCombat - Unreal Editor' being destroyed
+[2018.11.03-07.25.08:650][227]Cmd: QUIT_EDITOR
+[2018.11.03-07.25.09:547][227]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.03-07.25.09:561][227]LogExit: Preparing to exit.
+[2018.11.03-07.25.10:802][227]LogExit: Editor shut down
+[2018.11.03-07.25.10:802][227]LogExit: Transaction tracking system shut down
+[2018.11.03-07.25.11:546][227]LogExit: Object subsystem successfully closed.
+[2018.11.03-07.25.11:567][227]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.03-07.25.11:570][227]LogD3D11RHI: Shutdown
+[2018.11.03-07.25.11:570][227]LogD3D11RHI: CleanupD3DDevice
+[2018.11.03-07.25.11:573][227]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.03-07.25.11:587][227]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (632)
+[2018.11.03-07.25.11:587][227]LogModuleManager: Shutting down and abandoning module Voice (630)
+[2018.11.03-07.25.11:587][227]LogModuleManager: Shutting down and abandoning module BlueprintGraph (628)
+[2018.11.03-07.25.11:587][227]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (626)
+[2018.11.03-07.25.11:587][227]LogModuleManager: Shutting down and abandoning module SceneOutliner (624)
+[2018.11.03-07.25.11:587][227]LogModuleManager: Shutting down and abandoning module AddContentDialog (622)
+[2018.11.03-07.25.11:588][227]LogModuleManager: Shutting down and abandoning module WidgetCarousel (621)
+[2018.11.03-07.25.11:588][227]LogModuleManager: Shutting down and abandoning module EditorWidgets (618)
+[2018.11.03-07.25.11:588][227]LogModuleManager: Shutting down and abandoning module CollectionManager (616)
+[2018.11.03-07.25.11:588][227]LogModuleManager: Shutting down and abandoning module StatsViewer (614)
+[2018.11.03-07.25.11:588][227]LogModuleManager: Shutting down and abandoning module FoliageEdit (612)
+[2018.11.03-07.25.11:588][227]LogModuleManager: Shutting down and abandoning module LandscapeEditor (610)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module MeshPaintMode (608)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (606)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module ActorPickerMode (604)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module GeometryMode (602)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module TextureAlignMode (600)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module BspMode (598)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (596)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (594)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module AutomationWorker (592)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (590)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module SequenceRecorder (589)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2018.11.03-07.25.11:589][227]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (574)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (572)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (570)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (568)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (566)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (564)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (562)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (560)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (558)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (556)
+[2018.11.03-07.25.11:590][227]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (554)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module CharacterAI (552)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module SmartSnapping (550)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module SessionServices (548)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module ViewportSnapping (546)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module ViewportInteraction (544)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module ClothPainter (542)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (541)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module LogVisualizer (538)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module IntroTutorials (536)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (535)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (532)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (530)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (528)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (526)
+[2018.11.03-07.25.11:591][227]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (525)
+[2018.11.03-07.25.13:294][227]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (522)
+[2018.11.03-07.25.13:294][227]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (520)
+[2018.11.03-07.25.13:294][227]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (518)
+[2018.11.03-07.25.13:294][227]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (516)
+[2018.11.03-07.25.13:294][227]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2018.11.03-07.25.13:294][227]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2018.11.03-07.25.13:294][227]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2018.11.03-07.25.13:295][227]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2018.11.03-07.25.13:295][227]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2018.11.03-07.25.13:295][227]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2018.11.03-07.25.13:295][227]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2018.11.03-07.25.13:295][227]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2018.11.03-07.25.13:295][227]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2018.11.03-07.25.13:295][227]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2018.11.03-07.25.13:295][227]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2018.11.03-07.25.13:296][227]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2018.11.03-07.25.13:296][227]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2018.11.03-07.25.13:296][227]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2018.11.03-07.25.13:296][227]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2018.11.03-07.25.13:297][227]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2018.11.03-07.25.13:297][227]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2018.11.03-07.25.13:297][227]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2018.11.03-07.25.13:352][227]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2018.11.03-07.25.13:352][227]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2018.11.03-07.25.13:352][227]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2018.11.03-07.25.13:352][227]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2018.11.03-07.25.13:352][227]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2018.11.03-07.25.13:352][227]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2018.11.03-07.25.13:353][227]LogModuleManager: Shutting down and abandoning module Persona (466)
+[2018.11.03-07.25.13:353][227]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (465)
+[2018.11.03-07.25.13:353][227]LogModuleManager: Shutting down and abandoning module AnimGraph (463)
+[2018.11.03-07.25.13:353][227]LogModuleManager: Shutting down and abandoning module Kismet (460)
+[2018.11.03-07.25.13:400][227]LogModuleManager: Shutting down and abandoning module GraphEditor (458)
+[2018.11.03-07.25.13:400][227]LogModuleManager: Shutting down and abandoning module ClassViewer (456)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module Toolbox (454)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module ModuleUI (452)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module MovieSceneTools (450)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module OutputLog (448)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module GammaUI (446)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module Documentation (444)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (442)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module MovieScene (440)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (438)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module LauncherPlatform (436)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module AnalyticsET (434)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module PortalServices (432)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module PortalRpc (430)
+[2018.11.03-07.25.13:401][227]LogModuleManager: Shutting down and abandoning module MessagingRpc (428)
+[2018.11.03-07.25.13:402][227]LogModuleManager: Shutting down and abandoning module AIModule (426)
+[2018.11.03-07.25.13:402][227]LogModuleManager: Shutting down and abandoning module GameplayDebugger (425)
+[2018.11.03-07.25.13:402][227]LogModuleManager: Shutting down and abandoning module AITestSuite (423)
+[2018.11.03-07.25.13:402][227]LogModuleManager: Shutting down and abandoning module NavigationSystem (421)
+[2018.11.03-07.25.13:402][227]LogModuleManager: Shutting down and abandoning module DesktopPlatform (418)
+[2018.11.03-07.25.13:402][227]LogModuleManager: Shutting down and abandoning module ProfilerService (416)
+[2018.11.03-07.25.13:416][227]LogModuleManager: Shutting down and abandoning module TaskGraph (414)
+[2018.11.03-07.25.13:416][227]LogModuleManager: Shutting down and abandoning module SteamVRController (412)
+[2018.11.03-07.25.13:416][227]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (410)
+[2018.11.03-07.25.13:416][227]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (408)
+[2018.11.03-07.25.13:416][227]LogModuleManager: Shutting down and abandoning module OculusInput (406)
+[2018.11.03-07.25.13:416][227]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (404)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module EditableMesh (402)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (400)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module CableComponent (398)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module AudioCapture (396)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (394)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module AndroidPermission (392)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module LoginFlow (390)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module PlayTimeLimit (388)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module Rejoin (386)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module Hotfix (384)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module Lobby (382)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module Party (380)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module Qos (378)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.11.03-07.25.13:417][227]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.11.03-07.25.13:418][227]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.11.03-07.25.13:418][227]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.11.03-07.25.13:418][227]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.11.03-07.25.13:418][227]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.11.03-07.25.13:425][227]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.11.03-07.25.13:425][227]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.11.03-07.25.13:426][227]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.11.03-07.25.13:426][227]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.11.03-07.25.13:426][227]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.11.03-07.25.13:426][227]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.11.03-07.25.13:426][227]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.11.03-07.25.13:426][227]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.11.03-07.25.13:426][227]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.11.03-07.25.13:426][227]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.11.03-07.25.13:426][227]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.11.03-07.25.13:426][227]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.11.03-07.25.13:427][227]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.11.03-07.25.13:427][227]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.11.03-07.25.13:427][227]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.11.03-07.25.13:427][227]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.11.03-07.25.13:427][227]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.11.03-07.25.13:428][227]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.11.03-07.25.13:428][227]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.11.03-07.25.13:428][227]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.11.03-07.25.13:428][227]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.11.03-07.25.13:428][227]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.11.03-07.25.13:428][227]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.11.03-07.25.13:428][227]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.11.03-07.25.13:428][227]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.11.03-07.25.13:428][227]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.11.03-07.25.13:428][227]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.11.03-07.25.13:428][227]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (300)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (298)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module PhysXVehicles (296)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module OculusEditor (294)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (290)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (288)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2018.11.03-07.25.13:429][227]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2018.11.03-07.25.13:531][227]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2018.11.03-07.25.13:632][227]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (280)
+[2018.11.03-07.25.13:632][227]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2018.11.03-07.25.13:632][227]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2018.11.03-07.25.13:632][227]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2018.11.03-07.25.13:632][227]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2018.11.03-07.25.13:632][227]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2018.11.03-07.25.13:632][227]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.11.03-07.25.13:634][227]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.11.03-07.25.13:634][227]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2018.11.03-07.25.13:634][227]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2018.11.03-07.25.13:635][227]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2018.11.03-07.25.13:635][227]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2018.11.03-07.25.13:638][227]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2018.11.03-07.25.13:638][227]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (254)
+[2018.11.03-07.25.13:638][227]LogModuleManager: Shutting down and abandoning module AISupportModule (252)
+[2018.11.03-07.25.13:638][227]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2018.11.03-07.25.13:638][227]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2018.11.03-07.25.13:638][227]LogModuleManager: Shutting down and abandoning module WmfMedia (246)
+[2018.11.03-07.25.13:642][227]LogModuleManager: Shutting down and abandoning module Media (245)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2018.11.03-07.25.13:649][227]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2018.11.03-07.25.13:650][227]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2018.11.03-07.25.13:650][227]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2018.11.03-07.25.13:650][227]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2018.11.03-07.25.13:650][227]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2018.11.03-07.25.13:650][227]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2018.11.03-07.25.13:650][227]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2018.11.03-07.25.13:650][227]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
+[2018.11.03-07.25.13:654][227]LogModuleManager: Shutting down and abandoning module MRMesh (200)
+[2018.11.03-07.25.13:654][227]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (198)
+[2018.11.03-07.25.13:654][227]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (196)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module XAudio2 (194)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module Networking (192)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module Core (190)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module LevelSequence (188)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module KismetCompiler (186)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module MeshUtilities (184)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (183)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (182)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (181)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (179)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (177)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2018.11.03-07.25.13:655][227]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (167)
+[2018.11.03-07.25.13:656][227]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2018.11.03-07.25.13:658][227]LogDerivedDataCache: Shutdown
+[2018.11.03-07.25.13:658][227]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2018.11.03-07.25.13:658][227]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2018.11.03-07.25.13:658][227]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2018.11.03-07.25.13:658][227]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2018.11.03-07.25.13:658][227]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2018.11.03-07.25.13:658][227]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2018.11.03-07.25.13:658][227]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2018.11.03-07.25.13:658][227]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2018.11.03-07.25.13:658][227]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2018.11.03-07.25.13:658][227]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2018.11.03-07.25.13:659][227]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2018.11.03-07.25.13:661][227]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2018.11.03-07.25.13:661][227]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2018.11.03-07.25.13:663][227]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2018.11.03-07.25.13:663][227]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module PhysXCooking (86)
+[2018.11.03-07.25.13:677][227]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2018.11.03-07.25.13:678][227]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2018.11.03-07.25.13:678][227]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2018.11.03-07.25.13:678][227]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2018.11.03-07.25.13:678][227]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2018.11.03-07.25.13:678][227]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2018.11.03-07.25.13:680][227]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.03-07.25.13:680][227]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.03-07.25.13:685][227]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.03-07.25.13:685][227]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.03-07.25.13:685][227]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B10954BDD-4402-7CE7-0495-A691A9C16D9A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=a6ce6b894be0bacd65eb7dbd7d089076%7C238961097ff24549b5636e54d1a5be08%7Cb77259cb-d6bf-4efb-aa59-b427f71ffbb1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.03-07.25.13:690][227]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.03-07.25.13:693][227]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.03-07.25.13:693][227]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.03-07.25.13:693][227]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.03-07.25.13:693][227]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.03-07.25.13:693][227]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.03-07.25.13:693][227]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.03-07.25.13:693][227]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.03-07.25.13:693][227]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.03-07.25.13:693][227]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.03-07.25.13:694][227]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.03-07.25.13:694][227]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.03-07.25.13:694][227]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.03-07.25.13:694][227]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.03-07.25.13:694][227]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.03-07.25.13:694][227]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.03-07.25.13:695][227]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.03-07.25.13:695][227]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.03-07.25.13:695][227]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.03-07.25.13:697][227]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.03-07.25.13:697][227]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.03-07.25.13:697][227]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.03-07.25.13:697][227]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.03-07.25.13:697][227]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.03-07.25.13:697][227]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.03-07.25.13:697][227]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.03-07.25.13:697][227]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.03-07.25.13:697][227]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.03-07.25.13:697][227]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.03-07.25.13:697][227]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.03-07.25.13:705][227]LogExit: Exiting.
+[2018.11.03-07.25.13:707][227]Log file closed, 11/03/18 00:25:13
