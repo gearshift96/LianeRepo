@@ -10,7 +10,6 @@ class UPointLightComponent;
 class USpotLightComponent;
 class UPhysicsHandleComponent;
 class USphereComponent;
-class UHealthComponent;
 class USceneComponent;
 class ATKShield;
 /**
@@ -71,7 +70,7 @@ protected:
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
 
 
-	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera" ,meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera" ,meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite,  Category = "Camera", meta = (AllowPrivateAccess = "true"))
@@ -79,16 +78,6 @@ protected:
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
-	*/
-	/* Pawn died previously */
-	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Player")
-	bool bDied;
-
-	UPROPERTY(BlueprintReadWrite, Category = "Components")
-	UHealthComponent* HealthComp;
-
-	UFUNCTION()
-	void OnHealthChanged(UHealthComponent* OwningHealthComp, float Health, float HealthDelta, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 
 private:
 
@@ -124,7 +113,7 @@ private:
 	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
 	void RechargeShield();
 
-	/*
+
 	// Telekinesis variables and functions
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
@@ -156,6 +145,5 @@ private:
 
 	//Make player face the telekinesis object they are grabbing
 	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	FaceTKObject();
-	 */
+	void FaceTKObject();
 };

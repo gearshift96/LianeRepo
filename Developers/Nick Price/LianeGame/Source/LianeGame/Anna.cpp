@@ -17,19 +17,17 @@ AAnna::AAnna()
 	bCanUseTelekinesis = true;
 
 	// Create a camera boom (pulls in towards the player if there is a collision)
-	//CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
-	//CameraBoom->SetupAttachment(RootComponent);
-	//CameraBoom->TargetArmLength = 100.0f; // The camera follows at this distance behind the character	
-	//CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
+	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
+	CameraBoom->SetupAttachment(RootComponent);
+	CameraBoom->TargetArmLength = 100.0f; // The camera follows at this distance behind the character	
+	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 
 	// Create a follow camera
-	//FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
-	//FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
-	//FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arms
+	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
+	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
+	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arms
 
-	//PhysicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
-
-	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComp"));
+	PhysicsHandle = CreateDefaultSubobject<UPhysicsHandleComponent>(TEXT("PhysicsHandle"));
 
 	ShieldSpawner = CreateDefaultSubobject<USceneComponent>(TEXT("ShieldSpawner"));
 }
@@ -45,7 +43,6 @@ void AAnna::BeginPlay()
 
 	GetWorldTimerManager().SetTimer(RechargeTimerHandle, this, &AAnna::RechargeShield, 1.0f, true);
 
-	HealthComp->OnHealthChanged.AddDynamic(this, &AAnna::OnHealthChanged);
 }
 
 void AAnna::Tick(float DeltaTime)
@@ -73,30 +70,6 @@ void AAnna::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("TKShield", IE_Pressed, this, &AAnna::TKShieldF);
 
 	PlayerInputComponent->BindAction("Heal", IE_Pressed, this, &AAnna::TKHeal);
-}
-
-void AAnna::OnHealthChanged(UHealthComponent * OwningHealthComp, float Health, float HealthDelta, const UDamageType * DamageType, AController * InstigatedBy, AActor * DamageCauser)
-{
-	if (Health <= 0.0f && !bDied)
-	{
-		// Die!
-		bDied = true;
-
-		GetMovementComponent()->StopMovementImmediately();
-		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-
-		DetachFromControllerPendingDestroy();
-
-		SetLifeSpan(10.0f);
-	}
-}
-
-void AAnna::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
-{
-	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
-
-	//DOREPLIFETIME(ALianeGameCharacter, CurrentWeapon);
-	DOREPLIFETIME(AAnna, bDied);
 }
 
 void AAnna::TKHeal()
@@ -188,7 +161,6 @@ void AAnna::CooldownHasFinished_Implementation()
 
 /*Telekinesis Logic*/
 
-/*
 void AAnna::Grab()
 {
 	if (!bCanUseTelekinesis) { return; }
@@ -317,4 +289,3 @@ FVector AAnna::GetTKReachLineEnd()
 	);
 	return PlayerViewPointLocation + PlayerViewPointRotation.Vector() * 800;
 }
-*/
