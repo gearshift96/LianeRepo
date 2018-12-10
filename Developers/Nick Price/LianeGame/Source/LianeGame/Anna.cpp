@@ -3,6 +3,7 @@
 #include "HealthComponent.h"
 #include "TimerManager.h"
 #include "TKShield.h"
+#include "DrawDebugHelpers.h"
 
 #define OUT
 //////////////////////////////////////////////////////////////////////////
@@ -62,10 +63,10 @@ void AAnna::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponen
 	check(PlayerInputComponent);
 
 	//Telekinesis key bindings
-	//PlayerInputComponent->BindAction("TKGrab", IE_Pressed, this, &AAnna::Grab);
-	//PlayerInputComponent->BindAction("TKGrab", IE_Released, this, &AAnna::Release);
+	PlayerInputComponent->BindAction("TKGrab", IE_Pressed, this, &AAnna::Grab);
+	PlayerInputComponent->BindAction("TKGrab", IE_Released, this, &AAnna::Release);
 
-	//PlayerInputComponent->BindAction("TKThrow", IE_Pressed, this, &AAnna::TKThrow);
+	PlayerInputComponent->BindAction("TKThrow", IE_Pressed, this, &AAnna::TKThrow);
 
 	PlayerInputComponent->BindAction("TKShield", IE_Pressed, this, &AAnna::TKShieldF);
 
@@ -98,8 +99,12 @@ void AAnna::TKShieldF()
 					bCanUseShield = false;
 					bCanUseTelekinesis = false;
 					TKShield = World->SpawnActor<ATKShield>(TKShieldBlueprint, ShieldSpawner->GetComponentLocation(), ShieldSpawner->GetComponentRotation(), SpawnInfo);
+					if (bDebugTelekinesis)
+					{
+						DrawDebugSphere(GetWorld(), ShieldSpawner->GetComponentLocation(), 200, 26, FColor::Emerald, true, 999, 0, 2);
+					}
 					TKShield->AttachToComponent(ShieldSpawner, FAttachmentTransformRules::SnapToTargetIncludingScale, NAME_None);
-					UE_LOG(LogTemp, Warning, TEXT("Shield is Attached!"));
+					UE_LOG(LogTemp, Log, TEXT("Shield is Attached!"))
 					GetCharacterMovement()->MaxWalkSpeed = 200.f;
 					GetWorldTimerManager().SetTimer(ShieldTimerHandle, this, &AAnna::ActivateShield, 1.0f, true);
 				}
@@ -211,6 +216,10 @@ void AAnna::TKThrow()
 		PhysicsHandle->GrabbedComponent->AddImpulse(TKImpulse, NAME_None, false);
 		Release();
 		//add camera shake effect
+		if (bDebugTelekinesis)
+		{
+			DrawDebugCrosshairs(GetWorld(), TKImpulse, FRotator(0, 0, 0), 500.f, FColor::White, true, 999, 0);
+		}
 	}
 	}
 
@@ -242,6 +251,10 @@ void AAnna::SetPhysicsHandleLocation()
 	auto FCFVec = FollowCamera->GetForwardVector() * Reach;
 	auto FCTarLoc = FCLoc + FCFVec;
 
+	if (bDebugTelekinesis)
+	{
+		DrawDebugDirectionalArrow(GetWorld(), FCFVec, FCFVec + 750.f, 120.f, FColor::Magenta, true, 999, 0, 5.f);
+	}
 	if (!PhysicsHandle)
 	{UE_LOG(LogTemp, Error, TEXT("%s missing physics handle component"), *GetOwner()->GetName()) return; }
 	// if the physics handle is attached
@@ -256,6 +269,10 @@ const FHitResult AAnna::GetFirstPhysicsBodyInReach()
 {
 	/// Line-trace (AKA ray-cast) out to reach distance
 	FHitResult HitResult;
+	if (bDebugTelekinesis)
+	{
+		DrawDebugLine(GetWorld(), GetTKReachLineStart(),GetTKReachLineEnd(), FColor::Magenta, true, 999, 0, 10);
+	}
 	FCollisionQueryParams TraceParameters(FName(TEXT("")), false, GetOwner());
 	GetWorld()->LineTraceSingleByObjectType(
 		OUT HitResult,

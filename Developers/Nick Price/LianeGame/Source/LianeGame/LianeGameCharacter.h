@@ -1,6 +1,5 @@
 #pragma once
 
-#include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
@@ -45,5 +44,17 @@ public:
 	//Can Anna/Robert shoot with a weapon in a level
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ability")
 	bool bCanShoot;
+
+	//Invert the Y axis for aiming/camera
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Config")
+	bool bInvertY;
+
+	//Invert the X axis for aiming/camera
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Config")
+	bool bInvertX;
+
+	//Adjust camera/aim sensitivity
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Config")
+	float aimSensitivity = 1.0f;
 };
 

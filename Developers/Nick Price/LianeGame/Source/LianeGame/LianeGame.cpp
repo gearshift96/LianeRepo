@@ -5,4 +5,3 @@
 
 IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, LianeGame, "LianeGame" );
  
-DEFINE_LOG_CATEGORY(LianeGameLog);

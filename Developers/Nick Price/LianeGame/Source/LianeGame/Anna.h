@@ -2,7 +2,6 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
 #include "LianeGameCharacter.h"
 #include "Anna.generated.h"
 
@@ -43,14 +42,18 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
 	int32 ShieldCooldown = 30;
 
-	//Can Anna use her shield in a level
+	//Can Anna use her shield
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
 	bool bCanUseShield;
 
-	//Can Anna use her shield in a level
+	//Can Anna use her telekinesis 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
 	bool bCanUseTelekinesis;
 	
+	//Draw debug lines for telekinesis
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
+	bool bDebugTelekinesis;
+
 	UFUNCTION(BlueprintNativeEvent)
 	void CountdownHasFinished();
 
@@ -58,12 +61,6 @@ public:
 	void CooldownHasFinished();
 
 protected:
-
-
-	bool bInvertY; //Invert the Y axis for aiming
-	bool bInvertX; //Invert the X axis for aiming
-
-	float aimSensitivity = 1.0f;
 
 	virtual void BeginPlay() override;
 

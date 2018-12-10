@@ -2,7 +2,6 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
 #include "LianeGameCharacter.h"
 #include "Robert.generated.h"
 

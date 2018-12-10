@@ -6,4 +6,4 @@
 #include "Engine.h"
 
 // how to use UE_LOG(): UE_LOG(QLLog, Warning, TEXT("%s"), *Item->GetName());
-DECLARE_LOG_CATEGORY_EXTERN(LianeGameLog, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogShield, All, All);
