@@ -50,7 +50,7 @@ void AAnna::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	//SetPhysicsHandleLocation();
+	SetPhysicsHandleLocation();
 	//FaceTKObject();
 }
 
@@ -271,7 +271,7 @@ const FHitResult AAnna::GetFirstPhysicsBodyInReach()
 	FHitResult HitResult;
 	if (bDebugTelekinesis)
 	{
-		DrawDebugLine(GetWorld(), GetTKReachLineStart(),GetTKReachLineEnd(), FColor::Magenta, true, 999, 0, 10);
+		DrawDebugLine(GetWorld(), GetTKReachLineStart() ,GetTKReachLineEnd(), FColor::Cyan, false, 10, 0, 10);
 	}
 	FCollisionQueryParams TraceParameters(FName(TEXT("")), false, GetOwner());
 	GetWorld()->LineTraceSingleByObjectType(
@@ -304,5 +304,5 @@ FVector AAnna::GetTKReachLineEnd()
 		OUT PlayerViewPointLocation,
 		OUT PlayerViewPointRotation
 	);
-	return PlayerViewPointLocation + PlayerViewPointRotation.Vector() * 800;
+	return PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
 }
