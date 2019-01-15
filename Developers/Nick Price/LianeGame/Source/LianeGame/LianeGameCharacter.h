@@ -1,8 +1,6 @@
 #pragma once
 
 #include "GameFramework/Character.h"
-#include "Kismet/GameplayStatics.h"
-#include "Kismet/KismetMathLibrary.h"
 #include "Net/UnrealNetwork.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -24,7 +22,6 @@ class ALianeGameCharacter : public ACharacter
 
 public:
 	
-
 	//Can Robert use his hacking skills
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hacking")
 	bool bCanHack;
@@ -56,5 +53,11 @@ public:
 	//Adjust camera/aim sensitivity
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Config")
 	float aimSensitivity = 1.0f;
+
+	virtual void Tick(float DeltaTime) override;
+
+protected:
+	UPROPERTY(BlueprintReadOnly, Category = "Config")
+	bool bIsInsideAnyLight;
 };
 

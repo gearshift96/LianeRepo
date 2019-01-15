@@ -101,11 +101,11 @@ void AAnna::TKShieldF()
 					TKShield = World->SpawnActor<ATKShield>(TKShieldBlueprint, ShieldSpawner->GetComponentLocation(), ShieldSpawner->GetComponentRotation(), SpawnInfo);
 					if (bDebugTelekinesis)
 					{
-						DrawDebugSphere(GetWorld(), ShieldSpawner->GetComponentLocation(), 200, 26, FColor::Emerald, true, 999, 0, 2);
+						DrawDebugSphere(GetWorld(), ShieldSpawner->GetComponentLocation(), 500, 50, FColor::Emerald, true, ShieldLifetime, 0, 10);
 					}
-					TKShield->AttachToComponent(ShieldSpawner, FAttachmentTransformRules::SnapToTargetIncludingScale, NAME_None);
+					TKShield->AttachToComponent(ShieldSpawner, FAttachmentTransformRules::SnapToTargetNotIncludingScale, NAME_None);
 					UE_LOG(LogTemp, Log, TEXT("Shield is Attached!"))
-					GetCharacterMovement()->MaxWalkSpeed = 200.f;
+					GetCharacterMovement()->MaxWalkSpeed = 300.f;
 					GetWorldTimerManager().SetTimer(ShieldTimerHandle, this, &AAnna::ActivateShield, 1.0f, true);
 				}
 				else
@@ -146,22 +146,22 @@ bool AAnna::bIsReady()
 	return ShieldCooldown <= 0;
 }
 
-void AAnna::CountdownHasFinished_Implementation()
+void AAnna::CountdownHasFinished()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Countdown has finished!"));
 	bCanUseTelekinesis = true;
 	ShieldCooldown = 30;
 	GLog->Log("Shield is Destroyed!");
 	TKShield->Destroy();
+	GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	GetWorldTimerManager().SetTimer(RechargeTimerHandle, this, &AAnna::RechargeShield, 1.0f, true);
 }
 
-void AAnna::CooldownHasFinished_Implementation()
+void AAnna::CooldownHasFinished()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Cooldown has finished!"));
 	bCanUseShield = true;
-	ShieldLifetime = 5;
-	GetCharacterMovement()->MaxWalkSpeed = 400.f;
+	ShieldLifetime = 5;	
 }
 
 /*Telekinesis Logic*/

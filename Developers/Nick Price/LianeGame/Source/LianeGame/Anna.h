@@ -54,10 +54,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Telekinesis")
 	bool bDebugTelekinesis;
 
-	UFUNCTION(BlueprintNativeEvent)
+	UFUNCTION()
 	void CountdownHasFinished();
 
-	UFUNCTION(BlueprintNativeEvent)
+	UFUNCTION()
 	void CooldownHasFinished();
 
 protected:
@@ -73,6 +73,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite,  Category = "Camera", meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
 
+	UPROPERTY(EditAnywhere, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	USceneComponent* ShieldSpawner;
+
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
@@ -83,9 +86,6 @@ private:
 	FTimerHandle RechargeTimerHandle;
 
 	FTimerHandle ShieldTimerHandle;
-
-	UPROPERTY(VisibleAnywhere)
-	USceneComponent* ShieldSpawner;
 
 	UPROPERTY()
 	ATKShield* TKShield;
