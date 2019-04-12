@@ -90,30 +90,31 @@ private:
 	UPROPERTY()
 	ATKShield* TKShield;
 
-	UPROPERTY(EditAnywhere, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	TSubclassOf<ATKShield> TKShieldBlueprint;
+
+	UPROPERTY(EditAnywhere, Category = "Telekinesis")
+	TSubclassOf<ATKShield> TKShieldBP;
 	
 	//Is the shield ready to go?
 	bool bIsReady();
 
 	//Recover the player's health
-	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	UFUNCTION(BlueprintCallable, Category = "Telekinesis")
 	void TKHeal();
 
 	//Generates a force field that deflects objects
-	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
-	void TKShieldF();
+	UFUNCTION(BlueprintCallable, Category = "Telekinesis")
+	void SpawnShield();
 
-	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	UFUNCTION(BlueprintCallable, Category = "Telekinesis")
 	void ActivateShield();
 
-	UFUNCTION(BlueprintCallable, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	UFUNCTION(BlueprintCallable, Category = "Telekinesis")
 	void RechargeShield();
 
 
 	// Telekinesis variables and functions
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Telekinesis", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(VisibleAnywhere, Category = "Telekinesis")
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 
 	// Set (assumed) phyics handle location

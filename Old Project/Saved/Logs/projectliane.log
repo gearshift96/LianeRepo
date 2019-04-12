@@ -1,4 +1,4 @@
-﻿Log file open, 11/25/18 11:12:14
+﻿Log file open, 04/12/19 13:54:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: projectliane
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1327238335) SRandInit(-1327238335).
+LogInit: Display: RandInit(-806249282) SRandInit(-806249282).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 2.232353
+LogStats: Stats thread started at 0.322236
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  4.556s to configure plugins.
+LogStreaming: Display: Took  2.473s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -222,410 +222,869 @@ LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.25-19.12.20:304][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.25-19.12.20:304][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.25-19.12.20:376][  0]LogInit: Computer: KILLROY
-[2018.11.25-19.12.20:376][  0]LogInit: User: Nicholaus
-[2018.11.25-19.12.20:376][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.11.25-19.12.20:376][  0]LogInit: High frequency timer resolution =3.613345 MHz
-[2018.11.25-19.12.20:376][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.11.25-19.12.20:376][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.25-19.12.20:376][  0]LogMemory: Process Physical Memory: 274.28 MB used, 274.28 MB peak
-[2018.11.25-19.12.20:376][  0]LogMemory: Process Virtual Memory: 264.56 MB used, 264.56 MB peak
-[2018.11.25-19.12.20:376][  0]LogMemory: Physical Memory: 9305.10 MB used,  23379.83 MB free, 32684.93 MB total
-[2018.11.25-19.12.20:376][  0]LogMemory: Virtual Memory: 4795.29 MB used,  23379.83 MB free, 134217728.00 MB total
-[2018.11.25-19.12.21:239][  0]LogInit: Using OS detected language (en-US).
-[2018.11.25-19.12.21:239][  0]LogInit: Using OS detected locale (en-US).
-[2018.11.25-19.12.21:419][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.11.25-19.12.23:124][  0]LogStreaming: Display: Took  1.884s to EndInitTextLocalization.
-[2018.11.25-19.12.23:124][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.25-19.12.23:388][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.25-19.12.23:388][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.25-19.12.26:695][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.25-19.12.26:792][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.11.25-19.12.26:792][  0]LogD3D11RHI:       6052/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2018.11.25-19.12.26:794][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.25-19.12.26:794][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.25-19.12.26:794][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.25-19.12.26:801][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.25-19.12.26:801][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.25-19.12.26:801][  0]LogWindows: EnumDisplayDevices:
-[2018.11.25-19.12.26:801][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2018.11.25-19.12.26:801][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2018.11.25-19.12.26:801][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2018.11.25-19.12.26:801][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.11.25-19.12.26:801][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.11.25-19.12.26:801][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.11.25-19.12.26:801][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.11.25-19.12.26:801][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.11.25-19.12.26:802][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2018.11.25-19.12.26:876][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.11.25-19.12.26:876][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.11.25-19.12.26:876][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.25-19.12.26:932][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.25-19.12.27:083][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/Intermediate/Shaders/WorkingDirectory/15508/).
-[2018.11.25-19.12.27:084][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicholaus/AppData/Local/Temp/UnrealShaderWorkingDir/ECD477E9491781BB409583A19717E4B7/'.
-[2018.11.25-19.12.28:649][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.25-19.12.28:674][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.25-19.12.28:690][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.25-19.12.28:706][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.25-19.12.28:737][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.25-19.12.28:753][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.25-19.12.28:771][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.25-19.12.28:788][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.25-19.12.28:798][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.25-19.12.28:812][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.11.25-19.12.28:826][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.11.25-19.12.28:842][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.11.25-19.12.28:857][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.11.25-19.12.28:872][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.11.25-19.12.28:887][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.11.25-19.12.28:916][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.11.25-19.12.28:916][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.11.25-19.12.28:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.25-19.12.28:954][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.25-19.12.29:060][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.25-19.12.29:098][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.25-19.12.29:113][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.25-19.12.29:128][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.25-19.12.29:144][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.25-19.12.29:165][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.25-19.12.29:165][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.25-19.12.30:203][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.25-19.12.30:203][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.25-19.12.30:203][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.25-19.12.32:862][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.25-19.12.33:363][  0]LogDerivedDataCache: Loaded boot cache 0.50s 74MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.11.25-19.12.33:363][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.11.25-19.12.33:363][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.25-19.12.33:363][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.25-19.12.33:364][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.25-19.12.33:364][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.25-19.12.33:447][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.25-19.12.33:459][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicholaus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.25-19.12.33:459][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.25-19.12.33:459][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.25-19.12.33:474][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.25-19.12.33:474][  0]LogSlate: Using Freetype 2.6.0
-[2018.11.25-19.12.33:522][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.25-19.12.33:522][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.25-19.12.41:089][  0]LogAssetRegistry: FAssetRegistry took 0.0291 seconds to start up
-[2018.11.25-19.12.41:519][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.25-19.12.42:480][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.25-19.12.42:515][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.25-19.12.42:516][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.25-19.12.42:516][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.25-19.12.42:516][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.11.25-19.12.42:516][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.11.25-19.12.42:604][  0]LogNetVersion: projectliane , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 33679610)
-[2018.11.25-19.12.45:477][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.120120 seconds
-[2018.11.25-19.12.45:483][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.11.25-19.12.45:483][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.11.25-19.12.45:483][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.25-19.13.03:968][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.25-19.13.04:002][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.25-19.13.04:614][  0]SourceControl: Source control is disabled
-[2018.11.25-19.13.04:614][  0]SourceControl: Source control is disabled
-[2018.11.25-19.13.04:635][  0]SourceControl: Source control is disabled
-[2018.11.25-19.13.04:655][  0]SourceControl: Source control is disabled
-[2018.11.25-19.13.05:464][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.25-19.13.05:731][  0]LogOcInput: OculusInput pre-init called
-[2018.11.25-19.13.06:050][  0]LogEngine: Initializing Engine...
-[2018.11.25-19.13.06:052][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.25-19.13.06:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.25-19.13.06:054][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.25-19.13.07:077][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.25-19.13.07:100][  0]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.25-19.13.07:113][  0]LogInit: FAudioDevice initialized.
-[2018.11.25-19.13.07:233][  0]LogDerivedDataCache: Saved boot cache 0.12s 74MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.11.25-19.13.07:278][  0]LogInit: Texture streaming: Enabled
-[2018.11.25-19.13.07:340][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.25-19.13.07:379][  0]LogInit: Transaction tracking system initialized
-[2018.11.25-19.13.07:519][  0]BlueprintLog: New page: Editor Load
-[2018.11.25-19.13.08:200][  0]LocalizationService: Localization service is disabled
-[2018.11.25-19.13.09:150][  0]LogConsoleResponse: Display: 
-[2018.11.25-19.13.10:975][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.25-19.13.10:975][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.25-19.13.10:975][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.25-19.13.10:975][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.25-19.13.10:975][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.25-19.13.11:388][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/' took 0.03s
-[2018.11.25-19.13.12:385][  0]SourceControl: Source control is disabled
-[2018.11.25-19.13.12:386][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.25-19.13.12:419][  0]LightingResults: New page: Lighting Build
-[2018.11.25-19.13.12:423][  0]MapCheck: New page: Map Check
-[2018.11.25-19.13.12:423][  0]LightingResults: New page: Lighting Build
-[2018.11.25-19.13.12:573][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022251c59900, Size=32, Default__FocusOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/FocusOnPlayer.FocusOnPlayer_C:ExecuteUbergraph_FocusOnPlayer
-[2018.11.25-19.13.12:575][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022251c59900, Size=32
-[2018.11.25-19.13.12:575][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022251c59900, Size=32, Default__FocusOnPlayer_C Function /Engine/Transient.REINST_FocusOnPlayer_C_1:ExecuteUbergraph_FocusOnPlayer
-[2018.11.25-19.13.12:577][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022251c58a40, Size=32, Default__FocusOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/FocusOnPlayer.FocusOnPlayer_C:ExecuteUbergraph_FocusOnPlayer
-[2018.11.25-19.13.12:599][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022251be2cc0, Size=56, Default__MoveNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/MoveNearPlayer.MoveNearPlayer_C:ExecuteUbergraph_MoveNearPlayer
-[2018.11.25-19.13.12:603][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022251be2cc0, Size=56
-[2018.11.25-19.13.12:603][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022251be2cc0, Size=56, Default__MoveNearPlayer_C Function /Engine/Transient.REINST_MoveNearPlayer_C_3:ExecuteUbergraph_MoveNearPlayer
-[2018.11.25-19.13.12:606][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022251be20b8, Size=56, Default__MoveNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/MoveNearPlayer.MoveNearPlayer_C:ExecuteUbergraph_MoveNearPlayer
-[2018.11.25-19.13.12:625][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002226e592fc8, Size=24, Default__StopFocusingOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/StopFocusingOnPlayer.StopFocusingOnPlayer_C:ExecuteUbergraph_StopFocusingOnPlayer
-[2018.11.25-19.13.12:627][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002226e592fc8, Size=24
-[2018.11.25-19.13.12:627][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002226e592fc8, Size=24, Default__StopFocusingOnPlayer_C Function /Engine/Transient.REINST_StopFocusingOnPlayer_C_5:ExecuteUbergraph_StopFocusingOnPlayer
-[2018.11.25-19.13.12:628][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002226e592e18, Size=24, Default__StopFocusingOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/StopFocusingOnPlayer.StopFocusingOnPlayer_C:ExecuteUbergraph_StopFocusingOnPlayer
-[2018.11.25-19.13.12:675][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002225184d480, Size=328, Default__Allison_Controller_C Function /Game/Allison/Proper_AI/Allison_Controller.Allison_Controller_C:ExecuteUbergraph_Allison_Controller
-[2018.11.25-19.13.14:280][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022251876a98, Size=40, Default__Liane3rdAnim_C Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim
-[2018.11.25-19.13.14:773][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222551a7580, Size=2648, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.11.25-19.13.14:777][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002225c5f1580, Size=64, Default__ABP_Anna_C Function /Game/NewAnnaModel/ABP_Anna.ABP_Anna_C:ExecuteUbergraph_ABP_Anna
-[2018.11.25-19.13.14:857][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022255053700, Size=656, Default__BP_PhotoPawn_C Function /Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn_C:ExecuteUbergraph_BP_PhotoPawn
-[2018.11.25-19.13.14:976][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022255dc2b00, Size=1952, Default__BP_PhotoAdjustmentsWidget_C Function /Game/PhotoMode/Blueprints/BP_PhotoAdjustmentsWidget.BP_PhotoAdjustmentsWidget_C:ExecuteUbergraph_BP_PhotoAdjustmentsWidget
-[2018.11.25-19.13.15:548][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222567dbe00, Size=480, Default__BP_PhotoModeManager_C Function /Game/PhotoMode/Blueprints/BP_PhotoModeManager.BP_PhotoModeManager_C:ExecuteUbergraph_BP_PhotoModeManager
-[2018.11.25-19.13.17:114][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022270f3d440, Size=304, Default__SearchableDesk1_Items_C Function /Game/UI/SearchableDesk1_Items.SearchableDesk1_Items_C:ExecuteUbergraph_SearchableDesk1_Items
-[2018.11.25-19.13.17:115][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002225614e7d0, Size=48, Default__SearchableDesk1_C Function /Game/Blueprints/SearchableDesk1.SearchableDesk1_C:ExecuteUbergraph_SearchableDesk1
-[2018.11.25-19.13.17:356][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022258fcce40, Size=32, Default__Document1UI_C Function /Game/UI/Document1UI.Document1UI_C:ExecuteUbergraph_Document1UI
-[2018.11.25-19.13.17:359][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022270ad3740, Size=72, Default__InventoryUI_C Function /Game/UI/InventoryUI.InventoryUI_C:ExecuteUbergraph_InventoryUI
-[2018.11.25-19.13.17:375][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022258fccce0, Size=32, Default__Document2UI_C Function /Game/UI/Document2UI.Document2UI_C:ExecuteUbergraph_Document2UI
-[2018.11.25-19.13.17:402][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222567d2ca0, Size=40, Default__PauseMenu_C Function /Game/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
-[2018.11.25-19.13.17:431][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222550c15c0, Size=64, Default__TextFeedback_C Function /Game/UI/TextFeedback.TextFeedback_C:ExecuteUbergraph_TextFeedback
-[2018.11.25-19.13.17:453][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022270a73d80, Size=32, Default__Document3UI_C Function /Game/UI/Document3UI.Document3UI_C:ExecuteUbergraph_Document3UI
-[2018.11.25-19.13.17:670][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222567d0810, Size=40, Default__StopMoving_C Function /Game/Allison/Proper_AI/Tasks/StopMoving.StopMoving_C:ExecuteUbergraph_StopMoving
-[2018.11.25-19.13.17:697][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022270a06300, Size=256, Default__TeleportNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/TeleportNearPlayer.TeleportNearPlayer_C:ExecuteUbergraph_TeleportNearPlayer
-[2018.11.25-19.13.17:816][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002225c5f1580, Size=64
-[2018.11.25-19.13.17:816][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002226e0b8740, Size=64, Default__ABP_Anna_C Function /Engine/Transient.REINST_ABP_Anna_C_0:ExecuteUbergraph_ABP_Anna
-[2018.11.25-19.13.17:816][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000222567dbe00, Size=480
-[2018.11.25-19.13.17:816][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002225e657a00, Size=480, Default__BP_PhotoModeManager_C Function /Engine/Transient.REINST_BP_PhotoModeManager_C_9:ExecuteUbergraph_BP_PhotoModeManager
-[2018.11.25-19.13.17:816][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022251876a98, Size=40
-[2018.11.25-19.13.17:816][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002226e191530, Size=40, Default__Liane3rdAnim_C Function /Engine/Transient.REINST_Liane3rdAnim_C_1:ExecuteUbergraph_Liane3rdAnim
-[2018.11.25-19.13.17:818][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022255053700, Size=656
-[2018.11.25-19.13.17:818][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002226e08c400, Size=656, Default__BP_PhotoPawn_C Function /Engine/Transient.REINST_BP_PhotoPawn_C_11:ExecuteUbergraph_BP_PhotoPawn
-[2018.11.25-19.13.17:818][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002225614e7d0, Size=48
-[2018.11.25-19.13.17:818][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002226e15da80, Size=48, Default__SearchableDesk1_C Function /Engine/Transient.REINST_SearchableDesk1_C_12:ExecuteUbergraph_SearchableDesk1
-[2018.11.25-19.13.17:818][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002225184d480, Size=328
-[2018.11.25-19.13.17:819][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222712b9300, Size=328, Default__Allison_Controller_C Function /Engine/Transient.REINST_Allison_Controller_C_13:ExecuteUbergraph_Allison_Controller
-[2018.11.25-19.13.17:825][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022255dc2b00, Size=1952
-[2018.11.25-19.13.17:826][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271254b80, Size=1952, Default__BP_PhotoAdjustmentsWidget_C Function /Engine/Transient.REINST_BP_PhotoAdjustmentsWidget_C_1:ExecuteUbergraph_BP_PhotoAdjustmentsWidget
-[2018.11.25-19.13.17:826][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022258fcce40, Size=32
-[2018.11.25-19.13.17:826][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222712e9440, Size=32, Default__Document1UI_C Function /Engine/Transient.REINST_Document1UI_C_2:ExecuteUbergraph_Document1UI
-[2018.11.25-19.13.17:826][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022258fccce0, Size=32
-[2018.11.25-19.13.17:826][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222712e93c0, Size=32, Default__Document2UI_C Function /Engine/Transient.REINST_Document2UI_C_3:ExecuteUbergraph_Document2UI
-[2018.11.25-19.13.17:826][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022270a73d80, Size=32
-[2018.11.25-19.13.17:826][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222712e9340, Size=32, Default__Document3UI_C Function /Engine/Transient.REINST_Document3UI_C_4:ExecuteUbergraph_Document3UI
-[2018.11.25-19.13.17:826][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022270ad3740, Size=72
-[2018.11.25-19.13.17:826][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271284ea0, Size=72, Default__InventoryUI_C Function /Engine/Transient.REINST_InventoryUI_C_5:ExecuteUbergraph_InventoryUI
-[2018.11.25-19.13.17:827][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000222567d2ca0, Size=40
-[2018.11.25-19.13.17:827][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002226e190c70, Size=40, Default__PauseMenu_C Function /Engine/Transient.REINST_PauseMenu_C_6:ExecuteUbergraph_PauseMenu
-[2018.11.25-19.13.17:827][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022270f3d440, Size=304
-[2018.11.25-19.13.17:827][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022250e04cc0, Size=304, Default__SearchableDesk1_Items_C Function /Engine/Transient.REINST_SearchableDesk1_Items_C_7:ExecuteUbergraph_SearchableDesk1_Items
-[2018.11.25-19.13.17:827][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000222567d0810, Size=40
-[2018.11.25-19.13.17:827][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002226e190c48, Size=40, Default__StopMoving_C Function /Engine/Transient.REINST_StopMoving_C_14:ExecuteUbergraph_StopMoving
-[2018.11.25-19.13.17:828][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022270a06300, Size=256
-[2018.11.25-19.13.17:828][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002225e64e200, Size=256, Default__TeleportNearPlayer_C Function /Engine/Transient.REINST_TeleportNearPlayer_C_15:ExecuteUbergraph_TeleportNearPlayer
-[2018.11.25-19.13.17:828][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000222550c15c0, Size=64
-[2018.11.25-19.13.17:828][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227123b800, Size=64, Default__TextFeedback_C Function /Engine/Transient.REINST_TextFeedback_C_8:ExecuteUbergraph_TextFeedback
-[2018.11.25-19.13.17:830][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000222551a7580, Size=2648
-[2018.11.25-19.13.17:830][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002226e0db580, Size=2648, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_16:ExecuteUbergraph_ThirdPersonCharacter
-[2018.11.25-19.13.17:851][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] InputAction Event references unknown Action 'ToggleFocusForAdjustmentsWidget' for  InputAction ToggleFocusForAdjustmentsWidget
-[2018.11.25-19.13.17:851][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] InputAction Event references unknown Action 'ToggleAdjustmentsWidget' for  InputAction ToggleAdjustmentsWidget
-[2018.11.25-19.13.17:852][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp
-[2018.11.25-19.13.17:959][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271aeab40, Size=64, Default__ABP_Anna_C Function /Game/NewAnnaModel/ABP_Anna.ABP_Anna_C:ExecuteUbergraph_ABP_Anna
-[2018.11.25-19.13.17:961][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271adaa00, Size=496, Default__BP_PhotoModeManager_C Function /Game/PhotoMode/Blueprints/BP_PhotoModeManager.BP_PhotoModeManager_C:ExecuteUbergraph_BP_PhotoModeManager
-[2018.11.25-19.13.17:962][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222710f01f8, Size=40, Default__Liane3rdAnim_C Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim
-[2018.11.25-19.13.17:965][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271aa1f00, Size=656, Default__BP_PhotoPawn_C Function /Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn_C:ExecuteUbergraph_BP_PhotoPawn
-[2018.11.25-19.13.17:967][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271a36680, Size=48, Default__SearchableDesk1_C Function /Game/Blueprints/SearchableDesk1.SearchableDesk1_C:ExecuteUbergraph_SearchableDesk1
-[2018.11.25-19.13.17:969][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271a42f80, Size=328, Default__Allison_Controller_C Function /Game/Allison/Proper_AI/Allison_Controller.Allison_Controller_C:ExecuteUbergraph_Allison_Controller
-[2018.11.25-19.13.17:990][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022258fb8100, Size=1952, Default__BP_PhotoAdjustmentsWidget_C Function /Game/PhotoMode/Blueprints/BP_PhotoAdjustmentsWidget.BP_PhotoAdjustmentsWidget_C:ExecuteUbergraph_BP_PhotoAdjustmentsWidget
-[2018.11.25-19.13.17:996][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227174ad00, Size=32, Default__Document1UI_C Function /Game/UI/Document1UI.Document1UI_C:ExecuteUbergraph_Document1UI
-[2018.11.25-19.13.17:997][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227174ab60, Size=32, Default__Document2UI_C Function /Game/UI/Document2UI.Document2UI_C:ExecuteUbergraph_Document2UI
-[2018.11.25-19.13.17:998][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227174a9c0, Size=32, Default__Document3UI_C Function /Game/UI/Document3UI.Document3UI_C:ExecuteUbergraph_Document3UI
-[2018.11.25-19.13.18:000][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222716eacf0, Size=72, Default__InventoryUI_C Function /Game/UI/InventoryUI.InventoryUI_C:ExecuteUbergraph_InventoryUI
-[2018.11.25-19.13.18:001][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271a72e58, Size=40, Default__PauseMenu_C Function /Game/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
-[2018.11.25-19.13.18:005][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271d2c7c0, Size=304, Default__SearchableDesk1_Items_C Function /Game/UI/SearchableDesk1_Items.SearchableDesk1_Items_C:ExecuteUbergraph_SearchableDesk1_Items
-[2018.11.25-19.13.18:007][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271a72d40, Size=40, Default__StopMoving_C Function /Game/Allison/Proper_AI/Tasks/StopMoving.StopMoving_C:ExecuteUbergraph_StopMoving
-[2018.11.25-19.13.18:007][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271672b00, Size=256, Default__TeleportNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/TeleportNearPlayer.TeleportNearPlayer_C:ExecuteUbergraph_TeleportNearPlayer
-[2018.11.25-19.13.18:008][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222716a6480, Size=64, Default__TextFeedback_C Function /Game/UI/TextFeedback.TextFeedback_C:ExecuteUbergraph_TextFeedback
-[2018.11.25-19.13.18:026][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222715ec100, Size=2648, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.11.25-19.13.18:079][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] [0070.89] Compile of BP_PhotoPawn successful, but with 3 Warning(s) [in 366 ms] (/Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn)
-[2018.11.25-19.13.18:093][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227157e0f0, Size=56, Default__Allison_PathingTrigger_BP_C Function /Game/Allison/Proper_AI/Allison_PathingTrigger_BP.Allison_PathingTrigger_BP_C:ExecuteUbergraph_Allison_PathingTrigger_BP
-[2018.11.25-19.13.18:096][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002227157e0f0, Size=56
-[2018.11.25-19.13.18:096][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227157e0f0, Size=56, Default__Allison_PathingTrigger_BP_C Function /Engine/Transient.REINST_Allison_PathingTrigger_BP_C_37:ExecuteUbergraph_Allison_PathingTrigger_BP
-[2018.11.25-19.13.18:098][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227157e3c8, Size=56, Default__Allison_PathingTrigger_BP_C Function /Game/Allison/Proper_AI/Allison_PathingTrigger_BP.Allison_PathingTrigger_BP_C:ExecuteUbergraph_Allison_PathingTrigger_BP
-[2018.11.25-19.13.18:244][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227157e208, Size=56, Default__ABP_Allison_C Function /Game/Allison/Proper_AI/ABP_Allison.ABP_Allison_C:ExecuteUbergraph_ABP_Allison
-[2018.11.25-19.13.18:249][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002227157e208, Size=56
-[2018.11.25-19.13.18:249][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227157e208, Size=56, Default__ABP_Allison_C Function /Engine/Transient.REINST_ABP_Allison_C_2:ExecuteUbergraph_ABP_Allison
-[2018.11.25-19.13.18:254][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227157f350, Size=56, Default__ABP_Allison_C Function /Game/Allison/Proper_AI/ABP_Allison.ABP_Allison_C:ExecuteUbergraph_ABP_Allison
-[2018.11.25-19.13.18:285][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271543470, Size=16, Default__Audio03_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio03_Blueprint.Audio03_Blueprint_C:ExecuteUbergraph_Audio03_Blueprint
-[2018.11.25-19.13.18:288][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271543470, Size=16
-[2018.11.25-19.13.18:288][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271543470, Size=16, Default__Audio03_Blueprint_C Function /Engine/Transient.REINST_Audio03_Blueprint_C_40:ExecuteUbergraph_Audio03_Blueprint
-[2018.11.25-19.13.18:289][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271543480, Size=16, Default__Audio03_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio03_Blueprint.Audio03_Blueprint_C:ExecuteUbergraph_Audio03_Blueprint
-[2018.11.25-19.13.18:338][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271543cb0, Size=16, Default__Audio05_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio05_Blueprint.Audio05_Blueprint_C:ExecuteUbergraph_Audio05_Blueprint
-[2018.11.25-19.13.18:340][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271543cb0, Size=16
-[2018.11.25-19.13.18:340][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271543cb0, Size=16, Default__Audio05_Blueprint_C Function /Engine/Transient.REINST_Audio05_Blueprint_C_42:ExecuteUbergraph_Audio05_Blueprint
-[2018.11.25-19.13.18:342][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271543ec0, Size=16, Default__Audio05_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio05_Blueprint.Audio05_Blueprint_C:ExecuteUbergraph_Audio05_Blueprint
-[2018.11.25-19.13.18:400][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271542ec0, Size=16, Default__Audio06_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio06_Blueprint.Audio06_Blueprint_C:ExecuteUbergraph_Audio06_Blueprint
-[2018.11.25-19.13.18:403][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271542ec0, Size=16
-[2018.11.25-19.13.18:403][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271542ec0, Size=16, Default__Audio06_Blueprint_C Function /Engine/Transient.REINST_Audio06_Blueprint_C_44:ExecuteUbergraph_Audio06_Blueprint
-[2018.11.25-19.13.18:405][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271542eb0, Size=16, Default__Audio06_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio06_Blueprint.Audio06_Blueprint_C:ExecuteUbergraph_Audio06_Blueprint
-[2018.11.25-19.13.18:433][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271542d80, Size=16, Default__Audio08_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio08_Blueprint.Audio08_Blueprint_C:ExecuteUbergraph_Audio08_Blueprint
-[2018.11.25-19.13.18:435][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271542d80, Size=16
-[2018.11.25-19.13.18:435][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271542d80, Size=16, Default__Audio08_Blueprint_C Function /Engine/Transient.REINST_Audio08_Blueprint_C_46:ExecuteUbergraph_Audio08_Blueprint
-[2018.11.25-19.13.18:436][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271542d70, Size=16, Default__Audio08_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio08_Blueprint.Audio08_Blueprint_C:ExecuteUbergraph_Audio08_Blueprint
-[2018.11.25-19.13.18:714][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271631000, Size=648, Default__SlidingDoorBP_C Function /Game/Blueprints/SlidingDoorBP.SlidingDoorBP_C:ExecuteUbergraph_SlidingDoorBP
-[2018.11.25-19.13.18:723][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271631000, Size=648
-[2018.11.25-19.13.18:723][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271c0f700, Size=648, Default__SlidingDoorBP_C Function /Engine/Transient.REINST_SlidingDoorBP_C_50:ExecuteUbergraph_SlidingDoorBP
-[2018.11.25-19.13.18:728][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271c0e800, Size=648, Default__SlidingDoorBP_C Function /Game/Blueprints/SlidingDoorBP.SlidingDoorBP_C:ExecuteUbergraph_SlidingDoorBP
-[2018.11.25-19.13.18:732][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271576080, Size=48, Default__SlidingDoor_TriggerBP_C Function /Game/Blueprints/SlidingDoor_TriggerBP.SlidingDoor_TriggerBP_C:ExecuteUbergraph_SlidingDoor_TriggerBP
-[2018.11.25-19.13.18:734][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271576080, Size=48
-[2018.11.25-19.13.18:734][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271576080, Size=48, Default__SlidingDoor_TriggerBP_C Function /Engine/Transient.REINST_SlidingDoor_TriggerBP_C_52:ExecuteUbergraph_SlidingDoor_TriggerBP
-[2018.11.25-19.13.18:736][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271576740, Size=48, Default__SlidingDoor_TriggerBP_C Function /Game/Blueprints/SlidingDoor_TriggerBP.SlidingDoor_TriggerBP_C:ExecuteUbergraph_SlidingDoor_TriggerBP
-[2018.11.25-19.13.19:111][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002225681cc60, Size=196, Default__BP_DemoCube2_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube2.BP_DemoCube2_C:ExecuteUbergraph_BP_DemoCube2
-[2018.11.25-19.13.19:137][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002225681cc60, Size=196
-[2018.11.25-19.13.19:137][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271047ac0, Size=196, Default__BP_DemoCube2_C Function /Engine/Transient.REINST_BP_DemoCube2_C_54:ExecuteUbergraph_BP_DemoCube2
-[2018.11.25-19.13.19:143][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271046a20, Size=196, Default__BP_DemoCube2_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube2.BP_DemoCube2_C:ExecuteUbergraph_BP_DemoCube2
-[2018.11.25-19.13.19:189][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271af4df8, Size=8, Default__BP_DemoCube3_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube3.BP_DemoCube3_C:ExecuteUbergraph_BP_DemoCube3
-[2018.11.25-19.13.19:206][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271af4df8, Size=8
-[2018.11.25-19.13.19:206][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271af4df8, Size=8, Default__BP_DemoCube3_C Function /Engine/Transient.REINST_BP_DemoCube3_C_56:ExecuteUbergraph_BP_DemoCube3
-[2018.11.25-19.13.19:213][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022255041b78, Size=8, Default__BP_DemoCube3_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube3.BP_DemoCube3_C:ExecuteUbergraph_BP_DemoCube3
-[2018.11.25-19.13.19:299][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022271926f80, Size=364, Default__BP_Pixel_Dude_Jumping_C Function /Game/Outliner/Demo/Blueprints/BP_Pixel_Dude_Jumping.BP_Pixel_Dude_Jumping_C:ExecuteUbergraph_BP_Pixel_Dude_Jumping
-[2018.11.25-19.13.19:316][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271926f80, Size=364
-[2018.11.25-19.13.19:316][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227232f880, Size=364, Default__BP_Pixel_Dude_Jumping_C Function /Engine/Transient.REINST_BP_Pixel_Dude_Jumping_C_58:ExecuteUbergraph_BP_Pixel_Dude_Jumping
-[2018.11.25-19.13.19:321][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022272312200, Size=364, Default__BP_Pixel_Dude_Jumping_C Function /Game/Outliner/Demo/Blueprints/BP_Pixel_Dude_Jumping.BP_Pixel_Dude_Jumping_C:ExecuteUbergraph_BP_Pixel_Dude_Jumping
-[2018.11.25-19.13.19:326][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022258fe1300, Size=288, Default__RoomsManager_C Function /Game/Outliner/Demo/Blueprints/RoomsManager.RoomsManager_C:ExecuteUbergraph_RoomsManager
-[2018.11.25-19.13.19:341][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022258fe1300, Size=288
-[2018.11.25-19.13.19:341][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022258fe1300, Size=288, Default__RoomsManager_C Function /Engine/Transient.REINST_RoomsManager_C_60:ExecuteUbergraph_RoomsManager
-[2018.11.25-19.13.19:349][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222722b7c40, Size=304, Default__RoomsManager_C Function /Game/Outliner/Demo/Blueprints/RoomsManager.RoomsManager_C:ExecuteUbergraph_RoomsManager
-[2018.11.25-19.13.19:810][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227170d6e0, Size=104, Default__RoomN4Manager_C Function /Game/Outliner/Demo/Blueprints/RoomN4Manager.RoomN4Manager_C:ExecuteUbergraph_RoomN4Manager
-[2018.11.25-19.13.19:812][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002227170d6e0, Size=104
-[2018.11.25-19.13.19:813][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002227170d6e0, Size=104, Default__RoomN4Manager_C Function /Engine/Transient.REINST_RoomN4Manager_C_64:ExecuteUbergraph_RoomN4Manager
-[2018.11.25-19.13.19:815][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222716e30b0, Size=104, Default__RoomN4Manager_C Function /Game/Outliner/Demo/Blueprints/RoomN4Manager.RoomN4Manager_C:ExecuteUbergraph_RoomN4Manager
-[2018.11.25-19.13.22:875][  0]LogLinker: Warning: Asset '../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/Content/SciFiGlitchPostPro/Textures/Screen/txt_fx_pulse_grid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.11.25-19.13.28:422][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002226202f040, Size=3000, Default__ThirdPersonExampleMap_C Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap
-[2018.11.25-19.13.28:485][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002226202f040, Size=3000
-[2018.11.25-19.13.28:485][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000022260e38100, Size=3000, Default__ThirdPersonExampleMap_C Function /Engine/Transient.REINST_ThirdPersonExampleMap_C_66:ExecuteUbergraph_ThirdPersonExampleMap
-[2018.11.25-19.13.28:595][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222752fc100, Size=3000, Default__ThirdPersonExampleMap_C Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap
-[2018.11.25-19.13.29:906][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [12.688519ms] /Game/Allison/Model/allisonjacket.allisonjacket
-[2018.11.25-19.13.31:805][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [11.115462ms] /Game/character/lianeverticalslice.lianeverticalslice
-[2018.11.25-19.13.33:398][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [12.054758ms] /Game/NewAnnaModel/Model/jacketrevision2.jacketrevision2
-[2018.11.25-19.13.35:647][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.11.25-19.13.35:766][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
-[2018.11.25-19.13.35:767][  0]LogPhysics: Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.PostProcessVolume_1.BrushComponent0] ScaledElem[0] invalid
-[2018.11.25-19.13.35:813][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022251c59900, Size=32
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022251be2cc0, Size=56
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002226e592fc8, Size=24
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000222712b9300, Size=328
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002226e191530, Size=40
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002226e0db580, Size=2648
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002226e0b8740, Size=64
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002226e08c400, Size=656
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271254b80, Size=1952
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002225e657a00, Size=480
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022250e04cc0, Size=304
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002226e15da80, Size=48
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000222712e9440, Size=32
-[2018.11.25-19.13.35:843][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271284ea0, Size=72
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000222712e93c0, Size=32
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002226e190c70, Size=40
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002227123b800, Size=64
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000222712e9340, Size=32
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002226e190c48, Size=40
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002225e64e200, Size=256
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002227157e0f0, Size=56
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002227157e208, Size=56
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271543470, Size=16
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271543cb0, Size=16
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271542ec0, Size=16
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271542d80, Size=16
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271c0f700, Size=648
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271576080, Size=48
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271047ac0, Size=196
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022271af4df8, Size=8
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002227232f880, Size=364
-[2018.11.25-19.13.35:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022258fe1300, Size=288
-[2018.11.25-19.13.35:845][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002227170d6e0, Size=104
-[2018.11.25-19.13.35:845][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000022260e38100, Size=3000
-[2018.11.25-19.13.35:849][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.25-19.13.35:997][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 147.841ms to complete.
-[2018.11.25-19.13.35:997][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 23.611
-[2018.11.25-19.13.36:418][  0]LogCollectionManager: Loaded 0 collections in 0.002705 seconds
-[2018.11.25-19.13.36:506][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Saved/Collections/' took 0.01s
-[2018.11.25-19.13.36:506][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/Developers/Nicholaus/Collections/' took 0.01s
-[2018.11.25-19.13.36:506][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/Collections/' took 0.01s
-[2018.11.25-19.13.36:506][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.11.25-19.13.36:531][  0]LogContentBrowser: Native class hierarchy populated in 0.0246 seconds. Added 2452 classes and 558 folders.
-[2018.11.25-19.13.36:555][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.11.25-19.13.38:235][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.11.25-19.13.38:299][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.11.25-19.13.38:487][  0]LogSlate: Took 0.036872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.25-19.13.38:511][  0]LogSlate: Took 0.022568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.25-19.13.38:540][  0]LogSlate: Took 0.022140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.25-19.13.38:914][  0]LogRenderer: Reallocating scene render targets to support 1036x576 Format 10 NumSamples 1 (Frame:1).
-[2018.11.25-19.13.39:083][  0]LogSlate: Took 0.031916 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.25-19.13.39:223][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.11.25-19.13.39:223][  0]LogLoad: (Engine Initialization) Total time: 92.03 seconds
-[2018.11.25-19.13.39:223][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.25-19.13.39:235][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.25-19.13.39:283][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.25-19.13.39:525][  1]LogFileCache: Retrieving MD5 hashes for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/' took 0.27s
-[2018.11.25-19.13.40:571][  3]LogAssetRegistry: Asset discovery search completed in 59.5050 seconds
-[2018.11.25-19.13.40:574][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.11.25-19.13.40:574][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000107 seconds (updated 0 objects)
-[2018.11.25-19.13.40:605][  3]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.25-19.13.42:676][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-19.13.44:826][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.25-19.13.45:674][444]LogClass: Warning: Enum '/Game/Outliner/Demo/Blueprints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2018.11.25-19.13.45:701][444]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
-[2018.11.25-19.13.46:265][444]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222c050de48, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.11.25-19.13.46:266][444]LogUObjectGlobals: Created PersistentFrame Addr=0x00000222c050de40, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.11.25-19.13.47:319][444]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.47:336][444]LogSlate: Took 0.013051 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.11.25-19.13.49:244][445]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:275][445]LogSlate: Took 0.016526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.11.25-19.13.49:335][446]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:358][447]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:381][448]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:412][449]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:439][450]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:463][451]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:486][452]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:514][453]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:545][454]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:573][455]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:603][456]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:630][457]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:663][458]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:688][459]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.13.49:709][460]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerCharacter_ReturnValue
-	Liane3rdAnim_C /Engine/Transient.World_2:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.Liane3rdAnim_C_1
-	Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim:0081
-[2018.11.25-19.49.42:957][352]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3ce65878-131a-4db2-a92d-e7b1dad6b505} was removed. Shutting down audio device.
-[2018.11.25-19.49.42:957][352]LogInit: XAudio2 using 'E24-C1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.25-19.49.43:295][353]LogInit: XAudio2 using 'E24-C1 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.25-20.01.27:980][467]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.26-06.15.56:827][492]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
-[2018.11.26-06.15.58:163][493]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{3ce65878-131a-4db2-a92d-e7b1dad6b505} was removed. Shutting down audio device.
+[2019.04.12-20.54.48:605][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.12-20.54.48:605][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.12-20.54.48:631][  0]LogInit: Computer: KILLROY
+[2019.04.12-20.54.48:631][  0]LogInit: User: Nicholaus
+[2019.04.12-20.54.48:631][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.12-20.54.48:632][  0]LogInit: High frequency timer resolution =3.613340 MHz
+[2019.04.12-20.54.48:632][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.04.12-20.54.48:632][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.12-20.54.48:633][  0]LogMemory: Process Physical Memory: 274.27 MB used, 274.27 MB peak
+[2019.04.12-20.54.48:633][  0]LogMemory: Process Virtual Memory: 264.71 MB used, 264.71 MB peak
+[2019.04.12-20.54.48:633][  0]LogMemory: Physical Memory: 6297.53 MB used,  26387.41 MB free, 32684.93 MB total
+[2019.04.12-20.54.48:633][  0]LogMemory: Virtual Memory: 4795.59 MB used,  26387.41 MB free, 134217728.00 MB total
+[2019.04.12-20.54.48:686][  0]LogInit: Using OS detected language (en-US).
+[2019.04.12-20.54.48:686][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.12-20.54.48:692][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.12-20.54.49:149][  0]LogStreaming: Display: Took  0.464s to EndInitTextLocalization.
+[2019.04.12-20.54.49:150][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.12-20.54.49:227][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.12-20.54.49:227][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.12-20.54.49:502][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.12-20.54.49:611][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.04.12-20.54.49:611][  0]LogD3D11RHI:       6052/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.04.12-20.54.49:613][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.12-20.54.49:614][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.12-20.54.49:614][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.12-20.54.49:622][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.12-20.54.49:622][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.12-20.54.49:622][  0]LogWindows: EnumDisplayDevices:
+[2019.04.12-20.54.49:622][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.04.12-20.54.49:622][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.04.12-20.54.49:622][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.04.12-20.54.49:623][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.12-20.54.49:623][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.12-20.54.49:623][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.04.12-20.54.49:623][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.12-20.54.49:623][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.12-20.54.49:623][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.04.12-20.54.49:692][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.04.12-20.54.49:692][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.04.12-20.54.49:692][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.12-20.54.49:725][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.12-20.54.49:881][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/Intermediate/Shaders/WorkingDirectory/10444/).
+[2019.04.12-20.54.49:882][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicholaus/AppData/Local/Temp/UnrealShaderWorkingDir/754D752B4B4DB3C5F6E9558C266355A1/'.
+[2019.04.12-20.54.50:182][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.12-20.54.50:201][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.12-20.54.50:229][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.12-20.54.50:247][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.12-20.54.50:266][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.12-20.54.50:294][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.12-20.54.50:311][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.12-20.54.50:330][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.12-20.54.50:341][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.12-20.54.50:356][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.04.12-20.54.50:372][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.04.12-20.54.50:389][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.04.12-20.54.50:405][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.04.12-20.54.50:421][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.04.12-20.54.50:438][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.04.12-20.54.50:471][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.04.12-20.54.50:471][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.04.12-20.54.50:495][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-20.54.50:497][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.12-20.54.50:549][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.12-20.54.50:567][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.12-20.54.50:588][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.12-20.54.50:602][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.12-20.54.50:617][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.12-20.54.50:642][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.12-20.54.50:642][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.12-20.54.50:885][  0]LogXGEController: Cleaning working directory: C:/Users/Nicholaus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.12-20.54.50:886][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.12-20.54.50:886][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.12-20.54.50:886][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.12-20.54.52:089][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.12-20.54.52:214][  0]LogDerivedDataCache: Loaded boot cache 0.12s 74MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.04.12-20.54.52:214][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.04.12-20.54.52:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.12-20.54.52:214][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.12-20.54.52:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.12-20.54.52:214][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.12-20.54.52:232][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.12-20.54.52:245][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicholaus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.12-20.54.52:245][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.12-20.54.52:245][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.12-20.54.52:259][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.12-20.54.52:260][  0]LogSlate: Using Freetype 2.6.0
+[2019.04.12-20.54.52:261][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.12-20.54.52:261][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.12-20.54.52:454][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2019.04.12-20.54.52:902][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.12-20.54.53:167][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.12-20.54.53:172][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.12-20.54.53:172][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.12-20.54.53:172][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.12-20.54.53:172][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.04.12-20.54.53:172][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.04.12-20.54.53:317][  0]LogNetVersion: projectliane , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 33679610)
+[2019.04.12-20.54.54:116][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.120741 seconds
+[2019.04.12-20.54.54:128][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.04.12-20.54.54:128][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.04.12-20.54.54:128][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.12-20.54.57:045][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.12-20.54.57:116][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.12-20.54.58:117][  0]SourceControl: Source control is disabled
+[2019.04.12-20.54.58:117][  0]SourceControl: Source control is disabled
+[2019.04.12-20.54.58:174][  0]SourceControl: Source control is disabled
+[2019.04.12-20.54.58:209][  0]SourceControl: Source control is disabled
+[2019.04.12-20.54.59:311][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.12-20.54.59:765][  0]LogOcInput: OculusInput pre-init called
+[2019.04.12-20.54.59:971][  0]LogEngine: Initializing Engine...
+[2019.04.12-20.54.59:975][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.12-20.54.59:979][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.12-20.54.59:979][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.12-20.55.00:328][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.12-20.55.00:399][  0]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.12-20.55.00:438][  0]LogInit: FAudioDevice initialized.
+[2019.04.12-20.55.00:672][  0]LogDerivedDataCache: Saved boot cache 0.23s 74MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.04.12-20.55.00:685][  0]LogInit: Texture streaming: Enabled
+[2019.04.12-20.55.00:720][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.12-20.55.00:765][  0]LogInit: Transaction tracking system initialized
+[2019.04.12-20.55.00:820][  0]BlueprintLog: New page: Editor Load
+[2019.04.12-20.55.00:974][  0]LocalizationService: Localization service is disabled
+[2019.04.12-20.55.01:203][  0]LogConsoleResponse: Display: 
+[2019.04.12-20.55.01:382][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.12-20.55.01:382][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.12-20.55.01:382][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.12-20.55.01:382][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.12-20.55.01:382][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.12-20.55.01:846][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/' took 0.04s
+[2019.04.12-20.55.02:103][  0]SourceControl: Source control is disabled
+[2019.04.12-20.55.02:104][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.12-20.55.02:104][  0]LightingResults: New page: Lighting Build
+[2019.04.12-20.55.02:109][  0]MapCheck: New page: Map Check
+[2019.04.12-20.55.02:109][  0]LightingResults: New page: Lighting Build
+[2019.04.12-20.55.02:135][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b56e4cd900, Size=32, Default__FocusOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/FocusOnPlayer.FocusOnPlayer_C:ExecuteUbergraph_FocusOnPlayer
+[2019.04.12-20.55.02:137][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b56e4cd900, Size=32
+[2019.04.12-20.55.02:137][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b56e4cd900, Size=32, Default__FocusOnPlayer_C Function /Engine/Transient.REINST_FocusOnPlayer_C_1:ExecuteUbergraph_FocusOnPlayer
+[2019.04.12-20.55.02:139][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b56e4cca40, Size=32, Default__FocusOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/FocusOnPlayer.FocusOnPlayer_C:ExecuteUbergraph_FocusOnPlayer
+[2019.04.12-20.55.02:143][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b54f42acc0, Size=56, Default__MoveNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/MoveNearPlayer.MoveNearPlayer_C:ExecuteUbergraph_MoveNearPlayer
+[2019.04.12-20.55.02:145][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b54f42acc0, Size=56
+[2019.04.12-20.55.02:145][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b54f42acc0, Size=56, Default__MoveNearPlayer_C Function /Engine/Transient.REINST_MoveNearPlayer_C_3:ExecuteUbergraph_MoveNearPlayer
+[2019.04.12-20.55.02:146][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b54f42a0b8, Size=56, Default__MoveNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/MoveNearPlayer.MoveNearPlayer_C:ExecuteUbergraph_MoveNearPlayer
+[2019.04.12-20.55.02:149][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b56ecc6fc8, Size=24, Default__StopFocusingOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/StopFocusingOnPlayer.StopFocusingOnPlayer_C:ExecuteUbergraph_StopFocusingOnPlayer
+[2019.04.12-20.55.02:150][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b56ecc6fc8, Size=24
+[2019.04.12-20.55.02:150][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b56ecc6fc8, Size=24, Default__StopFocusingOnPlayer_C Function /Engine/Transient.REINST_StopFocusingOnPlayer_C_5:ExecuteUbergraph_StopFocusingOnPlayer
+[2019.04.12-20.55.02:151][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b56ecc6e18, Size=24, Default__StopFocusingOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/StopFocusingOnPlayer.StopFocusingOnPlayer_C:ExecuteUbergraph_StopFocusingOnPlayer
+[2019.04.12-20.55.02:162][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b54f10d480, Size=328, Default__Allison_Controller_C Function /Game/Allison/Proper_AI/Allison_Controller.Allison_Controller_C:ExecuteUbergraph_Allison_Controller
+[2019.04.12-20.55.02:278][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b54f136ac0, Size=40, Default__Liane3rdAnim_C Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim
+[2019.04.12-20.55.02:331][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5594c7580, Size=2648, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2019.04.12-20.55.02:340][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b54ed0d480, Size=64, Default__ABP_Anna_C Function /Game/NewAnnaModel/ABP_Anna.ABP_Anna_C:ExecuteUbergraph_ABP_Anna
+[2019.04.12-20.55.02:399][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b54ed1ca00, Size=656, Default__BP_PhotoPawn_C Function /Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn_C:ExecuteUbergraph_BP_PhotoPawn
+[2019.04.12-20.55.02:687][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b54fef2b00, Size=1952, Default__BP_PhotoAdjustmentsWidget_C Function /Game/PhotoMode/Blueprints/BP_PhotoAdjustmentsWidget.BP_PhotoAdjustmentsWidget_C:ExecuteUbergraph_BP_PhotoAdjustmentsWidget
+[2019.04.12-20.55.03:028][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b554b43e00, Size=480, Default__BP_PhotoModeManager_C Function /Game/PhotoMode/Blueprints/BP_PhotoModeManager.BP_PhotoModeManager_C:ExecuteUbergraph_BP_PhotoModeManager
+[2019.04.12-20.55.03:300][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5550cd440, Size=304, Default__SearchableDesk1_Items_C Function /Game/UI/SearchableDesk1_Items.SearchableDesk1_Items_C:ExecuteUbergraph_SearchableDesk1_Items
+[2019.04.12-20.55.03:302][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b553c5a7d0, Size=48, Default__SearchableDesk1_C Function /Game/Blueprints/SearchableDesk1.SearchableDesk1_C:ExecuteUbergraph_SearchableDesk1
+[2019.04.12-20.55.03:341][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b556a70e40, Size=32, Default__Document1UI_C Function /Game/UI/Document1UI.Document1UI_C:ExecuteUbergraph_Document1UI
+[2019.04.12-20.55.03:346][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575263740, Size=72, Default__InventoryUI_C Function /Game/UI/InventoryUI.InventoryUI_C:ExecuteUbergraph_InventoryUI
+[2019.04.12-20.55.03:351][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b556a70ce0, Size=32, Default__Document2UI_C Function /Game/UI/Document2UI.Document2UI_C:ExecuteUbergraph_Document2UI
+[2019.04.12-20.55.03:359][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b554b3acc8, Size=40, Default__PauseMenu_C Function /Game/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
+[2019.04.12-20.55.03:367][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b57528d600, Size=64, Default__TextFeedback_C Function /Game/UI/TextFeedback.TextFeedback_C:ExecuteUbergraph_TextFeedback
+[2019.04.12-20.55.03:376][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575203d80, Size=32, Default__Document3UI_C Function /Game/UI/Document3UI.Document3UI_C:ExecuteUbergraph_Document3UI
+[2019.04.12-20.55.03:452][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b554b38810, Size=40, Default__StopMoving_C Function /Game/Allison/Proper_AI/Tasks/StopMoving.StopMoving_C:ExecuteUbergraph_StopMoving
+[2019.04.12-20.55.03:458][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575166600, Size=256, Default__TeleportNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/TeleportNearPlayer.TeleportNearPlayer_C:ExecuteUbergraph_TeleportNearPlayer
+[2019.04.12-20.55.03:564][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b54ed0d480, Size=64
+[2019.04.12-20.55.03:564][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5553006c0, Size=64, Default__ABP_Anna_C Function /Engine/Transient.REINST_ABP_Anna_C_0:ExecuteUbergraph_ABP_Anna
+[2019.04.12-20.55.03:565][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b554b43e00, Size=480
+[2019.04.12-20.55.03:565][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b55515fa00, Size=480, Default__BP_PhotoModeManager_C Function /Engine/Transient.REINST_BP_PhotoModeManager_C_9:ExecuteUbergraph_BP_PhotoModeManager
+[2019.04.12-20.55.03:565][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b54f136ac0, Size=40
+[2019.04.12-20.55.03:565][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5553d1530, Size=40, Default__Liane3rdAnim_C Function /Engine/Transient.REINST_Liane3rdAnim_C_1:ExecuteUbergraph_Liane3rdAnim
+[2019.04.12-20.55.03:566][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b54ed1ca00, Size=656
+[2019.04.12-20.55.03:566][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575a57700, Size=656, Default__BP_PhotoPawn_C Function /Engine/Transient.REINST_BP_PhotoPawn_C_11:ExecuteUbergraph_BP_PhotoPawn
+[2019.04.12-20.55.03:566][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b553c5a7d0, Size=48
+[2019.04.12-20.55.03:566][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b55539da80, Size=48, Default__SearchableDesk1_C Function /Engine/Transient.REINST_SearchableDesk1_C_12:ExecuteUbergraph_SearchableDesk1
+[2019.04.12-20.55.03:567][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b54f10d480, Size=328
+[2019.04.12-20.55.03:567][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575696c80, Size=328, Default__Allison_Controller_C Function /Engine/Transient.REINST_Allison_Controller_C_13:ExecuteUbergraph_Allison_Controller
+[2019.04.12-20.55.03:573][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b54fef2b00, Size=1952
+[2019.04.12-20.55.03:574][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575a04b80, Size=1952, Default__BP_PhotoAdjustmentsWidget_C Function /Engine/Transient.REINST_BP_PhotoAdjustmentsWidget_C_1:ExecuteUbergraph_BP_PhotoAdjustmentsWidget
+[2019.04.12-20.55.03:574][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b556a70e40, Size=32
+[2019.04.12-20.55.03:574][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575a8d440, Size=32, Default__Document1UI_C Function /Engine/Transient.REINST_Document1UI_C_2:ExecuteUbergraph_Document1UI
+[2019.04.12-20.55.03:574][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b556a70ce0, Size=32
+[2019.04.12-20.55.03:574][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575a8d3c0, Size=32, Default__Document2UI_C Function /Engine/Transient.REINST_Document2UI_C_3:ExecuteUbergraph_Document2UI
+[2019.04.12-20.55.03:574][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575203d80, Size=32
+[2019.04.12-20.55.03:574][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575a8d340, Size=32, Default__Document3UI_C Function /Engine/Transient.REINST_Document3UI_C_4:ExecuteUbergraph_Document3UI
+[2019.04.12-20.55.03:574][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575263740, Size=72
+[2019.04.12-20.55.03:574][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575a35120, Size=72, Default__InventoryUI_C Function /Engine/Transient.REINST_InventoryUI_C_5:ExecuteUbergraph_InventoryUI
+[2019.04.12-20.55.03:575][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b554b3acc8, Size=40
+[2019.04.12-20.55.03:575][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5553d0c70, Size=40, Default__PauseMenu_C Function /Engine/Transient.REINST_PauseMenu_C_6:ExecuteUbergraph_PauseMenu
+[2019.04.12-20.55.03:575][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5550cd440, Size=304
+[2019.04.12-20.55.03:575][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b555238cc0, Size=304, Default__SearchableDesk1_Items_C Function /Engine/Transient.REINST_SearchableDesk1_Items_C_7:ExecuteUbergraph_SearchableDesk1_Items
+[2019.04.12-20.55.03:575][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b554b38810, Size=40
+[2019.04.12-20.55.03:575][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5553d0c48, Size=40, Default__StopMoving_C Function /Engine/Transient.REINST_StopMoving_C_14:ExecuteUbergraph_StopMoving
+[2019.04.12-20.55.03:576][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575166600, Size=256
+[2019.04.12-20.55.03:576][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575332500, Size=256, Default__TeleportNearPlayer_C Function /Engine/Transient.REINST_TeleportNearPlayer_C_15:ExecuteUbergraph_TeleportNearPlayer
+[2019.04.12-20.55.03:576][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b57528d600, Size=64
+[2019.04.12-20.55.03:576][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5759e3940, Size=64, Default__TextFeedback_C Function /Engine/Transient.REINST_TextFeedback_C_8:ExecuteUbergraph_TextFeedback
+[2019.04.12-20.55.03:578][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5594c7580, Size=2648
+[2019.04.12-20.55.03:578][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b55531b580, Size=2648, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_16:ExecuteUbergraph_ThirdPersonCharacter
+[2019.04.12-20.55.03:597][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] InputAction Event references unknown Action 'ToggleFocusForAdjustmentsWidget' for  InputAction ToggleFocusForAdjustmentsWidget
+[2019.04.12-20.55.03:598][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] InputAction Event references unknown Action 'ToggleAdjustmentsWidget' for  InputAction ToggleAdjustmentsWidget
+[2019.04.12-20.55.03:598][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp
+[2019.04.12-20.55.03:736][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b57625fd00, Size=64, Default__ABP_Anna_C Function /Game/NewAnnaModel/ABP_Anna.ABP_Anna_C:ExecuteUbergraph_ABP_Anna
+[2019.04.12-20.55.03:739][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b57628aa00, Size=496, Default__BP_PhotoModeManager_C Function /Game/PhotoMode/Blueprints/BP_PhotoModeManager.BP_PhotoModeManager_C:ExecuteUbergraph_BP_PhotoModeManager
+[2019.04.12-20.55.03:740][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5758981f8, Size=40, Default__Liane3rdAnim_C Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim
+[2019.04.12-20.55.03:745][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5763b8d00, Size=656, Default__BP_PhotoPawn_C Function /Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn_C:ExecuteUbergraph_BP_PhotoPawn
+[2019.04.12-20.55.03:748][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5761ea680, Size=48, Default__SearchableDesk1_C Function /Game/Blueprints/SearchableDesk1.SearchableDesk1_C:ExecuteUbergraph_SearchableDesk1
+[2019.04.12-20.55.03:751][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b576206b00, Size=328, Default__Allison_Controller_C Function /Game/Allison/Proper_AI/Allison_Controller.Allison_Controller_C:ExecuteUbergraph_Allison_Controller
+[2019.04.12-20.55.03:779][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b554b94100, Size=1952, Default__BP_PhotoAdjustmentsWidget_C Function /Game/PhotoMode/Blueprints/BP_PhotoAdjustmentsWidget.BP_PhotoAdjustmentsWidget_C:ExecuteUbergraph_BP_PhotoAdjustmentsWidget
+[2019.04.12-20.55.03:785][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5760bad00, Size=32, Default__Document1UI_C Function /Game/UI/Document1UI.Document1UI_C:ExecuteUbergraph_Document1UI
+[2019.04.12-20.55.03:785][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5760bab60, Size=32, Default__Document2UI_C Function /Game/UI/Document2UI.Document2UI_C:ExecuteUbergraph_Document2UI
+[2019.04.12-20.55.03:786][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5760ba9c0, Size=32, Default__Document3UI_C Function /Game/UI/Document3UI.Document3UI_C:ExecuteUbergraph_Document3UI
+[2019.04.12-20.55.03:788][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575e8f0b0, Size=72, Default__InventoryUI_C Function /Game/UI/InventoryUI.InventoryUI_C:ExecuteUbergraph_InventoryUI
+[2019.04.12-20.55.03:790][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b576216e58, Size=40, Default__PauseMenu_C Function /Game/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
+[2019.04.12-20.55.03:794][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b5764e87c0, Size=304, Default__SearchableDesk1_Items_C Function /Game/UI/SearchableDesk1_Items.SearchableDesk1_Items_C:ExecuteUbergraph_SearchableDesk1_Items
+[2019.04.12-20.55.03:795][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b576216d40, Size=40, Default__StopMoving_C Function /Game/Allison/Proper_AI/Tasks/StopMoving.StopMoving_C:ExecuteUbergraph_StopMoving
+[2019.04.12-20.55.03:796][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575e1ae00, Size=256, Default__TeleportNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/TeleportNearPlayer.TeleportNearPlayer_C:ExecuteUbergraph_TeleportNearPlayer
+[2019.04.12-20.55.03:796][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575e52580, Size=64, Default__TextFeedback_C Function /Game/UI/TextFeedback.TextFeedback_C:ExecuteUbergraph_TextFeedback
+[2019.04.12-20.55.03:810][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575da0100, Size=2648, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2019.04.12-20.55.03:856][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] [0020.04] Compile of BP_PhotoPawn successful, but with 3 Warning(s) [in 388 ms] (/Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn)
+[2019.04.12-20.55.03:869][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575d320f0, Size=56, Default__Allison_PathingTrigger_BP_C Function /Game/Allison/Proper_AI/Allison_PathingTrigger_BP.Allison_PathingTrigger_BP_C:ExecuteUbergraph_Allison_PathingTrigger_BP
+[2019.04.12-20.55.03:878][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575d320f0, Size=56
+[2019.04.12-20.55.03:879][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575d320f0, Size=56, Default__Allison_PathingTrigger_BP_C Function /Engine/Transient.REINST_Allison_PathingTrigger_BP_C_37:ExecuteUbergraph_Allison_PathingTrigger_BP
+[2019.04.12-20.55.03:884][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575d323c8, Size=56, Default__Allison_PathingTrigger_BP_C Function /Game/Allison/Proper_AI/Allison_PathingTrigger_BP.Allison_PathingTrigger_BP_C:ExecuteUbergraph_Allison_PathingTrigger_BP
+[2019.04.12-20.55.03:915][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575d32208, Size=56, Default__ABP_Allison_C Function /Game/Allison/Proper_AI/ABP_Allison.ABP_Allison_C:ExecuteUbergraph_ABP_Allison
+[2019.04.12-20.55.03:926][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575d32208, Size=56
+[2019.04.12-20.55.03:926][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575d32208, Size=56, Default__ABP_Allison_C Function /Engine/Transient.REINST_ABP_Allison_C_2:ExecuteUbergraph_ABP_Allison
+[2019.04.12-20.55.03:934][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575d33350, Size=56, Default__ABP_Allison_C Function /Game/Allison/Proper_AI/ABP_Allison.ABP_Allison_C:ExecuteUbergraph_ABP_Allison
+[2019.04.12-20.55.03:942][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce7470, Size=16, Default__Audio03_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio03_Blueprint.Audio03_Blueprint_C:ExecuteUbergraph_Audio03_Blueprint
+[2019.04.12-20.55.03:945][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce7470, Size=16
+[2019.04.12-20.55.03:945][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce7470, Size=16, Default__Audio03_Blueprint_C Function /Engine/Transient.REINST_Audio03_Blueprint_C_40:ExecuteUbergraph_Audio03_Blueprint
+[2019.04.12-20.55.03:946][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce7480, Size=16, Default__Audio03_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio03_Blueprint.Audio03_Blueprint_C:ExecuteUbergraph_Audio03_Blueprint
+[2019.04.12-20.55.03:954][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce7cb0, Size=16, Default__Audio05_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio05_Blueprint.Audio05_Blueprint_C:ExecuteUbergraph_Audio05_Blueprint
+[2019.04.12-20.55.03:957][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce7cb0, Size=16
+[2019.04.12-20.55.03:957][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce7cb0, Size=16, Default__Audio05_Blueprint_C Function /Engine/Transient.REINST_Audio05_Blueprint_C_42:ExecuteUbergraph_Audio05_Blueprint
+[2019.04.12-20.55.03:959][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce7ec0, Size=16, Default__Audio05_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio05_Blueprint.Audio05_Blueprint_C:ExecuteUbergraph_Audio05_Blueprint
+[2019.04.12-20.55.03:966][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce6ec0, Size=16, Default__Audio06_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio06_Blueprint.Audio06_Blueprint_C:ExecuteUbergraph_Audio06_Blueprint
+[2019.04.12-20.55.03:968][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce6ec0, Size=16
+[2019.04.12-20.55.03:968][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce6ec0, Size=16, Default__Audio06_Blueprint_C Function /Engine/Transient.REINST_Audio06_Blueprint_C_44:ExecuteUbergraph_Audio06_Blueprint
+[2019.04.12-20.55.03:969][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce6eb0, Size=16, Default__Audio06_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio06_Blueprint.Audio06_Blueprint_C:ExecuteUbergraph_Audio06_Blueprint
+[2019.04.12-20.55.03:976][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce6d80, Size=16, Default__Audio08_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio08_Blueprint.Audio08_Blueprint_C:ExecuteUbergraph_Audio08_Blueprint
+[2019.04.12-20.55.03:978][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce6d80, Size=16
+[2019.04.12-20.55.03:978][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce6d80, Size=16, Default__Audio08_Blueprint_C Function /Engine/Transient.REINST_Audio08_Blueprint_C_46:ExecuteUbergraph_Audio08_Blueprint
+[2019.04.12-20.55.03:979][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575ce6d70, Size=16, Default__Audio08_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio08_Blueprint.Audio08_Blueprint_C:ExecuteUbergraph_Audio08_Blueprint
+[2019.04.12-20.55.04:034][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575dd4700, Size=648, Default__SlidingDoorBP_C Function /Game/Blueprints/SlidingDoorBP.SlidingDoorBP_C:ExecuteUbergraph_SlidingDoorBP
+[2019.04.12-20.55.04:042][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575dd4700, Size=648
+[2019.04.12-20.55.04:042][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575dfa800, Size=648, Default__SlidingDoorBP_C Function /Engine/Transient.REINST_SlidingDoorBP_C_50:ExecuteUbergraph_SlidingDoorBP
+[2019.04.12-20.55.04:047][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575df9900, Size=648, Default__SlidingDoorBP_C Function /Game/Blueprints/SlidingDoorBP.SlidingDoorBP_C:ExecuteUbergraph_SlidingDoorBP
+[2019.04.12-20.55.04:051][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575d2a080, Size=48, Default__SlidingDoor_TriggerBP_C Function /Game/Blueprints/SlidingDoor_TriggerBP.SlidingDoor_TriggerBP_C:ExecuteUbergraph_SlidingDoor_TriggerBP
+[2019.04.12-20.55.04:054][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575d2a080, Size=48
+[2019.04.12-20.55.04:054][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575d2a080, Size=48, Default__SlidingDoor_TriggerBP_C Function /Engine/Transient.REINST_SlidingDoor_TriggerBP_C_52:ExecuteUbergraph_SlidingDoor_TriggerBP
+[2019.04.12-20.55.04:056][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575d2a740, Size=48, Default__SlidingDoor_TriggerBP_C Function /Game/Blueprints/SlidingDoor_TriggerBP.SlidingDoor_TriggerBP_C:ExecuteUbergraph_SlidingDoor_TriggerBP
+[2019.04.12-20.55.04:100][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b553c50c60, Size=196, Default__BP_DemoCube2_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube2.BP_DemoCube2_C:ExecuteUbergraph_BP_DemoCube2
+[2019.04.12-20.55.04:109][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b553c50c60, Size=196
+[2019.04.12-20.55.04:109][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b57619fac0, Size=196, Default__BP_DemoCube2_C Function /Engine/Transient.REINST_BP_DemoCube2_C_54:ExecuteUbergraph_BP_DemoCube2
+[2019.04.12-20.55.04:114][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b57619ea20, Size=196, Default__BP_DemoCube2_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube2.BP_DemoCube2_C:ExecuteUbergraph_BP_DemoCube2
+[2019.04.12-20.55.04:129][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b57629cdf8, Size=8, Default__BP_DemoCube3_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube3.BP_DemoCube3_C:ExecuteUbergraph_BP_DemoCube3
+[2019.04.12-20.55.04:141][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b57629cdf8, Size=8
+[2019.04.12-20.55.04:141][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b57629cdf8, Size=8, Default__BP_DemoCube3_C Function /Engine/Transient.REINST_BP_DemoCube3_C_56:ExecuteUbergraph_BP_DemoCube3
+[2019.04.12-20.55.04:146][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b550135b78, Size=8, Default__BP_DemoCube3_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube3.BP_DemoCube3_C:ExecuteUbergraph_BP_DemoCube3
+[2019.04.12-20.55.04:168][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b554b75c00, Size=364, Default__BP_Pixel_Dude_Jumping_C Function /Game/Outliner/Demo/Blueprints/BP_Pixel_Dude_Jumping.BP_Pixel_Dude_Jumping_C:ExecuteUbergraph_BP_Pixel_Dude_Jumping
+[2019.04.12-20.55.04:178][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b554b75c00, Size=364
+[2019.04.12-20.55.04:178][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b576a93a00, Size=364, Default__BP_Pixel_Dude_Jumping_C Function /Engine/Transient.REINST_BP_Pixel_Dude_Jumping_C_58:ExecuteUbergraph_BP_Pixel_Dude_Jumping
+[2019.04.12-20.55.04:186][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b576a6e380, Size=364, Default__BP_Pixel_Dude_Jumping_C Function /Game/Outliner/Demo/Blueprints/BP_Pixel_Dude_Jumping.BP_Pixel_Dude_Jumping_C:ExecuteUbergraph_BP_Pixel_Dude_Jumping
+[2019.04.12-20.55.04:191][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b576ab5300, Size=288, Default__RoomsManager_C Function /Game/Outliner/Demo/Blueprints/RoomsManager.RoomsManager_C:ExecuteUbergraph_RoomsManager
+[2019.04.12-20.55.04:201][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b576ab5300, Size=288
+[2019.04.12-20.55.04:201][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b576ab5300, Size=288, Default__RoomsManager_C Function /Engine/Transient.REINST_RoomsManager_C_60:ExecuteUbergraph_RoomsManager
+[2019.04.12-20.55.04:207][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b576a1fc40, Size=304, Default__RoomsManager_C Function /Game/Outliner/Demo/Blueprints/RoomsManager.RoomsManager_C:ExecuteUbergraph_RoomsManager
+[2019.04.12-20.55.04:377][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575eb57c0, Size=104, Default__RoomN4Manager_C Function /Game/Outliner/Demo/Blueprints/RoomN4Manager.RoomN4Manager_C:ExecuteUbergraph_RoomN4Manager
+[2019.04.12-20.55.04:379][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575eb57c0, Size=104
+[2019.04.12-20.55.04:379][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575eb57c0, Size=104, Default__RoomN4Manager_C Function /Engine/Transient.REINST_RoomN4Manager_C_64:ExecuteUbergraph_RoomN4Manager
+[2019.04.12-20.55.04:381][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b575e8ae10, Size=104, Default__RoomN4Manager_C Function /Game/Outliner/Demo/Blueprints/RoomN4Manager.RoomN4Manager_C:ExecuteUbergraph_RoomN4Manager
+[2019.04.12-20.55.04:702][  0]LogLinker: Warning: Asset '../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/Content/SciFiGlitchPostPro/Textures/Screen/txt_fx_pulse_grid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.04.12-20.55.05:147][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b565317040, Size=3000, Default__ThirdPersonExampleMap_C Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap
+[2019.04.12-20.55.05:286][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b565317040, Size=3000
+[2019.04.12-20.55.05:286][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b564f48100, Size=3000, Default__ThirdPersonExampleMap_C Function /Engine/Transient.REINST_ThirdPersonExampleMap_C_66:ExecuteUbergraph_ThirdPersonExampleMap
+[2019.04.12-20.55.05:386][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b564a48100, Size=3000, Default__ThirdPersonExampleMap_C Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap
+[2019.04.12-20.55.06:306][  0]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2019.04.12-20.55.06:442][  0]LogShaderCompilers: Display: Shaders left to compile 125
+[2019.04.12-20.55.06:442][  0]LogShaderCompilers: Display: Shaders left to compile 115
+[2019.04.12-20.55.06:442][  0]LogShaderCompilers: Display: Shaders left to compile 105
+[2019.04.12-20.55.06:442][  0]LogShaderCompilers: Display: Shaders left to compile 95
+[2019.04.12-20.55.06:443][  0]LogShaderCompilers: Display: Shaders left to compile 85
+[2019.04.12-20.55.06:443][  0]LogMaterial: Missing cached shader map for material Hatmat, compiling. 
+[2019.04.12-20.55.06:490][  0]LogMaterial: Missing cached shader map for material Hairmat, compiling. 
+[2019.04.12-20.55.06:549][  0]LogMaterial: Missing cached shader map for material Eyewearmat, compiling. 
+[2019.04.12-20.55.06:618][  0]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2019.04.12-20.55.06:689][  0]LogMaterial: Missing cached shader map for material Bodymat_ncl1_1, compiling. 
+[2019.04.12-20.55.06:725][  0]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2019.04.12-20.55.06:774][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [8.491313ms] /Game/Allison/Model/allisonjacket.allisonjacket
+[2019.04.12-20.55.07:211][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [5.539750ms] /Game/character/lianeverticalslice.lianeverticalslice
+[2019.04.12-20.55.07:833][  0]LogMaterial: Missing cached shader map for material M_Parent_Outliner, compiling. 
+[2019.04.12-20.55.07:892][  0]LogMaterial: Missing cached shader map for material M_Parent_Outliner, compiling. 
+[2019.04.12-20.55.07:942][  0]LogMaterial: Missing cached shader map for material mat_pulse_wallhack, compiling. 
+[2019.04.12-20.55.07:970][  0]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2019.04.12-20.55.08:009][  0]LogMaterial: Missing cached shader map for material inner, compiling. 
+[2019.04.12-20.55.08:044][  0]LogMaterial: Missing cached shader map for material Curcuits, compiling. 
+[2019.04.12-20.55.08:073][  0]LogMaterial: Missing cached shader map for material Cover, compiling. 
+[2019.04.12-20.55.08:106][  0]LogMaterial: Missing cached shader map for material bulb, compiling. 
+[2019.04.12-20.55.08:182][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [5.232831ms] /Game/NewAnnaModel/Model/jacketrevision2.jacketrevision2
+[2019.04.12-20.55.08:207][  0]LogMaterial: Missing cached shader map for material Ventpaint, compiling. 
+[2019.04.12-20.55.08:230][  0]LogMaterial: Missing cached shader map for material M_Rail, compiling. 
+[2019.04.12-20.55.08:253][  0]LogMaterial: Missing cached shader map for material M_Fence, compiling. 
+[2019.04.12-20.55.08:326][  0]LogMaterial: Missing cached shader map for material lens, compiling. 
+[2019.04.12-20.55.08:878][  0]LogMaterial: Missing cached shader map for material GlassDark, compiling. 
+[2019.04.12-20.55.08:911][  0]LogMaterial: Missing cached shader map for material FloorM2, compiling. 
+[2019.04.12-20.55.08:930][  0]LogMaterial: Missing cached shader map for material FloorM1, compiling. 
+[2019.04.12-20.55.09:172][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.12-20.55.09:200][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.12-20.55.09:200][  0]LogPhysics: Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.PostProcessVolume_1.BrushComponent0] ScaledElem[0] invalid
+[2019.04.12-20.55.09:259][  0]LogShaderCompilers: Display: Shaders left to compile 1265
+[2019.04.12-20.55.09:259][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.12-20.55.09:299][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b56e4cd900, Size=32
+[2019.04.12-20.55.09:299][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b54f42acc0, Size=56
+[2019.04.12-20.55.09:299][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b56ecc6fc8, Size=24
+[2019.04.12-20.55.09:299][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575696c80, Size=328
+[2019.04.12-20.55.09:299][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5553d1530, Size=40
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b55531b580, Size=2648
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5553006c0, Size=64
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575a57700, Size=656
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575a04b80, Size=1952
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b55515fa00, Size=480
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b555238cc0, Size=304
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b55539da80, Size=48
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575a8d440, Size=32
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575a35120, Size=72
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575a8d3c0, Size=32
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5553d0c70, Size=40
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5759e3940, Size=64
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575a8d340, Size=32
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5553d0c48, Size=40
+[2019.04.12-20.55.09:300][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575332500, Size=256
+[2019.04.12-20.55.09:301][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575d320f0, Size=56
+[2019.04.12-20.55.09:301][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575d32208, Size=56
+[2019.04.12-20.55.09:301][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce7470, Size=16
+[2019.04.12-20.55.09:301][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce7cb0, Size=16
+[2019.04.12-20.55.09:301][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce6ec0, Size=16
+[2019.04.12-20.55.09:301][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce6d80, Size=16
+[2019.04.12-20.55.09:301][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575dfa800, Size=648
+[2019.04.12-20.55.09:301][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575d2a080, Size=48
+[2019.04.12-20.55.09:301][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b57619fac0, Size=196
+[2019.04.12-20.55.09:301][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b57629cdf8, Size=8
+[2019.04.12-20.55.09:301][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b576a93a00, Size=364
+[2019.04.12-20.55.09:302][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b576ab5300, Size=288
+[2019.04.12-20.55.09:302][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575eb57c0, Size=104
+[2019.04.12-20.55.09:302][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b564f48100, Size=3000
+[2019.04.12-20.55.09:310][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.12-20.55.09:512][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 201.716ms to complete.
+[2019.04.12-20.55.09:512][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 7.409
+[2019.04.12-20.55.09:788][  0]LogShaderCompilers: Display: Shaders left to compile 1255
+[2019.04.12-20.55.09:788][  0]LogShaderCompilers: Display: Shaders left to compile 1245
+[2019.04.12-20.55.09:788][  0]LogCollectionManager: Loaded 0 collections in 0.006940 seconds
+[2019.04.12-20.55.09:857][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Saved/Collections/' took 0.01s
+[2019.04.12-20.55.09:857][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/Developers/Nicholaus/Collections/' took 0.01s
+[2019.04.12-20.55.09:857][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/Collections/' took 0.01s
+[2019.04.12-20.55.09:857][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.12-20.55.09:879][  0]LogContentBrowser: Native class hierarchy populated in 0.0220 seconds. Added 2452 classes and 558 folders.
+[2019.04.12-20.55.09:898][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.12-20.55.09:978][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.12-20.55.09:992][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.04.12-20.55.10:182][  0]LogShaderCompilers: Display: Shaders left to compile 1235
+[2019.04.12-20.55.10:182][  0]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.12-20.55.10:186][  0]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.12-20.55.10:195][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.12-20.55.10:394][  0]LogRenderer: Reallocating scene render targets to support 1052x576 Format 10 NumSamples 1 (Frame:1).
+[2019.04.12-20.55.10:587][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.12-20.55.10:751][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.12-20.55.10:751][  0]LogLoad: (Engine Initialization) Total time: 26.93 seconds
+[2019.04.12-20.55.10:751][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.12-20.55.11:113][  0]LogShaderCompilers: Display: Shaders left to compile 1225
+[2019.04.12-20.55.11:148][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.12-20.55.11:425][  1]LogFileCache: Retrieving MD5 hashes for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/' took 0.32s
+[2019.04.12-20.55.11:796][  3]LogShaderCompilers: Display: Shaders left to compile 1215
+[2019.04.12-20.55.12:451][  4]LogShaderCompilers: Display: Shaders left to compile 1205
+[2019.04.12-20.55.12:783][  5]LogAssetRegistry: Asset discovery search completed in 20.3524 seconds
+[2019.04.12-20.55.12:789][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.12-20.55.12:789][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000158 seconds (updated 0 objects)
+[2019.04.12-20.55.13:131][  7]LogShaderCompilers: Display: Shaders left to compile 1195
+[2019.04.12-20.55.13:453][  8]LogShaderCompilers: Display: Shaders left to compile 1185
+[2019.04.12-20.55.14:104][ 10]LogShaderCompilers: Display: Shaders left to compile 1175
+[2019.04.12-20.55.15:437][ 14]LogShaderCompilers: Display: Shaders left to compile 1165
+[2019.04.12-20.55.15:437][ 14]LogShaderCompilers: Display: Shaders left to compile 1155
+[2019.04.12-20.55.15:791][ 15]LogShaderCompilers: Display: Shaders left to compile 1145
+[2019.04.12-20.55.16:105][ 16]LogShaderCompilers: Display: Shaders left to compile 1135
+[2019.04.12-20.55.17:442][ 20]LogShaderCompilers: Display: Shaders left to compile 1125
+[2019.04.12-20.55.17:800][ 21]LogShaderCompilers: Display: Shaders left to compile 1115
+[2019.04.12-20.55.18:442][ 23]LogShaderCompilers: Display: Shaders left to compile 1105
+[2019.04.12-20.55.18:776][ 24]LogShaderCompilers: Display: Shaders left to compile 1095
+[2019.04.12-20.55.20:105][ 28]LogShaderCompilers: Display: Shaders left to compile 1085
+[2019.04.12-20.55.20:105][ 28]LogShaderCompilers: Display: Shaders left to compile 1075
+[2019.04.12-20.55.20:440][ 29]LogShaderCompilers: Display: Shaders left to compile 1065
+[2019.04.12-20.55.20:772][ 30]LogShaderCompilers: Display: Shaders left to compile 1055
+[2019.04.12-20.55.22:107][ 34]LogShaderCompilers: Display: Shaders left to compile 1045
+[2019.04.12-20.55.22:441][ 35]LogShaderCompilers: Display: Shaders left to compile 1035
+[2019.04.12-20.55.22:771][ 36]LogShaderCompilers: Display: Shaders left to compile 1025
+[2019.04.12-20.55.23:127][ 37]LogShaderCompilers: Display: Shaders left to compile 1015
+[2019.04.12-20.55.23:770][ 39]LogShaderCompilers: Display: Shaders left to compile 1005
+[2019.04.12-20.55.25:106][ 43]LogShaderCompilers: Display: Shaders left to compile 995
+[2019.04.12-20.55.25:106][ 43]LogShaderCompilers: Display: Shaders left to compile 985
+[2019.04.12-20.55.25:441][ 44]LogShaderCompilers: Display: Shaders left to compile 975
+[2019.04.12-20.55.26:102][ 46]LogShaderCompilers: Display: Shaders left to compile 965
+[2019.04.12-20.55.27:104][ 49]LogShaderCompilers: Display: Shaders left to compile 955
+[2019.04.12-20.55.27:434][ 50]LogShaderCompilers: Display: Shaders left to compile 945
+[2019.04.12-20.55.28:106][ 52]LogShaderCompilers: Display: Shaders left to compile 935
+[2019.04.12-20.55.28:106][ 52]LogShaderCompilers: Display: Shaders left to compile 925
+[2019.04.12-20.55.29:770][ 57]LogShaderCompilers: Display: Shaders left to compile 915
+[2019.04.12-20.55.29:770][ 57]LogShaderCompilers: Display: Shaders left to compile 905
+[2019.04.12-20.55.30:106][ 58]LogShaderCompilers: Display: Shaders left to compile 895
+[2019.04.12-20.55.30:450][ 59]LogShaderCompilers: Display: Shaders left to compile 885
+[2019.04.12-20.55.32:105][ 64]LogShaderCompilers: Display: Shaders left to compile 875
+[2019.04.12-20.55.32:106][ 64]LogShaderCompilers: Display: Shaders left to compile 865
+[2019.04.12-20.55.32:439][ 65]LogShaderCompilers: Display: Shaders left to compile 855
+[2019.04.12-20.55.32:771][ 66]LogShaderCompilers: Display: Shaders left to compile 845
+[2019.04.12-20.55.34:106][ 70]LogShaderCompilers: Display: Shaders left to compile 835
+[2019.04.12-20.55.34:774][ 72]LogShaderCompilers: Display: Shaders left to compile 825
+[2019.04.12-20.55.34:774][ 72]LogShaderCompilers: Display: Shaders left to compile 815
+[2019.04.12-20.55.35:440][ 74]LogShaderCompilers: Display: Shaders left to compile 805
+[2019.04.12-20.55.36:448][ 77]LogShaderCompilers: Display: Shaders left to compile 795
+[2019.04.12-20.55.36:775][ 78]LogShaderCompilers: Display: Shaders left to compile 785
+[2019.04.12-20.55.37:442][ 80]LogShaderCompilers: Display: Shaders left to compile 775
+[2019.04.12-20.55.38:122][ 82]LogShaderCompilers: Display: Shaders left to compile 765
+[2019.04.12-20.55.38:457][ 83]LogShaderCompilers: Display: Shaders left to compile 755
+[2019.04.12-20.55.39:776][ 87]LogShaderCompilers: Display: Shaders left to compile 745
+[2019.04.12-20.55.40:109][ 88]LogShaderCompilers: Display: Shaders left to compile 735
+[2019.04.12-20.55.40:110][ 88]LogShaderCompilers: Display: Shaders left to compile 725
+[2019.04.12-20.55.40:774][ 90]LogShaderCompilers: Display: Shaders left to compile 715
+[2019.04.12-20.55.41:771][ 93]LogShaderCompilers: Display: Shaders left to compile 705
+[2019.04.12-20.55.42:443][ 95]LogShaderCompilers: Display: Shaders left to compile 695
+[2019.04.12-20.55.42:775][ 96]LogShaderCompilers: Display: Shaders left to compile 685
+[2019.04.12-20.55.43:110][ 97]LogShaderCompilers: Display: Shaders left to compile 675
+[2019.04.12-20.55.44:440][101]LogShaderCompilers: Display: Shaders left to compile 665
+[2019.04.12-20.55.44:772][102]LogShaderCompilers: Display: Shaders left to compile 655
+[2019.04.12-20.55.45:128][103]LogShaderCompilers: Display: Shaders left to compile 645
+[2019.04.12-20.55.45:129][103]LogShaderCompilers: Display: Shaders left to compile 635
+[2019.04.12-20.55.46:773][108]LogShaderCompilers: Display: Shaders left to compile 625
+[2019.04.12-20.55.46:774][108]LogShaderCompilers: Display: Shaders left to compile 615
+[2019.04.12-20.55.47:112][109]LogShaderCompilers: Display: Shaders left to compile 605
+[2019.04.12-20.55.47:773][111]LogShaderCompilers: Display: Shaders left to compile 595
+[2019.04.12-20.55.48:775][114]LogShaderCompilers: Display: Shaders left to compile 585
+[2019.04.12-20.55.49:449][116]LogShaderCompilers: Display: Shaders left to compile 575
+[2019.04.12-20.55.49:776][117]LogShaderCompilers: Display: Shaders left to compile 565
+[2019.04.12-20.55.50:109][118]LogShaderCompilers: Display: Shaders left to compile 555
+[2019.04.12-20.55.51:439][122]LogShaderCompilers: Display: Shaders left to compile 545
+[2019.04.12-20.55.51:773][123]LogShaderCompilers: Display: Shaders left to compile 535
+[2019.04.12-20.55.52:106][124]LogShaderCompilers: Display: Shaders left to compile 525
+[2019.04.12-20.55.52:459][125]LogShaderCompilers: Display: Shaders left to compile 515
+[2019.04.12-20.55.53:105][127]LogShaderCompilers: Display: Shaders left to compile 505
+[2019.04.12-20.55.54:442][131]LogShaderCompilers: Display: Shaders left to compile 495
+[2019.04.12-20.55.54:442][131]LogShaderCompilers: Display: Shaders left to compile 485
+[2019.04.12-20.55.54:773][132]LogShaderCompilers: Display: Shaders left to compile 475
+[2019.04.12-20.55.55:438][134]LogShaderCompilers: Display: Shaders left to compile 465
+[2019.04.12-20.55.56:440][137]LogShaderCompilers: Display: Shaders left to compile 455
+[2019.04.12-20.55.56:775][138]LogShaderCompilers: Display: Shaders left to compile 445
+[2019.04.12-20.55.57:439][140]LogShaderCompilers: Display: Shaders left to compile 435
+[2019.04.12-20.55.57:439][140]LogShaderCompilers: Display: Shaders left to compile 425
+[2019.04.12-20.55.59:108][145]LogShaderCompilers: Display: Shaders left to compile 415
+[2019.04.12-20.55.59:459][146]LogShaderCompilers: Display: Shaders left to compile 405
+[2019.04.12-20.56.00:773][150]LogShaderCompilers: Display: Shaders left to compile 395
+[2019.04.12-20.56.01:772][153]LogShaderCompilers: Display: Shaders left to compile 385
+[2019.04.12-20.56.02:446][155]LogShaderCompilers: Display: Shaders left to compile 375
+[2019.04.12-20.56.03:771][159]LogShaderCompilers: Display: Shaders left to compile 365
+[2019.04.12-20.56.04:114][160]LogShaderCompilers: Display: Shaders left to compile 355
+[2019.04.12-20.56.04:440][161]LogShaderCompilers: Display: Shaders left to compile 345
+[2019.04.12-20.56.04:792][162]LogShaderCompilers: Display: Shaders left to compile 335
+[2019.04.12-20.56.06:440][167]LogShaderCompilers: Display: Shaders left to compile 325
+[2019.04.12-20.56.06:782][168]LogShaderCompilers: Display: Shaders left to compile 315
+[2019.04.12-20.56.06:782][168]LogShaderCompilers: Display: Shaders left to compile 305
+[2019.04.12-20.56.07:775][171]LogShaderCompilers: Display: Shaders left to compile 295
+[2019.04.12-20.56.08:437][173]LogShaderCompilers: Display: Shaders left to compile 285
+[2019.04.12-20.56.09:116][175]LogShaderCompilers: Display: Shaders left to compile 275
+[2019.04.12-20.56.09:443][176]LogShaderCompilers: Display: Shaders left to compile 265
+[2019.04.12-20.56.10:118][178]LogShaderCompilers: Display: Shaders left to compile 255
+[2019.04.12-20.56.10:445][179]LogShaderCompilers: Display: Shaders left to compile 245
+[2019.04.12-20.56.11:775][183]LogShaderCompilers: Display: Shaders left to compile 235
+[2019.04.12-20.56.12:132][184]LogShaderCompilers: Display: Shaders left to compile 225
+[2019.04.12-20.56.12:133][184]LogShaderCompilers: Display: Shaders left to compile 215
+[2019.04.12-20.56.13:440][188]LogShaderCompilers: Display: Shaders left to compile 205
+[2019.04.12-20.56.13:775][189]LogShaderCompilers: Display: Shaders left to compile 195
+[2019.04.12-20.56.14:452][191]LogShaderCompilers: Display: Shaders left to compile 185
+[2019.04.12-20.56.15:107][193]LogShaderCompilers: Display: Shaders left to compile 175
+[2019.04.12-20.56.15:775][195]LogShaderCompilers: Display: Shaders left to compile 165
+[2019.04.12-20.56.16:450][197]LogShaderCompilers: Display: Shaders left to compile 155
+[2019.04.12-20.56.18:442][203]LogShaderCompilers: Display: Shaders left to compile 145
+[2019.04.12-20.56.18:442][203]LogShaderCompilers: Display: Shaders left to compile 135
+[2019.04.12-20.56.18:771][204]LogShaderCompilers: Display: Shaders left to compile 125
+[2019.04.12-20.56.19:454][206]LogShaderCompilers: Display: Shaders left to compile 115
+[2019.04.12-20.56.21:774][213]LogShaderCompilers: Display: Shaders left to compile 105
+[2019.04.12-20.56.22:110][214]LogShaderCompilers: Display: Shaders left to compile 95
+[2019.04.12-20.56.22:110][214]LogShaderCompilers: Display: Shaders left to compile 85
+[2019.04.12-20.56.22:457][215]LogShaderCompilers: Display: Shaders left to compile 75
+[2019.04.12-20.56.28:442][233]LogShaderCompilers: Display: Shaders left to compile 65
+[2019.04.12-20.56.30:776][240]LogShaderCompilers: Display: Shaders left to compile 55
+[2019.04.12-20.56.33:440][248]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.04.12-20.56.34:108][250]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.04.12-20.56.35:776][255]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.04.12-20.56.36:454][257]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.04.12-20.56.37:440][260]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.12-20.57.41:372][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-20.57.41:551][633]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.12-20.57.41:582][633]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.12-20.57.41:582][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.12-20.57.41:615][633]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 12, 2019, 6:57:41 AM)
+[2019.04.12-20.57.41:615][633]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.04.12-20.57.41:737][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121701s)
+[2019.04.12-20.57.41:738][633]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.12-20.57.41:738][633]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2019.04.12-20.57.41:738][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.123016s)
+[2019.04.12-20.57.41:806][633]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.12-20.57.41:825][633]LogInit: FAudioDevice initialized.
+[2019.04.12-20.57.41:890][633]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.12-20.57.41:920][633]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.12-20.57.41:920][633]LogPhysics: Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.PostProcessVolume_1.BrushComponent0] ScaledElem[0] invalid
+[2019.04.12-20.57.41:944][633]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.04.12-13.57.41
+[2019.04.12-20.57.42:098][633]LogWorld: Bringing up level for play took: 0.194041
+[2019.04.12-20.57.42:138][633]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2019.04.12-20.57.42:182][633]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.12
+[2019.04.12-20.57.42:183][633]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.12-20.58.21:911][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.12-20.58.21:957][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.04.12-20.58.23:575][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-20.58.24:250][ 15]LogSlate: Window 'projectliane - Unreal Editor' being destroyed
+[2019.04.12-20.58.24:251][ 15]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.12-20.58.24:488][ 16]Cmd: QUIT_EDITOR
+[2019.04.12-20.58.25:658][ 16]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.12-20.58.25:672][ 16]LogExit: Preparing to exit.
+[2019.04.12-20.58.26:369][ 16]LogDirectoryWatcher: A directory notification for 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/' was aborted.
+[2019.04.12-20.58.26:550][ 16]LogExit: Editor shut down
+[2019.04.12-20.58.26:562][ 16]LogExit: Transaction tracking system shut down
+[2019.04.12-20.58.26:563][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b56e4cca40, Size=32
+[2019.04.12-20.58.26:563][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b54f42a0b8, Size=56
+[2019.04.12-20.58.26:563][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b56ecc6e18, Size=24
+[2019.04.12-20.58.26:567][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b57625fd00, Size=64
+[2019.04.12-20.58.26:567][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b57628aa00, Size=496
+[2019.04.12-20.58.26:567][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5758981f8, Size=40
+[2019.04.12-20.58.26:567][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5763b8d00, Size=656
+[2019.04.12-20.58.26:567][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5761ea680, Size=48
+[2019.04.12-20.58.26:567][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b576206b00, Size=328
+[2019.04.12-20.58.26:567][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b554b94100, Size=1952
+[2019.04.12-20.58.26:567][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5760bad00, Size=32
+[2019.04.12-20.58.26:567][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5760bab60, Size=32
+[2019.04.12-20.58.26:567][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5760ba9c0, Size=32
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575e8f0b0, Size=72
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b576216e58, Size=40
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b5764e87c0, Size=304
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b576216d40, Size=40
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575e1ae00, Size=256
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575e52580, Size=64
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575da0100, Size=2648
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575d323c8, Size=56
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575d33350, Size=56
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce7480, Size=16
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce7ec0, Size=16
+[2019.04.12-20.58.26:568][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce6eb0, Size=16
+[2019.04.12-20.58.26:569][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575ce6d70, Size=16
+[2019.04.12-20.58.26:569][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575df9900, Size=648
+[2019.04.12-20.58.26:569][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575d2a740, Size=48
+[2019.04.12-20.58.26:569][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b57619ea20, Size=196
+[2019.04.12-20.58.26:570][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b550135b78, Size=8
+[2019.04.12-20.58.26:570][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b576a6e380, Size=364
+[2019.04.12-20.58.26:570][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b576a1fc40, Size=304
+[2019.04.12-20.58.26:570][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b575e8ae10, Size=104
+[2019.04.12-20.58.26:579][ 16]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b564a48100, Size=3000
+[2019.04.12-20.58.26:882][ 16]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.04.12-20.58.26:882][ 16]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/Content/' was aborted.
+[2019.04.12-20.58.26:882][ 16]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2019.04.12-20.58.26:883][ 16]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2019.04.12-20.58.26:883][ 16]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2019.04.12-20.58.26:883][ 16]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2019.04.12-20.58.26:883][ 16]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2019.04.12-20.58.26:883][ 16]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2019.04.12-20.58.27:316][ 16]LogExit: Object subsystem successfully closed.
+[2019.04.12-20.58.27:366][ 16]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.12-20.58.27:375][ 16]LogD3D11RHI: Shutdown
+[2019.04.12-20.58.27:375][ 16]LogD3D11RHI: CleanupD3DDevice
+[2019.04.12-20.58.27:379][ 16]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.12-20.58.27:603][ 16]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (576)
+[2019.04.12-20.58.27:603][ 16]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
+[2019.04.12-20.58.27:603][ 16]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2019.04.12-20.58.27:603][ 16]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2019.04.12-20.58.27:611][ 16]LogDirectoryWatcher: A directory notification for 'G:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2019.04.12-20.58.27:612][ 16]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2019.04.12-20.58.27:612][ 16]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2019.04.12-20.58.27:612][ 16]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2019.04.12-20.58.27:612][ 16]LogDirectoryWatcher: A directory notification for 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/Collections/' was aborted.
+[2019.04.12-20.58.27:612][ 16]LogDirectoryWatcher: A directory notification for 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/Developers/Nicholaus/Collections/' was aborted.
+[2019.04.12-20.58.27:612][ 16]LogDirectoryWatcher: A directory notification for 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Saved/Collections/' was aborted.
+[2019.04.12-20.58.27:612][ 16]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2019.04.12-20.58.27:613][ 16]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2019.04.12-20.58.27:614][ 16]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2019.04.12-20.58.27:614][ 16]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2019.04.12-20.58.27:614][ 16]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2019.04.12-20.58.27:614][ 16]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2019.04.12-20.58.27:614][ 16]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2019.04.12-20.58.27:644][ 16]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2019.04.12-20.58.27:644][ 16]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2019.04.12-20.58.27:644][ 16]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2019.04.12-20.58.27:645][ 16]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2019.04.12-20.58.27:655][ 16]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2019.04.12-20.58.27:655][ 16]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2019.04.12-20.58.27:655][ 16]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2019.04.12-20.58.27:668][ 16]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2019.04.12-20.58.27:668][ 16]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2019.04.12-20.58.27:668][ 16]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2019.04.12-20.58.27:668][ 16]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2019.04.12-20.58.28:241][ 16]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2019.04.12-20.58.28:242][ 16]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2019.04.12-20.58.28:242][ 16]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2019.04.12-20.58.28:242][ 16]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2019.04.12-20.58.28:242][ 16]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2019.04.12-20.58.28:259][ 16]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2019.04.12-20.58.28:277][ 16]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2019.04.12-20.58.28:277][ 16]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2019.04.12-20.58.28:277][ 16]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2019.04.12-20.58.28:277][ 16]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2019.04.12-20.58.28:277][ 16]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2019.04.12-20.58.28:277][ 16]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2019.04.12-20.58.28:277][ 16]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2019.04.12-20.58.28:277][ 16]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2019.04.12-20.58.28:278][ 16]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2019.04.12-20.58.28:278][ 16]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2019.04.12-20.58.28:307][ 16]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2019.04.12-20.58.28:318][ 16]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2019.04.12-20.58.28:318][ 16]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2019.04.12-20.58.28:326][ 16]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2019.04.12-20.58.28:326][ 16]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2019.04.12-20.58.28:381][ 16]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2019.04.12-20.58.28:381][ 16]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2019.04.12-20.58.28:405][ 16]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2019.04.12-20.58.28:426][ 16]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2019.04.12-20.58.28:426][ 16]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2019.04.12-20.58.28:426][ 16]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2019.04.12-20.58.28:437][ 16]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2019.04.12-20.58.28:447][ 16]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2019.04.12-20.58.28:448][ 16]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2019.04.12-20.58.28:448][ 16]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2019.04.12-20.58.28:450][ 16]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2019.04.12-20.58.28:465][ 16]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2019.04.12-20.58.28:466][ 16]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2019.04.12-20.58.28:466][ 16]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
+[2019.04.12-20.58.28:473][ 16]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
+[2019.04.12-20.58.28:697][ 16]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
+[2019.04.12-20.58.28:697][ 16]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
+[2019.04.12-20.58.28:697][ 16]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
+[2019.04.12-20.58.28:697][ 16]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2019.04.12-20.58.28:697][ 16]LogModuleManager: Shutting down and abandoning module OculusInput (364)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module CableComponent (358)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
+[2019.04.12-20.58.28:698][ 16]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
+[2019.04.12-20.58.28:707][ 16]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
+[2019.04.12-20.58.28:707][ 16]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
+[2019.04.12-20.58.28:707][ 16]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
+[2019.04.12-20.58.28:707][ 16]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
+[2019.04.12-20.58.28:707][ 16]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
+[2019.04.12-20.58.28:708][ 16]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
+[2019.04.12-20.58.28:708][ 16]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
+[2019.04.12-20.58.28:708][ 16]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
+[2019.04.12-20.58.28:708][ 16]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
+[2019.04.12-20.58.28:709][ 16]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
+[2019.04.12-20.58.28:709][ 16]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
+[2019.04.12-20.58.28:709][ 16]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
+[2019.04.12-20.58.28:710][ 16]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
+[2019.04.12-20.58.28:710][ 16]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
+[2019.04.12-20.58.28:710][ 16]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
+[2019.04.12-20.58.28:711][ 16]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
+[2019.04.12-20.58.28:711][ 16]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
+[2019.04.12-20.58.28:711][ 16]LogModuleManager: Shutting down and abandoning module SourceControl (303)
+[2019.04.12-20.58.28:712][ 16]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
+[2019.04.12-20.58.28:712][ 16]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
+[2019.04.12-20.58.28:712][ 16]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
+[2019.04.12-20.58.28:713][ 16]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
+[2019.04.12-20.58.28:713][ 16]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
+[2019.04.12-20.58.28:713][ 16]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
+[2019.04.12-20.58.28:713][ 16]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2019.04.12-20.58.28:713][ 16]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2019.04.12-20.58.28:713][ 16]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2019.04.12-20.58.28:713][ 16]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2019.04.12-20.58.28:714][ 16]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2019.04.12-20.58.28:714][ 16]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2019.04.12-20.58.28:714][ 16]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2019.04.12-20.58.28:714][ 16]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2019.04.12-20.58.28:714][ 16]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2019.04.12-20.58.28:815][ 16]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2019.04.12-20.58.28:916][ 16]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2019.04.12-20.58.28:916][ 16]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2019.04.12-20.58.28:916][ 16]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2019.04.12-20.58.28:916][ 16]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2019.04.12-20.58.28:916][ 16]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2019.04.12-20.58.28:916][ 16]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2019.04.12-20.58.28:917][ 16]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2019.04.12-20.58.28:917][ 16]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2019.04.12-20.58.28:917][ 16]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2019.04.12-20.58.28:917][ 16]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2019.04.12-20.58.28:918][ 16]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2019.04.12-20.58.28:919][ 16]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2019.04.12-20.58.28:919][ 16]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2019.04.12-20.58.28:919][ 16]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2019.04.12-20.58.28:919][ 16]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2019.04.12-20.58.29:534][ 16]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2019.04.12-20.58.29:534][ 16]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2019.04.12-20.58.29:535][ 16]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2019.04.12-20.58.29:537][ 16]LogModuleManager: Shutting down and abandoning module Media (233)
+[2019.04.12-20.58.29:544][ 16]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2019.04.12-20.58.29:544][ 16]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2019.04.12-20.58.29:544][ 16]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2019.04.12-20.58.29:559][ 16]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2019.04.12-20.58.29:559][ 16]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2019.04.12-20.58.29:559][ 16]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2019.04.12-20.58.29:559][ 16]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2019.04.12-20.58.29:571][ 16]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2019.04.12-20.58.29:571][ 16]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2019.04.12-20.58.29:571][ 16]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2019.04.12-20.58.29:580][ 16]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2019.04.12-20.58.29:580][ 16]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2019.04.12-20.58.29:580][ 16]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2019.04.12-20.58.29:580][ 16]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2019.04.12-20.58.29:581][ 16]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2019.04.12-20.58.29:601][ 16]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2019.04.12-20.58.29:603][ 16]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2019.04.12-20.58.29:603][ 16]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2019.04.12-20.58.29:621][ 16]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2019.04.12-20.58.29:621][ 16]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2019.04.12-20.58.29:623][ 16]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2019.04.12-20.58.29:623][ 16]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2019.04.12-20.58.29:623][ 16]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2019.04.12-20.58.29:623][ 16]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2019.04.12-20.58.29:623][ 16]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2019.04.12-20.58.29:623][ 16]LogModuleManager: Shutting down and abandoning module Core (178)
+[2019.04.12-20.58.29:623][ 16]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2019.04.12-20.58.29:623][ 16]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2019.04.12-20.58.29:623][ 16]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2019.04.12-20.58.29:623][ 16]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2019.04.12-20.58.29:633][ 16]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2019.04.12-20.58.29:633][ 16]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2019.04.12-20.58.29:633][ 16]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2019.04.12-20.58.29:633][ 16]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2019.04.12-20.58.29:633][ 16]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2019.04.12-20.58.29:633][ 16]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2019.04.12-20.58.29:634][ 16]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.04.12-20.58.29:689][ 16]LogDerivedDataCache: Shutdown
+[2019.04.12-20.58.29:689][ 16]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.04.12-20.58.29:690][ 16]LogXGEController: Cleaning working directory: C:/Users/Nicholaus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.12-20.58.29:690][ 16]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.04.12-20.58.29:690][ 16]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.04.12-20.58.29:690][ 16]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.04.12-20.58.29:702][ 16]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.04.12-20.58.29:713][ 16]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.04.12-20.58.29:713][ 16]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.04.12-20.58.29:713][ 16]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.04.12-20.58.29:713][ 16]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.04.12-20.58.29:713][ 16]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.04.12-20.58.29:713][ 16]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.04.12-20.58.29:713][ 16]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.04.12-20.58.29:713][ 16]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.04.12-20.58.29:713][ 16]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2019.04.12-20.58.29:714][ 16]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2019.04.12-20.58.29:715][ 16]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2019.04.12-20.58.29:716][ 16]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2019.04.12-20.58.29:716][ 16]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2019.04.12-20.58.29:716][ 16]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2019.04.12-20.58.29:716][ 16]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.04.12-20.58.29:716][ 16]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.04.12-20.58.29:716][ 16]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.04.12-20.58.29:717][ 16]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.04.12-20.58.29:717][ 16]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.12-20.58.29:717][ 16]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E54801A-4737-0270-0E1B-799097A2A899%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=a6ce6b894be0bacd65eb7dbd7d089076%7C238961097ff24549b5636e54d1a5be08%7Cb77259cb-d6bf-4efb-aa59-b427f71ffbb1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.12-20.58.29:734][ 16]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.04.12-20.58.29:736][ 16]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.12-20.58.29:749][ 16]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.12-20.58.29:758][ 16]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.12-20.58.29:772][ 16]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.12-20.58.29:773][ 16]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.12-20.58.29:773][ 16]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.12-20.58.29:773][ 16]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.12-20.58.29:787][ 16]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.12-20.58.29:797][ 16]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.12-20.58.29:797][ 16]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.12-20.58.29:797][ 16]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.12-20.58.29:797][ 16]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.12-20.58.29:797][ 16]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.12-20.58.29:797][ 16]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.12-20.58.29:797][ 16]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.12-20.58.29:798][ 16]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.12-20.58.29:798][ 16]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.12-20.58.29:798][ 16]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.12-20.58.29:821][ 16]LogExit: Exiting.
+[2019.04.12-20.58.29:868][ 16]Log file closed, 04/12/19 13:58:29

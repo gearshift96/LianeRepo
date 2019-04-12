@@ -68,7 +68,7 @@ void AAnna::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponen
 
 	PlayerInputComponent->BindAction("TKThrow", IE_Pressed, this, &AAnna::TKThrow);
 
-	PlayerInputComponent->BindAction("TKShield", IE_Pressed, this, &AAnna::TKShieldF);
+	PlayerInputComponent->BindAction("TKShield", IE_Pressed, this, &AAnna::SpawnShield);
 
 	PlayerInputComponent->BindAction("Heal", IE_Pressed, this, &AAnna::TKHeal);
 }
@@ -79,48 +79,45 @@ void AAnna::TKHeal()
 	GLog->Log("Healing work in Progress!");
 }
 
-void AAnna::TKShieldF()
+void AAnna::SpawnShield()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Shield Work in progress!"));
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Shield Work in progress!"));
 	if (bCanUseShield)
 	{
 		if (bIsReady())
 		{
-			UWorld* const World = GetWorld();
 			//play sound here
-			FActorSpawnParameters SpawnInfo;
-			SpawnInfo.Owner = this;
-			SpawnInfo.Instigator = Instigator;
-			SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-			if (World)
-			{
-				if (TKShieldBlueprint != nullptr)
+				if (TKShieldBP)
 				{
+					FActorSpawnParameters SpawnInfo;
+					SpawnInfo.Owner = this;
+					auto shieldLoc = ShieldSpawner->GetComponentLocation();
+					auto shieldRot = ShieldSpawner->GetComponentRotation();
 					bCanUseShield = false;
 					bCanUseTelekinesis = false;
-					TKShield = World->SpawnActor<ATKShield>(TKShieldBlueprint, ShieldSpawner->GetComponentLocation(), ShieldSpawner->GetComponentRotation(), SpawnInfo);
+					ATKShield* TKShieldRef = GetWorld()->SpawnActor<ATKShield>(TKShieldBP,shieldLoc,shieldRot,SpawnInfo);
 					if (bDebugTelekinesis)
 					{
-						DrawDebugSphere(GetWorld(), ShieldSpawner->GetComponentLocation(), 500, 50, FColor::Emerald, true, ShieldLifetime, 0, 10);
+						//DrawDebugSphere(GetWorld(), shieldLoc, 500, 50, FColor::Emerald, true, ShieldLifetime, 0, 10);
 					}
-					TKShield->AttachToComponent(ShieldSpawner, FAttachmentTransformRules::SnapToTargetNotIncludingScale, NAME_None);
-					UE_LOG(LogTemp, Log, TEXT("Shield is Attached!"))
+					TKShieldRef->AttachToComponent(ShieldSpawner, FAttachmentTransformRules::SnapToTargetIncludingScale, NAME_None);
+					GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Shield is attached!"));
+
 					GetCharacterMovement()->MaxWalkSpeed = 300.f;
 					GetWorldTimerManager().SetTimer(ShieldTimerHandle, this, &AAnna::ActivateShield, 1.0f, true);
 				}
 				else
 				{
-					UE_LOG(LogTemp, Warning, TEXT("Shield is missing please attach a shield!"));
+					GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Shield is missing please attach shield component!"));
 					return;
 				}
-			}
 		}
 	}
 }
 
 void AAnna::ActivateShield()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Shield is active!"));
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Emerald, TEXT("Shield is active!"));
 	--ShieldLifetime;
 	if (ShieldLifetime <= 0)
 	{
@@ -131,7 +128,7 @@ void AAnna::ActivateShield()
 
 void AAnna::RechargeShield()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Shield is cooling down!"));
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Shield is recharging!"));
 	--ShieldCooldown;
 
 	if (ShieldCooldown <= 0)
@@ -148,10 +145,10 @@ bool AAnna::bIsReady()
 
 void AAnna::CountdownHasFinished()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Countdown has finished!"));
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Cyan, TEXT("Countdown has finished!"));
 	bCanUseTelekinesis = true;
 	ShieldCooldown = 30;
-	GLog->Log("Shield is Destroyed!");
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Shield is destroyed!"));
 	TKShield->Destroy();
 	GetCharacterMovement()->MaxWalkSpeed = 600.f;
 	GetWorldTimerManager().SetTimer(RechargeTimerHandle, this, &AAnna::RechargeShield, 1.0f, true);
@@ -159,7 +156,7 @@ void AAnna::CountdownHasFinished()
 
 void AAnna::CooldownHasFinished()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Cooldown has finished!"));
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, TEXT("cooldown has finished!"));
 	bCanUseShield = true;
 	ShieldLifetime = 5;	
 }

@@ -1,0 +1,1073 @@
+﻿Log file open, 04/12/19 13:45:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: projectliane
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1439497498) SRandInit(1439497498).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.418584
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  6.069s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am KillRoy (10.0.0.108:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: G:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.015s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.12-20.45.39:429][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.12-20.45.39:429][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.12-20.45.39:578][  0]LogInit: Computer: KILLROY
+[2019.04.12-20.45.39:578][  0]LogInit: User: Nicholaus
+[2019.04.12-20.45.39:578][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.12-20.45.39:578][  0]LogInit: High frequency timer resolution =3.613340 MHz
+[2019.04.12-20.45.39:579][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.04.12-20.45.39:579][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.12-20.45.39:579][  0]LogMemory: Process Physical Memory: 274.32 MB used, 274.32 MB peak
+[2019.04.12-20.45.39:579][  0]LogMemory: Process Virtual Memory: 264.71 MB used, 264.71 MB peak
+[2019.04.12-20.45.39:580][  0]LogMemory: Physical Memory: 6014.82 MB used,  26670.11 MB free, 32684.93 MB total
+[2019.04.12-20.45.39:580][  0]LogMemory: Virtual Memory: 4795.59 MB used,  26670.11 MB free, 134217728.00 MB total
+[2019.04.12-20.45.40:421][  0]LogInit: Using OS detected language (en-US).
+[2019.04.12-20.45.40:421][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.12-20.45.40:698][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.12-20.45.41:656][  0]LogStreaming: Display: Took  1.224s to EndInitTextLocalization.
+[2019.04.12-20.45.41:692][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.12-20.45.42:376][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.12-20.45.42:376][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.12-20.45.44:863][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.12-20.45.45:020][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.04.12-20.45.45:020][  0]LogD3D11RHI:       6052/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.04.12-20.45.45:027][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.12-20.45.45:027][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.12-20.45.45:027][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.12-20.45.45:048][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.12-20.45.45:048][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.12-20.45.45:048][  0]LogWindows: EnumDisplayDevices:
+[2019.04.12-20.45.45:049][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.04.12-20.45.45:049][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.04.12-20.45.45:050][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.04.12-20.45.45:050][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.12-20.45.45:050][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.12-20.45.45:050][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.04.12-20.45.45:050][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.12-20.45.45:050][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.12-20.45.45:050][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.04.12-20.45.45:191][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.04.12-20.45.45:191][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.04.12-20.45.45:191][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.12-20.45.45:511][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.12-20.45.45:711][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/Intermediate/Shaders/WorkingDirectory/16004/).
+[2019.04.12-20.45.45:719][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicholaus/AppData/Local/Temp/UnrealShaderWorkingDir/C4543135428C505F57CF569C076956B5/'.
+[2019.04.12-20.45.47:512][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.12-20.45.47:536][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.12-20.45.47:564][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.12-20.45.47:590][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.12-20.45.47:627][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.12-20.45.47:658][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.12-20.45.47:701][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.12-20.45.47:741][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.12-20.45.47:752][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.12-20.45.47:770][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.04.12-20.45.47:788][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.04.12-20.45.47:805][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.04.12-20.45.47:822][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.04.12-20.45.47:838][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.04.12-20.45.47:854][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.04.12-20.45.47:936][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.04.12-20.45.47:936][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.04.12-20.45.47:993][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.12-20.45.47:998][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.12-20.45.48:105][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.12-20.45.48:147][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.12-20.45.48:183][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.12-20.45.48:203][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.12-20.45.48:220][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.12-20.45.48:255][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.12-20.45.48:255][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.12-20.45.49:534][  0]LogXGEController: Cleaning working directory: C:/Users/Nicholaus/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.12-20.45.49:535][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.12-20.45.49:554][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.12-20.45.49:554][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.12-20.45.52:657][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.12-20.45.53:661][  0]LogDerivedDataCache: Loaded boot cache 1.00s 74MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.04.12-20.45.53:661][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.04.12-20.45.53:661][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.12-20.45.53:662][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.12-20.45.53:662][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.12-20.45.53:662][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.12-20.45.53:801][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.12-20.45.53:815][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicholaus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.12-20.45.53:815][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.12-20.45.53:815][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.12-20.45.53:875][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.12-20.45.53:931][  0]LogSlate: Using Freetype 2.6.0
+[2019.04.12-20.45.54:029][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.12-20.45.54:029][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.12-20.46.01:905][  0]LogAssetRegistry: FAssetRegistry took 0.0328 seconds to start up
+[2019.04.12-20.46.04:899][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.12-20.46.06:425][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.12-20.46.06:454][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.12-20.46.06:474][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.12-20.46.06:482][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.12-20.46.06:482][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.04.12-20.46.06:482][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.04.12-20.46.06:778][  0]LogNetVersion: projectliane , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 33679610)
+[2019.04.12-20.46.11:618][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.225081 seconds
+[2019.04.12-20.46.11:638][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.04.12-20.46.11:638][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.04.12-20.46.11:638][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.12-20.46.31:069][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.12-20.46.31:151][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.12-20.46.32:452][  0]SourceControl: Source control is disabled
+[2019.04.12-20.46.32:453][  0]SourceControl: Source control is disabled
+[2019.04.12-20.46.32:502][  0]SourceControl: Source control is disabled
+[2019.04.12-20.46.32:537][  0]SourceControl: Source control is disabled
+[2019.04.12-20.46.33:979][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.12-20.46.34:533][  0]LogOcInput: OculusInput pre-init called
+[2019.04.12-20.46.35:249][  0]LogEngine: Initializing Engine...
+[2019.04.12-20.46.35:289][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.12-20.46.35:326][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.12-20.46.35:327][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.12-20.46.36:772][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.12-20.46.36:941][  0]LogInit: XAudio2 using 'Speakers (Stealth 600)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.12-20.46.36:984][  0]LogInit: FAudioDevice initialized.
+[2019.04.12-20.46.37:145][  0]LogDerivedDataCache: Saved boot cache 0.16s 74MB C:/Users/Nicholaus/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.04.12-20.46.37:237][  0]LogInit: Texture streaming: Enabled
+[2019.04.12-20.46.37:348][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.12-20.46.37:460][  0]LogInit: Transaction tracking system initialized
+[2019.04.12-20.46.37:893][  0]BlueprintLog: New page: Editor Load
+[2019.04.12-20.46.39:055][  0]LocalizationService: Localization service is disabled
+[2019.04.12-20.46.40:163][  0]LogConsoleResponse: Display: 
+[2019.04.12-20.46.42:446][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.12-20.46.42:446][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.12-20.46.42:446][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.12-20.46.42:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.12-20.46.42:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.12-20.46.42:494][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/' took 0.10s
+[2019.04.12-20.46.44:550][  0]SourceControl: Source control is disabled
+[2019.04.12-20.46.44:580][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.12-20.46.44:626][  0]LightingResults: New page: Lighting Build
+[2019.04.12-20.46.44:738][  0]MapCheck: New page: Map Check
+[2019.04.12-20.46.44:738][  0]LightingResults: New page: Lighting Build
+[2019.04.12-20.46.45:083][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f376d900, Size=32, Default__FocusOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/FocusOnPlayer.FocusOnPlayer_C:ExecuteUbergraph_FocusOnPlayer
+[2019.04.12-20.46.45:131][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f376d900, Size=32
+[2019.04.12-20.46.45:131][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f376d900, Size=32, Default__FocusOnPlayer_C Function /Engine/Transient.REINST_FocusOnPlayer_C_1:ExecuteUbergraph_FocusOnPlayer
+[2019.04.12-20.46.45:218][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f376ca40, Size=32, Default__FocusOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/FocusOnPlayer.FocusOnPlayer_C:ExecuteUbergraph_FocusOnPlayer
+[2019.04.12-20.46.45:298][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f34aecc0, Size=56, Default__MoveNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/MoveNearPlayer.MoveNearPlayer_C:ExecuteUbergraph_MoveNearPlayer
+[2019.04.12-20.46.45:304][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f34aecc0, Size=56
+[2019.04.12-20.46.45:304][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f34aecc0, Size=56, Default__MoveNearPlayer_C Function /Engine/Transient.REINST_MoveNearPlayer_C_3:ExecuteUbergraph_MoveNearPlayer
+[2019.04.12-20.46.45:308][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f34ae0b8, Size=56, Default__MoveNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/MoveNearPlayer.MoveNearPlayer_C:ExecuteUbergraph_MoveNearPlayer
+[2019.04.12-20.46.45:330][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f2d8ef80, Size=24, Default__StopFocusingOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/StopFocusingOnPlayer.StopFocusingOnPlayer_C:ExecuteUbergraph_StopFocusingOnPlayer
+[2019.04.12-20.46.45:334][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f2d8ef80, Size=24
+[2019.04.12-20.46.45:334][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f2d8ef80, Size=24, Default__StopFocusingOnPlayer_C Function /Engine/Transient.REINST_StopFocusingOnPlayer_C_5:ExecuteUbergraph_StopFocusingOnPlayer
+[2019.04.12-20.46.45:336][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f2d8edd0, Size=24, Default__StopFocusingOnPlayer_C Function /Game/Allison/Proper_AI/Tasks/StopFocusingOnPlayer.StopFocusingOnPlayer_C:ExecuteUbergraph_StopFocusingOnPlayer
+[2019.04.12-20.46.45:385][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256d6cf7100, Size=328, Default__Allison_Controller_C Function /Game/Allison/Proper_AI/Allison_Controller.Allison_Controller_C:ExecuteUbergraph_Allison_Controller
+[2019.04.12-20.46.46:922][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f31ca908, Size=40, Default__Liane3rdAnim_C Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim
+[2019.04.12-20.46.47:281][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256f0807580, Size=2648, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2019.04.12-20.46.47:293][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256e27f9540, Size=64, Default__ABP_Anna_C Function /Game/NewAnnaModel/ABP_Anna.ABP_Anna_C:ExecuteUbergraph_ABP_Anna
+[2019.04.12-20.46.47:389][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025680fe7700, Size=656, Default__BP_PhotoPawn_C Function /Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn_C:ExecuteUbergraph_BP_PhotoPawn
+[2019.04.12-20.46.47:718][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568125ab00, Size=1952, Default__BP_PhotoAdjustmentsWidget_C Function /Game/PhotoMode/Blueprints/BP_PhotoAdjustmentsWidget.BP_PhotoAdjustmentsWidget_C:ExecuteUbergraph_BP_PhotoAdjustmentsWidget
+[2019.04.12-20.46.48:523][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256d751c200, Size=480, Default__BP_PhotoModeManager_C Function /Game/PhotoMode/Blueprints/BP_PhotoModeManager.BP_PhotoModeManager_C:ExecuteUbergraph_BP_PhotoModeManager
+[2019.04.12-20.46.50:230][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025682b65440, Size=304, Default__SearchableDesk1_Items_C Function /Game/UI/SearchableDesk1_Items.SearchableDesk1_Items_C:ExecuteUbergraph_SearchableDesk1_Items
+[2019.04.12-20.46.50:234][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256828467d0, Size=48, Default__SearchableDesk1_C Function /Game/Blueprints/SearchableDesk1.SearchableDesk1_C:ExecuteUbergraph_SearchableDesk1
+[2019.04.12-20.46.50:486][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025682960e40, Size=32, Default__Document1UI_C Function /Game/UI/Document1UI.Document1UI_C:ExecuteUbergraph_Document1UI
+[2019.04.12-20.46.50:489][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683eb5ad0, Size=72, Default__InventoryUI_C Function /Game/UI/InventoryUI.InventoryUI_C:ExecuteUbergraph_InventoryUI
+[2019.04.12-20.46.50:504][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025682960ce0, Size=32, Default__Document2UI_C Function /Game/UI/Document2UI.Document2UI_C:ExecuteUbergraph_Document2UI
+[2019.04.12-20.46.50:525][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025682982bd8, Size=40, Default__PauseMenu_C Function /Game/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
+[2019.04.12-20.46.50:550][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683ead600, Size=64, Default__TextFeedback_C Function /Game/UI/TextFeedback.TextFeedback_C:ExecuteUbergraph_TextFeedback
+[2019.04.12-20.46.50:574][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683e1fd80, Size=32, Default__Document3UI_C Function /Game/UI/Document3UI.Document3UI_C:ExecuteUbergraph_Document3UI
+[2019.04.12-20.46.50:842][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025682980748, Size=40, Default__StopMoving_C Function /Game/Allison/Proper_AI/Tasks/StopMoving.StopMoving_C:ExecuteUbergraph_StopMoving
+[2019.04.12-20.46.50:877][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683d92600, Size=256, Default__TeleportNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/TeleportNearPlayer.TeleportNearPlayer_C:ExecuteUbergraph_TeleportNearPlayer
+[2019.04.12-20.46.51:368][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256e27f9540, Size=64
+[2019.04.12-20.46.51:368][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683908680, Size=64, Default__ABP_Anna_C Function /Engine/Transient.REINST_ABP_Anna_C_0:ExecuteUbergraph_ABP_Anna
+[2019.04.12-20.46.51:369][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256d751c200, Size=480
+[2019.04.12-20.46.51:369][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256839d0600, Size=480, Default__BP_PhotoModeManager_C Function /Engine/Transient.REINST_BP_PhotoModeManager_C_9:ExecuteUbergraph_BP_PhotoModeManager
+[2019.04.12-20.46.51:369][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f31ca908, Size=40
+[2019.04.12-20.46.51:369][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256839e1468, Size=40, Default__Liane3rdAnim_C Function /Engine/Transient.REINST_Liane3rdAnim_C_1:ExecuteUbergraph_Liane3rdAnim
+[2019.04.12-20.46.51:371][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025680fe7700, Size=656
+[2019.04.12-20.46.51:371][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256838e0400, Size=656, Default__BP_PhotoPawn_C Function /Engine/Transient.REINST_BP_PhotoPawn_C_11:ExecuteUbergraph_BP_PhotoPawn
+[2019.04.12-20.46.51:372][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256828467d0, Size=48
+[2019.04.12-20.46.51:372][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256839a9a80, Size=48, Default__SearchableDesk1_C Function /Engine/Transient.REINST_SearchableDesk1_C_12:ExecuteUbergraph_SearchableDesk1
+[2019.04.12-20.46.51:374][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256d6cf7100, Size=328
+[2019.04.12-20.46.51:374][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683611900, Size=328, Default__Allison_Controller_C Function /Engine/Transient.REINST_Allison_Controller_C_13:ExecuteUbergraph_Allison_Controller
+[2019.04.12-20.46.51:393][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002568125ab00, Size=1952
+[2019.04.12-20.46.51:393][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256835b8b80, Size=1952, Default__BP_PhotoAdjustmentsWidget_C Function /Engine/Transient.REINST_BP_PhotoAdjustmentsWidget_C_1:ExecuteUbergraph_BP_PhotoAdjustmentsWidget
+[2019.04.12-20.46.51:393][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025682960e40, Size=32
+[2019.04.12-20.46.51:393][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683641440, Size=32, Default__Document1UI_C Function /Engine/Transient.REINST_Document1UI_C_2:ExecuteUbergraph_Document1UI
+[2019.04.12-20.46.51:394][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025682960ce0, Size=32
+[2019.04.12-20.46.51:394][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256836413c0, Size=32, Default__Document2UI_C Function /Engine/Transient.REINST_Document2UI_C_3:ExecuteUbergraph_Document2UI
+[2019.04.12-20.46.51:395][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683e1fd80, Size=32
+[2019.04.12-20.46.51:395][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683641340, Size=32, Default__Document3UI_C Function /Engine/Transient.REINST_Document3UI_C_4:ExecuteUbergraph_Document3UI
+[2019.04.12-20.46.51:396][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683eb5ad0, Size=72
+[2019.04.12-20.46.51:396][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256835aa070, Size=72, Default__InventoryUI_C Function /Engine/Transient.REINST_InventoryUI_C_5:ExecuteUbergraph_InventoryUI
+[2019.04.12-20.46.51:396][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025682982bd8, Size=40
+[2019.04.12-20.46.51:396][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256839e0ba8, Size=40, Default__PauseMenu_C Function /Engine/Transient.REINST_PauseMenu_C_6:ExecuteUbergraph_PauseMenu
+[2019.04.12-20.46.51:397][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025682b65440, Size=304
+[2019.04.12-20.46.51:397][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683838cc0, Size=304, Default__SearchableDesk1_Items_C Function /Engine/Transient.REINST_SearchableDesk1_Items_C_7:ExecuteUbergraph_SearchableDesk1_Items
+[2019.04.12-20.46.51:398][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025682980748, Size=40
+[2019.04.12-20.46.51:398][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256839e0b80, Size=40, Default__StopMoving_C Function /Engine/Transient.REINST_StopMoving_C_14:ExecuteUbergraph_StopMoving
+[2019.04.12-20.46.51:398][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683d92600, Size=256
+[2019.04.12-20.46.51:398][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683802500, Size=256, Default__TeleportNearPlayer_C Function /Engine/Transient.REINST_TeleportNearPlayer_C_15:ExecuteUbergraph_TeleportNearPlayer
+[2019.04.12-20.46.51:398][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683ead600, Size=64
+[2019.04.12-20.46.51:398][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683587780, Size=64, Default__TextFeedback_C Function /Engine/Transient.REINST_TextFeedback_C_8:ExecuteUbergraph_TextFeedback
+[2019.04.12-20.46.51:402][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f0807580, Size=2648
+[2019.04.12-20.46.51:402][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683917580, Size=2648, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_16:ExecuteUbergraph_ThirdPersonCharacter
+[2019.04.12-20.46.51:480][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] InputAction Event references unknown Action 'ToggleFocusForAdjustmentsWidget' for  InputAction ToggleFocusForAdjustmentsWidget
+[2019.04.12-20.46.51:480][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] InputAction Event references unknown Action 'ToggleAdjustmentsWidget' for  InputAction ToggleAdjustmentsWidget
+[2019.04.12-20.46.51:481][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] Input Axis Event references unknown Axis 'MoveUp' for  InputAxis MoveUp
+[2019.04.12-20.46.51:605][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568469aa40, Size=64, Default__ABP_Anna_C Function /Game/NewAnnaModel/ABP_Anna.ABP_Anna_C:ExecuteUbergraph_ABP_Anna
+[2019.04.12-20.46.51:615][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568467b200, Size=496, Default__BP_PhotoModeManager_C Function /Game/PhotoMode/Blueprints/BP_PhotoModeManager.BP_PhotoModeManager_C:ExecuteUbergraph_BP_PhotoModeManager
+[2019.04.12-20.46.51:616][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683444130, Size=40, Default__Liane3rdAnim_C Function /Game/character/Liane3rdAnim.Liane3rdAnim_C:ExecuteUbergraph_Liane3rdAnim
+[2019.04.12-20.46.51:619][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025684651f00, Size=656, Default__BP_PhotoPawn_C Function /Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn_C:ExecuteUbergraph_BP_PhotoPawn
+[2019.04.12-20.46.51:622][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256845ea680, Size=48, Default__SearchableDesk1_C Function /Game/Blueprints/SearchableDesk1.SearchableDesk1_C:ExecuteUbergraph_SearchableDesk1
+[2019.04.12-20.46.51:627][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025684610580, Size=328, Default__Allison_Controller_C Function /Game/Allison/Proper_AI/Allison_Controller.Allison_Controller_C:ExecuteUbergraph_Allison_Controller
+[2019.04.12-20.46.51:649][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025682948100, Size=1952, Default__BP_PhotoAdjustmentsWidget_C Function /Game/PhotoMode/Blueprints/BP_PhotoAdjustmentsWidget.BP_PhotoAdjustmentsWidget_C:ExecuteUbergraph_BP_PhotoAdjustmentsWidget
+[2019.04.12-20.46.51:656][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256844bad00, Size=32, Default__Document1UI_C Function /Game/UI/Document1UI.Document1UI_C:ExecuteUbergraph_Document1UI
+[2019.04.12-20.46.51:658][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256844bab60, Size=32, Default__Document2UI_C Function /Game/UI/Document2UI.Document2UI_C:ExecuteUbergraph_Document2UI
+[2019.04.12-20.46.51:661][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256844ba9c0, Size=32, Default__Document3UI_C Function /Game/UI/Document3UI.Document3UI_C:ExecuteUbergraph_Document3UI
+[2019.04.12-20.46.51:668][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568528ecf0, Size=72, Default__InventoryUI_C Function /Game/UI/InventoryUI.InventoryUI_C:ExecuteUbergraph_InventoryUI
+[2019.04.12-20.46.51:671][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025684616d90, Size=40, Default__PauseMenu_C Function /Game/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu
+[2019.04.12-20.46.51:684][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256841bc7c0, Size=304, Default__SearchableDesk1_Items_C Function /Game/UI/SearchableDesk1_Items.SearchableDesk1_Items_C:ExecuteUbergraph_SearchableDesk1_Items
+[2019.04.12-20.46.51:688][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025684616c78, Size=40, Default__StopMoving_C Function /Game/Allison/Proper_AI/Tasks/StopMoving.StopMoving_C:ExecuteUbergraph_StopMoving
+[2019.04.12-20.46.51:690][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568521ae00, Size=256, Default__TeleportNearPlayer_C Function /Game/Allison/Proper_AI/Tasks/TeleportNearPlayer.TeleportNearPlayer_C:ExecuteUbergraph_TeleportNearPlayer
+[2019.04.12-20.46.51:692][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568524e440, Size=64, Default__TextFeedback_C Function /Game/UI/TextFeedback.TextFeedback_C:ExecuteUbergraph_TextFeedback
+[2019.04.12-20.46.51:721][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025685194100, Size=2648, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2019.04.12-20.46.51:876][  0]LogBlueprint: Warning: [Compiler BP_PhotoPawn] [0099.08] Compile of BP_PhotoPawn successful, but with 3 Warning(s) [in 936 ms] (/Game/PhotoMode/Blueprints/BP_PhotoPawn.BP_PhotoPawn)
+[2019.04.12-20.46.51:902][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256851320f0, Size=56, Default__Allison_PathingTrigger_BP_C Function /Game/Allison/Proper_AI/Allison_PathingTrigger_BP.Allison_PathingTrigger_BP_C:ExecuteUbergraph_Allison_PathingTrigger_BP
+[2019.04.12-20.46.51:909][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256851320f0, Size=56
+[2019.04.12-20.46.51:910][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256851320f0, Size=56, Default__Allison_PathingTrigger_BP_C Function /Engine/Transient.REINST_Allison_PathingTrigger_BP_C_37:ExecuteUbergraph_Allison_PathingTrigger_BP
+[2019.04.12-20.46.51:914][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256851323c8, Size=56, Default__Allison_PathingTrigger_BP_C Function /Game/Allison/Proper_AI/Allison_PathingTrigger_BP.Allison_PathingTrigger_BP_C:ExecuteUbergraph_Allison_PathingTrigger_BP
+[2019.04.12-20.46.52:080][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025685132208, Size=56, Default__ABP_Allison_C Function /Game/Allison/Proper_AI/ABP_Allison.ABP_Allison_C:ExecuteUbergraph_ABP_Allison
+[2019.04.12-20.46.52:086][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025685132208, Size=56
+[2019.04.12-20.46.52:086][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025685132208, Size=56, Default__ABP_Allison_C Function /Engine/Transient.REINST_ABP_Allison_C_2:ExecuteUbergraph_ABP_Allison
+[2019.04.12-20.46.52:097][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025685133350, Size=56, Default__ABP_Allison_C Function /Game/Allison/Proper_AI/ABP_Allison.ABP_Allison_C:ExecuteUbergraph_ABP_Allison
+[2019.04.12-20.46.52:135][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850eb470, Size=16, Default__Audio03_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio03_Blueprint.Audio03_Blueprint_C:ExecuteUbergraph_Audio03_Blueprint
+[2019.04.12-20.46.52:138][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256850eb470, Size=16
+[2019.04.12-20.46.52:138][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850eb470, Size=16, Default__Audio03_Blueprint_C Function /Engine/Transient.REINST_Audio03_Blueprint_C_40:ExecuteUbergraph_Audio03_Blueprint
+[2019.04.12-20.46.52:140][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850eb480, Size=16, Default__Audio03_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio03_Blueprint.Audio03_Blueprint_C:ExecuteUbergraph_Audio03_Blueprint
+[2019.04.12-20.46.52:202][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850ebcb0, Size=16, Default__Audio05_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio05_Blueprint.Audio05_Blueprint_C:ExecuteUbergraph_Audio05_Blueprint
+[2019.04.12-20.46.52:205][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256850ebcb0, Size=16
+[2019.04.12-20.46.52:205][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850ebcb0, Size=16, Default__Audio05_Blueprint_C Function /Engine/Transient.REINST_Audio05_Blueprint_C_42:ExecuteUbergraph_Audio05_Blueprint
+[2019.04.12-20.46.52:206][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850ebec0, Size=16, Default__Audio05_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio05_Blueprint.Audio05_Blueprint_C:ExecuteUbergraph_Audio05_Blueprint
+[2019.04.12-20.46.52:272][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850eaec0, Size=16, Default__Audio06_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio06_Blueprint.Audio06_Blueprint_C:ExecuteUbergraph_Audio06_Blueprint
+[2019.04.12-20.46.52:274][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256850eaec0, Size=16
+[2019.04.12-20.46.52:274][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850eaec0, Size=16, Default__Audio06_Blueprint_C Function /Engine/Transient.REINST_Audio06_Blueprint_C_44:ExecuteUbergraph_Audio06_Blueprint
+[2019.04.12-20.46.52:276][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850eaeb0, Size=16, Default__Audio06_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio06_Blueprint.Audio06_Blueprint_C:ExecuteUbergraph_Audio06_Blueprint
+[2019.04.12-20.46.52:303][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850ead80, Size=16, Default__Audio08_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio08_Blueprint.Audio08_Blueprint_C:ExecuteUbergraph_Audio08_Blueprint
+[2019.04.12-20.46.52:305][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256850ead80, Size=16
+[2019.04.12-20.46.52:305][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850ead80, Size=16, Default__Audio08_Blueprint_C Function /Engine/Transient.REINST_Audio08_Blueprint_C_46:ExecuteUbergraph_Audio08_Blueprint
+[2019.04.12-20.46.52:306][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256850ead70, Size=16, Default__Audio08_Blueprint_C Function /Game/Audio/VoiceOver/Dialogue/Audio08_Blueprint.Audio08_Blueprint_C:ExecuteUbergraph_Audio08_Blueprint
+[2019.04.12-20.46.52:632][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256851d5000, Size=648, Default__SlidingDoorBP_C Function /Game/Blueprints/SlidingDoorBP.SlidingDoorBP_C:ExecuteUbergraph_SlidingDoorBP
+[2019.04.12-20.46.52:656][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256851d5000, Size=648
+[2019.04.12-20.46.52:656][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256851ff700, Size=648, Default__SlidingDoorBP_C Function /Engine/Transient.REINST_SlidingDoorBP_C_50:ExecuteUbergraph_SlidingDoorBP
+[2019.04.12-20.46.52:668][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256851fe800, Size=648, Default__SlidingDoorBP_C Function /Game/Blueprints/SlidingDoorBP.SlidingDoorBP_C:ExecuteUbergraph_SlidingDoorBP
+[2019.04.12-20.46.52:676][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568512a080, Size=48, Default__SlidingDoor_TriggerBP_C Function /Game/Blueprints/SlidingDoor_TriggerBP.SlidingDoor_TriggerBP_C:ExecuteUbergraph_SlidingDoor_TriggerBP
+[2019.04.12-20.46.52:679][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002568512a080, Size=48
+[2019.04.12-20.46.52:679][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568512a080, Size=48, Default__SlidingDoor_TriggerBP_C Function /Engine/Transient.REINST_SlidingDoor_TriggerBP_C_52:ExecuteUbergraph_SlidingDoor_TriggerBP
+[2019.04.12-20.46.52:681][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568512a740, Size=48, Default__SlidingDoor_TriggerBP_C Function /Game/Blueprints/SlidingDoor_TriggerBP.SlidingDoor_TriggerBP_C:ExecuteUbergraph_SlidingDoor_TriggerBP
+[2019.04.12-20.46.53:080][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256839e4c60, Size=196, Default__BP_DemoCube2_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube2.BP_DemoCube2_C:ExecuteUbergraph_BP_DemoCube2
+[2019.04.12-20.46.53:107][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256839e4c60, Size=196
+[2019.04.12-20.46.53:107][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025684587ac0, Size=196, Default__BP_DemoCube2_C Function /Engine/Transient.REINST_BP_DemoCube2_C_54:ExecuteUbergraph_BP_DemoCube2
+[2019.04.12-20.46.53:114][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025684586a20, Size=196, Default__BP_DemoCube2_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube2.BP_DemoCube2_C:ExecuteUbergraph_BP_DemoCube2
+[2019.04.12-20.46.53:158][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256846a8de8, Size=8, Default__BP_DemoCube3_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube3.BP_DemoCube3_C:ExecuteUbergraph_BP_DemoCube3
+[2019.04.12-20.46.53:175][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256846a8de8, Size=8
+[2019.04.12-20.46.53:175][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256846a8de8, Size=8, Default__BP_DemoCube3_C Function /Engine/Transient.REINST_BP_DemoCube3_C_56:ExecuteUbergraph_BP_DemoCube3
+[2019.04.12-20.46.53:181][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025680fe1bd8, Size=8, Default__BP_DemoCube3_C Function /Game/Outliner/Demo/Blueprints/BP_DemoCube3.BP_DemoCube3_C:ExecuteUbergraph_BP_DemoCube3
+[2019.04.12-20.46.53:259][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025683d69c00, Size=364, Default__BP_Pixel_Dude_Jumping_C Function /Game/Outliner/Demo/Blueprints/BP_Pixel_Dude_Jumping.BP_Pixel_Dude_Jumping_C:ExecuteUbergraph_BP_Pixel_Dude_Jumping
+[2019.04.12-20.46.53:278][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683d69c00, Size=364
+[2019.04.12-20.46.53:278][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256d4779d80, Size=364, Default__BP_Pixel_Dude_Jumping_C Function /Engine/Transient.REINST_BP_Pixel_Dude_Jumping_C_58:ExecuteUbergraph_BP_Pixel_Dude_Jumping
+[2019.04.12-20.46.53:286][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256d4758400, Size=364, Default__BP_Pixel_Dude_Jumping_C Function /Game/Outliner/Demo/Blueprints/BP_Pixel_Dude_Jumping.BP_Pixel_Dude_Jumping_C:ExecuteUbergraph_BP_Pixel_Dude_Jumping
+[2019.04.12-20.46.53:291][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025684ecd300, Size=288, Default__RoomsManager_C Function /Game/Outliner/Demo/Blueprints/RoomsManager.RoomsManager_C:ExecuteUbergraph_RoomsManager
+[2019.04.12-20.46.53:310][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025684ecd300, Size=288
+[2019.04.12-20.46.53:310][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025684ecd300, Size=288, Default__RoomsManager_C Function /Engine/Transient.REINST_RoomsManager_C_60:ExecuteUbergraph_RoomsManager
+[2019.04.12-20.46.53:317][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025684adfc40, Size=304, Default__RoomsManager_C Function /Game/Outliner/Demo/Blueprints/RoomsManager.RoomsManager_C:ExecuteUbergraph_RoomsManager
+[2019.04.12-20.46.53:860][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256852b57c0, Size=104, Default__RoomN4Manager_C Function /Game/Outliner/Demo/Blueprints/RoomN4Manager.RoomN4Manager_C:ExecuteUbergraph_RoomN4Manager
+[2019.04.12-20.46.53:863][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256852b57c0, Size=104
+[2019.04.12-20.46.53:863][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256852b57c0, Size=104, Default__RoomN4Manager_C Function /Engine/Transient.REINST_RoomN4Manager_C_64:ExecuteUbergraph_RoomN4Manager
+[2019.04.12-20.46.53:866][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002568528b0b0, Size=104, Default__RoomN4Manager_C Function /Game/Outliner/Demo/Blueprints/RoomN4Manager.RoomN4Manager_C:ExecuteUbergraph_RoomN4Manager
+[2019.04.12-20.46.56:816][  0]LogLinker: Warning: Asset '../../../../../../Users/Nicholaus/Documents/LianeRepo/Old Project/Content/SciFiGlitchPostPro/Textures/Screen/txt_fx_pulse_grid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.04.12-20.47.01:873][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025687aab040, Size=3000, Default__ThirdPersonExampleMap_C Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap
+[2019.04.12-20.47.01:934][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025687aab040, Size=3000
+[2019.04.12-20.47.01:934][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000256876f0100, Size=3000, Default__ThirdPersonExampleMap_C Function /Engine/Transient.REINST_ThirdPersonExampleMap_C_66:ExecuteUbergraph_ThirdPersonExampleMap
+[2019.04.12-20.47.01:989][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025687058100, Size=3000, Default__ThirdPersonExampleMap_C Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap
+[2019.04.12-20.47.03:307][  0]LogTexture: Display: Building textures: desk_metal2_Roughness (AutoDXT, 2048X2048)
+[2019.04.12-20.47.03:307][  0]LogTexture: Display: Building textures: draws_Metallic (AutoDXT, 2048X2048)
+[2019.04.12-20.47.03:307][  0]LogTexture: Display: Building textures: draws_Mixed_AO (AutoDXT, 2048X2048)
+[2019.04.12-20.47.03:307][  0]LogTexture: Display: Building textures: draws_Roughness (AutoDXT, 2048X2048)
+[2019.04.12-20.47.03:307][  0]LogTexture: Display: Building textures: draws_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.47.03:307][  0]LogTexture: Display: Building textures: draws_Normal_DirectX (BC5, 2048X2048)
+[2019.04.12-20.47.03:307][  0]LogTexture: Display: Building textures: Sign_low_01_-_Default_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.47.03:418][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NewAnnaModel/Animations/Walk_Anim.Walk_Anim
+[2019.04.12-20.47.03:420][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/NewAnnaModel/Animations/Walk_Anim.Walk_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.12-20.47.03:441][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NewAnnaModel/Animations/Jogging_Anim.Jogging_Anim
+[2019.04.12-20.47.03:441][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/NewAnnaModel/Animations/Jogging_Anim.Jogging_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.12-20.47.03:444][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NewAnnaModel/Animations/Idle_Anim.Idle_Anim
+[2019.04.12-20.47.03:444][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/NewAnnaModel/Animations/Idle_Anim.Idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.12-20.47.05:439][  0]LogTexture: Display: Building textures: Sign_low_01_-_Default_Normal (BC5, 2048X2048)
+[2019.04.12-20.47.05:439][  0]LogTexture: Display: Building textures: Sign_low_01_-_Default_Emissive (AutoDXT, 2048X2048)
+[2019.04.12-20.47.05:439][  0]LogTexture: Display: Building textures: Sign_low_01_-_Default_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.47.05:440][  0]LogTexture: Display: Building textures: S_Book1_low_Book_T_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.47.05:440][  0]LogTexture: Display: Building textures: S_Book1_low_Book_T_Normal (BC5, 2048X2048)
+[2019.04.12-20.47.05:440][  0]LogTexture: Display: Building textures: S_Book1_low_Book_T_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.47.05:440][  0]LogTexture: Display: Building textures: Moderndesk_low_S_Moderdesk_T_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.47.05:440][  0]LogTexture: Display: Building textures: Moderndesk_low_S_Moderdesk_T_Normal (BC5, 2048X2048)
+[2019.04.12-20.47.05:440][  0]LogTexture: Display: Building textures: Moderndesk_low_S_Moderdesk_T_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.47.05:442][  0]LogMaterial: Missing cached shader map for material draws, compiling. 
+[2019.04.12-20.47.06:509][  0]LogTexture: Display: Building textures: fountain_low_T_Fountain_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.47.06:509][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.12-20.47.06:509][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.12-20.47.06:509][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.12-20.47.06:509][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.12-20.47.06:509][  0]LogTexture: Display: Building textures: fountain_low_T_Fountain_Normal (BC5, 2048X2048)
+[2019.04.12-20.47.06:509][  0]LogTexture: Display: Building textures: fountain_low_T_Fountain_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.47.06:509][  0]LogMaterial: Missing cached shader map for material M_Sign2, compiling. 
+[2019.04.12-20.47.07:178][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.12-20.47.07:178][  0]LogTexture: Display: Building textures: SK_CrashcartSG_Roughness (AutoDXT, 1024X1024)
+[2019.04.12-20.47.07:178][  0]LogTexture: Display: Building textures: SK_CrashcartSG_Normal_DirectX (BC5, 1024X1024)
+[2019.04.12-20.47.08:907][  0]LogTexture: Display: Building textures: SK_CrashcartSG_Mixed_AO (AutoDXT, 1024X1024)
+[2019.04.12-20.47.08:907][  0]LogTexture: Display: Building textures: SK_Crashcart_Metallic (AutoDXT, 1024X1024)
+[2019.04.12-20.47.08:907][  0]LogTexture: Display: Building textures: SK_CrashcarSG_Base_Color (AutoDXT, 1024X1024)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Negative (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Moonlight (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Lomo (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Hell (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Film (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_ShadesOfGray (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Sepia (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Red_Alert (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Pinky (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Nucleon (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: placeholder_batterylogo (AutoDXT, 1700X1700)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Neon (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Ultrasonic (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Ultraheat (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Trip (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Teal (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Sunset (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Sketch (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Warm (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: T_Underwater (BGRA8, 256X16)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: lianeverticalslice_Body_Opacity (AutoDXT, 2048X2048)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: lianeverticalslice_Body_Specular (AutoDXT, 2048X2048)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: lianeverticalslice_Hair_Specular (AutoDXT, 512X512)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: lianeverticalslice_Body_Diffuse (AutoDXT, 2048X2048)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: lianeverticalslice_Body_Normal (BC5, 2048X2048)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: lianeverticalslice_Hair_Opacity (AutoDXT, 512X512)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: lianeverticalslice_Hair_Normal (BC5, 512X512)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: lianeverticalslice_Hair_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.47.08:908][  0]LogTexture: Display: Building textures: desk_metal2_Normal_DirectX (BC5, 2048X2048)
+[2019.04.12-20.47.08:911][  0]LogMaterial: Missing cached shader map for material Book_M, compiling. 
+[2019.04.12-20.47.08:930][  0]LogTexture: Display: Building textures: desk_metal2_Mixed_AO (AutoDXT, 2048X2048)
+[2019.04.12-20.47.08:930][  0]LogMaterial: Missing cached shader map for material Moderndesk_M, compiling. 
+[2019.04.12-20.47.08:949][  0]LogMaterial: Missing cached shader map for material M_Fountain, compiling. 
+[2019.04.12-20.47.08:970][  0]LogMaterial: Missing cached shader map for material SK_MannequinSG, compiling. 
+[2019.04.12-20.47.08:986][  0]LogMaterial: Missing cached shader map for material fast2A, compiling. 
+[2019.04.12-20.47.09:052][  0]LogTexture: Display: Building textures: lianeverticalslice_Bottom_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.47.09:716][  0]LogTexture: Display: Building textures: desk_metal2_Metallic (AutoDXT, 2048X2048)
+[2019.04.12-20.47.09:716][  0]LogTexture: Display: Building textures: lianeverticalslice_Bottom_Specular (AutoDXT, 512X512)
+[2019.04.12-20.47.09:822][  0]LogTexture: Display: Building textures: desk_metal2_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.47.09:822][  0]LogTexture: Display: Building textures: desk_desk_base_Roughness (AutoDXT, 2048X2048)
+[2019.04.12-20.47.09:822][  0]LogTexture: Display: Building textures: lianeverticalslice_Bottom_Normal (BC5, 512X512)
+[2019.04.12-20.47.09:902][  0]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2019.04.12-20.47.15:017][  0]LogTexture: Display: Building textures: desk_desk_base_Normal_DirectX (BC5, 2048X2048)
+[2019.04.12-20.47.15:017][  0]LogTexture: Display: Building textures: desk_desk_base_Mixed_AO (AutoDXT, 2048X2048)
+[2019.04.12-20.47.15:017][  0]LogTexture: Display: Building textures: desk_desk_base_Metallic (AutoDXT, 2048X2048)
+[2019.04.12-20.47.15:017][  0]LogTexture: Display: Building textures: lianeverticalslice_Top_Specular (AutoDXT, 512X512)
+[2019.04.12-20.47.15:017][  0]LogTexture: Display: Building textures: lianeverticalslice_Top_Normal (BC5, 512X512)
+[2019.04.12-20.47.15:017][  0]LogTexture: Display: Building textures: lianeverticalslice_Top_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.47.15:017][  0]LogTexture: Display: Building textures: desk_desk_base_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: lianeverticalslice_Shoes_Specular (AutoDXT, 512X512)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: lianeverticalslice_Shoes_Normal (BC5, 512X512)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: lianeverticalslice_Shoes_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: placeholder_batterysign (AutoDXT, 2500X2500)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: scanline (AutoDXT, 808X528)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: T_UnrealEngineDecal (DXT1, 2048X2048)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: Ceil3_Normal (AutoDXT, 1024X1024)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: Bitmap2Material_3_Roughness (AutoDXT, 1024X1024)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: T_Pattern_M (AutoDXT, 2048X2048)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2019.04.12-20.47.15:018][  0]LogShaderCompilers: Display: Shaders left to compile 227
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2019.04.12-20.47.15:018][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2019.04.12-20.47.15:018][  0]LogMaterial: Missing cached shader map for material Bodymat_eyelashes, compiling. 
+[2019.04.12-20.47.15:117][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_113 (BGRA8, 1024X1024)
+[2019.04.12-20.47.15:117][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_114 (G8, 512X1024)
+[2019.04.12-20.47.15:119][  0]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2019.04.12-20.47.15:152][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_115 (BGRA8, 1024X256)
+[2019.04.12-20.47.15:152][  0]LogSkeletalMesh: Building Skeletal Mesh lianeverticalslice...
+[2019.04.12-20.47.15:274][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_116 (G8, 32X32)
+[2019.04.12-20.47.15:274][  0]LogTexture: Display: Building textures: Circuit_Normal_DirectX (BC5, 2048X2048)
+[2019.04.12-20.47.15:274][  0]LogSkeletalMesh: Built Skeletal Mesh [0.12s] /Game/character/lianeverticalslice.lianeverticalslice
+[2019.04.12-20.47.15:297][  0]LogStaticMesh: Building static mesh SM_Pixel_Dude_Jumping...
+[2019.04.12-20.47.18:006][  0]LogTexture: Display: Building textures: Circuit_Mixed_AO (AutoDXT, 2048X2048)
+[2019.04.12-20.47.18:006][  0]LogTexture: Display: Building textures: Circuit_Metallic (AutoDXT, 2048X2048)
+[2019.04.12-20.47.18:006][  0]LogTexture: Display: Building textures: Circuit_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.47.18:006][  0]LogTexture: Display: Building textures: ceiling (AutoDXT, 2048X2048)
+[2019.04.12-20.47.18:006][  0]LogTexture: Display: Building textures: 2_low_wall_BaseColor1 (AutoDXT, 2048X2048)
+[2019.04.12-20.47.18:006][  0]LogStaticMesh: Built static mesh [2.71s] /Game/Outliner/Demo/Meshes/SM_Pixel_Dude_Jumping.SM_Pixel_Dude_Jumping
+[2019.04.12-20.47.18:086][  0]LogMaterial: Missing cached shader map for material M_Pixel_Cube, compiling. 
+[2019.04.12-20.47.18:134][  0]LogStaticMesh: Building static mesh SM_DemoCube...
+[2019.04.12-20.47.18:144][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Outliner/Demo/Meshes/SM_DemoCube.SM_DemoCube
+[2019.04.12-20.47.18:166][  0]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
+[2019.04.12-20.47.18:207][  0]LogMaterial: Missing cached shader map for material Hairmat, compiling. 
+[2019.04.12-20.47.18:279][  0]LogMaterial: Missing cached shader map for material metal2, compiling. 
+[2019.04.12-20.47.18:300][  0]LogMaterial: Missing cached shader map for material desk_base, compiling. 
+[2019.04.12-20.47.18:325][  0]LogStaticMesh: Building static mesh Desk1_low...
+[2019.04.12-20.47.18:465][  0]LogStaticMesh: Built static mesh [0.14s] /Game/Props/S_woodenDesk/Desk1_low.Desk1_low
+[2019.04.12-20.47.18:500][  0]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2019.04.12-20.47.18:535][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave 03_LookWhatIFound_1...
+[2019.04.12-20.47.18:973][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave 05_EnhancingModule_1...
+[2019.04.12-20.47.20:196][  0]LogTexture: Display: Building textures: pbzeU_4K_Roughness (AutoDXT, 4096X4096)
+[2019.04.12-20.47.20:199][  0]LogMaterial: Missing cached shader map for material ElectricitySignMat, compiling. 
+[2019.04.12-20.47.20:222][  0]LogMaterial: Missing cached shader map for material BatterySignMat, compiling. 
+[2019.04.12-20.47.20:247][  0]LogMaterial: Missing cached shader map for material M_Parent_Outliner_R4, compiling. 
+[2019.04.12-20.47.20:273][  0]LogMaterial: Missing cached shader map for material TK_ObjectMat1, compiling. 
+[2019.04.12-20.47.20:294][  0]LogMaterial: Missing cached shader map for material TK_ObjectMat, compiling. 
+[2019.04.12-20.47.20:311][  0]LogMaterial: Missing cached shader map for material whiteshine, compiling. 
+[2019.04.12-20.48.05:698][  0]LogTexture: Display: Building textures: pbzeU_4K_Normal (BC5, 4096X4096)
+[2019.04.12-20.48.05:698][  0]LogTexture: Display: Building textures: pbzeU_4K_AO (AutoDXT, 4096X4096)
+[2019.04.12-20.48.05:698][  0]LogTexture: Display: Building textures: jacketrevision2_Eyewear_Specular (AutoDXT, 512X512)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: pbzeC_4K_Albedo (AutoDXT, 4096X4096)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Eyewear_Opacity (AutoDXT, 512X512)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Eyewear_Normal (BC5, 512X512)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Eyewear_Gloss (AutoDXT, 512X512)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Eyewear_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Bottom_Specular (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Bottom_Opacity (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Bottom_Normal (BC5, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Bottom_Gloss (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Bottom_Diffuse (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Body_Specular (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Body_Opacity (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogShaderCompilers: Display: Shaders left to compile 887
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Body_Normal (BC5, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogShaderCompilers: Display: Shaders left to compile 877
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Body_Gloss (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: jacketrevision2_Body_Diffuse (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: lambert1_Roughness (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: lambert1_Normal_DirectX (BC5, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: lambert1_Metallic (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: InterTable_low_T_InterTable_Normal (BC5, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: InterTable_low_T_InterTable_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: Exitsign_low_T_signexit_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: Exitsign_low_T_signexit_Normal (BC5, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: Exitsign_low_T_signexit_Emissive (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: Exitsign_low_T_signexit_BaseColor (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:699][  0]LogShaderCompilers: Display: Shaders left to compile 867
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: examtable_low_plastic_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: examtable_low_plastic_Normal (BC5, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: examtable_low_plastic_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: examtable_low_metal_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: examtable_low_metal_Normal (BC5, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: examtable_low_metal_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:699][  0]LogTexture: Display: Building textures: examtable_low_mat_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: examtable_low_mat_Normal (BC5, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogShaderCompilers: Display: Shaders left to compile 857
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: examtable_low_mat_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Top_Specular (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Top_Opacity (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Top_Normal (BC5, 1024X1024)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Top_Gloss (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Top_Diffuse (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Shoes_Specular (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Shoes_Opacity (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Shoes_Normal (BC5, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Shoes_Gloss (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Shoes_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Hair_Specular (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Hair_Opacity (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Hair_Normal (BC5, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Hair_Gloss (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Hair_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Glove_Specular (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Glove_Opacity (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Glove_Gloss (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Glove_Normal (BC5, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: jacketrevision2_Glove_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: Metal_T_Roughness (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogShaderCompilers: Display: Shaders left to compile 847
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: Metal_T_Normal_OpenGL (BC5, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: Metal_T_Mixed_AO (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: Metal_T_Metallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: Metal_T_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: Fabric_T_Roughness (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: Fabric_T_Normal_OpenGL (BC5, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: Fabric_T_Mixed_AO (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: Fabric_T_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:700][  0]LogTexture: Display: Building textures: Modernstand_low_T_ModernStand_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: Modernstand_low_T_ModernStand_Normal (BC5, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: Modernstand_low_T_ModernStand_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: lowlaptop_low_Laptop_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogShaderCompilers: Display: Shaders left to compile 837
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: lowlaptop_low_Laptop_Normal (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: lowlaptop_low_Laptop_Emissive (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: lowlaptop_low_Laptop_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: lowlaptop_low_keyboard_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: lowlaptop_low_keyboard_Normal (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: lowlaptop_low_keyboard_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: InterTable_low_T_InterTable_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: Sign_low_01_-_Default_Roughness (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: Sign_low_01_-_Default_Normal (BC5, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: Sign_low_01_-_Default_Metallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: Sign_low_01_-_Default_Emissive (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: Sign_low_01_-_Default_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: S_waitchair_low_S_Waitingchair_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: S_waitchair_low_S_Waitingchair_Normal (BC5, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: S_waitchair_low_S_Waitingchair_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: DrawCab_low_DrawCab_low_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: DrawCab_low_DrawCab_low_Normal (BC5, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: DrawCab_low_DrawCab_low_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: Wood_T_Roughness (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: Wood_T_Normal_OpenGL (BC5, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogShaderCompilers: Display: Shaders left to compile 827
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: Wood_T_Mixed_AO (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: Wood_T_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: allisonjacket_Shoes_Normal (BC5, 512X512)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: allisonjacket_Shoes_Gloss (AutoDXT, 512X512)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: allisonjacket_Shoes_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: allisonjacket_Hat_Specular (AutoDXT, 512X512)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: allisonjacket_Hat_Opacity (AutoDXT, 512X512)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: T_Cold_Darkness (BGRA8, 256X16)
+[2019.04.12-20.48.05:701][  0]LogTexture: Display: Building textures: T_BlackAndWhite (BGRA8, 256X16)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: lianeverticalslice_Eyewear_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: lianeverticalslice_Eyewear_Normal (BC5, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: lianeverticalslice_Glove_Specular (AutoDXT, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: lianeverticalslice_Glove_Normal (BC5, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: lianeverticalslice_Glove_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: lianeverticalslice_Eyewear_Specular (AutoDXT, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: lianeverticalslice_Eyewear_Opacity (AutoDXT, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: allisonjacket_Top_Specular (AutoDXT, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: allisonjacket_Top_Opacity (AutoDXT, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: allisonjacket_Top_Normal (BC5, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: allisonjacket_Top_Gloss (AutoDXT, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: allisonjacket_Top_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: allisonjacket_Shoes_Specular (AutoDXT, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: allisonjacket_Shoes_Opacity (AutoDXT, 512X512)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: Circuit_Roughness (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:702][  0]LogShaderCompilers: Display: Shaders left to compile 817
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: floor_low_floor_room_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: lambert1_Base_Color (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: RailPole_T_Rail_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: RailPole_T_Rail_Normal (BC5, 2048X2048)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: RailPole_T_Rail_BaseColor (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: T_Fence_Opacity (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: T_Fence_Normal_OpenGL (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: T_Fence_Metallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: T_Fence_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: lens_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:702][  0]LogTexture: Display: Building textures: innerbox_Roughness (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: innerbox_Normal_DirectX (BC5, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: innerbox_Mixed_AO (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: innerbox_Metallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: innerbox_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Curcuits_Roughness (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Curcuits_Normal_DirectX (BC5, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Curcuits_Mixed_AO (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Curcuits_Metallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Curcuits_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Cover_Normal_DirectX (BC5, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Cover_Mixed_AO (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogShaderCompilers: Display: Shaders left to compile 807
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: txt_fx_pulse_grid (AutoDXT, 256X256)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Box_Normal_DirectX (BC5, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Box_Mixed_AO (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Box_Metallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Box_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Cover_Metallic (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Cover_Emissive (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Cover_Base_Color (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogShaderCompilers: Display: Shaders left to compile 797
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: Box_Roughness (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Hat_Normal (BC5, 512X512)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Hat_Gloss (AutoDXT, 512X512)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Hat_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Hair_Specular (AutoDXT, 512X512)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Hair_Opacity (AutoDXT, 512X512)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Hair_Normal (BC5, 512X512)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Hair_Gloss (AutoDXT, 512X512)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Hair_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Eyewear_Specular (AutoDXT, 512X512)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Eyewear_Opacity (AutoDXT, 512X512)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Eyewear_Normal (BC5, 512X512)
+[2019.04.12-20.48.05:703][  0]LogTexture: Display: Building textures: allisonjacket_Eyewear_Gloss (AutoDXT, 512X512)
+[2019.04.12-20.48.05:704][  0]LogTexture: Display: Building textures: allisonjacket_Eyewear_Diffuse (AutoDXT, 512X512)
+[2019.04.12-20.48.05:704][  0]LogTexture: Display: Building textures: allisonjacket_Bottom_Specular (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:704][  0]LogTexture: Display: Building textures: allisonjacket_Bottom_Opacity (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:704][  0]LogTexture: Display: Building textures: allisonjacket_Bottom_Normal (BC5, 1024X1024)
+[2019.04.12-20.48.05:704][  0]LogTexture: Display: Building textures: allisonjacket_Bottom_Gloss (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:704][  0]LogTexture: Display: Building textures: allisonjacket_Body_Opacity (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:704][  0]LogTexture: Display: Building textures: allisonjacket_Bottom_Diffuse (AutoDXT, 1024X1024)
+[2019.04.12-20.48.05:704][  0]LogTexture: Display: Building textures: allisonjacket_Body_Specular (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:704][  0]LogTexture: Display: Building textures: allisonjacket_Body_Normal (BC5, 2048X2048)
+[2019.04.12-20.48.05:704][  0]LogTexture: Display: Building textures: allisonjacket_Body_Gloss (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:704][  0]LogShaderCompilers: Display: Shaders left to compile 787
+[2019.04.12-20.48.05:704][  0]LogTexture: Display: Building textures: allisonjacket_Body_Diffuse (AutoDXT, 2048X2048)
+[2019.04.12-20.48.05:704][  0]LogMaterial: Missing cached shader map for material Wall2, compiling. 
+[2019.04.12-20.48.05:727][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave keypiockedup...
+[2019.04.12-20.48.05:744][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave key_used...
+[2019.04.12-20.48.05:787][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave tk_grab...
+[2019.04.12-20.48.05:818][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave rightmouse...
+[2019.04.12-20.48.05:844][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave flashlight...
+[2019.04.12-20.48.05:860][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave 06_SparksFall_1...
+[2019.04.12-20.48.06:188][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave audiolog3...
+[2019.04.12-20.48.06:240][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave audiolog2...
+[2019.04.12-20.48.06:255][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave audiolog1...
+[2019.04.12-20.48.06:325][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Allison/Animations/Walk_Anim.Walk_Anim
+[2019.04.12-20.48.06:325][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Allison/Animations/Walk_Anim.Walk_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.12-20.48.06:326][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Allison/Animations/Idle_Anim.Idle_Anim
+[2019.04.12-20.48.06:327][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Allison/Animations/Idle_Anim.Idle_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.12-20.48.06:334][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Allison/Animations/Jogging_Anim.Jogging_Anim
+[2019.04.12-20.48.06:334][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Allison/Animations/Jogging_Anim.Jogging_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.12-20.48.06:337][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave 08_ShhQuiet_1...
+[2019.04.12-20.48.07:402][  0]LogMaterial: Missing cached shader map for material M_DemoWallPattern, compiling. 
+[2019.04.12-20.48.07:425][  0]LogMaterial: Missing cached shader map for material M_DemoWallPattern, compiling. 
+[2019.04.12-20.48.07:494][  0]LogMaterial: Missing cached shader map for material celiling_mat, compiling. 
+[2019.04.12-20.48.07:587][  0]LogMaterial: Missing cached shader map for material 10_-_Default, compiling. 
+[2019.04.12-20.48.07:619][  0]LogMaterial: Missing cached shader map for material M_circuit, compiling. 
+[2019.04.12-20.48.07:637][  0]LogMaterial: Missing cached shader map for material ERwall, compiling. 
+[2019.04.12-20.48.07:662][  0]LogMaterial: Missing cached shader map for material GlassNew, compiling. 
+[2019.04.12-20.48.07:761][  0]LogMaterial: Missing cached shader map for material wall, compiling. 
+[2019.04.12-20.48.07:784][  0]LogMaterial: Missing cached shader map for material Eyewearmat, compiling. 
+[2019.04.12-20.48.07:851][  0]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2019.04.12-20.48.07:921][  0]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2019.04.12-20.48.07:988][  0]LogSkeletalMesh: Building Skeletal Mesh jacketrevision2...
+[2019.04.12-20.48.08:130][  0]LogSkeletalMesh: Built Skeletal Mesh [0.14s] /Game/NewAnnaModel/Model/jacketrevision2.jacketrevision2
+[2019.04.12-20.48.08:150][  0]LogMaterial: Missing cached shader map for material M_InterTable, compiling. 
+[2019.04.12-20.48.08:174][  0]LogShaderCompilers: Display: Shaders left to compile 1436
+[2019.04.12-20.48.08:174][  0]LogStaticMesh: Building static mesh InterTable_low...
+[2019.04.12-20.48.08:187][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Props/S_InterTable/InterTable_low.InterTable_low
+[2019.04.12-20.48.08:192][  0]LogMaterial: Missing cached shader map for material M_ExitSign, compiling. 
+[2019.04.12-20.48.08:213][  0]LogStaticMesh: Building static mesh Exitsign_low...
+[2019.04.12-20.48.08:225][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Props/S_exitSign/Exitsign_low.Exitsign_low
+[2019.04.12-20.48.08:230][  0]LogMaterial: Missing cached shader map for material plastic, compiling. 
+[2019.04.12-20.48.08:256][  0]LogMaterial: Missing cached shader map for material metal, compiling. 
+[2019.04.12-20.48.08:279][  0]LogMaterial: Missing cached shader map for material mat, compiling. 
+[2019.04.12-20.48.08:298][  0]LogStaticMesh: Building static mesh examtable_low...
+[2019.04.12-20.48.08:321][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Props/S_Examtable/examtable_low.examtable_low
+[2019.04.12-20.48.08:323][  0]LogStaticMesh: Building static mesh fountain_low2...
+[2019.04.12-20.48.08:362][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Props/S_DrinkingFountain/fountain_low2.fountain_low2
+[2019.04.12-20.48.08:366][  0]LogStaticMesh: Building static mesh crashcart_low...
+[2019.04.12-20.48.08:473][  0]LogStaticMesh: Built static mesh [0.11s] /Game/Props/S_Crashcart/crashcart_low.crashcart_low
+[2019.04.12-20.48.08:482][  0]LogMaterial: Missing cached shader map for material lights, compiling. 
+[2019.04.12-20.48.08:504][  0]LogMaterial: Missing cached shader map for material M_fluorsscentlight, compiling. 
+[2019.04.12-20.48.08:525][  0]LogStaticMesh: Building static mesh fluorescentlight_low...
+[2019.04.12-20.48.08:556][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Props/fluorscentlight/fluorescentlight_low.fluorescentlight_low
+[2019.04.12-20.48.08:563][  0]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2019.04.12-20.48.08:640][  0]LogShaderCompilers: Display: Shaders left to compile 1643
+[2019.04.12-20.48.08:640][  0]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
+[2019.04.12-20.48.08:714][  0]LogMaterial: Missing cached shader map for material Hairmat, compiling. 
+[2019.04.12-20.48.08:781][  0]LogMaterial: Missing cached shader map for material Glovemat, compiling. 
+[2019.04.12-20.48.08:856][  0]LogShaderCompilers: Display: Shaders left to compile 2008
+[2019.04.12-20.48.08:856][  0]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2019.04.12-20.48.08:881][  0]LogMaterial: Missing cached shader map for material Fabric_M, compiling. 
+[2019.04.12-20.48.08:903][  0]LogStaticMesh: Building static mesh S_sofa_low...
+[2019.04.12-20.48.08:932][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Props/S_Sofa/S_sofa_low.S_sofa_low
+[2019.04.12-20.48.08:937][  0]LogMaterial: Missing cached shader map for material M_ModernStand, compiling. 
+[2019.04.12-20.48.08:959][  0]LogStaticMesh: Building static mesh Modernstand_low...
+[2019.04.12-20.48.09:015][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Props/S_ModernStand/Modernstand_low.Modernstand_low
+[2019.04.12-20.48.09:022][  0]LogMaterial: Missing cached shader map for material Laptop, compiling. 
+[2019.04.12-20.48.09:047][  0]LogShaderCompilers: Display: Shaders left to compile 2216
+[2019.04.12-20.48.09:047][  0]LogMaterial: Missing cached shader map for material keyboard1, compiling. 
+[2019.04.12-20.48.09:066][  0]LogStaticMesh: Building static mesh lowlaptop_low...
+[2019.04.12-20.48.09:080][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Props/S_moderndesk/S_laptop/lowlaptop_low.lowlaptop_low
+[2019.04.12-20.48.09:082][  0]LogStaticMesh: Building static mesh S_Book1_low...
+[2019.04.12-20.48.09:090][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Props/S_moderndesk/S_book/S_Book1_low.S_Book1_low
+[2019.04.12-20.48.09:092][  0]LogStaticMesh: Building static mesh Moderndesk_low...
+[2019.04.12-20.48.09:106][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Props/S_moderndesk/Moderndesk_low.Moderndesk_low
+[2019.04.12-20.48.09:111][  0]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2019.04.12-20.48.09:133][  0]LogStaticMesh: Building static mesh Sign_low...
+[2019.04.12-20.48.09:149][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Props/Signs/Sign_low.Sign_low
+[2019.04.12-20.48.09:154][  0]LogMaterial: Missing cached shader map for material defaultPolygonShader, compiling. 
+[2019.04.12-20.48.09:175][  0]LogStaticMesh: Building static mesh S_waitchair_low...
+[2019.04.12-20.48.09:213][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Props/S_WaitingRMChair/S_waitchair_low.S_waitchair_low
+[2019.04.12-20.48.09:220][  0]LogMaterial: Missing cached shader map for material M_TopCabBot, compiling. 
+[2019.04.12-20.48.09:241][  0]LogStaticMesh: Building static mesh DrawCab_low...
+[2019.04.12-20.48.09:259][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Props/S_TopCabBot/DrawCab_low.DrawCab_low
+[2019.04.12-20.48.09:266][  0]LogMaterial: Missing cached shader map for material Wood_M, compiling. 
+[2019.04.12-20.48.09:297][  0]LogMaterial: Missing cached shader map for material Shoesmat, compiling. 
+[2019.04.12-20.48.09:363][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave SW_Button_Pressed...
+[2019.04.12-20.48.09:399][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NewAnnaModel/Animations/Standing_Idle_TK_Anim.Standing_Idle_TK_Anim
+[2019.04.12-20.48.09:399][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/NewAnnaModel/Animations/Standing_Idle_TK_Anim.Standing_Idle_TK_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.12-20.48.09:403][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/NewAnnaModel/Animations/Standing_Fire_TK_Anim.Standing_Fire_TK_Anim
+[2019.04.12-20.48.09:403][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/NewAnnaModel/Animations/Standing_Fire_TK_Anim.Standing_Fire_TK_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.12-20.48.09:436][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/character/walk_Anim_Copy.walk_Anim_Copy
+[2019.04.12-20.48.09:436][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/character/walk_Anim_Copy.walk_Anim_Copy) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.12-20.48.09:438][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/character/neutral_idle.neutral_idle
+[2019.04.12-20.48.09:438][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/character/neutral_idle.neutral_idle) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.12-20.48.09:447][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave footstep2...
+[2019.04.12-20.48.09:468][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave footstep1...
+[2019.04.12-20.48.09:496][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/character/jogging.jogging
+[2019.04.12-20.48.09:496][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/character/jogging.jogging) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.04.12-20.48.09:511][  0]LogMaterial: Missing cached shader map for material Eyewearmat, compiling. 
+[2019.04.12-20.48.09:581][  0]LogMaterial: Missing cached shader map for material Glovemat, compiling. 
+[2019.04.12-20.48.09:892][  0]LogShaderCompilers: Display: Shaders left to compile 2702
+[2019.04.12-20.48.09:892][  0]LogMaterial: Missing cached shader map for material Topmat, compiling. 
+[2019.04.12-20.48.09:968][  0]LogMaterial: Missing cached shader map for material mat_pulse_wallhack, compiling. 
+[2019.04.12-20.48.09:987][  0]LogMaterial: Missing cached shader map for material GlassDark, compiling. 
+[2019.04.12-20.48.10:018][  0]LogMaterial: Missing cached shader map for material FloorM2, compiling. 
+[2019.04.12-20.48.10:051][  0]LogMaterial: Missing cached shader map for material FloorM1, compiling. 
+[2019.04.12-20.48.10:120][  0]LogMaterial: Missing cached shader map for material M_Parent_Outliner, compiling. 
+[2019.04.12-20.48.10:196][  0]LogMaterial: Missing cached shader map for material M_Parent_Outliner, compiling. 
+[2019.04.12-20.48.10:259][  0]LogMaterial: Missing cached shader map for material Ventpaint, compiling. 
+[2019.04.12-20.48.10:281][  0]LogStaticMesh: Building static mesh Vent_low...
+[2019.04.12-20.48.10:287][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Environment/Vent/Vent_low.Vent_low
+[2019.04.12-20.48.10:291][  0]LogMaterial: Missing cached shader map for material M_Rail, compiling. 
+[2019.04.12-20.48.10:312][  0]LogStaticMesh: Building static mesh RailPole...
+[2019.04.12-20.48.10:323][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Environment/S_Rails/RailPole.RailPole
+[2019.04.12-20.48.10:328][  0]LogMaterial: Missing cached shader map for material M_Fence, compiling. 
+[2019.04.12-20.48.10:357][  0]LogStaticMesh: Building static mesh S_Fence...
+[2019.04.12-20.48.10:360][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Environment/S_Fence/S_Fence.S_Fence
+[2019.04.12-20.48.10:365][  0]LogMaterial: Missing cached shader map for material lens, compiling. 
+[2019.04.12-20.48.10:393][  0]LogMaterial: Missing cached shader map for material inner, compiling. 
+[2019.04.12-20.48.10:414][  0]LogMaterial: Missing cached shader map for material Curcuits, compiling. 
+[2019.04.12-20.48.10:435][  0]LogStaticMesh: Building static mesh circuit...
+[2019.04.12-20.48.10:450][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Environment/Circuit/circuit.circuit
+[2019.04.12-20.48.10:452][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave 02_StillOnPhone_1...
+[2019.04.12-20.48.10:924][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave 01_WakeUpCall_1...
+[2019.04.12-20.48.11:533][  0]LogShaderCompilers: Display: Shaders left to compile 3164
+[2019.04.12-20.48.11:533][  0]LogShaderCompilers: Display: Shaders left to compile 3154
+[2019.04.12-20.48.11:534][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave key_required...
+[2019.04.12-20.48.11:549][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave doorswoosh...
+[2019.04.12-20.48.11:571][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave ambience...
+[2019.04.12-20.48.12:321][  0]LogShaderCompilers: Display: Shaders left to compile 3144
+[2019.04.12-20.48.12:321][  0]LogMaterial: Missing cached shader map for material Box, compiling. 
+[2019.04.12-20.48.12:341][  0]LogStaticMesh: Building static mesh Electricbox...
+[2019.04.12-20.48.12:444][  0]LogStaticMesh: Built static mesh [0.10s] /Game/Environment/Electricbox/Electricbox.Electricbox
+[2019.04.12-20.48.12:455][  0]LogMaterial: Missing cached shader map for material Cover, compiling. 
+[2019.04.12-20.48.12:474][  0]LogMaterial: Missing cached shader map for material bulb, compiling. 
+[2019.04.12-20.48.12:581][  0]LogMaterial: Missing cached shader map for material Hatmat, compiling. 
+[2019.04.12-20.48.12:654][  0]LogShaderCompilers: Display: Shaders left to compile 3227
+[2019.04.12-20.48.12:654][  0]LogMaterial: Missing cached shader map for material Hairmat, compiling. 
+[2019.04.12-20.48.12:726][  0]LogMaterial: Missing cached shader map for material Eyewearmat, compiling. 
+[2019.04.12-20.48.12:791][  0]LogMaterial: Missing cached shader map for material Bottommat, compiling. 
+[2019.04.12-20.48.12:859][  0]LogShaderCompilers: Display: Shaders left to compile 3592
+[2019.04.12-20.48.12:859][  0]LogMaterial: Missing cached shader map for material Bodymat_ncl1_1, compiling. 
+[2019.04.12-20.48.12:924][  0]LogMaterial: Missing cached shader map for material Bodymat, compiling. 
+[2019.04.12-20.48.12:990][  0]LogSkeletalMesh: Building Skeletal Mesh allisonjacket...
+[2019.04.12-20.48.13:154][  0]LogSkeletalMesh: Built Skeletal Mesh [0.17s] /Game/Allison/Model/allisonjacket.allisonjacket
+[2019.04.12-20.48.13:810][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.12-20.48.14:580][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.12-20.48.14:580][  0]LogPhysics: Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.PostProcessVolume_1.BrushComponent0] ScaledElem[0] invalid
+[2019.04.12-20.48.15:320][  0]LogShaderCompilers: Display: Shaders left to compile 3957
+[2019.04.12-20.48.15:616][  0]LogShaderCompilers: Display: Shaders left to compile 3947
+[2019.04.12-20.48.15:616][  0]LogShaderCompilers: Display: Shaders left to compile 3937
+[2019.04.12-20.48.15:616][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.12-20.48.16:013][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f376d900, Size=32
+[2019.04.12-20.48.16:013][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f34aecc0, Size=56
+[2019.04.12-20.48.16:013][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256f2d8ef80, Size=24
+[2019.04.12-20.48.16:013][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683611900, Size=328
+[2019.04.12-20.48.16:013][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256839e1468, Size=40
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683917580, Size=2648
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683908680, Size=64
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256838e0400, Size=656
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256835b8b80, Size=1952
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256839d0600, Size=480
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683838cc0, Size=304
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256839a9a80, Size=48
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683641440, Size=32
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256835aa070, Size=72
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256836413c0, Size=32
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256839e0ba8, Size=40
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683587780, Size=64
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683641340, Size=32
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256839e0b80, Size=40
+[2019.04.12-20.48.16:014][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025683802500, Size=256
+[2019.04.12-20.48.16:015][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256851320f0, Size=56
+[2019.04.12-20.48.16:016][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025685132208, Size=56
+[2019.04.12-20.48.16:016][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256850eb470, Size=16
+[2019.04.12-20.48.16:016][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256850ebcb0, Size=16
+[2019.04.12-20.48.16:016][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256850eaec0, Size=16
+[2019.04.12-20.48.16:016][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256850ead80, Size=16
+[2019.04.12-20.48.16:016][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256851ff700, Size=648
+[2019.04.12-20.48.16:016][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002568512a080, Size=48
+[2019.04.12-20.48.16:016][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025684587ac0, Size=196
+[2019.04.12-20.48.16:016][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256846a8de8, Size=8
+[2019.04.12-20.48.16:016][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256d4779d80, Size=364
+[2019.04.12-20.48.16:016][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025684ecd300, Size=288
+[2019.04.12-20.48.16:017][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256852b57c0, Size=104
+[2019.04.12-20.48.16:017][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000256876f0100, Size=3000
+[2019.04.12-20.48.16:171][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.12-20.48.16:405][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 233.318ms to complete.
+[2019.04.12-20.48.16:405][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 91.834
+[2019.04.12-20.48.17:429][  0]LogShaderCompilers: Display: Shaders left to compile 3927
+[2019.04.12-20.48.17:429][  0]LogShaderCompilers: Display: Shaders left to compile 3917
+[2019.04.12-20.48.20:588][  0]LogShaderCompilers: Display: Shaders left to compile 3907
+[2019.04.12-20.48.20:588][  0]LogShaderCompilers: Display: Shaders left to compile 3897
+[2019.04.12-20.48.20:588][  0]LogShaderCompilers: Display: Shaders left to compile 3887
+[2019.04.12-20.48.20:588][  0]LogShaderCompilers: Display: Shaders left to compile 3877
+[2019.04.12-20.48.20:588][  0]LogShaderCompilers: Display: Shaders left to compile 3867
+[2019.04.12-20.48.20:588][  0]LogShaderCompilers: Display: Shaders left to compile 3857
+[2019.04.12-20.48.20:588][  0]LogCollectionManager: Loaded 0 collections in 0.006236 seconds
+[2019.04.12-20.48.21:326][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Saved/Collections/' took 0.01s
+[2019.04.12-20.48.21:326][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/Developers/Nicholaus/Collections/' took 0.01s
+[2019.04.12-20.48.21:326][  0]LogFileCache: Scanning file cache for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/Collections/' took 0.01s
+[2019.04.12-20.48.21:327][  0]LogShaderCompilers: Display: Shaders left to compile 3847
+[2019.04.12-20.48.21:327][  0]LogShaderCompilers: Display: Shaders left to compile 3837
+[2019.04.12-20.48.21:327][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.12-20.48.21:411][  0]LogContentBrowser: Native class hierarchy populated in 0.0457 seconds. Added 2452 classes and 558 folders.
+[2019.04.12-20.48.21:510][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.12-20.48.24:521][  0]LogShaderCompilers: Display: Shaders left to compile 3827
+[2019.04.12-20.48.24:521][  0]LogShaderCompilers: Display: Shaders left to compile 3817
+[2019.04.12-20.48.24:521][  0]LogShaderCompilers: Display: Shaders left to compile 3807
+[2019.04.12-20.48.24:522][  0]LogShaderCompilers: Display: Shaders left to compile 3797
+[2019.04.12-20.48.24:522][  0]LogShaderCompilers: Display: Shaders left to compile 3787
+[2019.04.12-20.48.24:522][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.04.12-20.48.24:700][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.04.12-20.48.26:187][  0]LogShaderCompilers: Display: Shaders left to compile 3777
+[2019.04.12-20.48.26:187][  0]LogSlate: Took 0.060611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.12-20.48.26:234][  0]LogSlate: Took 0.041926 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.12-20.48.26:322][  0]LogSlate: Took 0.024839 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.12-20.48.27:126][  0]LogShaderCompilers: Display: Shaders left to compile 3767
+[2019.04.12-20.48.27:126][  0]LogShaderCompilers: Display: Shaders left to compile 3757
+[2019.04.12-20.48.27:126][  0]LogShaderCompilers: Display: Shaders left to compile 3747
+[2019.04.12-20.48.27:126][  0]LogRenderer: Reallocating scene render targets to support 1052x576 Format 10 NumSamples 1 (Frame:1).
+[2019.04.12-20.48.27:879][  0]LogShaderCompilers: Display: Shaders left to compile 3737
+[2019.04.12-20.48.27:879][  0]LogSlate: Took 0.048926 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.12-20.48.28:372][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.12-20.48.28:372][  0]LogLoad: (Engine Initialization) Total time: 195.58 seconds
+[2019.04.12-20.48.28:372][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.12-20.48.28:857][  0]LogShaderCompilers: Display: Shaders left to compile 3727
+[2019.04.12-20.48.29:193][  0]LogShaderCompilers: Display: Shaders left to compile 3717
+[2019.04.12-20.48.29:193][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.12-20.48.29:467][  1]LogFileCache: Retrieving MD5 hashes for directory 'G:/Users/Nicholaus/Documents/LianeRepo/Old Project/Content/' took 0.68s
+[2019.04.12-20.48.29:863][  2]LogSlate: Took 0.000521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.12-20.48.30:173][  3]LogShaderCompilers: Display: Shaders left to compile 3707
+[2019.04.12-20.48.30:519][  5]LogShaderCompilers: Display: Shaders left to compile 3697
+[2019.04.12-20.48.30:826][  5]LogAssetRegistry: Asset discovery search completed in 148.9438 seconds
+[2019.04.12-20.48.30:832][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.12-20.48.30:832][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000160 seconds (updated 0 objects)
+[2019.04.12-20.48.31:499][  8]LogShaderCompilers: Display: Shaders left to compile 3687
+[2019.04.12-20.48.31:825][  9]LogShaderCompilers: Display: Shaders left to compile 3677
+[2019.04.12-20.48.33:151][ 13]LogShaderCompilers: Display: Shaders left to compile 3667
+[2019.04.12-20.48.33:485][ 14]LogShaderCompilers: Display: Shaders left to compile 3657
+[2019.04.12-20.48.33:813][ 15]LogShaderCompilers: Display: Shaders left to compile 3647
+[2019.04.12-20.48.34:710][ 17]LogShaderCompilers: Display: Shaders left to compile 3637
+[2019.04.12-20.48.34:721][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-20.48.34:748][ 18]LogShaderCompilers: Display: Shaders left to compile 3627
+[2019.04.12-20.48.35:780][ 73]LogShaderCompilers: Display: Shaders left to compile 3617
+[2019.04.12-20.48.37:522][182]LogShaderCompilers: Display: Shaders left to compile 3607
+[2019.04.12-20.48.37:952][205]LogShaderCompilers: Display: Shaders left to compile 3597
+[2019.04.12-20.48.38:338][229]LogShaderCompilers: Display: Shaders left to compile 3587
+[2019.04.12-20.48.39:068][273]LogShaderCompilers: Display: Shaders left to compile 3577
+[2019.04.12-20.48.40:805][375]LogShaderCompilers: Display: Shaders left to compile 3567
+[2019.04.12-20.48.41:845][436]LogShaderCompilers: Display: Shaders left to compile 3557
+[2019.04.12-20.48.41:860][437]LogShaderCompilers: Display: Shaders left to compile 3547
+[2019.04.12-20.48.41:861][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.12-20.48.41:873][438]LogShaderCompilers: Display: Shaders left to compile 3537
+[2019.04.12-20.48.42:046][449]MapCheck: New page: Map Check
+[2019.04.12-20.48.42:119][449]Cmd: MAP REBUILD ALLVISIBLE
+[2019.04.12-20.48.42:119][449]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.04.12-20.48.42:299][449]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.12-20.48.42:300][449]LogPhysics: Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.PostProcessVolume_1.BrushComponent0] ScaledElem[0] invalid
+[2019.04.12-20.48.42:712][449]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.04.12-20.48.42:712][449]LogPhysics: Warning: ForeachShape(Convex): [/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.PostProcessVolume_1.BrushComponent0] ScaledElem[0] invalid
